@@ -121,6 +121,8 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/emptypage/emptypage.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tocloft/tocloft.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tocloft/tocloft.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tocbibind/tocbibind.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tocbibind/tocbibind.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.aux
@@ -132,6 +134,14 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/cont
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grfext/grfext.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grfext/grfext.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
@@ -179,7 +189,9 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tf
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.toc
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmti10.tfm
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.aux
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -191,5 +203,3 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb
