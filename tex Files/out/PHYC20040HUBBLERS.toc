@@ -1,0 +1,10 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Abstract}{2}{}%
+\contentsline {section}{\numberline {1}Theory}{2}{}%
+\contentsline {section}{\numberline {2}The Procedure}{2}{}%
+\contentsline {section}{\numberline {3}Results and Calculations}{2}{}%
+\contentsline {section}{\numberline {4}Conclusion}{2}{}%
+\contentsline {section}{\numberline {5}Expansion on the Experiment}{2}{}%
+\contentsline {section}{Bibliography}{3}{}%
+\contentsline {section}{Appendix}{4}{}%
+\contentsline {subsection}{Raw Data}{4}{}%
