@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex out/PHYC20090EXP7LCR"] 1738156921.2048 "out/PHYC20090EXP7LCR.aux" "out/PHYC20090EXP7LCR.bbl" "out/PHYC20090EXP7LCR" 1738156923.36478 0
-  "./References.bib" 1738156916.22175 1292 bf992a87e5e5bf73e14ca62bc7bb84ab ""
+["bibtex out/PHYC20090EXP7LCR"] 1738158992.1258 "out/PHYC20090EXP7LCR.aux" "out/PHYC20090EXP7LCR.bbl" "out/PHYC20090EXP7LCR" 1738159084.88989 0
+  "./References.bib" 1738157156.79802 1292 bf992a87e5e5bf73e14ca62bc7bb84ab ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/bibtex/bst/ieeetran/IEEEtran.bst" 1738095043.56692 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "out/PHYC20090EXP7LCR.aux" 1738156922.49051 1740 2ab79c15ddd18a1f44cf28d73412fe1a "pdflatex"
+  "out/PHYC20090EXP7LCR.aux" 1738159083.94714 2184 45bbe8606914bbdb42d109017df7a28e "pdflatex"
   (generated)
   "out/PHYC20090EXP7LCR.bbl"
   "out/PHYC20090EXP7LCR.blg"
   (rewritten before read)
-["pdflatex"] 1738156921.62773 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20090EXP7LCR.tex" "out/PHYC20090EXP7LCR.pdf" "PHYC20090EXP7LCR" 1738156923.36597 0
+["pdflatex"] 1738159082.93058 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20090EXP7LCR.tex" "out/PHYC20090EXP7LCR.pdf" "PHYC20090EXP7LCR" 1738159084.89048 0
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1738095044.38803 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1737624812.87656 14064 a72e34765fecf1bdaaa2d9fbb80a0b2d ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1737451861.56754 8797098 4d5a7363439b1be9253fa23d94a10211 ""
@@ -96,15 +96,18 @@
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/varwidth/varwidth.sty" 1737627619.6116 10894 d359a13923460b2a73d4312d613554c8 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1737396739.69545 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1737396739.91271 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20090EXP7LCR.tex" 1738156916.32375 3197 ba5ba751a7659dbc11b4676ad8d4d5ef ""
-  "PHYC20090EXP7LCR.tex" 1738156916.32375 3197 ba5ba751a7659dbc11b4676ad8d4d5ef ""
+  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20090EXP7LCR.tex" 1738159082.00715 4280 cd8d05bba1b73cb6d6432c763ffacfb8 ""
+  "PHYC20090EXP7LCR.tex" 1738159082.00715 4280 cd8d05bba1b73cb6d6432c763ffacfb8 ""
   "images/UCDBanner.png" 1737989558.70779 28942 301d2953f3824d682b2b34b5fe503a65 ""
   "images/UCDLogo.png" 1737622953.17789 557052 dc7c213cace55740c3ec09422bf6583e ""
-  "out/PHYC20090EXP7LCR.aux" 1738156922.49051 1740 2ab79c15ddd18a1f44cf28d73412fe1a "pdflatex"
-  "out/PHYC20090EXP7LCR.bbl" 1738156921.56441 1945 37c19c76e9377d93c4b89f475438cc7f "bibtex out/PHYC20090EXP7LCR"
-  "out/PHYC20090EXP7LCR.toc" 1738156922.49429 799 2bdc7659de919bba15f6ec641303e503 "pdflatex"
+  "images/solenoid.jpg" 1738157881.62245 89802 eb44f8da34c7b9253818286bb4f746d5 ""
+  "out/PHYC20090EXP7LCR.aux" 1738159083.94714 2184 45bbe8606914bbdb42d109017df7a28e "pdflatex"
+  "out/PHYC20090EXP7LCR.bbl" 1738158992.49537 1945 37c19c76e9377d93c4b89f475438cc7f "bibtex out/PHYC20090EXP7LCR"
+  "out/PHYC20090EXP7LCR.lof" 1738159083.94968 158 33fe741c286218070e1cca5552a2c422 "pdflatex"
+  "out/PHYC20090EXP7LCR.toc" 1738159083.94964 846 0df5f44b38edd18778d9b8625b0014cf "pdflatex"
   (generated)
   "out/PHYC20090EXP7LCR.aux"
+  "out/PHYC20090EXP7LCR.lof"
   "out/PHYC20090EXP7LCR.log"
   "out/PHYC20090EXP7LCR.pdf"
   "out/PHYC20090EXP7LCR.toc"
