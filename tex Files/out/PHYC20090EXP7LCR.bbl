@@ -23,8 +23,29 @@
 
 \bibitem{unacademy}
 \BIBentryALTinterwordspacing
-Unacadamy, ``Resonance in an lcr circuit,'' May 2022. [Online]. Available:
+Unacadamy. (2022, May) Resonance in an {LCR} {C}ircuit. [Accessed 28 January
+  2025]. [Online]. Available:
   \url{https://unacademy.com/content/neet-ug/study-material/physics/resonance-in-an-lcr-circuit/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{learnabout}
+\BIBentryALTinterwordspacing
+E.~Coates. (2020, December) {LCR} {S}eries {C}ircuits. [Accessed 29 January
+  2025]. [Online]. Available:
+  \url{https://learnabout-electronics.org/ac_theory/lcr_series.php}
+\BIBentrySTDinterwordspacing
+
+\bibitem{elecnotes}
+\BIBentryALTinterwordspacing
+I.~Poole. (n.d.) What is inductance: understanding the basics. [Accessed 29
+  January 2025]. [Online]. Available:
+  \url{https://www.electronics-notes.com/articles/basic_concepts/inductance/inductance-basics-tutorial.php}
+\BIBentrySTDinterwordspacing
+
+\bibitem{britinductance}
+\BIBentryALTinterwordspacing
+A.~Augustyn. (2025, January) inductance. [Accessed 29 January 2025]. [Online].
+  Available: \url{https://www.britannica.com/science/inductance}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
