@@ -15,6 +15,8 @@
 \usepackage{tocloft}
 \usepackage[nottoc]{tocbibind}
 \usepackage{url}
+\usepackage{subcaption}
+\usepackage{lipsum}
 
 
 \cftsetindents{section}{0em}{2em}
@@ -119,17 +121,71 @@ The voltage is proportional to the rate of change of the current and this factor
 Coils of wire are most commonly used as the inductors in circuits as they amplify \cite{elecnotes} the efficiency at which the magnetic field induces
 the voltage and current in the circuit. By coiling wire (solenoid) the magnetic field is concentrated and magnified at its centre, shown in Figure \ref{fig:solenoid}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \includegraphics[width=15cm]{solenoid.jpg}
     \centering
-    \caption{Electromagnetic Field Due to the Flow of the Current in a Solenoid}
+    \caption{\centering Electromagnetic Field Due to the Flow of the Current in a Solenoid \cite{solenoidpic}}
     \label{fig:solenoid}
 \end{figure}
 
-\textbf{Capacitance} 
+\textbf{Capacitance} is a circuit's, or circuit component's, ability to collect and store electric charge
+\cite{flukecapacitance}.
+Capacitors are made up of two electrically conductive plates separated by some distance. These two plates, when voltage is exchanged between them,
+become equally charged such that one plate is negatively charged (-Q) and the other is positively charged (+Q)
+\cite{britcapacitance,librecapacitance}.
+Overall, the charge of the capacitor will be neutral as the equal charge from both plates (-Q, +Q) cancels out
+\cite{librecapacitance} as in figure \ref{fig:ppcapacitor}.
+
+In a circuit with an AC supply, the capacitor is alternatively charged and discahrged every half cycle, therefore the amount of total
+stored charge in that capacitor depends on the frequency of the AC supply as it dictates how long it will charge for
+\cite{britcapacitance}.
+
+Capacitors are usually assembled with a dielectric material inbetween the two conductive plates
+\cite{britcapacitance,flukecapacitance,librecapacitance}.
+Dielectric materials are poor conductors of electric fields, therefore labelled as insulators 
+\cite{britdielectric}.
+The capacitance of a capacitor increases with a dielectric material as the electric field is decreased and in turn so is the voltage across the two plates
+\cite{hyperdielectric}.
+The capacitor ends up storing the same charge as if it were without a dielectric material but at a lower voltage, which is effective in reducing the possibilites of a circuit short
+\cite{hyperdielectric}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=5cm]{parallel plate capacitor.jpg}
+    \caption{\centering Parallel Plate Capacitor Diagram \protect\cite{librecapacitance}}
+    \label{fig:ppcapacitor}
+\end{figure}
+
+\textbf{Resistance} is a force that opposes the flow of current in a circuit
+\cite{flukeresistance,hiokiresistance,britresistance}.
+It can be described as the electrical charge's difficulty in moving through a material.
+\cite{hiokiresistance}
+Conductors and insulators, mentioned before, are types of materials classified by their resistance. Conductors are materials with little resistance that the
+electrons can travel through easily, like copper and gold (most metals). Insulators, on the other hand, are materials that make it difficult for the electrical
+charge to pass through, like wood and rubber
+\cite{flukeresistance}.
+These properties can be seen in electrical wires, with the current-carrying copper wire is encased in an insulating rubber tube for safety.
+
+The resistance of a circuit component usually increases with temperature as the atoms that make up that material get excited, moving around in ways that make it
+difficult for the electrons to travel through
+\cite{britresistance,bbcresistance}.
+
+Resistors are circuit components specifically made to counteract the flow of current in a circuit
+\cite{britresistor,bbcresistance,hiokiresistance} (Figure).
+Resistors can be used in a circuit to control the amount of voltage and current flowing in a circuit, which is useful to make sure the circuit doesn't blow and also
+to correctly distribute the current/voltage throughout the circuit
+\cite{britresistor,hiokiresistance}
+The surplus of electrical energy flowing through a resistor is converted into heat energy which then dissipates
+\cite{hiokiresistance}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=7.5cm]{resistorr.jpg}
+    \caption{\centering Resistor and How to Read One \protect\cite{resistorpic}}
+    \label{fig:resistor}
+\end{figure}
 
 \subsection{Wave Properties}
-
 
 
 
