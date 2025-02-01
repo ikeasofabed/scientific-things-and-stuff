@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: PHYC20090EXP7LCR.aux
+The top-level auxiliary file: PHYC20040HUBBLERS.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
@@ -15,44 +15,44 @@ Database file #1: References.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 28 entries,
+You've used 1 entry,
             4087 wiz_defined-function locations,
-            975 strings with 11168 characters,
-and the built_in function-call counts, 11060 in all, are:
-= -- 958
-> -- 112
+            828 strings with 7438 characters,
+and the built_in function-call counts, 498 in all, are:
+= -- 34
+> -- 4
 < -- 0
-+ -- 56
-- -- 28
-* -- 351
-:= -- 2152
-add.period$ -- 81
-call.type$ -- 28
-change.case$ -- 53
++ -- 2
+- -- 1
+* -- 30
+:= -- 106
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 846
-empty$ -- 993
-format.name$ -- 28
-if$ -- 2400
+cite$ -- 1
+duplicate$ -- 30
+empty$ -- 36
+format.name$ -- 1
+if$ -- 88
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 221
-newline$ -- 163
-num.names$ -- 28
-pop$ -- 586
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 28
+num.names$ -- 1
+pop$ -- 22
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 883
+skip$ -- 32
 stack$ -- 0
-substring$ -- 50
-swap$ -- 566
+substring$ -- 2
+swap$ -- 20
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 28
+type$ -- 1
 warning$ -- 0
-while$ -- 28
-width$ -- 30
-write$ -- 327
+while$ -- 1
+width$ -- 2
+write$ -- 33

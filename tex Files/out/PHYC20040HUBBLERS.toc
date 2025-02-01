@@ -4,7 +4,8 @@
 \contentsline {section}{\numberline {2}The Procedure}{2}{}%
 \contentsline {section}{\numberline {3}Results and Calculations}{2}{}%
 \contentsline {section}{\numberline {4}Conclusion}{2}{}%
-\contentsline {section}{\numberline {5}Expansion on the Experiment}{2}{}%
-\contentsline {section}{Bibliography}{3}{}%
+\contentsline {section}{\numberline {5}Applications of the Hubble Constant}{2}{}%
+\contentsline {section}{References}{3}{}%
 \contentsline {section}{Appendix}{4}{}%
 \contentsline {subsection}{Raw Data}{4}{}%
+\contentsline {section}{List of Figures}{4}{}%

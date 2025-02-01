@@ -125,4 +125,87 @@ Anon. (n.d.) Resistor {P}icture {C}redit. [Online]. Available:
   \url{https://www.jameco.com/Jameco/workshop/CircuitNotes/circuit-notes-resistors.html}
 \BIBentrySTDinterwordspacing
 
+\bibitem{lionimpedance}
+\BIBentryALTinterwordspacing
+A.~S. (2024, October) How {T}o {C}alculate {I}mpedance. [Accessed 30 January
+  2025]. [Online]. Available:
+  \url{https://www.lioncircuits.com/blog/posts/how-to-calculate-impedance}
+\BIBentrySTDinterwordspacing
+
+\bibitem{isaacimpedance}
+\BIBentryALTinterwordspacing
+Anon. (n.d.) Electrical {I}mpedance. [Accessed 30 January 2025]. [Online].
+  Available: \url{https://isaacphysics.org/concepts/cp_electrical_impedance}
+\BIBentrySTDinterwordspacing
+
+\bibitem{protimpedance}
+\BIBentryALTinterwordspacing
+M.~Yogendappa. (2023, December) How to {D}etermine the {I}mpedance of a
+  {C}ircuit. [Accessed 30 January 2025]. [Online]. Available:
+  \url{https://www.lioncircuits.com/blog/posts/how-to-calculate-impedance}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NASAemwave}
+\BIBentryALTinterwordspacing
+N.~Science. (2023, August) Anatomy of an {E}lectromagnetic {W}ave. [Accessed 31
+  January 2025]. [Online]. Available:
+  \url{https://science.nasa.gov/ems/02_anatomy/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NASAemradio}
+\BIBentryALTinterwordspacing
+{NASA}. (n.d.) The {P}roperties of {E}lectromagnetic {R}adiation. [Accessed 31
+  January 2025]. [Online]. Available:
+  \url{https://radiojove.gsfc.nasa.gov/education/educationalcd/RadioAstronomyTutorial/Workbook%20PDF%20Files/Chapter2.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{emcolour}
+\BIBentryALTinterwordspacing
+M.~W.~D. Mortimer~Abramowitz, Thomas J.~Fellers. (2016, May) The {N}ature of
+  {E}lectromagnetic {R}adiation. [Accessed 31 January 2025]. [Online].
+  Available:
+  \url{https://micro.magnet.fsu.edu/primer/lightandcolor/electromagintro.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{flukeoscillo}
+\BIBentryALTinterwordspacing
+Anon. (2020, October) Basic oscilloscope functions. [Accessed 31 January 2025].
+  [Online]. Available:
+  \url{https://www.fluke.com/en-ie/learn/blog/oscilloscopes/basic-oscilloscope-functions}
+\BIBentrySTDinterwordspacing
+
+\bibitem{keyoscillo}
+\BIBentryALTinterwordspacing
+------. (n.d.) What is an {O}scilloscope {D}isplay. [Accessed 31 January 2025].
+  [Online]. Available:
+  \url{https://www.keysight.com/used/ie/en/knowledge/glossary/oscilloscopes/what-is-an-oscilloscope-display}
+\BIBentrySTDinterwordspacing
+
+\bibitem{oscillopic}
+\BIBentryALTinterwordspacing
+------. (n.d.) Oscilloscope {P}icture {C}redit. [Online]. Available:
+  \url{https://www.tequipment.net/Tektronix/TBS1052B/Digital-Oscilloscopes/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{geekresonance}
+\BIBentryALTinterwordspacing
+------. (2024, February) What is {R}esonance. [Accessed 30 January]. [Online].
+  Available:
+  \url{https://www.geeksforgeeks.org/resonance-in-electric-circuits/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{eeresonance}
+\BIBentryALTinterwordspacing
+S.~Mugo. (2022, September) Resonance {E}xplained. [Accessed 31 January 2025].
+  [Online]. Available:
+  \url{https://eepower.com/technical-articles/resonance-explained/#}
+\BIBentrySTDinterwordspacing
+
+\bibitem{UCD}
+\BIBentryALTinterwordspacing
+{UCD}. (n.d.) Sinusoidal {R}esponse of the {LCR} {R}esonant {C}ircuit.
+  [Accessed 30 January 2025]. [Online]. Available:
+  \url{https://brightspace.ucd.ie/d2l/le/lessons/297044/topics/3430069}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

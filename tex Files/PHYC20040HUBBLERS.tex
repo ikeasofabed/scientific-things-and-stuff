@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 \usepackage[a4paper, margin=2cm]{geometry}
 \usepackage[english]{babel} % To obtain English text with the blindtext package
 \usepackage{blindtext}
@@ -12,8 +12,12 @@
 \usepackage{abstract}
 \usepackage[export]{adjustbox}
 \usepackage{emptypage}
-
 \usepackage{tocloft}
+\usepackage[nottoc]{tocbibind}
+\usepackage{url}
+\usepackage{subcaption}
+\usepackage{lipsum}
+
 
 \cftsetindents{section}{0em}{2em}
 \cftsetindents{subsection}{0em}{2em}
@@ -29,7 +33,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\title{PHYC20040 Hubble Redshift}
+\title{PHYC20040 Exp.1 Hubble RS}
 \author{Joana Adao}
 \date{\today}
 
@@ -48,18 +52,17 @@
 
         \vspace{4cm}
 
-        {\huge \bfseries PHYC20040 Exploring the Solar System}\\
+        {\LARGE \bfseries PHYC20040 Exploring the Solar System}\\
         \vspace{0.75cm}
-        {\LARGE Experiment No.1 Hubble Redshift Distance Relation}
+        {\Large Experiment No.1 Hubble Redshift Distance Relation}
         
         \vspace{1cm}
     
-    {\Large \textbf{29 January 2025}}
+    {\Large \textbf{29 January 2025 }}
 
     \vspace{2cm}
     
     {\large \textbf{by Joana C.C. Adao (Student No. 23311051)}}\\
-    
 
     \end{center}
     
@@ -87,6 +90,7 @@ The aim of this experiment was to
 
 \section{Theory}
 
+\cite{bbcresistance}
 
 
 \section{The Procedure}
@@ -101,7 +105,7 @@ The aim of this experiment was to
 
 
 
-\section{Expansion on the Experiment}
+\section{Applications of the Hubble Constant}
 
 
 
@@ -111,19 +115,8 @@ The aim of this experiment was to
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-\begin{thebibliography}{100}
-\addcontentsline{toc}{section}{Bibliography}
-
-
-    \bibitem{ex}
-    Example Name (Example Year) \emph{Example Source Title}, Example Additional Information
-
-
-
-
-
-\end{thebibliography}
+\bibliographystyle{IEEEtran}
+\bibliography{References}
 
 \newpage
 
@@ -133,7 +126,7 @@ The aim of this experiment was to
 \subsection*{Raw Data}
 \addcontentsline{toc}{subsection}{Raw Data}
 
-
+\listoffigures
 
 
 \end{document}
