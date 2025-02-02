@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.1.21)  1 FEB 2025 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.1.21)  1 FEB 2025 19:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -637,42 +637,50 @@ Package pdftex.def Info: ./images/oscillo.jpg  used on input line 244.
 
 
 [5 <./images/em wave relation.png> <./images/oscillo.jpg>]
+<./images/time and freq domains.png, id=239, 732.7375pt x 259.97125pt>
+File: ./images/time and freq domains.png Graphic file (type png)
+<use ./images/time and freq domains.png>
+Package pdftex.def Info: ./images/time and freq domains.png  used on input line 286.
+(pdftex.def)             Requested size: 483.69687pt x 171.61328pt.
 
-[6] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
+
+[6 <./images/time and freq domains.png>]
+
+[7] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 72--76
 \OT1/cmr/m/n/12 University[]Physics[](OpenStax ) /University[]Physics[]II[]-[][]Thermodynamics[]Electricity[]
  []
 
 
 
-[7])
+[8])
 
-[8] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lof)
+[9] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lof)
 \tf@lof=\write5
 \openout5 = `PHYC20090EXP7LCR.lof'.
 
 
 
-[9] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.aux)
+[10] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `PHYC20090EXP7LCR.out' has not changed.
-(rerunfilecheck)             Checksum: D1C69D64E910F42CCEC1D9D61497C9C3;2248.
+(rerunfilecheck)             Checksum: 2A517850E5A9A42B17DBD6BFBC8A83AF;2250.
  ) 
 Here is how much of TeX's memory you used:
- 16023 strings out of 475472
- 275332 string characters out of 5764328
- 785781 words of memory out of 5000000
- 38682 multiletter control sequences out of 15000+600000
- 565615 words of font info for 59 fonts, out of 8000000 for 9000
+ 16054 strings out of 475472
+ 275933 string characters out of 5764328
+ 786337 words of memory out of 5000000
+ 38705 multiletter control sequences out of 15000+600000
+ 565962 words of font info for 60 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 83i,8n,131p,628b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.pdf" (10 pages, 1141448 bytes).
+ 83i,11n,131p,628b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.pdf" (11 pages, 1227416 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

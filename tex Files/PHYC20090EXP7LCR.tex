@@ -102,7 +102,7 @@ The aim of this experiment was to
 
 \section{Theory}
 
-\subsection{LCR Circuits}
+\subsection{LCR Circuits} \label{sec:1.1}
 An LCR circuit is made up of inductors (L), capacitors (C), and resistors (R), usually connected in series.
 Since all the components of the circuit are connected in series, equal amount of the current will flow through each element.
 \cite{unacademy}
@@ -112,7 +112,7 @@ A circuit containing these components, L, C, and R, can act as themselves indivi
 The LCR circuit can also magnify the voltages across the L, C, and R such that it is larger than the  circuit's input voltage (ie. AC, Alternating Current)
 \cite{learnabout}.
 
-\subsubsection{Inductance, Capacitance, Resistance}
+\subsubsection{Inductance, Capacitance, Resistance} \label{sec:1.1.1}
 
 Inductance, capacitance, and resistance make up the basic parameters that can affect circuits up to some degree
 \cite{elecnotes}.
@@ -195,7 +195,7 @@ The surplus of electrical energy flowing through a resistor is converted into he
     \label{fig:resistor}
 \end{figure}
 
-\subsubsection{Impedance}
+\subsubsection{Impedance} \label{sec:1.1.2}
 
 The impedance of a circuit represents the overall resistance that it offers to AC
 \cite{lionimpedance}.
@@ -212,7 +212,7 @@ The reactance X is composed of the positive reactance of the inductor ($X_L$) an
 
 Impedance will be mathematically expanded on in §\ref{sec:1.3}, The Mathematics.
 
-\subsection{Wave Properties}\label{sec:1.2}
+\subsection{Wave Properties} \label{sec:1.2}
 
 Charged particles can create electromagnetic fields with their movement which transports
 electromagnetic (EM) energy, like light and radiation.
@@ -233,7 +233,7 @@ which is actually a very narrow spectrum
     \label{fig:emrelation}
 \end{figure}
 
-\subsubsection{The Oscilloscope}
+\subsubsection{The Oscilloscope} \label{sec:1.2.1}
 
 Oscilloscopes are device that display voltage as waves, typically sine waves, in order to visualise the variation of voltage over time
 \cite{flukeoscillo,keyoscillo}.
@@ -245,7 +245,7 @@ The oscilloscope is an important device that will be used to find the resonant f
     \caption{\centering Oscilloscope With 2 Channels \protect\cite{oscillopic}}
 \end{figure}
 
-\subsubsection{Electrical Resonance}
+\subsubsection{Electrical Resonance} \label{sec:1.2.2}
 
 Resonance in electrical circuits takes place at a specific, constant frequency at which the reactance and impedance cancel themselves out
 \cite{geekresonance}.
@@ -276,7 +276,58 @@ we can then substitute X in for our two reactance values to get the impedance, Z
 \end{gather}
 
 The current amplitude is given by $I = \dfrac{V}{Z}$, Ohm's Law, but for AC circuits extra considerations must be taken.
-The AC equivalent to Ohm's Law occurs when $X_L = X_C$, where Z is then minimsed and thus the circuit will be in resonance (as discussed in §\ref{sec:1.2}.)
+The AC equivalent to Ohm's Law occurs when $X_L = X_C$, where Z is then minimsed and thus the circuit will be in resonance (as discussed in §\ref{sec:1.2})
+\cite{UCD}.
+
+The time domain and frequency domain are two representations of the LCR circuit, as show below in figure \ref{fig:timefreq}.
+
+\begin{figure} [ht]
+    \centering
+    \includegraphics[width=\textwidth]{time and freq domains.png}
+    \caption{\centering Time and Frequency Domains of the Series LCR Circuit \protect\cite{UCD}}
+    \label{fig:timefreq}
+\end{figure}
+
+With the appropriate equations below the mathematical representation becomes clearer
+\cite{UCD}.
+
+Equation \ref{eq:2} represents Kirchoff's Voltage Law for series LCR circuits in the time domain, and equation \ref{eq:3} is the second-order differential equation
+for the voltage that represents the time-varying response of the circuit (time domain).
+Equation \ref{eq:4} is the phasor representation of the circuit in the frequency domain that takes into account the impedances from the capacitor and inductor,
+as discussed in §\ref{sec:1.1.2}, the reactances. Equation \ref{eq:5} expresses the output voltage across the resistor in the frequency domain, and how the input voltage is
+consequently transferred through the circuit.
+
+\newpage
+\hspace{2ex}
+\begin{minipage}{0.45\textwidth}
+    \begin{gather}
+        v_1=L\frac{di}{dt}+\frac1C\int idt+R_1\label{eq:2}
+    \end{gather}
+    \vspace{-1.5em}
+    \begin{gather}
+        \frac{d^2v_2}{dt^2} + \frac{R dv_2}{L dt} + \frac{1}{LC} v_2 = \frac{dv_1}{dt} \cdot \frac{R}{L}\label{eq:3}
+    \end{gather}
+\end{minipage}
+\hspace{-1.5ex}
+\begin{minipage}{0.45\textwidth}
+    \begin{gather}
+        V_1 = j \omega L I + \frac{I}{j \omega C} + RI\label{eq:4}
+    \end{gather}
+    \vspace{-1.5em}
+    \begin{gather}\label{eq:5}
+        V_2 = IR = \frac{R}{j \omega L + \frac{1}{j \omega C} + R} V_1
+    \end{gather}
+\end{minipage}
+
+\textit{Equations \ref{eq:2} and \ref{eq:3} representations of time domain. Equations \ref{eq:4} and \ref{eq:5} representations of frequency domain.} \cite{UCD}
+
+The use of complex (j) phasors in the frequency domain allows for the simplification of this above analysis by entirely removing
+the need for the integro-differential equations that are in the time domain. $H(j \omega)$ is defined at the sinusoidal response function, 
+the ratio of the output to the input phasor in the frequency, equation \ref{eq:6}:
+
+\begin{gather} \label{eq:6}
+    H (j \omega) = \frac{V_2}{V_1} = \frac{j \omega C R}{1 - \omega^2 L C + j \omega C R}
+\end{gather}
 
 \section{The Procedure}
 
