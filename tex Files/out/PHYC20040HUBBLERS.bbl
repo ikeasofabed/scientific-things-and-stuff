@@ -21,10 +21,51 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{bbcresistance}
+\bibitem{britbigbang}
 \BIBentryALTinterwordspacing
-Anon. (n.d.) Resistance. [Accessed 30 January 2025]. [Online]. Available:
-  \url{https://www.bbc.co.uk/bitesize/articles/z6n27yc#z7hddp3}
+A.~Augustyn. (2024, November) big-bang model. [Accessed 2 February 2025].
+  [Online]. Available: \url{https://www.britannica.com/science/big-bang-model}
+\BIBentrySTDinterwordspacing
+
+\bibitem{spacebigbang}
+\BIBentryALTinterwordspacing
+D.~D. Andrew~May. (2025, January) What is the {B}ig {B}ang {T}heory? [Accessed
+  2 February 2025]. [Online]. Available:
+  \url{https://www.space.com/25126-big-bang-theory.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{hubblebigbang}
+\BIBentryALTinterwordspacing
+{NASA}. (2022, September) What is the {B}ig {B}ang? [Accessed 2 February 2025].
+  [Online]. Available:
+  \url{https://hubblesite.org/contents/articles/the-big-bang}
+\BIBentrySTDinterwordspacing
+
+\bibitem{bigbangpic}
+\BIBentryALTinterwordspacing
+Anon. (n.d.) Big {B}ang {P}icture {C}redit. [Online]. Available:
+  \url{https://en.wikipedia.org/wiki/Big_Bang}
+\BIBentrySTDinterwordspacing
+
+\bibitem{reheating}
+\BIBentryALTinterwordspacing
+A.~R. Liddle. (n.d.) Reheating after inflation. [Accessed 2 February 2025].
+  [Online]. Available:
+  \url{https://ned.ipac.caltech.edu/level5/Liddle/Liddle5_6.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cmbpic}
+\BIBentryALTinterwordspacing
+Anon. (n.d.) Cosmic {M}icrowave {B}ackground {P}icture {C}redit. [Accessed 2
+  February 2025]. [Online]. Available:
+  \url{https://www.esa.int/Science_Exploration/Space_Science/Cosmic_Microwave_Background_CMB_radiation}
+\BIBentrySTDinterwordspacing
+
+\bibitem{spectrapic}
+\BIBentryALTinterwordspacing
+------. (n.d.) Spectra {P}icture {C}redit. [Accessed 2 February 2025].
+  [Online]. Available:
+  \url{https://webbtelescope.org/contents/media/images/01F8GF8DK2PRY4FP9DA2XPQC8S}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

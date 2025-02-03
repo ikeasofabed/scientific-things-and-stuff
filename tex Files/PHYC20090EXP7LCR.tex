@@ -131,10 +131,10 @@ The voltage is proportional to the rate of change of the current and this factor
 Coils of wire are most commonly used as the inductors in circuits as they amplify \cite{elecnotes} the efficiency at which the magnetic field induces
 the voltage and current in the circuit. By coiling wire (solenoid) the magnetic field is concentrated and magnified at its centre, shown in Figure \ref{fig:solenoid}.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \includegraphics[width=15cm]{solenoid.jpg}
     \centering
-    \caption{\centering Electromagnetic Field Due to the Flow of the Current in a Solenoid \cite{solenoidpic}}
+    \caption{\centering \footnotesize{Electromagnetic Field Due to the Flow of the Current in a Solenoid \cite{solenoidpic}}}
     \label{fig:solenoid}
 \end{figure}
 
@@ -159,10 +159,10 @@ The capacitance of a capacitor increases with a dielectric material as the elect
 The capacitor ends up storing the same charge as if it were without a dielectric material but at a lower voltage, which is effective in reducing the possibilites of a circuit short
 \cite{hyperdielectric}.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=5cm]{parallel plate capacitor.jpg}
-    \caption{\centering Parallel Plate Capacitor Diagram \protect\cite{librecapacitance}}
+    \caption{\centering \footnotesize{Parallel Plate Capacitor Diagram \protect\cite{librecapacitance}}}
     \label{fig:ppcapacitor}
 \end{figure}
 
@@ -188,10 +188,10 @@ to correctly distribute the current/voltage throughout the circuit
 The surplus of electrical energy flowing through a resistor is converted into heat energy which then dissipates
 \cite{hiokiresistance}.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=7.5cm]{resistorr.jpg}
-    \caption{\centering Resistor and How to Read One \protect\cite{resistorpic}}
+    \caption{\centering \footnotesize{Resistor and How to Read One \protect\cite{resistorpic}}}
     \label{fig:resistor}
 \end{figure}
 
@@ -226,10 +226,10 @@ This is also how we can see colours, each frequency-associated wavelength is pro
 which is actually a very narrow spectrum
 \cite{emcolour}.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=15cm]{em wave relation.png}
-    \caption{\centering Relationship of Wavelength and Frequency of Electromagnetic Waves \protect\cite{NASAemradio}}
+    \caption{\centering \footnotesize{Relationship of Wavelength and Frequency of Electromagnetic Waves \protect\cite{NASAemradio}}}
     \label{fig:emrelation}
 \end{figure}
 
@@ -239,10 +239,10 @@ Oscilloscopes are device that display voltage as waves, typically sine waves, in
 \cite{flukeoscillo,keyoscillo}.
 The oscilloscope is an important device that will be used to find the resonant frequency of the LCR circuit being observed in the experiment.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=10cm]{oscillo.jpg}
-    \caption{\centering Oscilloscope With 2 Channels \protect\cite{oscillopic}}
+    \caption{\centering \footnotesize{Oscilloscope With 2 Channels \protect\cite{oscillopic}}}
 \end{figure}
 
 \subsubsection{Electrical Resonance} \label{sec:1.2.2}
@@ -264,9 +264,9 @@ Electical resonance will be mathematically expanded on in §\ref{sec:1.3}, The M
 \subsection{The Mathematics}\label{sec:1.3}
 
 The reactance of the inductor $X_L$ is given by $\omega L$ where $\omega = 2 \pi f$, the angular frequency
-\cite{UCD,isaacimpedance}.
+\cite{UCDlcr,isaacimpedance}.
 The reactance of the capacitor $X_C$ is given by $- \dfrac{1}{\omega C}$ with $\omega$ once again as the angular frequency
-\cite{UCD,isaacimpedance}.
+\cite{UCDlcr,isaacimpedance}.
 Therefore, by understanding the total impedance formula is $\sqrt{R^2 + X^2}$
 \cite{isaacimpedance},
 we can then substitute X in for our two reactance values to get the impedance, Z:
@@ -277,19 +277,19 @@ we can then substitute X in for our two reactance values to get the impedance, Z
 
 The current amplitude is given by $I = \dfrac{V}{Z}$, Ohm's Law, but for AC circuits extra considerations must be taken.
 The AC equivalent to Ohm's Law occurs when $X_L = X_C$, where Z is then minimsed and thus the circuit will be in resonance (as discussed in §\ref{sec:1.2})
-\cite{UCD}.
+\cite{UCDlcr}.
 
 The time domain and frequency domain are two representations of the LCR circuit, as show below in figure \ref{fig:timefreq}.
 
-\begin{figure} [ht]
+\begin{figure} [H]
     \centering
     \includegraphics[width=\textwidth]{time and freq domains.png}
-    \caption{\centering Time and Frequency Domains of the Series LCR Circuit \protect\cite{UCD}}
+    \caption{\centering \footnotesize{Time and Frequency Domains of the Series LCR Circuit \protect\cite{UCDlcr}}}
     \label{fig:timefreq}
 \end{figure}
 
 With the appropriate equations below the mathematical representation becomes clearer
-\cite{UCD}.
+\cite{UCDlcr}.
 
 Equation \ref{eq:2} represents Kirchoff's Voltage Law for series LCR circuits in the time domain, and equation \ref{eq:3} is the second-order differential equation
 for the voltage that represents the time-varying response of the circuit (time domain).
@@ -319,7 +319,9 @@ consequently transferred through the circuit.
     \end{gather}
 \end{minipage}
 
-\textit{Equations \ref{eq:2} and \ref{eq:3} representations of time domain. Equations \ref{eq:4} and \ref{eq:5} representations of frequency domain.} \cite{UCD}
+\vspace{0.25cm}
+
+\textit{Equations \ref{eq:2} and \ref{eq:3} representations of time domain. Equations \ref{eq:4} and \ref{eq:5} representations of frequency domain.} \cite{UCDlcr}
 
 The use of complex (j) phasors in the frequency domain allows for the simplification of this above analysis by entirely removing
 the need for the integro-differential equations that are in the time domain. $H(j \omega)$ is defined at the sinusoidal response function, 
@@ -328,6 +330,88 @@ the ratio of the output to the input phasor in the frequency, equation \ref{eq:6
 \begin{gather} \label{eq:6}
     H (j \omega) = \frac{V_2}{V_1} = \frac{j \omega C R}{1 - \omega^2 L C + j \omega C R}
 \end{gather}
+
+Theoretical analysis shows that for the input signals $v_1(t) = Acos( \omega t)$ and $v_2(t) = Bcos(\omega t + \phi)$ then the gain (\ref{eq:7}) and phase shift (\ref{eq:8}) can be defined as, respectively:
+
+\begin{gather} \label{eq:7}
+    Gain \equiv \frac{B}{A} = \lvert H \rvert \: \omega CR \: \left[ (1 - \omega^2 LC)^2 + (\omega CR)^2 \right] ^ {- \frac{1}{2}}
+\end{gather}
+
+\begin{gather} \label{eq:8}
+    Phase \equiv \phi = \angle H = 90 ^{\circ} - \tan^{-1} \left[ \dfrac{\omega CR}{(1 - \omega^2 LC)} \right]
+\end{gather}
+
+The behaviour of the circuit can be visualised through Bode plots, figure \ref{fig:bode}, so thus the magnitude and angle of $H(j \omega)$ determine the voltage gain and phase shift 
+of a sine wave through the circuit for any measured frequency. So, $H (j \omega)$ is then considered a fundamental circuit descriptor for linear circuits \cite{UCDlcr}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{BODE plot.png}
+    \caption{\centering \footnotesize{Typical Bode Plot Representations for the Series LCR Circuit (\textit{Magnitude: Left, Angle of $H(j \omega)$: Right}) \protect\cite{UCDlcr}}}
+    \label{fig:bode}
+\end{figure}
+
+The magnitude, $Lm(H) = 20 \log_{10} (\lvert H \rvert)$, given in decibels (dB), and the angle of H, $\angle H$ are shown as functions of the logatrithm of the frequency, $\log (f)$,
+which is what characterises the Bode plot for the system.
+The magnitude plot shows the gain change across varying frequencies and the phase plot shows the phase shift of the circuit for varying frequencies.
+The resonant frequency, $f_0$, is clearly labelled on the x-axis ($\log (f)$) for each plot, which is determined experimentally for the series LCR circuit and then 
+compared to the theoretical predictions \cite{UCDlcr}.
+
+For the LCR, the gain and phase (response) curves depend greatly on the values of L, C, and R. From equation \ref{eq:7} it can be found that
+the gain reaches 0 dB, a maximum of unity, when $1 - \omega^2 LC = 0$. This observation can be used to derive the resonant frequency, $\omega_0$ or $f_0$ \cite{UCDlcr}:
+
+\begin{gather} \label{eq:9}
+    \omega_0 = \frac{1}{\sqrt{LC}} \qquad or \qquad f_0 = \frac{1}{2 \pi \sqrt{LC}}
+\end{gather}
+
+Additionally, from equation \ref{eq:8}, the phase shift ($\phi$) is seen to vary between the input and output signals with frequency such that:
+
+\begin{itemize}
+    \item At low frequencies ($\ll f_0$), the circuit has a $90^{\circ}$ phase \textbf{lead}.
+    \item At high frequency ($\gg f_0$), the circuit has a $90^{\circ}$ phase \textbf{lag}.
+    \item At the resonant frequency ($f_0$), the circuit phase shift passes through the $0^{\circ}$ value.
+\end{itemize}
+
+These are the typical plot behaviours illustrated in figure \ref{fig:bode} \cite{UCDlcr}.
+
+The "sharpness" of the resonance is indicated by the narrowness of the peak in the $Lm(H)$ (gain) curve and the steepness of the phase transition through the resonant frequency.
+This "sharpness" is quantified by the Q-factor, the wuality factor \cite{UCDlcr}:
+
+\begin{gather}
+    Q \; \equiv \; \frac{1}{R} \: \sqrt{\frac{L}{C}} \; = \; \frac{\omega_0 L}{R} \; = \; \frac{1}{\omega_0 RC}
+\end{gather}
+
+Greater selectivity and sharpness are a result of a higher Q-factor, shown in figure \ref{fig:bode theory}. The relationship between the gain (dB) and the phase angle ($\angle H$) is
+clearly demonstrated in this graph across a range of frequencies.
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=15cm]{bode theory.png}
+    \caption{\centering \footnotesize{Example of the Computer Printout for Given Values of L, C, R, and Q. The Log of the Frequency is Plotted Against the Phase Angle ($\angle H$) and the Magnitude ($Lm(H)$) \protect\cite{UCDlcr}}}
+    \label{fig:bode theory}
+\end{figure}
+
+For a higher Q-factor (Q $> 10$), the selectivity for frequencies close to $f_0$ is high, which makes these circuits ideal for tuning applications, such as radios receivers, 
+to isolate different transmission frequencies. These types of circuits are often referred to as a tuned circuit \cite{UCDlcr}.
+
+For this section, the circuit is used in a similar way to a radio to tune into a specific input frequency by adjusting the resonant frequency ($f_0$).
+The resonant frequency for the LCR circuit is given by \cite{UCDlcr}, similarly to equation \ref{eq:9}:
+
+\begin{gather} \label{eq:10}
+    f_0 = \frac{1}{2 \pi \sqrt{L_0C}}
+\end{gather}
+
+in which $L_0$ is the fixed inductance of the inductor, measured ealier. By varying the capacitance ($C$) the resonant frequency ($f_0$) can be varied and adjusted as well such that \cite{UCDlcr}:
+
+\begin{gather}
+    f_0 \propto \frac{1}{\sqrt{C}}
+\end{gather}
+
+This shows that decreasing the capacitance will increase the resonant frequency in an inverse square-root relationship. 
+The inverse (increasing capactitance will decrease the resonant \allowbreak frequency) is also true.
+
+It has been previously observed that the maximum gain occurs when the input frequency mathces the resonant frequency of the circuit \cite{UCDlcr}. 
+Conversly, at a fixed input frequency, the input signal will be amplified to its greatest extent when the LCR circuit is tuned (by varying the capacitance $C$) to match and resonate at that input frequency.
 
 \section{The Procedure}
 

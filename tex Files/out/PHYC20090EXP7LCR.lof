@@ -1,7 +1,9 @@
 \babel@toc {english}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces \centering Electromagnetic Field Due to the Flow of the Current in a Solenoid \cite {solenoidpic}}}{2}{figure.caption.3}%
-\contentsline {figure}{\numberline {2}{\ignorespaces \centering Parallel Plate Capacitor Diagram \cite {librecapacitance}}}{3}{figure.caption.4}%
-\contentsline {figure}{\numberline {3}{\ignorespaces \centering Resistor and How to Read One \cite {resistorpic}}}{4}{figure.caption.5}%
-\contentsline {figure}{\numberline {4}{\ignorespaces \centering Relationship of Wavelength and Frequency of Electromagnetic Waves \cite {NASAemradio}}}{5}{figure.caption.6}%
-\contentsline {figure}{\numberline {5}{\ignorespaces \centering Oscilloscope With 2 Channels \cite {oscillopic}}}{5}{figure.caption.7}%
-\contentsline {figure}{\numberline {6}{\ignorespaces \centering Time and Frequency Domains of the Series LCR Circuit \cite {UCD}}}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {1}{\ignorespaces \centering \footnotesize {Electromagnetic Field Due to the Flow of the Current in a Solenoid \cite {solenoidpic}}}}{2}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces \centering \footnotesize {Parallel Plate Capacitor Diagram \cite {librecapacitance}}}}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces \centering \footnotesize {Resistor and How to Read One \cite {resistorpic}}}}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces \centering \footnotesize {Relationship of Wavelength and Frequency of Electromagnetic Waves \cite {NASAemradio}}}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces \centering \footnotesize {Oscilloscope With 2 Channels \cite {oscillopic}}}}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {6}{\ignorespaces \centering \footnotesize {Time and Frequency Domains of the Series LCR Circuit \cite {UCDlcr}}}}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces \centering \footnotesize {Typical Bode Plot Representations for the Series LCR Circuit (\textit {Magnitude: Left, Angle of $H(j \omega )$: Right}) \cite {UCDlcr}}}}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {8}{\ignorespaces \centering \footnotesize {Example of the Computer Printout for Given Values of L, C, R, and Q. The Log of the Frequency is Plotted Against the Phase Angle ($\angle H$) and the Magnitude ($Lm(H)$) \cite {UCDlcr}}}}{8}{figure.caption.10}%
