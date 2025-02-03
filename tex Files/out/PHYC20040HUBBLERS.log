@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.1.21)  3 FEB 2025 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.1.21)  3 FEB 2025 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,56 +600,72 @@ l.86 \newpage
               [1
 
 ]
-<./images/bigbang.jpg, id=113, 903.375pt x 596.2275pt>
+<./images/bigbang.jpg, id=117, 903.375pt x 596.2275pt>
 File: ./images/bigbang.jpg Graphic file (type jpg)
 <use ./images/bigbang.jpg>
-Package pdftex.def Info: ./images/bigbang.jpg  used on input line 119.
+Package pdftex.def Info: ./images/bigbang.jpg  used on input line 126.
 (pdftex.def)             Requested size: 426.79134pt x 281.68259pt.
-<./images/cmb.jpg, id=126, 2146.0175pt x 1084.05pt>
-File: ./images/cmb.jpg Graphic file (type jpg)
-<use ./images/cmb.jpg>
-Package pdftex.def Info: ./images/cmb.jpg  used on input line 143.
-(pdftex.def)             Requested size: 483.69687pt x 244.3308pt.
 
 
 [2 <./images/bigbang.jpg>]
-<./images/spectra.jpg, id=143, 1284.8pt x 722.7pt>
+<./images/cmb.jpg, id=146, 2146.0175pt x 1084.05pt>
+File: ./images/cmb.jpg Graphic file (type jpg)
+<use ./images/cmb.jpg>
+Package pdftex.def Info: ./images/cmb.jpg  used on input line 150.
+(pdftex.def)             Requested size: 426.79134pt x 215.5821pt.
+
+
+[3 <./images/cmb.jpg>]
+<./images/spectra.jpg, id=173, 1284.8pt x 722.7pt>
 File: ./images/spectra.jpg Graphic file (type jpg)
 <use ./images/spectra.jpg>
-Package pdftex.def Info: ./images/spectra.jpg  used on input line 154.
-(pdftex.def)             Requested size: 483.69687pt x 272.0815pt.
+Package pdftex.def Info: ./images/spectra.jpg  used on input line 185.
+(pdftex.def)             Requested size: 426.79134pt x 240.06866pt.
+<./images/light waves.jpg, id=180, 2409.0pt x 1204.5pt>
+File: ./images/light waves.jpg Graphic file (type jpg)
+<use ./images/light waves.jpg>
+Package pdftex.def Info: ./images/light waves.jpg  used on input line 204.
+(pdftex.def)             Requested size: 426.79134pt x 213.38211pt.
 
 
-[3 <./images/cmb.jpg> <./images/spectra.jpg>]
+[4 <./images/spectra.jpg>]
+<./images/Redshift.png, id=202, 302.12875pt x 533.995pt>
+File: ./images/Redshift.png Graphic file (type png)
+<use ./images/Redshift.png>
+Package pdftex.def Info: ./images/Redshift.png  used on input line 231.
+(pdftex.def)             Requested size: 142.26378pt x 251.44212pt.
 
-[4] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.bbl)
 
-[5] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.lof)
+[5 <./images/light waves.jpg>]
+
+[6 <./images/Redshift.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.bbl)
+
+[7] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.lof)
 \tf@lof=\write5
 \openout5 = `PHYC20040HUBBLERS.lof'.
 
 
 
-[6] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.aux)
+[8] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `PHYC20040HUBBLERS.out' has not changed.
-(rerunfilecheck)             Checksum: 8B1C77C41FB9DAB7548A04B0C6BF9418;2325.
+(rerunfilecheck)             Checksum: D60537C572ADF972626C4B776B65F29F;2327.
  ) 
 Here is how much of TeX's memory you used:
- 15956 strings out of 475472
- 273790 string characters out of 5764328
- 775160 words of memory out of 5000000
- 38642 multiletter control sequences out of 15000+600000
- 565325 words of font info for 58 fonts, out of 8000000 for 9000
+ 16007 strings out of 475472
+ 274791 string characters out of 5764328
+ 784895 words of memory out of 5000000
+ 38678 multiletter control sequences out of 15000+600000
+ 565662 words of font info for 59 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  83i,6n,131p,629b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.pdf" (7 pages, 3501952 bytes).
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.pdf" (9 pages, 3678632 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
