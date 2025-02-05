@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage[english]{babel} % To obtain English text with the blindtext package
+\usepackage{blindtext}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{array} % For extra column formatting
+\usepackage{amsmath} %for equation environment
+\usepackage{float}
+\usepackage{parskip} % For gaps between para
+\usepackage{setspace}
+\usepackage{pdfpages}
+\usepackage{abstract}
+\usepackage[export]{adjustbox}
+\usepackage{emptypage}
+\usepackage{tocloft}
+\usepackage[nottoc]{tocbibind}
+\usepackage{hyperref, url}
+\usepackage{subcaption}
+\usepackage{lipsum}
+\usepackage{xcolor}
+
+\cftsetindents{section}{0em}{2em}
+\cftsetindents{subsection}{0em}{2em}
+
+\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
+\renewcommand\cftaftertoctitle{\hfill\mbox{}}
+
+\graphicspath{ {./images/} }
+
+\pagenumbering{arabic}
+
+\definecolor{blurple}{HTML}{5865F2}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blurple,
+    citecolor=blurple,
+}
+
+\urlstyle{same}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{PHYC20040 Exp.1 Hubble RS}
+\author{Joana Adao}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+
+        \begin{figure}[ht]
+            \includegraphics[width=\textwidth]{UCDLogo.png}
+        \end{figure}
+        
+        \begin{figure}
+            \centerline{\includegraphics[width=\paperwidth]{UCDBanner.png}}
+        \end{figure}
+
+        \vspace{4cm}
+
+        {\LARGE \bfseries PHYC20040 Exploring the Solar System}\\
+        \vspace{0.75cm}
+        {\Large Experiment No.1 Hubble Redshift Distance Relation}
+        
+        \vspace{1cm}
+    
+    {\Large \textbf{29 January 2025 }}
+
+    \vspace{2cm}
+    
+    {\large \textbf{by Joana C.C. Adao (Student No. 23311051)}}\\
+
+    \end{center}
+    
+   \clearpage
+
+\end{titlepage}
+
+\setcounter{page}{1}
+\tableofcontents
+
+\newpage
+
+\begin{abstract}
+\addcontentsline{toc}{section}{Abstract}
+
+\vspace{1cm}
+
+\cite{aandahk}
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Theory} \label{sec:1}
+
+
+
+\section{Methodology} 
+
+
+
+\section{Conclusion} \label{sec:4}
+
+
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{IEEEtran}
+\bibliography{References}
+
+\newpage
+
+\section*{Appendix} \label{sec:A}
+\addcontentsline{toc}{section}{Appendix}
+
+\listoffigures
+
+\listoftables
+
+\subsection*{Raw Data}
+\addcontentsline{toc}{subsection}{Raw Data}
+
+
+
+\subsection*{Code}
+\addcontentsline{toc}{subsection}{Code}
+
+
+
+\end{document}

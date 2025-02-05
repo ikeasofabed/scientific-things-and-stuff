@@ -1,0 +1,11 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Abstract}{2}{figure.caption.2}%
+\contentsline {section}{\numberline {1}Theory}{2}{section.1}%
+\contentsline {section}{\numberline {2}Methodology}{2}{section.2}%
+\contentsline {section}{\numberline {3}Conclusion}{2}{section.3}%
+\contentsline {section}{References}{3}{section*.3}%
+\contentsline {section}{Appendix}{4}{section*.4}%
+\contentsline {section}{List of Figures}{4}{section*.5}%
+\contentsline {section}{List of Tables}{4}{section*.6}%
+\contentsline {subsection}{Raw Data}{4}{section*.7}%
+\contentsline {subsection}{Code}{4}{section*.8}%
