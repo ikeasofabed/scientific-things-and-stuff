@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.1.21)  4 FEB 2025 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.1.21)  5 FEB 2025 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -481,28 +481,28 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_a_int=\count335
 \l__lipsum_b_int=\count336
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex))
-Package hyperref Info: Option `colorlinks' set `true' on input line 40.
+Package hyperref Info: Option `colorlinks' set `true' on input line 39.
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.aux)
 \openout1 = `PHYC20040HUBBLERS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -565,22 +565,22 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 50.
+Package hyperref Info: Link coloring ON on input line 49.
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.out) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.out)
 \@outlinefile=\write3
 \openout3 = `PHYC20040HUBBLERS.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=71, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=83, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
-Package pdftex.def Info: ./images/UCDLogo.png  used on input line 56.
+Package pdftex.def Info: ./images/UCDLogo.png  used on input line 55.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=73, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=85, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
-Package pdftex.def Info: ./images/UCDBanner.png  used on input line 60.
+Package pdftex.def Info: ./images/UCDBanner.png  used on input line 59.
 (pdftex.def)             Requested size: 597.50787pt x 86.45332pt.
 
 
@@ -596,104 +596,158 @@ Package pdftex.def Info: ./images/UCDBanner.png  used on input line 60.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.86 \newpage
+l.85 \newpage
               [1
 
 ]
-<./images/bigbang.jpg, id=118, 903.375pt x 596.2275pt>
+<./images/bigbang.jpg, id=133, 903.375pt x 596.2275pt>
 File: ./images/bigbang.jpg Graphic file (type jpg)
 <use ./images/bigbang.jpg>
-Package pdftex.def Info: ./images/bigbang.jpg  used on input line 126.
-(pdftex.def)             Requested size: 426.79134pt x 281.68259pt.
+Package pdftex.def Info: ./images/bigbang.jpg  used on input line 134.
+(pdftex.def)             Requested size: 355.65944pt x 234.73853pt.
 
 
-[2 <./images/bigbang.jpg>]
-<./images/cmb.jpg, id=148, 2146.0175pt x 1084.05pt>
+[2]
+<./images/cmb.jpg, id=161, 2146.0175pt x 1084.05pt>
 File: ./images/cmb.jpg Graphic file (type jpg)
 <use ./images/cmb.jpg>
-Package pdftex.def Info: ./images/cmb.jpg  used on input line 150.
-(pdftex.def)             Requested size: 426.79134pt x 215.5821pt.
+Package pdftex.def Info: ./images/cmb.jpg  used on input line 158.
+(pdftex.def)             Requested size: 355.65944pt x 179.65451pt.
 
 
-[3 <./images/cmb.jpg>]
-<./images/spectra.jpg, id=175, 1284.8pt x 722.7pt>
+[3 <./images/bigbang.jpg> <./images/cmb.jpg>]
+<./images/spectra.jpg, id=183, 1284.8pt x 722.7pt>
 File: ./images/spectra.jpg Graphic file (type jpg)
 <use ./images/spectra.jpg>
-Package pdftex.def Info: ./images/spectra.jpg  used on input line 185.
+Package pdftex.def Info: ./images/spectra.jpg  used on input line 193.
 (pdftex.def)             Requested size: 426.79134pt x 240.06866pt.
-<./images/light waves.jpg, id=182, 2409.0pt x 1204.5pt>
-File: ./images/light waves.jpg Graphic file (type jpg)
-<use ./images/light waves.jpg>
-Package pdftex.def Info: ./images/light waves.jpg  used on input line 204.
-(pdftex.def)             Requested size: 426.79134pt x 213.38211pt.
 
 
 [4 <./images/spectra.jpg>]
-<./images/lcomag.jpg, id=195, 1003.75pt x 777.90625pt>
+<./images/light waves.jpg, id=202, 2409.0pt x 1204.5pt>
+File: ./images/light waves.jpg Graphic file (type jpg)
+<use ./images/light waves.jpg>
+Package pdftex.def Info: ./images/light waves.jpg  used on input line 212.
+(pdftex.def)             Requested size: 426.79134pt x 213.38211pt.
+<./images/lcomag.jpg, id=210, 1003.75pt x 777.90625pt>
 File: ./images/lcomag.jpg Graphic file (type jpg)
 <use ./images/lcomag.jpg>
-Package pdftex.def Info: ./images/lcomag.jpg  used on input line 228.
+Package pdftex.def Info: ./images/lcomag.jpg  used on input line 238.
 (pdftex.def)             Requested size: 426.79134pt x 330.76602pt.
 
 
 [5 <./images/light waves.jpg>]
-<./images/handklines.png, id=212, 284.39583pt x 147.55125pt>
+<./images/handklines.png, id=227, 284.39583pt x 147.55125pt>
 File: ./images/handklines.png Graphic file (type png)
 <use ./images/handklines.png>
-Package pdftex.def Info: ./images/handklines.png  used on input line 255.
+Package pdftex.def Info: ./images/handklines.png  used on input line 267.
 (pdftex.def)             Requested size: 426.79134pt x 221.44337pt.
 
 
 [6 <./images/lcomag.jpg>]
-<./images/Redshift.png, id=252, 302.12875pt x 533.995pt>
+<./images/Redshift.png, id=267, 302.12875pt x 533.995pt>
 File: ./images/Redshift.png Graphic file (type png)
 <use ./images/Redshift.png>
-Package pdftex.def Info: ./images/Redshift.png  used on input line 310.
+Package pdftex.def Info: ./images/Redshift.png  used on input line 322.
 (pdftex.def)             Requested size: 142.26378pt x 251.44212pt.
 
 
 [7 <./images/handklines.png>]
-<./images/hubble constant nasa.png, id=284, 1027.84pt x 1493.58pt>
+<./images/hubble constant nasa.png, id=304, 1027.84pt x 1493.58pt>
 File: ./images/hubble constant nasa.png Graphic file (type png)
 <use ./images/hubble constant nasa.png>
-Package pdftex.def Info: ./images/hubble constant nasa.png  used on input line 331.
-(pdftex.def)             Requested size: 284.52756pt x 413.4592pt.
+Package pdftex.def Info: ./images/hubble constant nasa.png  used on input line 352.
+(pdftex.def)             Requested size: 227.62204pt x 330.75368pt.
 
 
 [8 <./images/Redshift.png>]
 
 [9 <./images/hubble constant nasa.png>]
+<./images/URSA1 program.png, id=325, 825.83531pt x 523.20468pt>
+File: ./images/URSA1 program.png Graphic file (type png)
+<use ./images/URSA1 program.png>
+Package pdftex.def Info: ./images/URSA1 program.png  used on input line 383.
+(pdftex.def)             Requested size: 426.79134pt x 270.39146pt.
 
-[10] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.bbl
 
-[11])
+[10 <./images/URSA1 program.png>]
 
-[12] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.lof)
+[11]
+<./images/HUBBLEgraph.png, id=355, 627.3036pt x 338.2236pt>
+File: ./images/HUBBLEgraph.png Graphic file (type png)
+<use ./images/HUBBLEgraph.png>
+Package pdftex.def Info: ./images/HUBBLEgraph.png  used on input line 501.
+(pdftex.def)             Requested size: 483.69687pt x 260.7994pt.
+
+
+[12 <./images/HUBBLEgraph.png>]
+<./images/extended x.png, id=373, 627.3036pt x 338.2236pt>
+File: ./images/extended x.png Graphic file (type png)
+<use ./images/extended x.png>
+Package pdftex.def Info: ./images/extended x.png  used on input line 524.
+(pdftex.def)             Requested size: 483.69687pt x 260.7994pt.
+
+
+[13 <./images/extended x.png>]
+
+[14] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.bbl
+
+[15])
+
+[16] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.lof)
 \tf@lof=\write5
 \openout5 = `PHYC20040HUBBLERS.lof'.
 
+ (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.lot)
+\tf@lot=\write6
+\openout6 = `PHYC20040HUBBLERS.lot'.
 
 
-[13] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.aux)
+
+[17]
+<./images/codeHUBBLE1.png, id=474, 989.6975pt x 677.53125pt>
+File: ./images/codeHUBBLE1.png Graphic file (type png)
+<use ./images/codeHUBBLE1.png>
+Package pdftex.def Info: ./images/codeHUBBLE1.png  used on input line 600.
+(pdftex.def)             Requested size: 398.33858pt x 272.69283pt.
+
+
+[18 <./images/codeHUBBLE1.png>]
+<./images/HUBBLEcode2.png, id=481, 520.94624pt x 889.3225pt>
+File: ./images/HUBBLEcode2.png Graphic file (type png)
+<use ./images/HUBBLEcode2.png>
+Package pdftex.def Info: ./images/HUBBLEcode2.png  used on input line 609.
+(pdftex.def)             Requested size: 398.33858pt x 680.01738pt.
+
+
+[19 <./images/HUBBLEcode2.png>]
+<./images/HUBBLEcode3.png, id=487, 618.31pt x 587.19376pt>
+File: ./images/HUBBLEcode3.png Graphic file (type png)
+<use ./images/HUBBLEcode3.png>
+Package pdftex.def Info: ./images/HUBBLEcode3.png  used on input line 618.
+(pdftex.def)             Requested size: 483.69687pt x 459.37119pt.
+
+
+[20 <./images/HUBBLEcode3.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `PHYC20040HUBBLERS.out' has not changed.
-(rerunfilecheck)             Checksum: 087309F074BA46752848571C486F05C1;2418.
+(rerunfilecheck)             Checksum: F8D69DE189730E33C8B6E2102F8ED587;2871.
  ) 
 Here is how much of TeX's memory you used:
- 16092 strings out of 475472
- 276300 string characters out of 5764328
- 786007 words of memory out of 5000000
- 38734 multiletter control sequences out of 15000+600000
- 566009 words of font info for 60 fonts, out of 8000000 for 9000
+ 16204 strings out of 475472
+ 278855 string characters out of 5764328
+ 801346 words of memory out of 5000000
+ 38822 multiletter control sequences out of 15000+600000
+ 566809 words of font info for 63 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 83i,11n,131p,629b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.pdf" (14 pages, 4050766 bytes).
+ 83i,17n,131p,657b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040HUBBLERS.pdf" (21 pages, 4743301 bytes).
 PDF statistics:
- 477 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
