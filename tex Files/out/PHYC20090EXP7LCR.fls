@@ -257,6 +257,7 @@ INPUT ./images/solenoid.jpg
 INPUT ./images/solenoid.jpg
 INPUT ./images/solenoid.jpg
 INPUT ./images/solenoid.jpg
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./images/parallel plate capacitor.jpg
 INPUT ./images/parallel plate capacitor.jpg
 INPUT ./images/parallel plate capacitor.jpg
@@ -304,16 +305,77 @@ INPUT ./images/bode theory.png
 INPUT ./images/bode theory.png
 INPUT ./images/bode theory.png
 INPUT ./images/bode theory.png
+INPUT ./images/own exp equip.jpeg
+INPUT ./images/own exp equip.jpeg
+INPUT ./images/own exp equip.jpeg
+INPUT ./images/own exp equip.jpeg
+INPUT ./images/own exp equip.jpeg
+INPUT ./images/own exp equip.jpeg
+INPUT ./images/own theo exp.jpeg
+INPUT ./images/own theo exp.jpeg
+INPUT ./images/own theo exp.jpeg
+INPUT ./images/own theo exp.jpeg
+INPUT ./images/own theo exp.jpeg
+INPUT ./images/own theo exp.jpeg
+INPUT ./images/graph LCR goof.png
+INPUT ./images/graph LCR goof.png
+INPUT ./images/graph LCR goof.png
+INPUT ./images/graph LCR goof.png
+INPUT ./images/graph LCR goof.png
+INPUT ./images/graph LCR goof.png
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcti1200.tfm
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
+INPUT ./images/plot R5.png
+INPUT ./images/plot R5.png
+INPUT ./images/plot R5.png
+INPUT ./images/plot R5.png
+INPUT ./images/plot R5.png
+INPUT ./images/plot R5.png
+INPUT ./images/plot R20.png
+INPUT ./images/plot R20.png
+INPUT ./images/plot R20.png
+INPUT ./images/plot R20.png
+INPUT ./images/plot R20.png
+INPUT ./images/plot R20.png
+INPUT ./images/plot R40.png
+INPUT ./images/plot R40.png
+INPUT ./images/plot R40.png
+INPUT ./images/plot R40.png
+INPUT ./images/plot R40.png
+INPUT ./images/plot R40.png
+INPUT ./images/plot R10.png
+INPUT ./images/plot R10.png
+INPUT ./images/plot R10.png
+INPUT ./images/plot R10.png
+INPUT ./images/plot R10.png
+INPUT ./images/plot R10.png
+INPUT ./images/plot R30.png
+INPUT ./images/plot R30.png
+INPUT ./images/plot R30.png
+INPUT ./images/plot R30.png
+INPUT ./images/plot R30.png
+INPUT ./images/plot R30.png
+INPUT ./images/plot R50.png
+INPUT ./images/plot R50.png
+INPUT ./images/plot R50.png
+INPUT ./images/plot R50.png
+INPUT ./images/plot R50.png
+INPUT ./images/plot R50.png
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lof
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lof
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lof
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lof
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lot
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lot
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lot
+OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lot
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.aux
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.out
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.out
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcti1200.pk
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcti1200.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb

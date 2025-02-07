@@ -7,3 +7,12 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces \centering \footnotesize {Time and Frequency Domains of the Series LCR Circuit \cite {UCDlcr}}}}{6}{figure.caption.8}%
 \contentsline {figure}{\numberline {7}{\ignorespaces \centering \footnotesize {Typical Bode Plot Representations for the Series LCR Circuit (\textit {Magnitude: Left, Angle of $H(j \omega )$: Right}) \cite {UCDlcr}}}}{7}{figure.caption.9}%
 \contentsline {figure}{\numberline {8}{\ignorespaces \centering \footnotesize {Example of the Computer Printout for Given Values of L, C, R, and Q. The Log of the Frequency is Plotted Against the Phase Angle ($\angle H$) and the Magnitude ($Lm(H)$) \cite {UCDlcr}}}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {9}{\ignorespaces \centering \footnotesize {Apparatus setup for the experimental sections.}}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {10}{\ignorespaces \centering \footnotesize {Theoretical software for the prediction of the LCR circuit.}}}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {11}{\ignorespaces \centering Theoretical response curves for the LCR series circuit assuming an input voltage amplitude of 0.45V. \cite {UCDlcr}}}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Theoretical Bode Plot, $R= 5 \Omega $}}{17}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Theoretical Bode Plot, $R = 20 \Omega $}}{17}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Theoretical Bode Plot, $R = 40 \Omega $}}{17}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Theoretical Bode Plot, $R= 10 \Omega $}}{17}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Theoretical Bode Plot, $R = 30 \Omega $}}{17}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Theoretical Bode Plot, $R = 50 \Omega $}}{17}{figure.17}%

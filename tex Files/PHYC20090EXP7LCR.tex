@@ -18,6 +18,8 @@
 \usepackage{subcaption}
 \usepackage{lipsum}
 \usepackage{xcolor}
+\usepackage{caption}
+    \captionsetup{font=footnotesize,labelfont=bf}
 
 \cftsetindents{section}{0em}{2em}
 \cftsetindents{subsection}{0em}{2em}
@@ -412,11 +414,152 @@ The inverse (increasing capactitance will decrease the resonant \allowbreak freq
 It has been previously observed that the maximum gain occurs when the input frequency mathces the resonant frequency of the circuit \cite{UCDlcr}. 
 Conversly, at a fixed input frequency, the input signal will be amplified to its greatest extent when the LCR circuit is tuned (by varying the capacitance $C$) to match and resonate at that input frequency.
 
-\section{The Procedure}
+\section{Methodology}
 
+This experiment is composed of three sections, each with their own set of instructions:
 
+\begin{itemize}
+    \item The theoretical predictions for the LCR circuit method using plotting software, §\ref{sec:2.1}.
+    \item Measurements for the Bode plot, §\ref{sec:2.2}.
+    \item Measurement of the circuit response curves, §\ref{sec:2.3}.
+\end{itemize}
+
+The setup of the apparatus for the two experimental sections of this Methodology is shown in figure \ref{fig:setup}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{own exp equip.jpeg}
+    \caption{\centering \footnotesize{Apparatus setup for the experimental sections.}}
+    \label{fig:setup}
+\end{figure}
+
+\subsection{Theoretical Predictions for the LCR Circuit Method} \label{sec:2.1}
+
+The "LCR Plot" program shown in figure \ref{fig:software} is opened and the values for \textbf{L}, \textbf{C}, and \textbf{R} can be set to $L=1$ mH and $C=0.1 \: \mu$F, leaving $R$ open and available
+for varying values to see its effects on the plot and Q-factor.
+
+This program calculates the resonance frequency $f_0$ and the Q-factor, plotting the predicted behaviour of the frequency response and the phase angle.
+The effect of the varying \textbf{R} values on the Q-factor for a given capacitance, \textbf{C}, can be seen in figures 
+
+The apparatus in figure \ref{fig:setup} is then assembled with \textbf{C} set to $0.1 \: \mu$F, as was done with the theory plot, and wiht \textbf{R} set to $10 \Omega$.
+By observing the oscilloscope's (\textit{right}) sinewave outputs in channel 1, $\nu_1$, kept constant, and the varying amplitude via frequency changes in channel 2, $\nu_2$, the resonant frequency $f_0$
+can then be found by visually comparing the sinewaves until the phase shift is close to zero. With this value of $f_0$ \textbf{L} can be calculated using equation \ref{eq:9}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm, angle=270]{own theo exp.jpeg}
+    \caption{\centering \footnotesize{Theoretical software for the prediction of the LCR circuit.}}
+    \label{fig:software}
+\end{figure}
+
+\subsection{Measurements for the Bode Plot Method} \label{sec:2.2}
+
+The behaviour of the LCR circuit is studied with varying input frequency while \textbf{L}, \textbf{C}, and \textbf{R} remain fixed.
+Measurements for this behaviour are taken in logatrithmic increments over two decades are selected (\textit{ie,} $0.1f_0$ \textit{to} $10f_0$) and values for the input and output peak-to-peak
+voltages are noted.
+The phase shift is achieved by measuring the time difference, $\Delta T$, between the peaks and noting whether the phase shift is \textbf{lag} or \textbf{lead}.
+More readings should be taken closer to resonance, in which the set frequencies ideally provide evenly distributed data points to either side of the resonant frequency
+on a log-axis scale.
+
+The gain (in dB) can be computed using the formula:
+
+\begin{gather} \label{eq:13}
+    (Lm(\lvert H \rvert))(dB) \: = \: 20 \log_{10} \frac{\nu_2}{\nu_1}
+\end{gather}
+
+The phase shift (in degrees) can be determined by the formula:
+
+\begin{gather} \label{eq:14}
+    \angle H (^{\circ}) \: = \: 360 \: \times \: f \: \times \: \Delta T
+\end{gather}
+
+\subsection{Measurement of the Circuit Response Curves Method} \label{sec:2.3}
+
+The circuit's response to varying capacitance, \textbf{C}, is investigated by setting the resistance to $R= 10 \Omega$ and the resonant frequency to what was measured in §\ref{sec:2.1} and keeping these values constant.
+The values of C are varied around the resonance with as fine of a scale as possible that allows a symmetrical and smooth graph to be produced. For each C value taken, the corresponding output frequecy is recorded from the oscilloscope.
+A graph like what is illustrated in figure \ref{fig:lcrresponsecurve} below should be the aim of what is produced with these measurements.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{graph LCR goof.png}
+    \caption{\centering Theoretical response curves for the LCR series circuit assuming an input voltage amplitude of 0.45V. \protect\cite{UCDlcr}}
+    \label{fig:lcrresponsecurve}
+\end{figure}
+
+The above steps are repeated for a constant $R = 30 \Omega$ and, if time were to permit, would have also been recreated for a constant $R = 5 \Omega$. The input frequency is kept constant throughout.
 
 \section{Results and Calculations}
+
+\subsection{Theoretical Predictions for the Bode Plot} \label{sec:3.1}
+
+\textit{The results for this section were obtained by following the method procedure in from §\ref{sec:2.1}.}
+
+The figures for the theoretical Bode plots simulated for specificied values of \textbf{R} can be found in the Appendix, §\ref{sec:A.1.1}.
+
+\begin{itemize}
+    \item For $R = 5 \Omega$, figure \ref{fig:R5} shows the theoretical Bode plot.
+    \item For $R = 10 \Omega$, figure \ref{fig:R10} shows the theoretical Bode plot.
+    \item For $R = 20 \Omega$, figure \ref{fig:R20} shows the theoretical Bode plot.
+    \item For $R = 30 \Omega$, figure \ref{fig:R30} shows the theoretical Bode plot.
+    \item For $R = 40 \Omega$, figure \ref{fig:R40} shows the theoretical Bode plot.
+    \item For $R = 50 \Omega$, figure \ref{fig:R50} shows the theoretical Bode plot.
+\end{itemize}
+
+\vspace{0.25cm}
+
+After simulating these plots, the resonant frequency for the LCR circuit was calculated and found. At the resistance of $R = 10 \Omega$ and capacitance of $C = 0.1 \mu$F, as was
+specified in §\ref{sec:2.1}, the resonant frequency was discovered to approximately be:
+
+\begin{gather} \label{eq:15}
+    f_0 \: = \: 16040 \: \text{Hz} \: \pm \: 0.5 \: \text{Hz}
+\end{gather}
+
+With the use of this found resonant frequency value, the inductance, \textbf{L}, was calculated via a manipulation of equation \ref{eq:9}:
+
+\begin{gather} \label{eq:16}
+    f_0 = \frac{1}{2 \pi \sqrt{LC}} \: \implies \: \left( \frac{1}{2 \pi f_0} \right)^2 = LC \: \implies \:
+    L = \frac{1}{4 \pi^2 f_0^2 C}
+\end{gather}
+
+With the substitution for the values of $f_0 = 16040$Hz and $C = 0.1 \mu$F:
+
+\begin{gather} \label{eq:17}
+    L \: = \: \frac{1}{4 \pi^2 (16040)^2 (0.1 \times 10^{-6})} \: = \: 9.845 \times 10^{-4} \: \text{H} \: \pm \: 
+\end{gather}
+
+Where the unit for inductance is the \textit{Henry (H)}.
+
+\subsection{Measurements for the Bode Plot} \label{sec:3.2}
+
+\renewcommand{\arraystretch}{1.3}
+
+\begin{table}[H] 
+
+    \centering
+    \resizebox{\textwidth}{!}{
+
+        \begin{tabular}{|c|c|c|c|c|c|c|c|}
+        \hline
+        Log $f_0$ & \begin{tabular}[c]{@{}c@{}}Frequency\\ (Hz)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Ch1, $\nu_1$\\ (V)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Ch1, $\Delta \nu_1$\\ (V)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Ch2, $\nu_2$\\ (V)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Ch2, $\Delta \nu_2$\\ (V)\end{tabular} & \begin{tabular}[c]{@{}c@{}}$\Delta T$\\ (s) $\times 10^{-6}$\end{tabular} & \begin{tabular}[c]{@{}c@{}}$\Delta (\Delta T)$\\ (s) $\times 10^{-6}$\end{tabular} \\ \hline
+        $0.1 f_0$ & $1 \: 604$                                               & 0.28                                                       & 0.004                                                             & 0.043                                                      & 0.01125                                                           & 240                                                                       & 80                                                                                 \\ \hline
+        $0.3 f_0$ & $4 \: 812$                                               & 0.28                                                       & 0.006                                                             & 0.06                                                       & 0.019                                                             & 50                                                                        & 5                                                                                  \\ \hline
+        $0.5 f_0$ & $8 \: 020$                                               & 0.272                                                      & 0.004                                                             & 0.0732                                                     & 0.038                                                             & 32                                                                        & 8                                                                                  \\ \hline
+        $0.8 f_0$ & $12 \: 832$                                              & 0.2                                                        & 0.004                                                             & 0.89                                                       & 0.0145                                                            & 16                                                                        & 2                                                                                  \\ \hline
+        $f_0$     & $16 \: 040$                                              & 0.084                                                      & 0.006                                                             & 0.84                                                       & 0.006                                                             & 0                                                                         & 4                                                                                  \\ \hline
+        $3 f_0$   & $48 \: 120$                                              & 0.284                                                      & 0.004                                                             & 0.0551                                                     & 0.0156                                                            & 6                                                                         & 1                                                                                  \\ \hline
+        $5 f_0$   & $80 \: 200$                                              & 0.284                                                      & 0.006                                                             & 0.062                                                      & 0.0076                                                            & 3.2                                                                       & 2                                                                                  \\ \hline
+        $8 f_0$   & $128 \: 320$                                             & 0.284                                                      & 0.006                                                             & 0.055                                                      & 0.012                                                             & 2                                                                         & 1                                                                                  \\ \hline
+        $10 f_0$  & $160 \: 400$                                             & 0.27                                                       & 0.004                                                             & 0.03                                                       & 0.01                                                              & 1.6                                                                       & 0.2                                                                                \\ \hline
+        \end{tabular}
+
+    }
+
+    \caption{\centering Table of the data collected to generate a Bode plot.}
+    \label{tab:1}
+
+\end{table}
+
+\subsection{Measurement of the Circuit Response Curves} \label{sec:3.3}
 
 
 
@@ -440,13 +583,59 @@ Conversly, at a fixed input frequency, the input signal will be amplified to its
 
 \newpage
 
-\section*{Appendix}
+\section*{Appendix} \label{sec:A}
 \addcontentsline{toc}{section}{Appendix}
 
-\subsection*{Raw Data}
-\addcontentsline{toc}{subsection}{Raw Data}
+\subsection*{Raw Data} \label{sec:A.1}
+\addcontentsline{toc}{subsection}{Raw Data} 
+
+\subsubsection*{Graphs for the Simulated Theoretical Predictions for the Bode Plot} \label{sec:A.1.1}
+
+\vspace{1cm}
+
+\begin{minipage}{0.45\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=.9\linewidth]{plot R5.png}
+    \captionof{figure}{Theoretical Bode Plot, $R= 5 \Omega$}
+    \label{fig:R5}
+
+    \vspace{1.5em}
+    \includegraphics[width=.9\linewidth]{plot R20.png}
+    \captionof{figure}{Theoretical Bode Plot, $R = 20 \Omega$}
+    \label{fig:R20}
+
+    \vspace{1.5em}
+    \includegraphics[width=.9\linewidth]{plot R40.png}
+    \captionof{figure}{Theoretical Bode Plot, $R = 40 \Omega$}
+    \label{fig:R40}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=.9\linewidth]{plot R10.png}
+    \captionof{figure}{Theoretical Bode Plot, $R= 10 \Omega$}
+    \label{fig:R10}
+
+    \vspace{1.5em}
+    \includegraphics[width=.9\linewidth]{plot R30.png}
+    \captionof{figure}{Theoretical Bode Plot, $R = 30 \Omega$}
+    \label{fig:R30}
+
+    \vspace{1.5em}
+    \includegraphics[width=.9\linewidth]{plot R50.png}
+    \captionof{figure}{Theoretical Bode Plot, $R = 50 \Omega$}
+    \label{fig:R50}
+\end{minipage}%
+
+\vspace{1cm}
+
+\subsection*{Code}
+\addcontentsline{toc}{subsection}{Code}
 
 \listoffigures
 
+\listoftables
 
 \end{document}
