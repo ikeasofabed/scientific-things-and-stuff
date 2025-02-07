@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.1.21)  7 FEB 2025 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.1.21)  7 FEB 2025 23:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -485,24 +485,24 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 41.
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.aux)
 \openout1 = `PHYC20090EXP7LCR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -565,22 +565,22 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 51.
+Package hyperref Info: Link coloring ON on input line 52.
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.out) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.out)
 \@outlinefile=\write3
 \openout3 = `PHYC20090EXP7LCR.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=103, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=115, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
-Package pdftex.def Info: ./images/UCDLogo.png  used on input line 57.
+Package pdftex.def Info: ./images/UCDLogo.png  used on input line 58.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=105, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=117, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
-Package pdftex.def Info: ./images/UCDBanner.png  used on input line 61.
+Package pdftex.def Info: ./images/UCDBanner.png  used on input line 62.
 (pdftex.def)             Requested size: 597.50787pt x 86.45332pt.
 
 
@@ -596,143 +596,196 @@ Package pdftex.def Info: ./images/UCDBanner.png  used on input line 61.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.89 \newpage
+l.90 \newpage
               [1
 
 ]
-<./images/solenoid.jpg, id=157, 1606.0pt x 903.375pt>
+<./images/solenoid.jpg, id=172, 1606.0pt x 903.375pt>
 File: ./images/solenoid.jpg Graphic file (type jpg)
 <use ./images/solenoid.jpg>
-Package pdftex.def Info: ./images/solenoid.jpg  used on input line 136.
-(pdftex.def)             Requested size: 426.79134pt x 240.06866pt.
+Package pdftex.def Info: ./images/solenoid.jpg  used on input line 138.
+(pdftex.def)             Requested size: 355.65944pt x 200.05263pt.
 
 
-[2 <./images/solenoid.jpg>]
-<./images/parallel plate capacitor.jpg, id=184, 169.5936pt x 268.8444pt>
+[2]
+<./images/parallel plate capacitor.jpg, id=202, 169.5936pt x 268.8444pt>
 File: ./images/parallel plate capacitor.jpg Graphic file (type jpg)
 <use ./images/parallel plate capacitor.jpg>
-Package pdftex.def Info: ./images/parallel plate capacitor.jpg  used on input line 165.
-(pdftex.def)             Requested size: 142.26378pt x 225.5365pt.
-<./images/resistorr.jpg, id=200, 568.1225pt x 836.12375pt>
+Package pdftex.def Info: ./images/parallel plate capacitor.jpg  used on input line 167.
+(pdftex.def)             Requested size: 128.0374pt x 202.98244pt.
+
+
+[3 <./images/solenoid.jpg> <./images/parallel plate capacitor.jpg>]
+<./images/resistorr.jpg, id=229, 568.1225pt x 836.12375pt>
 File: ./images/resistorr.jpg Graphic file (type jpg)
 <use ./images/resistorr.jpg>
-Package pdftex.def Info: ./images/resistorr.jpg  used on input line 194.
+Package pdftex.def Info: ./images/resistorr.jpg  used on input line 196.
 (pdftex.def)             Requested size: 213.39566pt x 314.05595pt.
 
 
-[3 <./images/parallel plate capacitor.jpg>]
-<./images/em wave relation.png, id=231, 570.13pt x 356.33125pt>
+[4 <./images/resistorr.jpg>]
+<./images/em wave relation.png, id=260, 570.13pt x 356.33125pt>
 File: ./images/em wave relation.png Graphic file (type png)
 <use ./images/em wave relation.png>
-Package pdftex.def Info: ./images/em wave relation.png  used on input line 232.
+Package pdftex.def Info: ./images/em wave relation.png  used on input line 236.
 (pdftex.def)             Requested size: 426.79134pt x 266.74211pt.
-
-
-[4 <./images/resistorr.jpg>]
-<./images/oscillo.jpg, id=252, 570.933pt x 428.3202pt>
+<./images/oscillo.jpg, id=265, 570.933pt x 428.3202pt>
 File: ./images/oscillo.jpg Graphic file (type jpg)
 <use ./images/oscillo.jpg>
-Package pdftex.def Info: ./images/oscillo.jpg  used on input line 245.
+Package pdftex.def Info: ./images/oscillo.jpg  used on input line 249.
 (pdftex.def)             Requested size: 284.52756pt x 213.46025pt.
 
 
-[5 <./images/em wave relation.png> <./images/oscillo.jpg>]
-<./images/time and freq domains.png, id=279, 732.7375pt x 259.97125pt>
+[5 <./images/em wave relation.png>]
+<./images/time and freq domains.png, id=295, 732.7375pt x 259.97125pt>
 File: ./images/time and freq domains.png Graphic file (type png)
 <use ./images/time and freq domains.png>
-Package pdftex.def Info: ./images/time and freq domains.png  used on input line 287.
+Package pdftex.def Info: ./images/time and freq domains.png  used on input line 291.
 (pdftex.def)             Requested size: 483.69687pt x 171.61328pt.
 
 
-[6 <./images/time and freq domains.png>]
-<./images/BODE plot.png, id=315, 844.15375pt x 411.5375pt>
+[6 <./images/oscillo.jpg>]
+
+[7 <./images/time and freq domains.png>]
+<./images/BODE plot.png, id=341, 844.15375pt x 411.5375pt>
 File: ./images/BODE plot.png Graphic file (type png)
 <use ./images/BODE plot.png>
-Package pdftex.def Info: ./images/BODE plot.png  used on input line 350.
+Package pdftex.def Info: ./images/BODE plot.png  used on input line 353.
 (pdftex.def)             Requested size: 426.79134pt x 208.07283pt.
 
 
-[7 <./images/BODE plot.png>]
-<./images/bode theory.png, id=340, 758.835pt x 344.28625pt>
+[8 <./images/BODE plot.png>]
+<./images/bode theory.png, id=360, 758.835pt x 344.28625pt>
 File: ./images/bode theory.png Graphic file (type png)
 <use ./images/bode theory.png>
-Package pdftex.def Info: ./images/bode theory.png  used on input line 390.
+Package pdftex.def Info: ./images/bode theory.png  used on input line 393.
 (pdftex.def)             Requested size: 426.79134pt x 193.63951pt.
 
 
-[8 <./images/bode theory.png>]
-<./images/own exp equip.jpeg, id=361, 971.3088pt x 728.4816pt>
+[9 <./images/bode theory.png>]
+<./images/own exp equip.jpeg, id=382, 971.3088pt x 728.4816pt>
 File: ./images/own exp equip.jpeg Graphic file (type jpg)
 <use ./images/own exp equip.jpeg>
-Package pdftex.def Info: ./images/own exp equip.jpeg  used on input line 431.
+Package pdftex.def Info: ./images/own exp equip.jpeg  used on input line 434.
 (pdftex.def)             Requested size: 426.79134pt x 320.09938pt.
-
-
-[9]
-<./images/own theo exp.jpeg, id=372, 971.3088pt x 728.4816pt>
+<./images/own theo exp.jpeg, id=386, 971.3088pt x 728.4816pt>
 File: ./images/own theo exp.jpeg Graphic file (type jpg)
 <use ./images/own theo exp.jpeg>
-Package pdftex.def Info: ./images/own theo exp.jpeg  used on input line 450.
-(pdftex.def)             Requested size: 426.79134pt x 320.09938pt.
+Package pdftex.def Info: ./images/own theo exp.jpeg  used on input line 453.
+(pdftex.def)             Requested size: 398.33858pt x 298.7572pt.
 
 
 [10 <./images/own exp equip.jpeg>]
 
 [11 <./images/own theo exp.jpeg>]
-<./images/graph LCR goof.png, id=385, 503.8825pt x 353.32pt>
+<./images/graph LCR goof.png, id=401, 503.8825pt x 353.32pt>
 File: ./images/graph LCR goof.png Graphic file (type png)
 <use ./images/graph LCR goof.png>
-Package pdftex.def Info: ./images/graph LCR goof.png  used on input line 484.
+Package pdftex.def Info: ./images/graph LCR goof.png  used on input line 487.
 (pdftex.def)             Requested size: 426.79134pt x 299.26674pt.
 
 
 [12 <./images/graph LCR goof.png>]
 
 [13]
+<./images/plotlmhfreq.png, id=443, 619.3539pt x 342.5598pt>
+File: ./images/plotlmhfreq.png Graphic file (type png)
+<use ./images/plotlmhfreq.png>
+Package pdftex.def Info: ./images/plotlmhfreq.png  used on input line 601.
+(pdftex.def)             Requested size: 483.69687pt x 267.53008pt.
+<./images/plotanglefrew.png, id=446, 615.7404pt x 343.2825pt>
+File: ./images/plotanglefrew.png Graphic file (type png)
+<use ./images/plotanglefrew.png>
+Package pdftex.def Info: ./images/plotanglefrew.png  used on input line 610.
+(pdftex.def)             Requested size: 483.69687pt x 269.67116pt.
 
-[14] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
+
+[14 <./images/plotlmhfreq.png>]
+<./images/angfreqI.png, id=459, 638.8668pt x 340.3917pt>
+File: ./images/angfreqI.png Graphic file (type png)
+<use ./images/angfreqI.png>
+Package pdftex.def Info: ./images/angfreqI.png  used on input line 653.
+(pdftex.def)             Requested size: 483.69687pt x 257.7239pt.
+
+
+[15 <./images/plotanglefrew.png>]
+
+[16 <./images/angfreqI.png>]
+
+[17] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 72--76
 \OT1/cmr/m/n/12 University[]Physics[](OpenStax ) /University[]Physics[]II[]-[][]Thermodynamics[]Electricity[]
  []
 
 
 
-[15])
+[18])
 
-[16]
-<./images/plot R5.png, id=474, 583.42969pt x 260.47313pt>
+[19]
+<./images/plot R5.png, id=546, 583.42969pt x 260.47313pt>
 File: ./images/plot R5.png Graphic file (type png)
 <use ./images/plot R5.png>
-Package pdftex.def Info: ./images/plot R5.png  used on input line 599.
+Package pdftex.def Info: ./images/plot R5.png  used on input line 738.
 (pdftex.def)             Requested size: 195.89456pt x 87.45477pt.
-<./images/plot R20.png, id=475, 583.42969pt x 260.47313pt>
+<./images/plot R20.png, id=547, 583.42969pt x 260.47313pt>
 File: ./images/plot R20.png Graphic file (type png)
 <use ./images/plot R20.png>
-Package pdftex.def Info: ./images/plot R20.png  used on input line 604.
+Package pdftex.def Info: ./images/plot R20.png  used on input line 743.
 (pdftex.def)             Requested size: 195.89456pt x 87.45477pt.
-<./images/plot R40.png, id=476, 583.42969pt x 260.47313pt>
+<./images/plot R40.png, id=548, 583.42969pt x 260.47313pt>
 File: ./images/plot R40.png Graphic file (type png)
 <use ./images/plot R40.png>
-Package pdftex.def Info: ./images/plot R40.png  used on input line 609.
+Package pdftex.def Info: ./images/plot R40.png  used on input line 748.
 (pdftex.def)             Requested size: 195.89456pt x 87.45477pt.
-<./images/plot R10.png, id=477, 583.42969pt x 260.47313pt>
+<./images/plot R10.png, id=549, 583.42969pt x 260.47313pt>
 File: ./images/plot R10.png Graphic file (type png)
 <use ./images/plot R10.png>
-Package pdftex.def Info: ./images/plot R10.png  used on input line 617.
+Package pdftex.def Info: ./images/plot R10.png  used on input line 756.
 (pdftex.def)             Requested size: 195.89456pt x 87.45477pt.
-<./images/plot R30.png, id=478, 583.42969pt x 260.47313pt>
+<./images/plot R30.png, id=550, 583.42969pt x 260.47313pt>
 File: ./images/plot R30.png Graphic file (type png)
 <use ./images/plot R30.png>
-Package pdftex.def Info: ./images/plot R30.png  used on input line 622.
+Package pdftex.def Info: ./images/plot R30.png  used on input line 761.
 (pdftex.def)             Requested size: 195.89456pt x 87.45477pt.
-<./images/plot R50.png, id=479, 583.42969pt x 260.47313pt>
+<./images/plot R50.png, id=551, 583.42969pt x 260.47313pt>
 File: ./images/plot R50.png Graphic file (type png)
 <use ./images/plot R50.png>
-Package pdftex.def Info: ./images/plot R50.png  used on input line 627.
+Package pdftex.def Info: ./images/plot R50.png  used on input line 766.
 (pdftex.def)             Requested size: 195.89456pt x 87.45477pt.
- (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lof
+<./images/lcr code 1.png, id=552, 656.4525pt x 833.1125pt>
+File: ./images/lcr code 1.png Graphic file (type png)
+<use ./images/lcr code 1.png>
+Package pdftex.def Info: ./images/lcr code 1.png  used on input line 778.
+(pdftex.def)             Requested size: 284.52756pt x 361.10437pt.
 
-[17 <./images/plot R5.png> <./images/plot R20.png> <./images/plot R40.png> <./images/plot R10.png> <./images/plot R30.png> <./images/plot R50.png>])
+
+[20 <./images/plot R5.png> <./images/plot R20.png> <./images/plot R40.png> <./images/plot R10.png> <./images/plot R30.png> <./images/plot R50.png>]
+<./images/lcr code 2.png, id=567, 1045.9075pt x 517.935pt>
+File: ./images/lcr code 2.png Graphic file (type png)
+<use ./images/lcr code 2.png>
+Package pdftex.def Info: ./images/lcr code 2.png  used on input line 786.
+(pdftex.def)             Requested size: 284.52756pt x 140.89542pt.
+<./images/lcr code 3.png, id=572, 1054.94125pt x 519.9425pt>
+File: ./images/lcr code 3.png Graphic file (type png)
+<use ./images/lcr code 3.png>
+Package pdftex.def Info: ./images/lcr code 3.png  used on input line 794.
+(pdftex.def)             Requested size: 284.52756pt x 140.22768pt.
+<./images/lcr code 4.png, id=577, 615.29875pt x 544.0325pt>
+File: ./images/lcr code 4.png Graphic file (type png)
+<use ./images/lcr code 4.png>
+Package pdftex.def Info: ./images/lcr code 4.png  used on input line 800.
+(pdftex.def)             Requested size: 426.79134pt x 377.36684pt.
+
+
+[21 <./images/lcr code 1.png> <./images/lcr code 2.png> <./images/lcr code 3.png>]
+<./images/lcr code 5.png, id=593, 905.3825pt x 519.9425pt>
+File: ./images/lcr code 5.png Graphic file (type png)
+<use ./images/lcr code 5.png>
+Package pdftex.def Info: ./images/lcr code 5.png  used on input line 806.
+(pdftex.def)             Requested size: 426.79134pt x 245.09497pt.
+
+
+[22 <./images/lcr code 4.png> <./images/lcr code 5.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.lof)
 \tf@lof=\write5
 \openout5 = `PHYC20090EXP7LCR.lof'.
 
@@ -742,26 +795,26 @@ Package pdftex.def Info: ./images/plot R50.png  used on input line 627.
 
 
 
-[18] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.aux)
+[23] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `PHYC20090EXP7LCR.out' has not changed.
-(rerunfilecheck)             Checksum: 5B0520254E7532EEF712E80B3C864952;4123.
+(rerunfilecheck)             Checksum: D96F88B9AB3C53EC5352B33FE1E3DA93;4785.
  ) 
 Here is how much of TeX's memory you used:
- 16256 strings out of 475472
- 280164 string characters out of 5764328
- 792547 words of memory out of 5000000
- 38862 multiletter control sequences out of 15000+600000
- 567447 words of font info for 65 fonts, out of 8000000 for 9000
+ 16364 strings out of 475472
+ 282652 string characters out of 5764328
+ 797135 words of memory out of 5000000
+ 38948 multiletter control sequences out of 15000+600000
+ 568622 words of font info for 69 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 83i,17n,131p,628b,635s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcti1200.pk> </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.pdf" (19 pages, 8413253 bytes).
+ 83i,23n,131p,628b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcti1200.pk> </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP7LCR.pdf" (24 pages, 9327771 bytes).
 PDF statistics:
- 626 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 769 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
 

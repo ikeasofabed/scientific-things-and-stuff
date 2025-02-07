@@ -41,6 +41,7 @@
 }
 
 \urlstyle{same}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -91,15 +92,16 @@
 \begin{abstract}
 \addcontentsline{toc}{section}{Abstract}
 
-The aim of this experiment was to
-
-
+The aim of this experiment was to observe how electrical alternating current (AC) ciruits exhibit wave properties in the form of sinusodial waves and responses.
+The circuit was simple, with an inductor (L), resistor (R), and capacitor (C). By varying different input elements of the circuit whilst keeping others fixed, many properties were found.
+The resonant frequency where current flow and voltage were amplified was found to be at approximately $f_0 = 16 \: 040 \: \pm \: 0.5$Hz, from which the inductance (L) was calculated
+to be $9.845 \times 10^{-4} \: \pm \: 7.86 \times 10^{-7}$H. The quality (Q) factor for this circuit was calculated and observed to be $0.339 \: \pm \: 0.141$ which indicates a less "sharp" peak.
 
 \end{abstract}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\vspace{2.5cm}
 
 \section{Theory}
 
@@ -133,7 +135,7 @@ Coils of wire are most commonly used as the inductors in circuits as they amplif
 the voltage and current in the circuit. By coiling wire (solenoid) the magnetic field is concentrated and magnified at its centre, shown in Figure \ref{fig:solenoid}.
 
 \begin{figure}[H]
-    \includegraphics[width=15cm]{solenoid.jpg}
+    \includegraphics[width=12.5cm]{solenoid.jpg}
     \centering
     \caption{\centering \footnotesize{Electromagnetic Field Due to the Flow of the Current in a Solenoid \cite{solenoidpic}}}
     \label{fig:solenoid}
@@ -162,7 +164,7 @@ The capacitor ends up storing the same charge as if it were without a dielectric
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=5cm]{parallel plate capacitor.jpg}
+    \includegraphics[width=4.5cm]{parallel plate capacitor.jpg}
     \caption{\centering \footnotesize{Parallel Plate Capacitor Diagram \protect\cite{librecapacitance}}}
     \label{fig:ppcapacitor}
 \end{figure}
@@ -212,6 +214,8 @@ The reactance X is composed of the positive reactance of the inductor ($X_L$) an
 \cite{isaacimpedance}.
 
 Impedance will be mathematically expanded on in §\ref{sec:1.3}, The Mathematics.
+
+\vspace{1cm}
 
 \subsection{Wave Properties} \label{sec:1.2}
 
@@ -298,7 +302,6 @@ Equation \ref{eq:4} is the phasor representation of the circuit in the frequency
 as discussed in §\ref{sec:1.1.2}, the reactances. Equation \ref{eq:5} expresses the output voltage across the resistor in the frequency domain, and how the input voltage is
 consequently transferred through the circuit.
 
-\newpage
 \hspace{2ex}
 \begin{minipage}{0.45\textwidth}
     \begin{gather}
@@ -447,7 +450,7 @@ can then be found by visually comparing the sinewaves until the phase shift is c
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=15cm, angle=270]{own theo exp.jpeg}
+    \includegraphics[width=14cm, angle=270]{own theo exp.jpeg}
     \caption{\centering \footnotesize{Theoretical software for the prediction of the LCR circuit.}}
     \label{fig:software}
 \end{figure}
@@ -524,12 +527,15 @@ With the use of this found resonant frequency value, the inductance, \textbf{L},
 With the substitution for the values of $f_0 = 16040$Hz and $C = 0.1 \mu$F:
 
 \begin{gather} \label{eq:17}
-    L \: = \: \frac{1}{4 \pi^2 (16040)^2 (0.1 \times 10^{-6})} \: = \: 9.845 \times 10^{-4} \: \text{H} \: \pm \: 
+    L \: = \: \frac{1}{4 \pi^2 (16040)^2 (0.1 \times 10^{-6})} \: = \: 9.845 \times 10^{-4} \: \text{H} \: \pm \: 7.86 \times 10^{-7} \text{H}
 \end{gather}
 
 Where the unit for inductance is the \textit{Henry (H)}.
 
 \subsection{Measurements for the Bode Plot} \label{sec:3.2}
+
+By making a table, table \ref{tab:1} as below, for the frequencies around the resonant frequency over 2 decades (a decade each side) based on a logatrithmic scale,
+a Bode plot can be created.
 
 \renewcommand{\arraystretch}{1.3}
 
@@ -544,8 +550,8 @@ Where the unit for inductance is the \textit{Henry (H)}.
         $0.1 f_0$ & $1 \: 604$                                               & 0.28                                                       & 0.004                                                             & 0.043                                                      & 0.01125                                                           & 240                                                                       & 80                                                                                 \\ \hline
         $0.3 f_0$ & $4 \: 812$                                               & 0.28                                                       & 0.006                                                             & 0.06                                                       & 0.019                                                             & 50                                                                        & 5                                                                                  \\ \hline
         $0.5 f_0$ & $8 \: 020$                                               & 0.272                                                      & 0.004                                                             & 0.0732                                                     & 0.038                                                             & 32                                                                        & 8                                                                                  \\ \hline
-        $0.8 f_0$ & $12 \: 832$                                              & 0.2                                                        & 0.004                                                             & 0.89                                                       & 0.0145                                                            & 16                                                                        & 2                                                                                  \\ \hline
-        $f_0$     & $16 \: 040$                                              & 0.084                                                      & 0.006                                                             & 0.84                                                       & 0.006                                                             & 0                                                                         & 4                                                                                  \\ \hline
+        $0.8 f_0$ & $12 \: 832$                                              & 0.2                                                        & 0.004                                                             & 0.089                                                       & 0.0145                                                            & 16                                                                        & 2                                                                                  \\ \hline
+        $f_0$     & $16 \: 040$                                              & 0.084                                                      & 0.006                                                             & 0.084                                                       & 0.006                                                             & 0                                                                         & 4                                                                                  \\ \hline
         $3 f_0$   & $48 \: 120$                                              & 0.284                                                      & 0.004                                                             & 0.0551                                                     & 0.0156                                                            & 6                                                                         & 1                                                                                  \\ \hline
         $5 f_0$   & $80 \: 200$                                              & 0.284                                                      & 0.006                                                             & 0.062                                                      & 0.0076                                                            & 3.2                                                                       & 2                                                                                  \\ \hline
         $8 f_0$   & $128 \: 320$                                             & 0.284                                                      & 0.006                                                             & 0.055                                                      & 0.012                                                             & 2                                                                         & 1                                                                                  \\ \hline
@@ -554,26 +560,159 @@ Where the unit for inductance is the \textit{Henry (H)}.
 
     }
 
-    \caption{\centering Table of the data collected to generate a Bode plot.}
+    \caption{\centering Table of the data collected to generate a Bode plot with respective uncertainties.}
     \label{tab:1}
 
 \end{table}
 
+With the values gathered, the gain $Lm(\lvert H \rvert)$ and phase angle $\angle H$ can be calculated with equations \ref{eq:13} and \ref{eq:14}.
+These new values can be inserted into a table similar to before, table \ref{tab:2}, to make plotting corresponding Bode plots easier.
+
+\begin{table}[H]
+
+    \centering
+    \resizebox{.65\textwidth}{!}{
+
+        \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \begin{tabular}[c]{@{}c@{}}Frequency\\ (Hz)\end{tabular} & \begin{tabular}[c]{@{}c@{}}$Lm( \lvert H \rvert)$\\ (dB)\end{tabular} & \begin{tabular}[c]{@{}c@{}}$\Delta Lm( \lvert H \rvert)$\\ (dB)\end{tabular} & \begin{tabular}[c]{@{}c@{}}$\angle H$\\ ($^{\circ}$)\end{tabular} & \begin{tabular}[c]{@{}c@{}}$\Delta \angle H$\\ ($^{\circ}$)\end{tabular} \\ \hline
+        1 604                                                    & -16.27                                                                & $\pm$ 2.276                                                                  & 138.59                                                            & $\pm$ 46.195                                                             \\ \hline
+        4 812                                                    & -13.38                                                                & $\pm$ 2.757                                                                  & 86.62                                                             & $\pm$ 8.662                                                              \\ \hline
+        8 020                                                    & -11.40                                                                & $\pm$ 4.511                                                                  & 92.39                                                             & $\pm$ 23.098                                                             \\ \hline
+        12 832                                                   & -7.03                                                                 & $\pm$ 1.426                                                                  & 73.91                                                             & $\pm$ 9.239                                                              \\ \hline
+        16 040                                                   & 0                                                                     & $\pm$ 0.877                                                                  & 0                                                                 & $\pm$ 23.098                                                             \\ \hline
+        48 120                                                   & -14.24                                                                & $\pm$ 2.462                                                                  & 103.94                                                            & $\pm$ 17.323                                                             \\ \hline
+        80 200                                                   & -13.22                                                                & $\pm$ 1.080                                                                  & 92.39                                                             & $\pm$ 57.744                                                             \\ \hline
+        128 320                                                  & -14.26                                                                & $\pm$ 1.904                                                                  & 92.39                                                             & $\pm$ 46.195                                                             \\ \hline
+        160 400                                                  & -19.08                                                                & $\pm$ 2.898                                                                  & 92.39                                                             & $\pm$ 11.549                                                             \\ \hline
+        \end{tabular}
+    
+    }
+
+    \caption{\centering Table of the calculated gain and phase angle and respective uncertainties.}
+    \label{tab:2}
+
+\end{table}
+
+The plot of the gain against the log of the frequency is illustrated below in figure \ref{fig:lmhfreq} using the values calculated in table \ref{tab:2}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{plotlmhfreq.png}
+    \caption{\centering Gain vs. log of frequency plot for the LCR circuit.}
+    \label{fig:lmhfreq}
+\end{figure}
+
+The plot of the phase angle against the log of the frequency is illustrated below in figure \ref{fig:anglefreq} using the values calculated in table \ref{tab:2}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{plotanglefrew.png}
+    \caption{\centering Phase angle vs. log of frequency plot for the LCR circuit.}
+    \label{fig:anglefreq}
+\end{figure}
+
 \subsection{Measurement of the Circuit Response Curves} \label{sec:3.3}
 
+The circuit was set to resistance of $R = 10 \Omega$ and the resonant frequecy found in section §\ref{sec:3.1}, $16 \: 040$ Hz. Below is the table of results gathered, table \ref{tab:3}.
+Values at $R= 5 \Omega$ and $R = 30 \Omega$ were not gathered due to shortage of time.
 
+\begin{table}[H]
+
+    \centering
+    \resizebox{0.45\textwidth}{!}{
+
+        \begin{tabular}{|c|c|c|}
+        \hline
+        \begin{tabular}[c]{@{}c@{}}C\\ ($\mu$F)  $\times 10^{-6}$\end{tabular} & \begin{tabular}[c]{@{}c@{}}V (in), $\nu_2$\\ (mV) $\times 10^{-3}$\end{tabular} & \begin{tabular}[c]{@{}c@{}}$f_0$\\ (Hz)\end{tabular} \\ \hline
+        20                                                                     & 240 $\pm$ 1                                                                     & 1134.22                                              \\ \hline
+        40                                                                     & 224 $\pm$ 1                                                                     & 802.01                                               \\ \hline
+        60                                                                     & 188 $\pm$ 1                                                                     & 654.84                                               \\ \hline
+        80                                                                     & 164 $\pm$ 1                                                                     & 567.11                                               \\ \hline
+        100                                                                    & 84 $\pm$ 1                                                                      & 507.24                                               \\ \hline
+        120                                                                    & 104 $\pm$ 1                                                                     & 463.04                                               \\ \hline
+        140                                                                    & 144 $\pm$ 1                                                                     & 428.69                                               \\ \hline
+        160                                                                    & 170 $\pm$ 1                                                                     & 401.01                                               \\ \hline
+        180                                                                    & 188 $\pm$ 1                                                                     & 378.07                                               \\ \hline
+        200                                                                    & 200 $\pm$ 1                                                                     & 358.67                                               \\ \hline
+        220                                                                    & 208 $\pm$ 1                                                                     & 341.98                                               \\ \hline
+        \end{tabular}
+
+    }
+
+    \caption{\centering Table of the circuit response at $R= 10 \Omega$}
+    \label{tab:3}
+
+\end{table}
+
+Figure \ref{fig:angfreqI} shows the expected graph plot. closely relating to the example in figure \ref{fig:lcrresponsecurve}. However, to achieve this result the values of the current (I) had to be inverted,
+as before it would illustrate a dip rather than the desired peak.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{angfreqI.png}
+    \caption{\centering Plot of current vs. angluar frequency for the LCR circuit with $R = 10 \Omega$ and inverted I for peak output.}
+    \label{fig:angfreqI}
+\end{figure}
+
+By using equation \ref{eq:10}, the Q-factor value can be calculated:
+
+\begin{gather}
+    Q \quad = \quad \frac{1}{\omega_0 R C} \quad = \quad 0.339 \: \pm \: 0.141
+\end{gather}
+
+The value for the Q-factor had to be taken over the range of the angular frequencies and capacitances. With this value we can understand, and observe, that the peak is indeed not
+very sharp. In comparison to the theoretical graph, only the right-side of the plot agrees with it, while the left-side has a much less prominent curve.
 
 \section{Conclusion}
 
+This experiment verified and showcased the effectiveness of the LCR circuit's response curve with a reasonable resonant frequency at which the current flow and voltage was amplified and enhanced.
 
+Through observation of the sinewave output of the oscilloscope, the resonant frequency was found to be $f_0 = 16 \: 040$Hz and the inductance was then calculated to be $L = 9.845 \times 10^{-4} \: \pm \: 7.86 \times 10^{-7}$H.
+It is difficult to confirm the effectiveness of this value for the inductance as the equipment did not readily provide the true measurement.
+
+The Bode plot for the gain, figure \ref{fig:lmhfreq}, mostly agreed with the theoretical plots simulated in §\ref{sec:3.1}, figures \ref{fig:R5}-\ref{fig:R50}, a peak clearly visible on the plot.
+For the phase angle, however, figure \ref{fig:anglefreq} in §\ref{sec:3.2}, appears as more of the inversion of the gain plot when it should follow the red line plot in figures \ref{fig:R5}-\ref{fig:R50}.
+There's a possibility the time difference between peaks was incorrectly read on the oscilloscope, leading to issues during the calculations of the phase angle. This could be improved by studying the
+oscilloscope more beforehand as to know what and where exactly the values should be read from.
+
+While the values of the current had to be inverted in order to provide the desired plot behaviour in figure \ref{fig:angfreqI}, there is a peak that can be observed, albeit it not very sharp as the
+Q-factor of $0.339 \: \pm \: 0.141$ indicates. I was not able to be present for this section of this experiment so I am unable to directly comment on what could be done to imprive these results.
+From discussions with other students, it appears that the issue often lies in the unstable channel 1 voltage, so the channel 2 voltage had to be taken instead.
+Issues in understanding what exactly was being asked to be measured in the lab manual caused confusion and many measurements could have been taken with trepidation and uncertainty, causing errors in readings
+or recordings.
+
+For future renditions of this experiment the lab manual available should be revised so that the data analysis and data-gathering for each section is clearly understandable. Reference values for the inductance
+could also be provided to aid guide the experimental outcome.
 
 \section{Applications of Electrical Resonance}
 
+\subsection{Radios Transmissions and TV Broadcasts}
 
+Radios make use of frequency resonance to tune into broadcasts operating at specific frequencies on analogue radios, which can be heard once the the elements of the resonant circuit are in equilibrium
+\cite{radio}. 
+If the peak of the frequency band is too sharp some information, like high frequencies, may be lost
+\cite{UCDlcr}.
 
+\subsection{Voltage Multiplier/Magnification}
+
+When the capacitive and/or inductive reactances are equal with the resonant frequency, the total impedance is minimised and so there is an increase in the flow of the current 
+as the supply voltage is less than the opposing reactive voltages.
+The voltage drop across the inductor and capacitor such that the current is increased is what is known as the voltage multiplier.
+Voltage magnification can be done passively without an external power source, which is beneficial in radio receivers in order to amplify weaker signals.
+\cite{geekresonance, radio}
+
+\subsection{Environmental Monitoring}
+
+Resonant circuits can be used in \textbf{temperature monitoring}, in which variations in \break temperature effect changes in the inductance and capacitance sensor, thereby changing the resonant frequency.
+The same principle is used in \textbf{humidity monitoring}, where increases in permittivity and conductivity (proportional to humidity) leads to decreases in sensor resonant 
+frequency.
+This can then be expanded upon to determine \textbf{complex permittivity}, and in turn \textbf{biological growth monitoring} by measuring the changes in complex permittivity.
+As humidity and temperature are bases for bacterial culture growth, changes in the Q-factor and resonant frequency can be used to monitor these developments.
+Additionally, changes in the resonant frequency can also be used for \textbf{pressure monitoring} as increases in pressure are directly proportional to changes in temperature ($P \propto T$) (and, in turn, humidity).
+More information with graphical and mathematical justification can be found at source \cite{ONG200133}.
 
 \newpage
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -629,10 +768,46 @@ Where the unit for inductance is the \textit{Henry (H)}.
     \label{fig:R50}
 \end{minipage}%
 
-\vspace{1cm}
-
 \subsection*{Code}
 \addcontentsline{toc}{subsection}{Code}
+
+\vspace{-1.5em}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{lcr code 1.png}
+    \caption{\centering Code for table \ref{tab:2} in §\ref{sec:3.2}}
+\end{figure}
+
+\vspace{-1.5em}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{lcr code 2.png}
+    \caption{\centering Code for figure \ref{fig:lmhfreq} in §\ref{sec:3.2}}
+\end{figure}
+
+\vspace{-1.5em}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{lcr code 3.png}
+    \caption{\centering Code for figure \ref{fig:anglefreq} in §\ref{sec:3.2}}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{lcr code 4.png}
+    \caption{\centering Code for table \ref{tab:3} in §\ref{sec:3.3}}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{lcr code 5.png}
+    \caption{\centering Code for figure \ref{fig:angfreqI} in §\ref{sec:3.3}}
+\end{figure}
+
+\newpage
 
 \listoffigures
 

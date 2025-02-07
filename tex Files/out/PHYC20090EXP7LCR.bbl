@@ -208,4 +208,20 @@ S.~Mugo. (2022, September) Resonance {E}xplained. [Accessed 31 January 2025].
   \url{https://brightspace.ucd.ie/d2l/le/lessons/297044/topics/3430069}
 \BIBentrySTDinterwordspacing
 
+\bibitem{radio}
+\BIBentryALTinterwordspacing
+I.~S.~S. Briggs. (2022, January) 5 {A}pplications of {R}esonant {C}ircuits.
+  [Accessed 7 February 2025]. [Online]. Available:
+  \url{https://www.etcourse.com/news-blog/5-applications-resonant-circuits}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ONG200133}
+\BIBentryALTinterwordspacing
+K.~Ong, C.~Grimes, C.~Robbins, and R.~Singh, ``Design and application of a
+  wireless, passive, resonant-circuit environmental monitoring sensor,''
+  \emph{Sensors and Actuators A: Physical}, vol.~93, no.~1, pp. 33--43, 2001,
+  [Accessed 7 February 2025]. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S0924424701006240}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

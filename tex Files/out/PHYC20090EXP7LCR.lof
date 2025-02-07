@@ -1,18 +1,26 @@
 \babel@toc {english}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces \centering \footnotesize {Electromagnetic Field Due to the Flow of the Current in a Solenoid \cite {solenoidpic}}}}{2}{figure.caption.3}%
+\contentsline {figure}{\numberline {1}{\ignorespaces \centering \footnotesize {Electromagnetic Field Due to the Flow of the Current in a Solenoid \cite {solenoidpic}}}}{3}{figure.caption.3}%
 \contentsline {figure}{\numberline {2}{\ignorespaces \centering \footnotesize {Parallel Plate Capacitor Diagram \cite {librecapacitance}}}}{3}{figure.caption.4}%
 \contentsline {figure}{\numberline {3}{\ignorespaces \centering \footnotesize {Resistor and How to Read One \cite {resistorpic}}}}{4}{figure.caption.5}%
 \contentsline {figure}{\numberline {4}{\ignorespaces \centering \footnotesize {Relationship of Wavelength and Frequency of Electromagnetic Waves \cite {NASAemradio}}}}{5}{figure.caption.6}%
-\contentsline {figure}{\numberline {5}{\ignorespaces \centering \footnotesize {Oscilloscope With 2 Channels \cite {oscillopic}}}}{5}{figure.caption.7}%
-\contentsline {figure}{\numberline {6}{\ignorespaces \centering \footnotesize {Time and Frequency Domains of the Series LCR Circuit \cite {UCDlcr}}}}{6}{figure.caption.8}%
-\contentsline {figure}{\numberline {7}{\ignorespaces \centering \footnotesize {Typical Bode Plot Representations for the Series LCR Circuit (\textit {Magnitude: Left, Angle of $H(j \omega )$: Right}) \cite {UCDlcr}}}}{7}{figure.caption.9}%
-\contentsline {figure}{\numberline {8}{\ignorespaces \centering \footnotesize {Example of the Computer Printout for Given Values of L, C, R, and Q. The Log of the Frequency is Plotted Against the Phase Angle ($\angle H$) and the Magnitude ($Lm(H)$) \cite {UCDlcr}}}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {5}{\ignorespaces \centering \footnotesize {Oscilloscope With 2 Channels \cite {oscillopic}}}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {6}{\ignorespaces \centering \footnotesize {Time and Frequency Domains of the Series LCR Circuit \cite {UCDlcr}}}}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces \centering \footnotesize {Typical Bode Plot Representations for the Series LCR Circuit (\textit {Magnitude: Left, Angle of $H(j \omega )$: Right}) \cite {UCDlcr}}}}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {8}{\ignorespaces \centering \footnotesize {Example of the Computer Printout for Given Values of L, C, R, and Q. The Log of the Frequency is Plotted Against the Phase Angle ($\angle H$) and the Magnitude ($Lm(H)$) \cite {UCDlcr}}}}{9}{figure.caption.10}%
 \contentsline {figure}{\numberline {9}{\ignorespaces \centering \footnotesize {Apparatus setup for the experimental sections.}}}{10}{figure.caption.11}%
 \contentsline {figure}{\numberline {10}{\ignorespaces \centering \footnotesize {Theoretical software for the prediction of the LCR circuit.}}}{11}{figure.caption.12}%
 \contentsline {figure}{\numberline {11}{\ignorespaces \centering Theoretical response curves for the LCR series circuit assuming an input voltage amplitude of 0.45V. \cite {UCDlcr}}}{12}{figure.caption.13}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Theoretical Bode Plot, $R= 5 \Omega $}}{17}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Theoretical Bode Plot, $R = 20 \Omega $}}{17}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Theoretical Bode Plot, $R = 40 \Omega $}}{17}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Theoretical Bode Plot, $R= 10 \Omega $}}{17}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Theoretical Bode Plot, $R = 30 \Omega $}}{17}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Theoretical Bode Plot, $R = 50 \Omega $}}{17}{figure.17}%
+\contentsline {figure}{\numberline {12}{\ignorespaces \centering Gain vs. log of frequency plot for the LCR circuit.}}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {13}{\ignorespaces \centering Phase angle vs. log of frequency plot for the LCR circuit.}}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {14}{\ignorespaces \centering Plot of current vs. angluar frequency for the LCR circuit with $R = 10 \Omega $ and inverted I for peak output.}}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Theoretical Bode Plot, $R= 5 \Omega $}}{20}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Theoretical Bode Plot, $R = 20 \Omega $}}{20}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Theoretical Bode Plot, $R = 40 \Omega $}}{20}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Theoretical Bode Plot, $R= 10 \Omega $}}{20}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Theoretical Bode Plot, $R = 30 \Omega $}}{20}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Theoretical Bode Plot, $R = 50 \Omega $}}{20}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces \centering Code for table \ref {tab:2} in ^^c2^^a7\ref {sec:3.2}}}{21}{figure.caption.25}%
+\contentsline {figure}{\numberline {22}{\ignorespaces \centering Code for figure \ref {fig:lmhfreq} in ^^c2^^a7\ref {sec:3.2}}}{21}{figure.caption.26}%
+\contentsline {figure}{\numberline {23}{\ignorespaces \centering Code for figure \ref {fig:anglefreq} in ^^c2^^a7\ref {sec:3.2}}}{21}{figure.caption.27}%
+\contentsline {figure}{\numberline {24}{\ignorespaces \centering Code for table \ref {tab:3} in ^^c2^^a7\ref {sec:3.3}}}{22}{figure.caption.28}%
+\contentsline {figure}{\numberline {25}{\ignorespaces \centering Code for figure \ref {fig:angfreqI} in ^^c2^^a7\ref {sec:3.3}}}{22}{figure.caption.29}%
