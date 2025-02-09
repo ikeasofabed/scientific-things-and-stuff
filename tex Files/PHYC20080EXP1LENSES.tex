@@ -42,6 +42,8 @@
 
 \urlstyle{same}
 
+\renewcommand{\arraystretch}{1.3}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -95,7 +97,7 @@
 
 \vspace{1cm}
 
-\cite{aandahk}
+The aim of this experiment 
 
 \end{abstract}
 
@@ -104,21 +106,218 @@
 \section{Theory} \label{sec:1}
 
 
+\subsection{Lenses} \label{sec:1.1}
+
+Lenses are a piece of transparent materials, typically glass, that are used to bend and focus rays of light onto one spot to form images
+\cite{britlens,vedantulens}.
+Lenses can either be shaped to be concave (depressed, caved) or convex (bulging, rounded), but have to have at least one curved surface
+\cite{britlens,vedantulens}
+The properties that make up a lens are: \textit{focal length} (§\ref{sec:1.1.1}), \textit{focal point}, \textit{optical axis}, \textit{focus}, \textit{principal axis}, \textit{centre of curvature}
+\cite{geekconcave,geekconvex}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{lenses.png}
+    \caption{\centering Diagram of converging (convex) and diverging (concave) lenses \protect\cite{britlens}.
+    \newline
+    \centering \scriptsize{\textit{(a): biconvex, (b): plano-convex, (c): positive meniscus; (d): biconcave, (e): plano-concave, (f): negative meniscus}}}
+    \label{fig:lens}
+\end{figure}
+
+Convex lenses make the parallel travelling rays of light passing through it \textbf{converge} to a certain point known as the \textit{focal point} (\ref{sec:1.1.1})
+\cite{studyconvexlens}.
+The degree at which light is bent depends on the absolute curvature of the lens
+\cite{shanghaiconvex}.
+The convex lens has two extra properties that do not apply to a concave lens: \textit{radius of curvature}, and \textit{aperture}
+\cite{geekconvex}.
+The behaviour of ligh as it passes through a convex lens can be simulated via the interactive diagram link in \textit{References}, §\ref{sec:ref}
+\cite{convexinteract}.
+
+Concave lenses make the parallel travelling rays of ligth passing through it \textbf{refract} away from the focal point of the lens
+\cite{studyconvexlens,studyconcavelens}.
+The behaviour of ligh as it passes through a concave lens can be simulated via the interactive diagram link in \textit{References}, §\ref{sec:ref}
+\cite{concaveinteract}.
+
+\subsubsection{Focal Length} \label{sec:1.1.1}
+
+The focal length is the distance, typically in millimetres, of the \textit{optical axis} (the centre of the lens) to the focal plane shown in figure \ref{fig:lens}
+\cite{canonfocal,studyfocal}.
+The focal point, indicated by the point at which the focal plane and principal axis intersect, is the point at which the rays of light coincide
+\cite{isaaclens}.
+For a concave lens, where the light diverges, there only exists an \textit{apparent} focal point behind the lens, where a virtual image would be formed (§\ref{sec:1.1.2})
+\cite{isaaclens}.
+
+The formula below, equation \ref{eq:1}, is used to calculate the focal lenght of a thin converging lens \cite{UCDlens,isaaclens}, where \textbf{u} is the distance
+between the \textit{object} and the centre of the lens, and \textbf{v} is the distance between the \textit{image} and the centre of the lens:
+
+\begin{gather} \label{eq:1}
+    \frac{1}{f} = \frac{1}{u} + \frac{1}{v}
+\end{gather}
+
+Since a concave lens does not form a real image (§\ref{sec:1.1.2}) one must add a convex lens to overcome this issue. Therefore equation \ref{eq:1} becomes invalid (individually) for calculating the focal length.
+Instead, equation \ref{eq:2} below can be used to find the focal length of the combined lenses, where $f_{convex}$ (focal length of the convex lens) and $f_{concave}$ (focal length of the concave lens) can be calculated individually
+using equation \ref{eq:1} \cite{UCDlens}:  
+
+\begin{gather} \label{eq:2}
+    \frac{1}{f} = \frac{1}{f_{convex}} + \frac{1}{f_{concave}}
+\end{gather}
+
+Concave lenses have \textit{negative} focal length, as opposed to convex lenses, since the focal point is on the same side as the incident (incoming) light \cite{geekconcave}.
+
+\subsubsection{Image Formation} \label{sec:1.1.2}
+
+Two types of images can be formed when looking at a mirror or through a lens:
+\begin{itemize}
+    \item \textbf{Real image:} an image formed when light converges at a point; inverted in nature \cite{geekrelvir}.
+    \item \textbf{Virtual image:} an image formed when light diverges away from a point; appears to be produced but is not actually present \cite{geekrelvir}.
+\end{itemize}
+
+Standard image properties of convex lenses is that what is produced is a real image that is inverted and enlarged
+\cite{geekconvex}, but virtual images can also be formed.
+The image produced depends on the object position at the time of measurement.
+The types of images convex lenses can form are illustrated in figure \ref{fig:conveximage} and described in table \ref{tab:1} (\textit{sourced directly from Geeksforgeeks \cite{geekconvex}}).
+
+\begin{minipage}{.5\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=.9\linewidth]{convex.jpg}
+    \captionof{figure}{\centering Ray diagram of the cases of convex lens image formation \protect\cite{topprlensimage}.}
+    \label{fig:conveximage}
+\end{minipage}
+\hfill
+\begin{minipage}{.45\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    
+    \begin{table}[H]
+        \centering
+        \resizebox{.9\linewidth}{!}{
+
+            \begin{tabular}{|c|c|c|c|}
+            \hline
+            \textbf{\begin{tabular}[c]{@{}c@{}}Object\\ Position\end{tabular}}     & \textbf{\begin{tabular}[c]{@{}c@{}}Image\\ Position\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Image\\ Size\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Image\\ Nature\end{tabular}}                 \\ \hline
+            \textbf{Beyond 2F}                                                     & \begin{tabular}[c]{@{}c@{}}Between \\ F and 2F\end{tabular}       & Smaller                                                       & \begin{tabular}[c]{@{}c@{}}Real,\\ Inverted\end{tabular}                        \\ \hline
+            \textbf{At 2F}                                                         & At 2F                                                             & Same size                                                     & \begin{tabular}[c]{@{}c@{}}Real, \\ Inverted\end{tabular}                       \\ \hline
+            \textbf{\begin{tabular}[c]{@{}c@{}}Between \\ F and 2F\end{tabular}}   & Beyond 2F                                                         & Larger                                                        & \begin{tabular}[c]{@{}c@{}}Real, \\ Inverted\end{tabular}                       \\ \hline
+            \textbf{At F}                                                          & Infinity                                                          & Infinite                                                      & \begin{tabular}[c]{@{}c@{}}Real, \\ Inverted\\ (Highly Diminished)\end{tabular} \\ \hline
+            \textbf{\begin{tabular}[c]{@{}c@{}}Between \\ F and lens\end{tabular}} & Beyond 2F                                                         & Larger                                                        & \begin{tabular}[c]{@{}c@{}}Virtual, \\ Upright\end{tabular}                     \\ \hline
+            \textbf{At lens}                                                       & At lens                                                           & Larger                                                        & \begin{tabular}[c]{@{}c@{}}Virtual, \\ Upright\end{tabular}                     \\ \hline
+            \textbf{\begin{tabular}[c]{@{}c@{}}Object inside \\ lens\end{tabular}} & \begin{tabular}[c]{@{}c@{}}Between \\ lens and F\end{tabular}     & Larger                                                        & \begin{tabular}[c]{@{}c@{}}Virtual, \\ Upright\end{tabular}                     \\ \hline
+            \end{tabular}
+
+        }
+        \caption{\centering Table of the different cases of convex lens image formation \protect\cite{geekconvex,topprlensimage}.}
+        \label{tab:1}
+    \end{table}
+\end{minipage}
+
+Standard image properties of concave lenses is that what is produced is a virtual image that is upright and diminished
+\cite{geekconcave}.
+Concave lenses cannot produce real images. The only thing that changes between the virtual images that are produced is the magnitude at which they're diminished
+\cite{topprlensimage,geekconcave}.
+
+\begin{minipage}{.5\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=.9\linewidth]{concave.png}
+    \captionof{figure}{\centering Ray diagram of concave lens image formation \protect\cite{topprlensimage}.}
+    \label{fig:concaveimage}
+\end{minipage}
+\hfill
+\begin{minipage}{.45\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    
+    \begin{table}[H]
+        \centering
+        \resizebox{.9\linewidth}{!}{
+
+            \begin{tabular}{|c|c|c|c|}
+            \hline
+            \textbf{\begin{tabular}[c]{@{}c@{}}Object\\ Position\end{tabular}}     & \textbf{\begin{tabular}[c]{@{}c@{}}Image\\ Position\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Image\\ Size\end{tabular}}            & \textbf{\begin{tabular}[c]{@{}c@{}}Image\\ Nature\end{tabular}} \\ \hline
+            \textbf{At infinity}                                                   & At $F_2$                                                          & \begin{tabular}[c]{@{}c@{}}Highly Diminished,\\ Point-Sized\end{tabular} & \begin{tabular}[c]{@{}c@{}}Virtual, \\ Upright\end{tabular}     \\ \hline
+            \textbf{\begin{tabular}[c]{@{}c@{}}Object inside \\ lens\end{tabular}} & \begin{tabular}[c]{@{}c@{}}Between \\ lens and $F_2$\end{tabular} & Diminished                                                               & \begin{tabular}[c]{@{}c@{}}Virtual, \\ Upright\end{tabular}     \\ \hline
+            \end{tabular}
+
+        }
+        \caption{\centering Table of the different cases of concave lens image formation \protect\cite{geekconcave,topprlensimage}}
+        \label{tab:2}
+    \end{table}
+\end{minipage}
+
+\subsection{Polarisation}
+
+Since light has both particle and (transverse) wave properties, it can be restricted to propagating in one plane, shown in figure \ref{fig:polar}
+\cite{isaacpolar,britpolar}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{polarisation.png}
+    \caption{\centering Visual representation of polarisation of light \protect\cite{britpolar}.}
+    \label{fig:polar}
+\end{figure}
+
+\subsubsection{Snell's Law}
+
+
+
+\subsubsection{Brewster's Angle}
+
+
+
+\subsection{Reflection and Refraction}
+
+
+
+\subsubsection{An Aside on Reflection and Refraction Coefficients}
+
+
 
 \section{Methodology} 
+
+\subsection{Determining the Focal Length of a Convex Lense Method}
+
+
+
+\subsection{Determining the Focal Length of a Concave Lense Method}
+
+
+
+\subsection{Determining Brewster's Angle Meethod}
+
+
+
+\section{Results and Calculations}
+
+\subsection{Determining the Focal Length of a Convex Lense}
+
+
+
+\subsection{Determining the Focal Length of a Concave Lense}
+
+
+
+\subsection{Determining Brewster's Angle}
 
 
 
 \section{Conclusion} \label{sec:4}
 
 
+\section{Applications of Lenses}
+
+\subsection{Eyeglasses}
+
+\subsection{Microscopes}
+
+\subsection{Telescopes}
 
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \bibliographystyle{IEEEtran}
-\bibliography{References}
+\bibliography{References} \label{sec:ref}
 
 \newpage
 
