@@ -4,7 +4,7 @@
 \usepackage{blindtext}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{array} % For extra column formatting
-\usepackage{amsmath} %for equation environment
+\usepackage{amsmath, amssymb} %for equation environment
 \usepackage{float}
 \usepackage{parskip} % For gaps between para
 \usepackage{setspace}
@@ -104,7 +104,6 @@ The aim of this experiment
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Theory} \label{sec:1}
-
 
 \subsection{Lenses} \label{sec:1.1}
 
@@ -245,10 +244,12 @@ Concave lenses cannot produce real images. The only thing that changes between t
     \end{table}
 \end{minipage}
 
-\subsection{Polarisation}
+\subsection{Polarisation} \label{sec:1.2}
 
-Since light has both particle and (transverse) wave properties, it can be restricted to propagating in one plane, shown in figure \ref{fig:polar}
+Since light, electromagnetic radiation, has both particle and (transverse) wave properties, it can be restricted to propagating in one direction, shown in figure \ref{fig:polar}
 \cite{isaacpolar,britpolar}.
+Light can be polarised by passing through certain materials, like crystals, that act as a filter 
+\cite{britpolar}.
 
 \begin{figure}[H]
     \centering
@@ -257,21 +258,91 @@ Since light has both particle and (transverse) wave properties, it can be restri
     \label{fig:polar}
 \end{figure}
 
-\subsubsection{Snell's Law}
+\subsubsection{Reflection and Refraction} \label{sec:1.2.1}
 
+\textbf{Reflection} is when the light rays change direction as they hit a surface, or travel through a medium that has a different chemical composition to the original medium
+\cite{libreref,britref}.
+For reflection to take place, the angle of incidence ($\theta_i$) must equal the angle of reflection ($\theta_r$), of which are measured with respect to the normal (perpendicular)
+to the surface. This is known as the law of reflection
+\cite{libreref,britref}.
+Diffusion is a type of reflection on a rough surface, so the light rays reflect in many different directions
+\cite{libreref}.
 
+\textbf{Refraction} occurs when light travelling through a transparent medium encounters another transparent medium
+\cite{britref}.
+The variations in the matter of the medium causes the light to "bend" (change directions) as it is transmitted through the new medium
+\cite{libreref}.
+The law of refraction is more commonly known as \textit{Snell's Law}, §\ref{sec:1.2.2}.
 
-\subsubsection{Brewster's Angle}
+\subsubsection{Snell's Law} \label{sec:1.2.2}
 
+A ray of light changes directions when it passes from a medium of specificied refractive index (number indicating the magnitude of refraction of a medium)
+through another medium of different refractive index
+\cite{libreref}.
 
+The below equation, equation \ref{eq:3}, is the mathematical description of Snell's Law, with $n_{1,2}$ as the refractive index of the two mediums, $\theta_i$ as the incident angle,
+and $\theta_r$ as the refracive angle:
 
-\subsection{Reflection and Refraction}
+\begin{gather} \label{eq:3}
+    n_1 \sin \theta_i = n_2 \sin \theta_r \quad \implies \quad \frac{n_2}{n_1} = \frac{\sin \theta_i}{\sin \theta_r}
+\end{gather}
 
+The angle at which the light is refracted is dependent on the refractive index of the medium, $\sin \theta \propto n$, so if the refracive index of the second medium is greater 
+than the first medium the angle of refraction will be smaller
+\cite{libresnell}.
 
+\subsubsection{Brewster's Angle} \label{sec:1.2.3}
 
-\subsubsection{An Aside on Reflection and Refraction Coefficients}
+Light can be polarised by reflection and refraction, as seen in figure \ref{fig:brew}, where majority of the light will be reflected off the medium and the rest of the light
+will be refracted through the medium. In doing so, the reflected ray gets partially polarised parallel to the medium's surface and the refracted ray get partially polarised perpendicular
+to the surface of the medium
+\cite{geekpolar}.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12.5cm]{brewster.jpg}
+    \caption{\centering Diagram of light polarisation with Brewster's angle \protect\cite{floridabrewster}.}
+    \label{fig:brew}
+\end{figure}
 
+Brewster's angle is also known as the \textit{polarisation angle}, which is the incident angle at which unpolarised light is seperated into its vertical (perpendicular) and horizontal
+(parallel) \break components when that light is transmitted through a medium such that the angle between the reflected and refracted ray is $90^{\circ}$, Brewster's angle ($\theta_B$)
+\cite{scidirbrew, bostonbrew}.
+
+Brewster's angle can be derived from Snell's law \cite{UCDlens,scidirbrew}:
+
+\begin{gather} \label{eq:4}
+    n_1 \sin \theta_i = n_2 \sin \theta_t \qquad \theta_i = \theta_B \: , \: \theta_i + \theta_t
+\end{gather}
+\begin{gather}\label{eq:5}
+    \implies \quad n_1 \sin \theta_B = n_2 \sin (90^{\circ} - \theta_B) = n_2 \cos (\theta_B)
+\end{gather}
+\begin{gather} \label{eq:6}
+    \implies \quad \frac{\sin \theta_B}{\cos \theta_B} = \tan \theta_B = \frac{n_2}{n_1} = n \qquad \therefore \: n = \tan \theta_B
+\end{gather}
+
+This equation (\ref{eq:6}) can be used to both calculate the polarisation angle ($\theta_B$) or the refractive index ($n$) of a material, depending on the values previously known.
+
+\subsubsection{Ratios of Intensity} \label{sec:1.2.4}
+
+By manipulation of Snell's law, equation \ref{eq:3}, ratios of the intensities of the reflected to the incident light of the polarised light can be found \cite{UCDlens}:
+
+\begin{minipage}{.45\textwidth}
+    \begin{gather} \label{eq:7}
+        R_{parallel} = \frac{\tan^2 (\theta_i - \theta_t)}{\tan^2 (\theta_i + \theta_t)}
+    \end{gather}
+\end{minipage}
+\hfill
+\begin{minipage}{.45\textwidth}
+    \begin{gather}
+        R_{perpendicular} = \frac{\sin^2 (\theta_i - \theta_t)}{\sin^2 (\theta_i + \theta_t)}
+    \end{gather}
+\end{minipage}
+
+\vspace{.5cm}
+
+This is such that if $R=0$, light is fully transmitted through the medium (no reflection), and if $R=1$ all the light is reflected (no polarisation)
+\cite{UCDlens}.
 
 \section{Methodology} 
 
