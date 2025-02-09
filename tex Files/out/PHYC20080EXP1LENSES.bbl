@@ -184,4 +184,17 @@ Anon. (n.d.) Brewster's angle. [Accessed 9 February 2025]. [Online]. Available:
   \url{http://physics.bu.edu/~duffy/semester2/c27_brewster.html}
 \BIBentrySTDinterwordspacing
 
+\bibitem{leyboldexp}
+\BIBentryALTinterwordspacing
+------. (n.d.) Determining the focal point of a convex lens. [Accessed 9
+  February 2025]. [Online]. Available:
+  \url{https://www.leybold-shop.com/physics/demonstration-experiments-physics/optics/formation-of-images-by-lenses-and-mirrors.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{holmarcexp}
+\BIBentryALTinterwordspacing
+------. (n.d.) Brewster's angle apparatus. [Accessed 9 February 2025].
+  [Online]. Available: \url{https://www.holmarc.com/brewster_angle.php}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

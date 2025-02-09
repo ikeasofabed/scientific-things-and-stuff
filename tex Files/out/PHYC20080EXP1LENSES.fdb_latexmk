@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex out/PHYC20080EXP1LENSES"] 1739138886.48841 "out/PHYC20080EXP1LENSES.aux" "out/PHYC20080EXP1LENSES.bbl" "out/PHYC20080EXP1LENSES" 1739138889.42887 0
-  "./References.bib" 1739138626.55497 27733 cc5e2ea7dde8b09d32a34c4bb348a9b4 ""
+["bibtex out/PHYC20080EXP1LENSES"] 1739140156.93073 "out/PHYC20080EXP1LENSES.aux" "out/PHYC20080EXP1LENSES.bbl" "out/PHYC20080EXP1LENSES" 1739140224.42188 0
+  "./References.bib" 1739140015.94961 28337 df9b2ee0e9b68013f47efcb3dfa8aa0b ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/bibtex/bst/ieeetran/IEEEtran.bst" 1738095043.56692 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "out/PHYC20080EXP1LENSES.aux" 1739138888.50132 10156 42abaf66d340a049ac49962974d94480 "pdflatex"
+  "out/PHYC20080EXP1LENSES.aux" 1739140223.4537 11936 74f492f17d4de99f05aefda6915b1b07 "pdflatex"
   (generated)
   "out/PHYC20080EXP1LENSES.bbl"
   "out/PHYC20080EXP1LENSES.blg"
   (rewritten before read)
-["pdflatex"] 1739138886.94193 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20080EXP1LENSES.tex" "out/PHYC20080EXP1LENSES.pdf" "PHYC20080EXP1LENSES" 1739138889.43024 0
+["pdflatex"] 1739140221.66862 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20080EXP1LENSES.tex" "out/PHYC20080EXP1LENSES.pdf" "PHYC20080EXP1LENSES" 1739140224.42388 0
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1738266152.82344 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1737624812.87656 14064 a72e34765fecf1bdaaa2d9fbb80a0b2d ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1737451861.56754 8797098 4d5a7363439b1be9253fa23d94a10211 ""
@@ -144,21 +144,23 @@
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/varwidth/varwidth.sty" 1737627619.6116 10894 d359a13923460b2a73d4312d613554c8 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1737396739.69545 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1737396739.91271 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20080EXP1LENSES.tex" 1739138882.94901 18130 d8f742f69018ecdaad29dddc82cf4d94 ""
-  "PHYC20080EXP1LENSES.tex" 1739138882.94901 18130 d8f742f69018ecdaad29dddc82cf4d94 ""
+  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20080EXP1LENSES.tex" 1739140220.52527 18710 c9f7bc7945d769d0d48472f656268e5a ""
+  "PHYC20080EXP1LENSES.tex" 1739140220.52527 18710 c9f7bc7945d769d0d48472f656268e5a ""
   "images/UCDBanner.png" 1737989558.70779 28942 301d2953f3824d682b2b34b5fe503a65 ""
   "images/UCDLogo.png" 1737622953.17789 557052 dc7c213cace55740c3ec09422bf6583e ""
+  "images/brewster exp.png" 1739139702.01628 464876 b5038286ecb282f869119e628fd164f5 ""
   "images/brewster.jpg" 1739135644.21854 160402 34e2b331bf19ed8c77a6cb884293b427 ""
   "images/concave.png" 1739120722.55715 77122 a43eae52f2c510339f49c237521b2de1 ""
   "images/convex.jpg" 1739120653.56924 87134 1c6babcf9dcbed1172d4aff6e85a395c ""
+  "images/lens exp setup.jpg" 1739139247.4616 47778 1c9edbc0aae1115f03035522e4332eb5 ""
   "images/lenses.png" 1739116096.29213 700726 fbae3a06e1f1b57de953c25fa08f133a ""
   "images/polarisation.png" 1739132454.61867 800192 d5055bb7775fbd5aa9d6785fa0dfa3ff ""
-  "out/PHYC20080EXP1LENSES.aux" 1739138888.50132 10156 42abaf66d340a049ac49962974d94480 "pdflatex"
-  "out/PHYC20080EXP1LENSES.bbl" 1739138886.86244 7223 3912427a9559c826b1a9f35af459ffa8 "bibtex out/PHYC20080EXP1LENSES"
-  "out/PHYC20080EXP1LENSES.lof" 1739138888.51114 986 af1f7c4fd855699760a263aa52bc4b20 "pdflatex"
-  "out/PHYC20080EXP1LENSES.lot" 1739138888.51118 377 d3c2f79415b8726cf382c9bffd76cc62 "pdflatex"
-  "out/PHYC20080EXP1LENSES.out" 1739138888.50637 4511 4f13e4d78083493f9212560256c32388 "pdflatex"
-  "out/PHYC20080EXP1LENSES.toc" 1739138888.51108 2356 5c847262c1232e2ede66017c1bf1751e "pdflatex"
+  "out/PHYC20080EXP1LENSES.aux" 1739140223.4537 11936 74f492f17d4de99f05aefda6915b1b07 "pdflatex"
+  "out/PHYC20080EXP1LENSES.bbl" 1739140157.38117 7771 37be357048046bed7f84d57a3e5cad09 "bibtex out/PHYC20080EXP1LENSES"
+  "out/PHYC20080EXP1LENSES.lof" 1739140223.46011 1312 3464a50f247d01a541d1b8345faad6fe "pdflatex"
+  "out/PHYC20080EXP1LENSES.lot" 1739140223.46014 377 d3c2f79415b8726cf382c9bffd76cc62 "pdflatex"
+  "out/PHYC20080EXP1LENSES.out" 1739140223.45723 4197 7c7ce0e544a087d5f7e15e014bd9f69a "pdflatex"
+  "out/PHYC20080EXP1LENSES.toc" 1739140223.46006 2446 18bb2bb29be39b4cf25339d666244883 "pdflatex"
   (generated)
   "out/PHYC20080EXP1LENSES.aux"
   "out/PHYC20080EXP1LENSES.lof"
