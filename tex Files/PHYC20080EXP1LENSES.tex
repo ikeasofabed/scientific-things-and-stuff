@@ -348,6 +348,8 @@ This is such that if $R=0$, light is fully transmitted through the medium (no re
 
 \subsection{Determining the Focal Length} \label{sec:2.1}
 
+A similar equipment setup to the one used for this section of the experiment is shown in figure \ref{fig:lensexp} below:
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=10cm]{lens exp setup.jpg}
@@ -357,13 +359,33 @@ This is such that if $R=0$, light is fully transmitted through the medium (no re
 
 \subsubsection{Convex Lens Method} \label{sec:2.1.1}
 
+The apparatus was setup as in §\ref{sec:2.1} with a convex lens in the holder. The image drawn in front of the light was a cross rather than the car shown in the figure.
+The light source was placed first 50cm away from the lens and the screen was adjusted until the image shown was at its sharpest.
+Five measurements at different \textbf{u} and \textbf{v} were taken and inserted into the table in §\ref{sec:3.1.1}.
 
+For each pair of measurements the focal length was then calculated using equation \ref{eq:1} in §\ref{sec:1.1.1} and added to the table.
+The mean of the focal lengths provided the rough estimate of the true focal length for the convex lens and the uncertainty on it.
 
 \subsubsection{Concave Lens Method} \label{sec:2.1.2}
 
+A similar method is used as for the convex lens (§\ref{sec:2.1.1}) with the addition of a concave lens placed behind the convex lens.
+Since light diverges when travelling through a concave lens and only forms a virtual image, a convex lens is needed in front of it to correct the light direction for a real image to be formed, which is measurable, as discussed in §\ref{sec:1.1.2}.
 
+The procedure then follows the same as before, first the light source is placed 50cm away from the source and the screen is adjusted until the sharpest image forms.
+Five measurements are taken and a table similar to the one is §\ref{sec:3.1.1} is made.
+
+To calculate the focal length of the \textit{concave} lens, equation \ref{eq:2} must be adjusted:
+
+\begin{gather} \label{eq:9}
+    \frac{1}{f_{concave}} = \frac{1}{f} - \frac{1}{f_{convex}}
+\end{gather}
+
+Since $f_{convex}$ was calculated in §\ref{sec:2.1.1} and $f$ is what is found (through equation \ref{eq:1}) by doing the above procedure, the individual focal
+length of the concave lens can be found through subtraction.
 
 \subsection{Determining Brewster's Angle Method} \label{sec:2.2}
+
+The apparatus is first setup in a similar fashion as to what is shown below in figure \ref{fig:brewexp}:
 
 \begin{figure}[H]
     \centering
@@ -372,15 +394,95 @@ This is such that if $R=0$, light is fully transmitted through the medium (no re
     \label{fig:brewexp}
 \end{figure}
 
+The two arms, one holding the light source (laser) and the other holding the photoresistor, are free to move around the table which holds the lens with the polaroid filter set in front of the laser light source.
+A multimeter was connected to the photoresistor and set to read up to 200mV. The arm holding the photoresistor is adjusted such that it is in the position to be able to read the \textbf{reflected} 
+light, not the transmitted light.
+
+Once the plane of incidence is found the polaroid, and thus the plane of polarisation, is adjusted such that it is perpendicular to the plane of incidence.
+The angle of incidence is varied and read from the table, and the intensity of the reflected light is measured, with each value being recorded in a table.
+This procedure is repeated for the polaroid perpendicular and parallel to the plane of incidence.
+
+Equation \ref{eq:6} can then be used to calculate the refractive index of the lens material when the value for Brewster's angle is found.
+
 \section{Results and Calculations} \label{sec:3}
 
 \subsection{Determining the Focal Length} \label{sec:3.1}
 
 \subsubsection{Convex Lens} \label{sec:3.1.1}
 
+The values gathered for the convex lens are represented in the table, table \ref{tab:4}, below:
 
+\begin{table}[H]
+    \centering
+
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \textbf{u (cm)} & $\Delta u$ (cm) & \textbf{v (cm)} & $\Delta v$ (cm) & f (cm) \\ \hline
+    \textbf{60}     & $\pm$ 0.05      & \textbf{12.7}   & $\pm$ 0.05      & 10.48  \\ \hline
+    \textbf{50}     & $\pm$ 0.05      & \textbf{13.4}   & $\pm$ 0.05      & 10.57  \\ \hline
+    \textbf{40}     & $\pm$ 0.05      & \textbf{12.1}   & $\pm$ 0.05      & 9.29   \\ \hline
+    \textbf{30}     & $\pm$ 0.05      & \textbf{15.3}   & $\pm$ 0.05      & 10.13  \\ \hline
+    \textbf{20}     & $\pm$ 0.05      & \textbf{21.6}   & $\pm$ 0.05      & 10.38  \\ \hline
+    \end{tabular}
+
+    \caption{\centering Table of the values gathered for the convex lens, with the focal length calculated using equation \ref{eq:1}.}
+    \label{tab:3}
+\end{table}
+
+The average of the focal lengths for the convex lens with the standard deviation uncertainty is found to be:
+
+\vspace{-1.5em}
+\begin{gather*}
+    10.17 \: \pm \: 0.464 \: \text{cm}
+\end{gather*}
+
+The inverse of \textbf{u}, the object-lens distance, and the inverse of \textbf{v}, the screen-lens distance, were then plotted against each other in figure \ref{fig:convexgraph}
+where the relationship between both values can be seen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{convex graph.png}
+    \caption{\centering Graph of $\dfrac{1}{v}$ vs $\dfrac{1}{u}$ with y-intercept marked.}
+    \label{fig:convexgraph}
+\end{figure}
+
+The value of the slope of the line of best fit is calculated to be $-1.013$ and the y-intercept to be $0.0989$. Therefore to be able to compute best value of the focal length from the graph 
+the mean of the x- and y-intercepts are found:
+
+\vspace{-1.5em}
+\begin{gather*}
+    0 = mx+c \implies x = \frac{-b}{m} = \frac{-0.0989}{-1.013}= 0.0976
+\end{gather*}
+
+Thus the mean focal length from the graph can be calculated,
+
+\vspace{-1.5em}
+\begin{gather*}
+    <\frac{1}{f}> \: = \frac{0.0976 + 0.0989}{2} = \: 0.09825 \: \text{cm}^{-1}
+\end{gather*}
+
+So therefore the average value of the focal length and its uncertainty as per the graph would be $10.178 \pm 3.24 \times 10^{-4} \: \text{cm}^{-1}$.
 
 \subsubsection{Concave Lense} \label{sec:3.1.2}
+
+The values gathered for the combined lenses are represented in the table, table \ref{tab:4}, below:
+
+\begin{table}[H]
+    \centering
+
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \textbf{u (cm)} & $\Delta u$ (cm) & \textbf{v (cm)} & $\Delta v$ (cm) & f (cm) \\ \hline
+    \textbf{60}     & $\pm$ 0.05      & \textbf{17.2}   & $\pm$ 0.05      & 13.37  \\ \hline
+    \textbf{50}     & $\pm$ 0.05      & \textbf{18.4}   & $\pm$ 0.05      & 13.45  \\ \hline
+    \textbf{40}     & $\pm$ 0.05      & \textbf{20.2}   & $\pm$ 0.05      & 13.42  \\ \hline
+    \textbf{30}     & $\pm$ 0.05      & \textbf{25.9}   & $\pm$ 0.05      & 13.90  \\ \hline
+    \textbf{20}     & $\pm$ 0.05      & \textbf{48.7}   & $\pm$ 0.05      & 14.18  \\ \hline
+    \end{tabular}
+
+    \caption{\centering Table of the values gathered for the concave + convex lens, with the focal length calculated using equation \ref{eq:1}.}
+    \label{tab:4}
+\end{table}
 
 
 
