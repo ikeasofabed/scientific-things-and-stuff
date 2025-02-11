@@ -9,24 +9,21 @@
 \contentsline {subsubsection}{\numberline {1.2.2}Snell's Law}{5}{subsubsection.1.2.2}%
 \contentsline {subsubsection}{\numberline {1.2.3}Brewster's Angle}{5}{subsubsection.1.2.3}%
 \contentsline {subsubsection}{\numberline {1.2.4}Ratios of Intensity}{6}{subsubsection.1.2.4}%
-\contentsline {section}{\numberline {2}Methodology}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Determining the Focal Length}{7}{subsection.2.1}%
+\contentsline {section}{\numberline {2}Methodology}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Determining the Focal Length}{6}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Convex Lens Method}{7}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Concave Lens Method}{7}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Determining Brewster's Angle Method}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Determining Brewster's Angle Method}{7}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Results and Calculations}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Determining the Focal Length}{8}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Convex Lens}{8}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Concave Lense}{10}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2}Concave Lense}{9}{subsubsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.2}Determining Brewster's Angle}{10}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Conclusion}{10}{section.4}%
-\contentsline {section}{\numberline {5}Applications of Lenses}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Eyeglasses}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Microscopes}{10}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Telescopes}{10}{subsection.5.3}%
-\contentsline {section}{References}{11}{section*.11}%
-\contentsline {section}{Appendix}{13}{section*.12}%
-\contentsline {section}{List of Figures}{13}{section*.13}%
-\contentsline {section}{List of Tables}{13}{section*.14}%
-\contentsline {subsection}{Raw Data}{13}{section*.15}%
-\contentsline {subsection}{Code}{13}{section*.16}%
+\contentsline {subsubsection}{\numberline {3.2.1}Perpendicular Polarisation}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Parallel Polarisation}{11}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Conclusion}{13}{section.4}%
+\contentsline {section}{References}{14}{section*.16}%
+\contentsline {section}{Appendix}{16}{section*.17}%
+\contentsline {subsection}{Code}{16}{section*.18}%
+\contentsline {section}{List of Figures}{17}{section*.19}%
+\contentsline {section}{List of Tables}{17}{section*.20}%

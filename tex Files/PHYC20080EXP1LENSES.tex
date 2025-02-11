@@ -3,7 +3,7 @@
 \usepackage[english]{babel} % To obtain English text with the blindtext package
 \usepackage{blindtext}
 \usepackage{graphicx} % Required for inserting images
-\usepackage{array} % For extra column formatting
+\usepackage{array, multirow} % For extra column formatting
 \usepackage{amsmath, amssymb} %for equation environment
 \usepackage{float}
 \usepackage{parskip} % For gaps between para
@@ -17,7 +17,7 @@
 \usepackage{hyperref, url}
 \usepackage{subcaption}
 \usepackage{lipsum}
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \usepackage{caption}
     \captionsetup{font=footnotesize,labelfont=bf}
 
@@ -97,7 +97,13 @@
 
 \vspace{1cm}
 
-The aim of this experiment 
+The aim of this experiment was to find the focal length of a convex and concave lens, which was calculated to be $\mathbf{10.17 \: \pm \: 0.464}$ \textbf{cm}
+and $\mathbf{-40.85 \: \pm \: 7.22}$ \textbf{cm} respectively.
+
+The aim of this experiment was also to find the Brewster's angle and refractive \break index of a material when the light is polarised both perpendicular and parallel to
+the plane of incidence. For the perpendicular polarisation Brewster's angle was found to be $\mathbf{\theta_B = 42.44^{\circ}}$ and the refractive index to be
+$\mathbf{n=0.914}$. For the parallel polarisation the Brewster's angle was found to be $\mathbf{theta_B =47.30^{\circ}}$ and the refractive index to be
+$\mathbf{n=1.084}$.
 
 \end{abstract}
 
@@ -253,7 +259,7 @@ Light can be polarised by passing through certain materials, like crystals, that
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=10cm]{polarisation.png}
+    \includegraphics[width=7.5cm]{polarisation.png}
     \caption{\centering Visual representation of polarisation of light \protect\cite{britpolar}.}
     \label{fig:polar}
 \end{figure}
@@ -352,7 +358,7 @@ A similar equipment setup to the one used for this section of the experiment is 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=10cm]{lens exp setup.jpg}
+    \includegraphics[width=7.5cm]{lens exp setup.jpg}
     \caption{\centering Experiment setup to determine the focal point of a convex lens \protect\cite{leyboldexp}.}
     \label{fig:lensexp}
 \end{figure}
@@ -404,9 +410,13 @@ This procedure is repeated for the polaroid perpendicular and parallel to the pl
 
 Equation \ref{eq:6} can then be used to calculate the refractive index of the lens material when the value for Brewster's angle is found.
 
+\vspace{2cm}
+
 \section{Results and Calculations} \label{sec:3}
 
 \subsection{Determining the Focal Length} \label{sec:3.1}
+
+For this section the aim was to find the focal length (§\ref{sec:1.1.1}) of a convex lens and concave lens.
 
 \subsubsection{Convex Lens} \label{sec:3.1.1}
 
@@ -429,12 +439,7 @@ The values gathered for the convex lens are represented in the table, table \ref
     \label{tab:3}
 \end{table}
 
-The average of the focal lengths for the convex lens with the standard deviation uncertainty is found to be:
-
-\vspace{-1.5em}
-\begin{gather*}
-    10.17 \: \pm \: 0.464 \: \text{cm}
-\end{gather*}
+The average of the focal lengths for the convex lens with the associated standard deviation uncertainty from the calculated values is found to be $\mathbf{10.17 \: \pm \: 0.464 \: \text{\textbf{cm}}}$.
 
 The inverse of \textbf{u}, the object-lens distance, and the inverse of \textbf{v}, the screen-lens distance, were then plotted against each other in figure \ref{fig:convexgraph}
 where the relationship between both values can be seen.
@@ -461,7 +466,7 @@ Thus the mean focal length from the graph can be calculated,
     <\frac{1}{f}> \: = \frac{0.0976 + 0.0989}{2} = \: 0.09825 \: \text{cm}^{-1}
 \end{gather*}
 
-So therefore the average value of the focal length and its uncertainty as per the graph would be $10.178 \pm 3.24 \times 10^{-4} \: \text{cm}^{-1}$.
+So therefore the average value of the focal length and its uncertainty as per the graph would be $\mathbf{10.178 \pm 3.24 \times 10^{-4} \: \text{\textbf{cm}}}$.
 
 \subsubsection{Concave Lense} \label{sec:3.1.2}
 
@@ -480,26 +485,162 @@ The values gathered for the combined lenses are represented in the table, table 
     \textbf{20}     & $\pm$ 0.05      & \textbf{48.7}   & $\pm$ 0.05      & 14.18  \\ \hline
     \end{tabular}
 
-    \caption{\centering Table of the values gathered for the concave + convex lens, with the focal length calculated using equation \ref{eq:1}.}
+    \caption{\centering Table of the values gathered for the combined concave and convex lens, with the focal length calculated using equation \ref{eq:1}.}
     \label{tab:4}
 \end{table}
 
+The table below, table \ref{tab:5}, includes all the values needed to carry out the necessary equation \ref{eq:9} to compute the focal length of the individual
+concave lens, of which the calculated values is shown in the right-most column.
 
+\begin{table}[H]
+    \centering
+
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    \multirow[c]{2}{*}{\textbf{$\dfrac{1}{f}$ (cm$^{-1}$)}} & 
+    \multirow[c]{2}{*}{\textbf{$\dfrac{1}{f_{\text{convex}}}$ (cm$^{-1}$)}} & 
+    \multirow[c]{2}{*}{\textbf{$\dfrac{1}{f} - \dfrac{1}{f_{\text{convex}}}$ (cm$^{-1}$)}} & 
+    \multirow[c]{2}{*}{\textbf{$f_{\text{concave}}$ (cm)}} \\
+    & & & \\
+    \hline
+    0.0581                                                                                                & 0.0787                                                                                                         & -0.0206                                                                                                                      & -48.54                                                                       \\ \hline
+    0.0543                                                                                                & 0.0746                                                                                                         & -0.0203                                                                                                                      & -49.31                                                                       \\ \hline
+    0.0495                                                                                                & 0.0826                                                                                                         & -0.0331                                                                                                                      & -30.175                                                                      \\ \hline
+    0.0386                                                                                                & 0.0654                                                                                                         & -0.0267                                                                                                                      & -37.38                                                                       \\ \hline
+    0.0205                                                                                                & 0.0463                                                                                                         & -0.0258                                                                                                                      & -38.82                                                                       \\ \hline
+    \end{tabular}
+
+    \caption{\centering Table of the calculated focal length of the concave lens by use of equation \ref{eq:9}.}
+    \label{tab:5}
+\end{table}
+
+The average and associated uncertainty on the concave lens' focal length can then be surmised to be $\mathbf{-40.85 \: \pm \: 7.22 \: \text{\textbf{cm}}}$.
 
 \subsection{Determining Brewster's Angle} \label{sec:3.2}
 
+For this section the value for Brewster's angle on the material in calculated and thus the refective index of the material can be found.
 
+\subsubsection{Perpendicular Polarisation} \label{sec:3.2.1}
+
+The values for the reflected light at different angles of incidence for perpendicular polarisation were found and recorded below:
+
+\begin{table}[H]
+    \centering
+
+    \begin{tabular}{|
+    >{\columncolor[HTML]{EFEFEF}}c|c|}
+    \hline
+    \begin{tabular}[c]{@{}c@{}}\textbf{Angle of}\\ \textbf{Incidence} $\mathbf{(^{\circ})}$\end{tabular} & \begin{tabular}[c]{@{}c@{}}\textbf{Measured Reflected}\\ \textbf{Voltage (mV)}\end{tabular} \\ \hline
+    0                                                                                                    & 54.6                                                                                        \\ \hline
+    20                                                                                                   & 6.2                                                                                         \\ \hline
+    30                                                                                                   & 8.38                                                                                        \\ \hline
+    40                                                                                                   & 11.5                                                                                        \\ \hline
+    50                                                                                                   & 17.8                                                                                        \\ \hline
+    60                                                                                                   & 21.7                                                                                        \\ \hline
+    70                                                                                                   & 27.8                                                                                        \\ \hline
+    80                                                                                                   & 31.9                                                                                        \\ \hline
+    \end{tabular}
+
+    \caption{\centering Value recorded for the laser light source polarised perpendicular to the plane of incidence.}
+    \label{tab:6}
+\end{table}
+
+These values from table \ref{tab:6} are then plotted on a graph with the quadratic fitted to the values, figure \ref{fig:perpgraph}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{perpgraph.png}
+    \caption{\centering Graph for the light polarised perpendicular to the plane of incidence.}
+    \label{fig:perpgraph}
+\end{figure}
+
+The value of the minimum (lowest) point on the curve can be taken to be the Brewster's angle. The derivative of the quadratic form find the minimum,
+
+\begin{gather} \label{eq:10}
+    y = ax^2 + bx + c \: \implies \: x_{min}=-\frac{b}{2a}
+\end{gather}
+
+The value found can then be substituted into the original form to find the correspoding y-value for the minimum point:
+
+\begin{gather} \label{eq:11}
+    y_{min} = a(x_{min})^2 + b(x_{min}) + c
+\end{gather}
+
+The minimum point for the quadratic curve fitted to the values for perpendicular polarisation is then found to be $\mathbf{(x,y) = (42.44,9.37)}$, so Brewster's angle must therefore be $\mathbf{\theta_B = 42.44^{\circ}}$.
+
+This value can then be used in equation \ref{eq:6} to find the refractive index of the material used as a lens:
+
+\vspace{-1.5em}
+\begin{gather*}
+    n= \tan \theta_B \: \implies \: n = \tan(42.44^{\circ}) = 0.914
+\end{gather*}
+
+So the calculated value for the refractive index of the material of the lens used is $\mathbf{n=0.914}$.
+
+\subsubsection{Parallel Polarisation} \label{sec:3.2.2}
+
+The values for the reflected light at different angles of incidence for parallel polarisation were found and recorded below:
+
+\begin{table}[H]
+    \centering
+
+    \begin{tabular}{|
+    >{\columncolor[HTML]{EFEFEF}}c|c|}
+    \hline
+    \begin{tabular}[c]{@{}c@{}}\textbf{Angle of}\\ \textbf{Incidence} $\mathbf{(^{\circ})}$\end{tabular} & \begin{tabular}[c]{@{}c@{}}\textbf{Measured Reflected}\\ \textbf{Voltage (mV)}\end{tabular} \\ \hline
+    0                                                                                                    & 14                                                                                          \\ \hline
+    20                                                                                                   & 0.4                                                                                         \\ \hline
+    30                                                                                                   & 0.5                                                                                         \\ \hline
+    40                                                                                                   & 0.6                                                                                         \\ \hline
+    50                                                                                                   & 0.4                                                                                         \\ \hline
+    60                                                                                                   & 0.5                                                                                         \\ \hline
+    70                                                                                                   & 3.5                                                                                         \\ \hline
+    80                                                                                                   & 4                                                                                           \\ \hline
+    \end{tabular}
+
+    \caption{\centering Value recorded for the laser light source polarised parallel to the plane of incidence.}
+    \label{tab:7}
+\end{table}
+
+These values from table \ref{tab:7} are then plotted on a graph with the quadratic fitted to the values, figure \ref{fig:paragraph}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{paragraph.png}
+    \caption{\centering Graph for the light polarised parallel to the plane of incidence.}
+    \label{fig:paragraph}
+\end{figure}
+
+Brewster's angle can be calculated the same way as was done in §\ref{sec:3.2.1} for perpendicular polarisation.
+
+The minimum point for the quadratic curve fitted to the values for perpendicular polarisation is then found to be $\mathbf{(x,y) = (47.30,-0.77)}$, so Brewster's angle must therefore be $\mathbf{\theta_B = 47.30^{\circ}}$.
+
+This value can then be used in equation \ref{eq:6} to find the refractive index of the material used as a lens:
+
+\vspace{-1.5em}
+\begin{gather*}
+    n= \tan \theta_B \: \implies \: n = \tan(47.30^{\circ}) = 1.084
+\end{gather*}
+
+So the calculated value for the refractive index of the material of the lens used is $\mathbf{n=1.084}$.
 
 \section{Conclusion} \label{sec:4}
 
+It can be said that the first part of the experiment, which aimed to find the focal length of both a convex and concave lens (see §\ref{sec:3.1}) achieved reasonable results. 
+The focal length for the convex lens was calculated both explicitly and by the slope of the best line fit of the representative graph.
+The values calculated were $\mathbf{10.17 \: \pm \: 0.464}$ \textbf{cm} and $\mathbf{10.178 \: \pm \: 3.24 \times 10^{-4}}$ \textbf{cm} \break respectively,
+and since both values lie within the other's uncertainty, it can be confidently concluded that the focal length of the convex lens used in the experiment is around $\mathbf{10.178}$ \textbf{cm}.
+With this value the focal length of the concave lens was then calculated to be $\mathbf{-40.85 \: \pm \: 7.22}$ \textbf{cm}, which suggests the concave lens was not very inwardly curved (flatter).
 
-\section{Applications of Lenses}
+For the second part of the experiment, determining Brewster's angle (see §\ref{sec:3.2}), the results were a lot less reasonable.
+For the perpendicular polarisation the refractive index found with the calculated $\theta_B$ ($\mathbf{42.44^{\circ}}$) was $\mathbf{n = 0.914}$. This is unphysical as the refractive index of any medium is $n \ge 1$ \textit{(wavelength dependent)}.
+Similarly, for the parallel polarisation the refracive index found with the calculated $\theta_B$ ($\mathbf{47.30^{\circ}}$) was $\mathbf{n = 1.084}$. This is most likely incorrect as the closest match in refractive index is 
+\textit{liquid helium} at $n=1.025$ \cite{liquidhe} and the material that was used for the experiment was solid and transparent.
 
-\subsection{Eyeglasses}
-
-\subsection{Microscopes}
-
-\subsection{Telescopes}
+The likely issues during the Brewster's angle experiment could be in lack of time to \break gather accurate angle and voltage readings after accidentally measuring the
+\textit{transmitted} voltage instead. If the smaller increments in angle (ie., $5^{\circ}$ instead of $10^{\circ}$) could also lead to more accurate results.
+During the experiment the overhead light was also turned on, which likely lead to inaccuracies in readings of the photoresistor.
+The digital multimeter could also have been faulty as there were exposed wires visible, this could have led to inaccuracies.
 
 \newpage
 
@@ -513,18 +654,46 @@ The values gathered for the combined lenses are represented in the table, table 
 \section*{Appendix} \label{sec:A}
 \addcontentsline{toc}{section}{Appendix}
 
-\listoffigures
-
-\listoftables
-
-\subsection*{Raw Data}
-\addcontentsline{toc}{subsection}{Raw Data}
-
-
-
 \subsection*{Code}
 \addcontentsline{toc}{subsection}{Code}
 
+\begin{minipage}{.45\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=\linewidth]{lenscode1.png}
+    \captionof{figure}{\centering Code used for §\ref{sec:3.1} of this report.}
 
+    \vspace{1cm}
+
+    \includegraphics[width=\linewidth]{lenscode4.png}
+    \captionof{figure}{\centering Code used for §\ref{sec:3.1.2} of this report.}
+
+    \vspace{1cm}
+
+    \includegraphics[width=\linewidth]{lenscode5.png}
+    \captionof{figure}{\centering Code used for §\ref{sec:3.2.1} of this report.}
+\end{minipage}
+\hfill
+\begin{minipage}{.45\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=\linewidth]{lenscode3.png}
+    \captionof{figure}{\centering Code used for §\ref{sec:3.1.1} of this report.}
+
+    \vspace{1cm}
+
+    \includegraphics[width=\linewidth]{lenscode6.png}
+    \captionof{figure}{\centering Code used for §\ref{sec:3.2.2} of this report.}
+
+    \vspace{1cm}
+
+    \includegraphics[width=\linewidth]{lenscode7.png}
+    \captionof{figure}{\centering Code used for §\ref{sec:3.2} of this report.}
+\end{minipage}
+
+
+\listoffigures
+
+\listoftables
 
 \end{document}

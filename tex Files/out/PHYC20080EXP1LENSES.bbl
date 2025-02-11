@@ -197,4 +197,11 @@ Anon. (n.d.) Brewster's angle. [Accessed 9 February 2025]. [Online]. Available:
   [Online]. Available: \url{https://www.holmarc.com/brewster_angle.php}
 \BIBentrySTDinterwordspacing
 
+\bibitem{liquidhe}
+\BIBentryALTinterwordspacing
+M.~H. Edwards, ``Refractive index of he4: Liquid,'' \emph{Canadian Journal of
+  Physics}, vol.~36, no.~7, pp. 884--898, 1958. [Online]. Available:
+  \url{https://doi.org/10.1139/p58-095}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
