@@ -1,0 +1,29 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Abstract}{2}{figure.caption.2}%
+\contentsline {section}{\numberline {1}Theory}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Lenses}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Focal Length}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Image Formation}{3}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Polarisation}{4}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Reflection and Refraction}{5}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Snell's Law}{5}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Brewster's Angle}{5}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Ratios of Intensity}{6}{subsubsection.1.2.4}%
+\contentsline {section}{\numberline {2}Methodology}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Determining the Focal Length}{6}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Convex Lens Method}{7}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Concave Lens Method}{7}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Determining Brewster's Angle Method}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Results and Calculations}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Determining the Focal Length}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Convex Lens}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Concave Lense}{9}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Determining Brewster's Angle}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Perpendicular Polarisation}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Parallel Polarisation}{11}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Conclusion}{13}{section.4}%
+\contentsline {section}{References}{14}{section*.16}%
+\contentsline {section}{Appendix}{16}{section*.17}%
+\contentsline {subsection}{Code}{16}{section*.18}%
+\contentsline {section}{List of Figures}{17}{section*.19}%
+\contentsline {section}{List of Tables}{17}{section*.20}%
