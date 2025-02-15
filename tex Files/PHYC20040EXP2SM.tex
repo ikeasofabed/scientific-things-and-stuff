@@ -6,7 +6,7 @@
 \usepackage{array, multirow} % For extra column formatting
 \usepackage{amsmath, amssymb} %for equation environment
 \usepackage{float}
-\usepackage{parskip, } % For gaps between para
+\usepackage{parskip} % For gaps between para
 \usepackage{setspace}
 \usepackage{pdfpages}
 \usepackage{abstract}
@@ -15,11 +15,20 @@
 \usepackage{tocloft}
 \usepackage[nottoc]{tocbibind}
 \usepackage{hyperref, url}
-\usepackage{subcaption}
-\usepackage{lipsum}
 \usepackage[table]{xcolor}
+\usepackage{minted}
+    \usemintedstyle{monokai}
 \usepackage{caption}
     \captionsetup{font=footnotesize,labelfont=bf}
+\usepackage{tcolorbox}
+    \newtcolorbox{mintedbox}{
+        colback=backcolour,
+        boxrule=0pt,
+        sharp corners,
+        width=.9\linewidth,
+        left=0pt, right=0pt,
+        top=3pt, bottom=3pt
+    }
 
 \cftsetindents{section}{0em}{2em}
 \cftsetindents{subsection}{0em}{2em}
@@ -32,6 +41,7 @@
 \pagenumbering{arabic}
 
 \definecolor{blurple}{HTML}{5865F2}
+\definecolor{backcolour}{HTML}{272823}
 
 \hypersetup{
     colorlinks=true,
@@ -97,8 +107,6 @@
 \begin{abstract}
 \addcontentsline{toc}{section}{Abstract}
 
-\vspace{1cm}
-
 The aim of this experiment was 
 
 \end{abstract}
@@ -107,7 +115,10 @@ The aim of this experiment was
 
 \section{Theory} \label{sec:1}
 
-Photometry 
+Photometry plays an important role when it comes to astronomy and measuring different properties of stars, such as brightness and temperature.
+UBV Photometry and its consequent B-V colour index have greatly defined what it means to determine stellar classifications, leading to the development
+of the H-R Diagram with a focus on main-sequence stars. This experiment focuses on the study of the Pleiades cluster by comparing the calculated
+apparent magnitudes to the known absolute magnitudes and luminosity of the main sequence stars.
 
 \subsection{Photometry} \label{sec:1.1}
 
@@ -128,6 +139,7 @@ Photometry has some fundamental quantities that aid in understanding what is bei
     \item \textbf{Luminance} is what measures the apparent magnitude (brigthness) (see §\ref{sec:1.1.3}), it is the luminous flux that is emitted from a surface.
     It is therefore measured with the unit \textit{footlambert (English)} or \textit{candela per square metre (Metric)}, given be \textit{Watt/steradian/}$m^2$.
     The human eye is the most commonly-known luminance detector, of which the sensitivity to light, and therefore colour, can be seen in figure {\ref{fig:1}}.
+    \item \textbf{Luminosity} is a measure of the intrinsic brightness (absolute magnitude) of a star, measured in \textit{Watts}, mostly compared to the Sun's luminosity \cite{cosmoslumi}.
 \end{itemize}
 
 \begin{figure}[H]
@@ -139,11 +151,28 @@ Photometry has some fundamental quantities that aid in understanding what is bei
 
 \subsubsection{UBV Photometry} \label{sec:1.1.1}
 
+The UBV (Ultraviolet, Blue, Visual) classification system was originally called the Johnson-Morgan after H.L. Johnson and W.W. Morgan proposed this system for classifying stars in 1952 in accordance to their colour 
+(and therefore temperature)
+\cite{ubv1953}.
+The apparent magnitudes of stars are measured in the three aforementiones wavelength bands and their spectral types are through the associated B-V (blue filter) and U-B (Ultraviolet filter)
+(\textit{the difference between the magnitudes through the different filters}) colour indices
+\cite{ubv1953}.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12.5cm]{ubv.jpeg}
+    \caption{\centering Transmission curves of photometric filters \protect\cite{ubvfilters}. \textit{U: Ultraviolet; B: Blue; V: Visible; R: Red; I: Infrared.}}
+    \label{fig:ubvfilters}
+\end{figure}
+
+The UBVRI system above is an extension of the original Johnson-Morgan system with the extra red and infrared filters, allowing for a greater wavelength band allowance.
 
 \subsubsection{The B-V Colour Index} \label{sec:1.1.2}
 
+Colour, in astronomy, is defined as the difference in magnitude between two filters/wavelength bands, which is related to intensity logarithmically, 
+\cite{sdsscolour,rochcolour,librecolour} such as B-V and U-B discussed in the previous section, §\ref{sec:1.1.1}.
 
+On the flat, spanning z-axis of figure \ref{fig:ubvfilters} the B-V colour index (\textit{left}) that encompasses the range of visible light can be seen.
 
 \subsubsection{Apparent and Absolute Magnitude} \label{sec:1.1.3}
 
@@ -167,42 +196,161 @@ Absolute (\textbf{M}) and apparent (\textbf{m}) magnitudes can be used using equ
 The distance modulus is then $\mathbf{m - M}$
 \cite{cosmosabsmag}.
 
+\vspace{-1.5ex}
 \begin{gather} \label{eq:1}
     M = m + 5 - 5 (\log_{10} D) \quad , \quad m - M = 5 \log_{10} \left( \frac{D}{10} \right)
 \end{gather}
 
 The above equation (\ref{eq:1}) can be manipulated to find the distance, \textbf{D}:
 
+\vspace{-1.5ex}
 \begin{gather} \label{eq:2}
     \log_{10}D = \frac{m - M + 5}{5} \quad \implies \quad D = 10^{\frac{m - M + 5}{5}}
 \end{gather}
 
-\paragraph{The Link Between Magnitude and Photometry}
+\paragraph{The Link Between Magnitude and Photometry} \label{sec:1.1.3.1} has already been mentioned is sections §\ref{sec:1.1.1} and §\ref{sec:1.1.2}.
 
+The zero point, a starting place for reference, was picked to be the star Vega, of which the magnitude is now defined to be $0.0$.
+The apparent magnitudes are related to the flux of the star in such a way that equation \ref{eq:1} can be written to account for the flux (F) \cite{ccds}:
 
+\vspace{-1.5ex}
+\begin{gather} \label{eq:3}
+    m_1 - m_2 = -2.5 \log_{10}\left(\frac{F_1}{F_2}\right) \qquad ; \qquad m_1 = -2.5 \log_{10}\left(\frac{F_1}{F_{Vega}}\right)
+\end{gather}
 
-\subsection{Hertzsprung-Russel (H-R) Diagram}
+Thus, the magnitudes can be interpreted as the logarithm of the flux.
+Absolute magnitude, in contrast, is related to the luminosity (true brightness) of an object
+\cite{ccds}.
+The H-R Diagram, covered in §\ref{sec:1.2}, makes use of this relation.
 
+\paragraph{The Link Between Magnitude and Colour} \label{sec:1.1.3.2} is what is explored further in this report.
 
+The B-V colour index (see §\ref{sec:1.1.2}) is actually calculated by the difference in the apparent magnitudes as measured by the Blue (B) and Visual (V) filters
+for the UBV photometric system \cite{ccds}:
 
-\subsubsection{Main Sequence Stars}
+\vspace{-1.5ex}
+\begin{gather} \label{eq:4}
+    B-V = m_B - m_V = -2.5 \log_{10}\left( \frac{f_B}{f_V} \right) + \text{constant}
+\end{gather}
 
+In which the non-zero constant is added due to the way the 0.0 colour (Vega) is defined. Thus is can be understood that bluer (hotter) stars have a negative colour
+in comparison to Vega, and redder (colder) stars have a poisitive colour
+\cite{ccds}.
 
+\subsection{Hertzsprung-Russel (H-R) Diagram} \label{sec:1.2}
+
+The Hertzsprung-Russel (H-R) diagram plots the absolute magnitudes (see §\ref{sec:1.1.3}) against the temperatures (spectral types) of different stars \cite{brithr}.
+Figure \ref{fig:hrdiagram} also includes the luminosity (see §\ref{sec:1.1}) and B-V colour (see §\ref{sec:1.1.2}) as axes on the graph.
+The 0.0 base point of the star Vega as discussed in sections §\ref{sec:1.1.3.1} and §\ref{sec:1.1.3.2} is included to the far left of the bottom y-axis.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{HRDiagram.png}
+    \caption{\centering The Hertzsprung-Russell Diagram with 22 000 stars plotted in different regions highlighted accordingly \protect\cite{wikihr}.}
+    \label{fig:hrdiagram}
+\end{figure}
+
+Astronomers can then use this diagram to be able to understand a star's internal structure and composition by determining its position on it \cite{cosmoshr,brithr}.
+The way in which the stars scattered along the H-R diagram allowed astronomers to dictate the different regions, with the Main Sequence stars running diagonally across as
+the most prominent and the gaints clustered above them in the diagram \cite{lcohr,cosmoshr}.
+
+\subsubsection{Spectral Types} \label{sec:1.2.1}
+
+The currently-used system of classification of stars was created by a team at Harvard in 1924 \cite{harvardstar}. The different classes are \textbf{OBAFGKM}, left to right: hottest to coldest.
+The different classes and temperature thresholds are illustrated in figure \ref{fig:starclassy} with additional relevant information such as the (absorption) spectrum, the star colour, amount of hydrogen present, 
+size in solar radii, and their prevalence (in percent) among the main sequence stars (see §\ref{sec:1.2.2})
+\cite{lcostar,cosmosstar}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12.5cm]{Stellar_Classification_Chart.png}
+    \caption{\centering Chart for calssifying of the main star types as per the Harvard classification \protect\cite{wikistar}.}
+    \label{fig:starclassy}
+\end{figure}
+
+The Sun is spectral type \textbf{G2} with temperature 5 700 K (Kelvin) \cite{cosmosstar}.
+
+\subsubsection{Main Sequence Stars} \label{sec:1.2.2}
+
+Main sequence stars are stars that undergo the fusion of hydrogen into helium at their core through nuclear reactions
+\cite{schoolmsstar,studymsstar,nasamsstar}.
+They are also defined by the way the radiation pressure from the nuclear reactions and the gravitational pressure work against each other in such a way that the star
+remains stable \cite{studymsstar}; the process is known as \textbf{hydrostatic equilibrium} \cite{schoolmsstar}.
+
+The relationship of a main sequence star with luminosity and temperature (spectral type) is seen in figure \ref{fig:hrdiagram}, the H-R diagram, and figure \ref{fig:starclassy},
+the stellar type classification (for main sequence stars), which also shows the hydrogen available to undergo the nuclear reactions into helium.
 
 \subsection{The Pleiades Star Cluster}
 
+The Pleiades star cluster, also known as \textit{the Seven Sisters} and \textit{Messier (M) 45} and \textit{Cl Melotte 22}, can be found and seen by the naked eye near the shoulder of the Taurus (bull) constellation during Winter
+\cite{nasapleiades,hubblepleiades}.
+It is an open star cluster, in such that it contains thousands of stars that are loosely bound by gravity \cite{nasapleiades}.
 
+Hubble telescope's Fine Guidance Sensors have estimated that the distance to the Pleiades from Earth is about \textbf{440 light-years} \cite{hubblepleiades} 
+with an apparent magnitude of \textbf{1.6} \cite{sedspleiades,frenchpleiades}.
+
+\begin{minipage}{.43\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=\linewidth]{pleiades.jpg}
+    \captionof{figure}{\centering Photo of the Pleiades/M45 \protect\cite{pleiades}.}
+    \label{fig:plei}
+\end{minipage}
+\hfill
+\begin{minipage}{.56\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=\linewidth]{pleiades anotated.jpg}
+    \captionof{figure}{\centering Annotated photo of the Pleiades/M45 \protect\cite{pleiadesann}.}
+    \label{fig:pleiann}
+\end{minipage}
+
+Figure \ref{fig:plei} and figure \ref{fig:pleiann} are images sourced from the Hubble telescope of the Pleiades star cluster, with figure \ref{fig:pleiann} having the most visible stars named and labelled
+and the Fine Guidance Sensors shown at the periphery of Hubble's field-of-view, tracing the circumference that is the approximate angular size of the Moon \cite{pleiadesann}.
+A size/distance scale is also seen in the bottom left corner.
 
 \section{Methodology} \label{sec:2}
 
+This experiment made use of the \textit{Contemporary Laboratory Experience in Astronomy}, CLEA, software and the \textit{Photoelectric Photometry of the Pleiades} program included in the package.
+CLEA is an online software developed to simulate and illustrate modern astronomical techniques in a 'real' night sky
+\cite{cleasm}.
 
+The program offered the simulated use of a UBV photometer attached to a 0.4m (16") research telescope. As the Earth rotates to the East in the program, the available "tracking" feature is used to essentially "stop"
+the movement of the stars (West) in relation to the rotation of the Earth, allowing for the stable collection of data.
+
+The apparent magnitude for two filters, Blue (B) and Visual (V), were found for 24 pre-determined stars as provided by the accompanying lab manual with the respective
+right ascension (hours, minutes, seconds) and declination (degrees, minutes, seconds) coordinates attached \cite{UCDsm}.
+These options and readings can be found on the left-hand side of the program, as shown in figure \ref{fig:program}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{SMscreenshot_program.png}
+    \caption{\centering Screenshot of the CLEA program in use.}
+    \label{fig:program}
+\end{figure}
+
+Initial "sky" readings were taken for both filters (as seen in the separate, smaller window open in figure \ref{fig:program}) to account for the surrounding light not being emitted
+from the studied star (true photon count is then \textit{star reading - sky reading}).
+
+In addition to the \textbf{right ascension} and \textbf{declination} coordinates, which were provided, the following data was also noted and collected:
+
+\begin{itemize}
+    \item \textbf{Signal to Noise (S/N) Ratio} for both filter; fractional error.
+    \item \textbf{Magnitude} (apparent) for both filters (B-V).
+\end{itemize}
+
+The uncertainties on the magnitude readings were minimised by ensuring the S/N ratio was greater than or at least 100 (70 for dimmer stars). This can be adjusted based on the amount of intergrations 
+(number of times a measurement is repeated) doneand the seconds (how long light is collected for per integration) the photometer is allowed to collect data for. 
+
+Dimmer stars generally needed more intergrations and longer seconds, with the maximum allowed to be done being: \textit{100 seconds, 5 intergrations}. This is approximately 8.5 minutes of photon collection.
+
+With the collected data a H-R diagram can be plotted, with the apparent magnitude (V filter) and colour index (B-V), and compared against the accepted values of main sequence stars.
 
 \section{Results and Calculations} \label{sec:3}
 
 
 
 \section{Conclusion} \label{sec:4}
-
 
 
 \newpage
@@ -212,6 +360,12 @@ The above equation (\ref{eq:1}) can be manipulated to find the distance, \textbf
 \bibliographystyle{IEEEtran}
 \bibliography{References} \label{sec:ref}
 
+\vspace{1.5cm}
+
+\listoffigures
+
+\listoftables
+
 \newpage
 
 \section*{Appendix} \label{sec:A}
@@ -220,9 +374,22 @@ The above equation (\ref{eq:1}) can be manipulated to find the distance, \textbf
 \subsection*{Code}
 \addcontentsline{toc}{subsection}{Code}
 
+\begin{center}
 
-\listoffigures
+\begin{mintedbox}
+    \begin{minted}[fontsize=\small]{python}
+        import numpy as np
 
-\listoftables
+        def wow(a):
+            return a
+
+        for i in range(0,10):
+            x = 'i'
+            y = 1+i
+            z = np.pi
+    \end{minted}
+\end{mintedbox}
+
+\end{center}
 
 \end{document}

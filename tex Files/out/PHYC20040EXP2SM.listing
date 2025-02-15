@@ -1,0 +1,9 @@
+    import numpy as np
+
+    def wow(a):
+        return a
+
+    for i in range(0,10):
+        x = 'i'
+        y = 1+i
+        z = np.pi

@@ -50,6 +50,12 @@ C.~L. WYATT, ``{CHAPTER III - Radiometric Nomenclature},'' in \emph{Radiometric
   \url{https://www.sciencedirect.com/science/article/pii/B9780127661506500062}
 \BIBentrySTDinterwordspacing
 
+\bibitem{cosmoslumi}
+\BIBentryALTinterwordspacing
+Anon. (n.d.) Luminosity. [Accessed 15 February 2025]. [Online]. Available:
+  \url{https://astronomy.swin.edu.au/cosmos/l/Luminosity}
+\BIBentrySTDinterwordspacing
+
 \bibitem{eyecurve}
 \BIBentryALTinterwordspacing
 S.~Di~Mauro, A.~Raciti, S.~Rizzo, G.~Susinni, and S.~Musumeci, ``Curve of the
@@ -66,6 +72,40 @@ J.~J. Grassmeyer and S.~Munakomi, ``Photopic vision,'' in
   \emph{{StatPearls}}.\hskip 1em plus 0.5em minus 0.4em\relax Treasure Island
   (FL): StatPearls Publishing, August 2023, [Accessed 13 February 2025].
   [Online]. Available: \url{https://pubmed.ncbi.nlm.nih.gov/31194334/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ubv1953}
+H.~Johnson and W.~Morgan, ``{Fundamental stellar photometry for standards of
+  spectral type on the Revised System of the Yerkes Spectral Atlas.}''
+  \emph{{APJ}}, vol. 117, p. 313, May 1953, [Accessed 13 February 2025].
+
+\bibitem{ubvfilters}
+\BIBentryALTinterwordspacing
+T.~B. Planitarium. (2021, October) Now available: {New Baader UBVRI and
+  SLOAN/SDSS (urgiz') Photometric Filters}. [Accessed 14 February 2025].
+  [Online]. Available:
+  \url{https://www.baader-planetarium.com/en/blog/coming-soon-new-baader-sloan-sdss-ugriz-photometric-filters/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{sdsscolour}
+\BIBentryALTinterwordspacing
+Anon. (n.d.) The {Definition of Colour in Astronomy}. [Accessed 14 February
+  2025]. [Online]. Available:
+  \url{https://skyserver.sdss.org/dr1/en/proj/advanced/color/definition.asp}
+\BIBentrySTDinterwordspacing
+
+\bibitem{rochcolour}
+\BIBentryALTinterwordspacing
+------. (n.d.) {Color Indices and Surface Temperatures of a Star}. [Accessed 14
+  February 2025]. [Online]. Available:
+  \url{https://www.pas.rochester.edu/~blackman/ast104/cindex.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{librecolour}
+\BIBentryALTinterwordspacing
+M.~Richmond. (n.d.) {Astronomical "Color"}. [Accessed 14 February 2025].
+  [Online]. Available:
+  \url{https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Supplemental_Modules_(Astronomy_and_Cosmology)/Cosmology/Astrophysics_(Richmond)/08%3A_Astronomical_%22Color%22}
 \BIBentrySTDinterwordspacing
 
 \bibitem{britmag}
@@ -92,6 +132,141 @@ Anon. (n.d.) Apparent {M}agnitude. [Accessed 4 February 2025]. [Online].
 \BIBentryALTinterwordspacing
 ------. (n.d.) Absolute {M}agnitude. [Accessed 4 February 2025]. [Online].
   Available: \url{https://astronomy.swin.edu.au/cosmos/a/Absolute+Magnitude}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ccds}
+\BIBentryALTinterwordspacing
+W.~Romanishin, ``{Chapter 4: The Magnitude and Color System},''
+  \emph{University of Oklahoma}, pp. 19--24, March 2002, [Accessed 14 February
+  2025]. [Online]. Available:
+  \url{https://www1.phys.vt.edu/~jhs/phys3154/CCDPhotometryBook.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{brithr}
+\BIBentryALTinterwordspacing
+E.~Gregersen. (2021, June) {Hertzsrpung-Russell diagram}. [Accessed 15 February
+  2025]. [Online]. Available:
+  \url{https://www.britannica.com/science/Hertzsprung-Russell-diagram}
+\BIBentrySTDinterwordspacing
+
+\bibitem{wikihr}
+\BIBentryALTinterwordspacing
+Anon. (n.d.) {Hertzsprung-Russell diagram}. [Accessed 15 February 2025].
+  [Online]. Available:
+  \url{https://en.wikipedia.org/wiki/Hertzsprung%E2%80%93Russell_diagram}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cosmoshr}
+\BIBentryALTinterwordspacing
+------. (n.d.) {Hertzsprung-Russell Diagram}. [Accessed 15 February 2025].
+  [Online]. Available:
+  \url{https://astronomy.swin.edu.au/cosmos/h/hertzsprung-russell+diagram}
+\BIBentrySTDinterwordspacing
+
+\bibitem{lcohr}
+\BIBentryALTinterwordspacing
+------. (n.d.) {H-R Diagram}. [Accessed 15 February 2025]. [Online]. Available:
+  \url{https://lco.global/spacebook/stars/h-r-diagram/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{harvardstar}
+\BIBentryALTinterwordspacing
+------. (1924) A notes on the spectral atlas and spectral classification.
+  [Accessed 15 February 2025]. [Online]. Available:
+  \url{https://lweb.cfa.harvard.edu/~pberlind/atlas/htmls/note.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{lcostar}
+\BIBentryALTinterwordspacing
+------. (n.d.) Types of {Stars}. [Accessed 15 February 2025]. [Online].
+  Available: \url{https://astronomy.swin.edu.au/cosmos/S/Spectral+Type}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cosmosstar}
+\BIBentryALTinterwordspacing
+------. (n.d.) Spectral type. [Accessed 15 February 2025]. [Online]. Available:
+  \url{https://astronomy.swin.edu.au/cosmos/S/Spectral+Type}
+\BIBentrySTDinterwordspacing
+
+\bibitem{wikistar}
+\BIBentryALTinterwordspacing
+------. (n.d.) Stellar classification. [Accessed 15 February 2025]. [Online].
+  Available: \url{https://en.wikipedia.org/wiki/Stellar_classification}
+\BIBentrySTDinterwordspacing
+
+\bibitem{schoolmsstar}
+\BIBentryALTinterwordspacing
+------. (n.d.) {Stellar Evolution}. [Accessed 15 February 2025]. [Online].
+  Available:
+  \url{https://www.schoolsobservatory.org/learn/space/stars/evolution}
+\BIBentrySTDinterwordspacing
+
+\bibitem{studymsstar}
+\BIBentryALTinterwordspacing
+C.~Nettles and K.~Chamberlain. (2023, November) {Main Sequence Star |
+  Definition, Chart, Characteristics}. [Accessed 15 February 2025]. [Online].
+  Available:
+  \url{https://study.com/academy/lesson/main-sequence-star-definition-facts-quiz.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nasamsstar}
+\BIBentryALTinterwordspacing
+NASA. (n.d.) Types of {Stars}. [Accessed 15 February 2025]. [Online].
+  Available: \url{https://science.nasa.gov/universe/stars/types/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nasapleiades}
+\BIBentryALTinterwordspacing
+Anon. (n.d.) Messier 45. [Accessed 15 February 2025]. [Online]. Available:
+  \url{https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-45/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{hubblepleiades}
+\BIBentryALTinterwordspacing
+Hubble. (2004, June) {Hubble Refines Distance to Pleiades Star Cluster}.
+  [Accessed 15 February 2025]. [Online]. Available:
+  \url{https://hubblesite.org/contents/news-releases/2004/news-2004-20}
+\BIBentrySTDinterwordspacing
+
+\bibitem{sedspleiades}
+\BIBentryALTinterwordspacing
+Anon. (2014, February) Messier 45. [Accessed 15 February 2025]. [Online].
+  Available: \url{http://www.messier.seds.org/m/m045.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{frenchpleiades}
+\BIBentryALTinterwordspacing
+------. (2025, February) {Cl Melotte 22}. [Accessed 15 February 2025].
+  [Online]. Available:
+  \url{http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=Cl+Melotte+22}
+\BIBentrySTDinterwordspacing
+
+\bibitem{pleiades}
+\BIBentryALTinterwordspacing
+D.~D. Martin. (n.d.) {M45 The Pleiades}. [Accessed 15 February 2025]. [Online].
+  Available:
+  \url{https://esahubble.org/projects/fits_liberator/fitsimages/davidedemartin_5/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{pleiadesann}
+\BIBentryALTinterwordspacing
+Anon. (2004, June) {Annotated image of the pleiades and HST field of view}.
+  [Accessed 15 February 2025]. [Online]. Available:
+  \url{https://esahubble.org/images/opo0420b/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cleasm}
+\BIBentryALTinterwordspacing
+CLEA. (2015, May) {Photoelectric Photometry of the Pleiades}. [Accessed 15
+  February 2025]. [Online]. Available:
+  \url{http://public.gettysburg.edu/~marschal/clea/pleilab.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{UCDsm}
+\BIBentryALTinterwordspacing
+CLEA and UCD. (2008, November) Photoelectric photometry of the pleiades student
+  manual. [Accessed 13 February 2025]. [Online]. Available:
+  \url{https://brightspace.ucd.ie/d2l/le/content/300670/viewContent/3521484/View}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
