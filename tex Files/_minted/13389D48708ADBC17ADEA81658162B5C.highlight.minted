@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Plot Sun}
+\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mf}{0.62}
+\PYG{n}{y} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{interp}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{BV\PYGZus{}ms}\PYG{p}{,} \PYG{n}{V\PYGZus{}ms}\PYG{p}{)}
+
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{axvline}\PYG{p}{(}\PYG{n}{x}\PYG{o}{=}\PYG{l+m+mf}{0.62}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZsh{}ffb545}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{linestyle}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZhy{}\PYGZhy{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{linewidth}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{1}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{scatter}\PYG{p}{(}\PYG{p}{[}\PYG{n}{x}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{n}{y}\PYG{p}{]}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZsh{}ffb545}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{edgecolor}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{white}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{s}\PYG{o}{=}\PYG{l+m+mi}{250}\PYG{p}{,} \PYG{n}{alpha}\PYG{o}{=}\PYG{l+m+mf}{0.75}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Sun}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

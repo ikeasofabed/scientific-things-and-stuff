@@ -66,6 +66,8 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cancel/cancel.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cancel/cancel.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/parskip/parskip.sty
@@ -449,6 +451,12 @@ INPUT ./images/pleiadesms graph.png
 INPUT ./images/pleiadesms graph.png
 INPUT ./images/pleiadesms graph.png
 INPUT ./images/pleiadesms graph.png
+INPUT ./images/pleimsgraph sun.png
+INPUT ./images/pleimsgraph sun.png
+INPUT ./images/pleimsgraph sun.png
+INPUT ./images/pleimsgraph sun.png
+INPUT ./images/pleimsgraph sun.png
+INPUT ./images/pleimsgraph sun.png
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.bbl
@@ -496,6 +504,9 @@ INPUT _minted/C7A2A8D1118FCA921B9D2015435C7AB0.highlight.minted
 INPUT ./_minted/B421FFF227D79F9AB916C2933998F455.highlight.minted
 INPUT ./_minted/B421FFF227D79F9AB916C2933998F455.highlight.minted
 INPUT _minted/B421FFF227D79F9AB916C2933998F455.highlight.minted
+INPUT ./_minted/13389D48708ADBC17ADEA81658162B5C.highlight.minted
+INPUT ./_minted/13389D48708ADBC17ADEA81658162B5C.highlight.minted
+INPUT _minted/13389D48708ADBC17ADEA81658162B5C.highlight.minted
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.aux
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.out
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.out
@@ -535,3 +546,5 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/latxfont/line10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/latxfont/line10.pfb
