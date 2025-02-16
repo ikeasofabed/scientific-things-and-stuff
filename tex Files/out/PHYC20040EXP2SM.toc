@@ -14,8 +14,9 @@
 \contentsline {section}{\numberline {2}Methodology}{7}{section.2}%
 \contentsline {section}{\numberline {3}Results and Calculations}{9}{section.3}%
 \contentsline {section}{\numberline {4}Conclusion}{9}{section.4}%
-\contentsline {section}{References}{10}{section*.8}%
-\contentsline {section}{List of Figures}{12}{section*.9}%
-\contentsline {section}{List of Tables}{12}{section*.10}%
-\contentsline {section}{Appendix}{13}{section*.11}%
-\contentsline {subsection}{Code}{13}{section*.12}%
+\contentsline {section}{References}{10}{section*.9}%
+\contentsline {section}{List of Figures}{12}{section*.10}%
+\contentsline {section}{List of Tables}{12}{section*.11}%
+\contentsline {section}{Appendix}{13}{section*.12}%
+\contentsline {subsection}{Tables}{13}{section*.13}%
+\contentsline {subsection}{Code}{14}{section*.15}%

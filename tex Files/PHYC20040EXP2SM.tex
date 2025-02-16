@@ -25,7 +25,7 @@
         colback=backcolour,
         boxrule=0pt,
         sharp corners,
-        width=.9\linewidth,
+        width=\linewidth,
         left=0pt, right=0pt,
         top=3pt, bottom=3pt
     }
@@ -348,7 +348,43 @@ With the collected data a H-R diagram can be plotted, with the apparent magnitud
 
 \section{Results and Calculations} \label{sec:3}
 
+\begin{table}[H]
 
+    \centering
+    \caption{\centering Table of the values gathered for the Blue (B) and Visual (V) filter with respective S/N ratios, calculated B-V and corresponding S/N ratio included.}
+    \resizebox{\textwidth}{!}{
+
+        \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+        \textbf{Star} & \textbf{\begin{tabular}[c]{@{}c@{}}RA\\ hr min sec\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Dec\\ deg min sec\end{tabular}} & \textbf{B} & \textbf{\begin{tabular}[c]{@{}c@{}}S/N\\ (B)\end{tabular}} & \textbf{V} & \textbf{\begin{tabular}[c]{@{}c@{}}S/N\\ (V)\end{tabular}} & \textbf{B-V} & \textbf{\begin{tabular}[c]{@{}c@{}}S/N\\ (B-V) (\%)\end{tabular}} \\ \hline
+        \textbf{1}    & 3  41  05                                                        & 24  05  11                                                         & 13.316     & 242                                                        & 12.513     & 352                                                        & 0.80         & 0.501                                                            \\ \hline
+        \textbf{2}    & 3  42  15                                                        & 24  19  57                                                         & 4.200      & 6449                                                       & 4.310      & 6130                                                       & -0.11        & 0.023                                                            \\ \hline
+        \textbf{3}    & 3  42  33                                                        & 24  18  55                                                         & 8.950      & 1774                                                       & 8.600      & 2085                                                       & 0.35         & 0.074                                                            \\ \hline
+        \textbf{4}    & 3  42  41                                                        & 24  28  22                                                         & 10.250     & 975                                                        & 9.699      & 1258                                                       & 0.55         & 0.130                                                            \\ \hline
+        \textbf{5}    & 3  43  08                                                        & 24  42  47                                                         & 13.058     & 271                                                        & 12.048     & 352                                                        & 1.01         & 0.466                                                            \\ \hline
+        \textbf{6}    & 3  43  08                                                        & 25  00  46                                                         & 15.374     & 83                                                         & 14.365     & 133                                                        & 1.01         & 1.420                                                            \\ \hline
+        \textbf{7}    & 3  43  39                                                        & 23  28  58                                                         & 8.468      & 404                                                        & 8.112      & 476                                                        & 0.36         & 0.325                                                            \\ \hline
+        \textbf{8}    & 3  43  42                                                        & 23  20  34                                                         & 13.007     & 226                                                        & 12.023     & 356                                                        & 0.98         & 0.524                                                            \\ \hline
+        \textbf{9}    & 3  43  56                                                        & 23  25  46                                                         & 11.162     & 524                                                        & 10.522     & 498                                                        & 0.64         & 0.277                                                            \\ \hline
+        \textbf{10}   & 3  44  03                                                        & 24  25  54                                                         & 6.822      & 862                                                        & 6.800      & 871                                                        & 0.02         & 0.163                                                            \\ \hline
+        \textbf{11}   & 3  44  11                                                        & 24  07  23                                                         & 9.931      & 357                                                        & 9.469      & 255                                                        & 0.46         & 0.482                                                            \\ \hline
+        \textbf{12}   & 3  44  19                                                        & 24  14  16                                                         & 13.782     & 80                                                         & 12.630     & 136                                                        & 1.15         & 1.450                                                            \\ \hline
+        \textbf{13}   & 3  44  27                                                        & 23  57  57                                                         & 2.780      & 5547                                                       & 2.870      & 5321                                                       & -0.09        & 0.026                                                            \\ \hline
+        \textbf{14}   & 3  44  39                                                        & 23  27  17                                                         & 8.952      & 723                                                        & 7.720      & 988                                                        & 1.23         & 0.171                                                            \\ \hline
+        \textbf{15}   & 3  44  39                                                        & 24  34  47                                                         & 17.032     & 79                                                         & 16.521     & 115                                                        & 0.51         & 1.536                                                            \\ \hline
+        \textbf{16}   & 3  44  45                                                        & 23  24  52                                                         & 9.949      & 457                                                        & 8.802      & 775                                                        & 1.15         & 0.254                                                            \\ \hline
+        \textbf{17}   & 3  45  09                                                        & 24  50  59                                                         & 8.162      & 465                                                        & 6.459      & 1018                                                       & 1.70         & 0.236                                                            \\ \hline
+        \textbf{18}   & 3  45  27                                                        & 23  17  57                                                         & 5.380      & 1675                                                       & 5.450      & 1622                                                       & -0.07        & 0.086                                                            \\ \hline
+        \textbf{19}   & 3  45  28                                                        & 23  53  41                                                         & 10.578     & 265                                                        & 10.018     & 343                                                        & 0.56         & 0.477                                                            \\ \hline
+        \textbf{20}   & 3  45  33                                                        & 24  12  59                                                         & 7.070      & 544                                                        & 6.948      & 575                                                        & 0.12         & 0.253                                                            \\ \hline
+        \textbf{21}   & 3  46  26                                                        & 23  41  11                                                         & 12.135     & 237                                                        & 11.351     & 241                                                        & 0.78         & 0.592                                                            \\ \hline
+        \textbf{22}   & 3  46  26                                                        & 23  49  58                                                         & 16.807     & 82                                                         & 15.781     & 134                                                        & 1.03         & 1.430                                                            \\ \hline
+        \textbf{23}   & 3  46  57                                                        & 24  04  51                                                         & 9.343      & 604                                                        & 9.168      & 507                                                        & 0.18         & 0.258                                                            \\ \hline
+        \textbf{24}   & 3  47  29                                                        & 24  20  34                                                         & 7.550      & 1068                                                       & 7.421      & 655                                                        & 0.13         & 0.179                                                            \\ \hline
+        \end{tabular}
+    }
+    \label{tab:1}
+\end{table}
 
 \section{Conclusion} \label{sec:4}
 
@@ -371,24 +407,72 @@ With the collected data a H-R diagram can be plotted, with the apparent magnitud
 \section*{Appendix} \label{sec:A}
 \addcontentsline{toc}{section}{Appendix}
 
+\subsection*{Tables}
+\addcontentsline{toc}{subsection}{Tables}
+
+\begin{table}[H]
+    \centering
+    \caption{\centering Table of the provided data for the main sequence stars to be plotted \protect\cite{UCDsm, cleasm}.}
+
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{\begin{tabular}[c]{@{}c@{}}(V) Absolute\\ Magnitude\end{tabular}} & \textbf{B-V} & \textbf{Spectral Type} \\ \hline
+    -5.8                                                                      & -0.35        & O5                     \\ \hline
+    -4.1                                                                      & -0.31        & B0                     \\ \hline
+    -1.1                                                                      & -0.16        & B5                     \\ \hline
+    -0.7                                                                      & 00.0         & A0                     \\ \hline
+    2.0                                                                       & 0.13         & A5                     \\ \hline
+    2.6                                                                       & 0.27         & F0                     \\ \hline
+    3.4                                                                       & 0.42         & F5                     \\ \hline
+    4.4                                                                       & 0.58         & G0                     \\ \hline
+    5.1                                                                       & 0.70         & G5                     \\ \hline
+    5.9                                                                       & 0.89         & K0                     \\ \hline
+    7.3                                                                       & 1.18         & K5                     \\ \hline
+    9.0                                                                       & 1.45         & M0                     \\ \hline
+    11.8                                                                      & 1.63         & M5                     \\ \hline
+    16.0                                                                      & 1.80         & M8                     \\ \hline
+    \end{tabular}
+    \label{tab:2}
+\end{table}
+
 \subsection*{Code}
 \addcontentsline{toc}{subsection}{Code}
 
 \begin{center}
 
+\begin{minipage}{\linewidth}
+\captionsetup{hypcap=false}
+
 \begin{mintedbox}
-    \begin{minted}[fontsize=\small]{python}
-        import numpy as np
+\begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
+import numpy as np
 
-        def wow(a):
-            return a
+def errorprop(dx, dy): # error propagation defined formula
+    error_x = 1 / dx
+    error_y = 1 / dy
 
-        for i in range(0,10):
-            x = 'i'
-            y = 1+i
-            z = np.pi
-    \end{minted}
+    return np.sqrt(error_x**2 + error_y**2)
+
+B = np.array([13.316, 4.200, 8.950, 10.250, 13.058, 15.374, 8.468, 13.007, 11.162, 6.822, 9.931, 
+            13.782, 2.780, 8.952, 17.032, 9.949, 8.162, 5.380, 10.578, 7.070, 12.135, 16.807, 9.343, 7.550])
+sn_B = np.array([242, 6449, 1774, 975, 271, 83, 404, 226, 524, 862, 357, 80, 5547, 723, 79, 457, 
+                465, 1675, 265, 544, 237, 82, 604, 1068])
+V = np.array([12.513, 4.310, 8.600, 9.699, 12.048, 14.365, 8.112, 12.023, 10.522, 6.800, 9.469, 
+            12.630, 2.870, 7.720, 16.521, 8.802, 6.459, 5.450, 10.018, 6.948, 11.351, 15.781, 9.168, 7.421])
+sn_V = np.array([352, 6130, 2085, 1258, 352, 133, 476, 356, 498, 871, 255, 136, 5321, 988, 115, 
+                775, 1018, 1622, 343, 575, 241, 134, 507, 655])
+
+print(B-V)
+
+print(errorprop(sn_B,sn_V)) # fractional error, since they're already put into fractions in the eqn
+print(errorprop(sn_B,sn_V)*100) # percentage error
+
+\end{minted}
 \end{mintedbox}
+
+\captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
+\end{minipage}
+
 
 \end{center}
 

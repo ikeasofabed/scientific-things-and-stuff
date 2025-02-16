@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  15 FEB 2025 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  16 FEB 2025 00:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -859,12 +859,12 @@ Package hyperref Info: Link coloring ON on input line 69.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=86, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=90, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
 Package pdftex.def Info: ./images/UCDLogo.png  used on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=88, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=92, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
 Package pdftex.def Info: ./images/UCDBanner.png  used on input line 79.
@@ -895,7 +895,7 @@ l.105 \newpage
                [1
 
 ]
-<./images/eye spectra curve.png, id=131, 468.75125pt x 253.94875pt>
+<./images/eye spectra curve.png, id=136, 468.75125pt x 253.94875pt>
 File: ./images/eye spectra curve.png Graphic file (type png)
 <use ./images/eye spectra curve.png>
 Package pdftex.def Info: ./images/eye spectra curve.png  used on input line 147.
@@ -903,7 +903,7 @@ Package pdftex.def Info: ./images/eye spectra curve.png  used on input line 147.
 
 
 [2]
-<./images/ubv.jpeg, id=154, 1027.84pt x 624.3325pt>
+<./images/ubv.jpeg, id=159, 1027.84pt x 624.3325pt>
 File: ./images/ubv.jpeg Graphic file (type jpg)
 <use ./images/ubv.jpeg>
 Package pdftex.def Info: ./images/ubv.jpeg  used on input line 163.
@@ -913,7 +913,7 @@ Package pdftex.def Info: ./images/ubv.jpeg  used on input line 163.
 [3 <./images/eye spectra curve.png> <./images/ubv.jpeg>]
 
 [4]
-<./images/HRDiagram.png, id=218, 722.7pt x 823.075pt>
+<./images/HRDiagram.png, id=223, 722.7pt x 823.075pt>
 File: ./images/HRDiagram.png Graphic file (type png)
 <use ./images/HRDiagram.png>
 Package pdftex.def Info: ./images/HRDiagram.png  used on input line 248.
@@ -921,17 +921,17 @@ Package pdftex.def Info: ./images/HRDiagram.png  used on input line 248.
 
 
 [5 <./images/HRDiagram.png>]
-<./images/Stellar_Classification_Chart.png, id=240, 192.72pt x 124.0635pt>
+<./images/Stellar_Classification_Chart.png, id=245, 192.72pt x 124.0635pt>
 File: ./images/Stellar_Classification_Chart.png Graphic file (type png)
 <use ./images/Stellar_Classification_Chart.png>
 Package pdftex.def Info: ./images/Stellar_Classification_Chart.png  used on input line 266.
 (pdftex.def)             Requested size: 355.65944pt x 228.95541pt.
-<./images/pleiades.jpg, id=257, 1284.8pt x 1219.55624pt>
+<./images/pleiades.jpg, id=262, 1284.8pt x 1219.55624pt>
 File: ./images/pleiades.jpg Graphic file (type jpg)
 <use ./images/pleiades.jpg>
 Package pdftex.def Info: ./images/pleiades.jpg  used on input line 295.
 (pdftex.def)             Requested size: 207.9861pt x 197.42188pt.
-<./images/pleiades anotated.jpg, id=260, 1284.8pt x 925.4575pt>
+<./images/pleiades anotated.jpg, id=265, 1284.8pt x 925.4575pt>
 File: ./images/pleiades anotated.jpg Graphic file (type jpg)
 <use ./images/pleiades anotated.jpg>
 Package pdftex.def Info: ./images/pleiades anotated.jpg  used on input line 303.
@@ -939,7 +939,7 @@ Package pdftex.def Info: ./images/pleiades anotated.jpg  used on input line 303.
 
 
 [6 <./images/Stellar_Classification_Chart.png>]
-<./images/SMscreenshot_program.png, id=286, 602.25pt x 484.05844pt>
+<./images/SMscreenshot_program.png, id=291, 602.25pt x 484.05844pt>
 File: ./images/SMscreenshot_program.png Graphic file (type png)
 <use ./images/SMscreenshot_program.png>
 Package pdftex.def Info: ./images/SMscreenshot_program.png  used on input line 327.
@@ -983,33 +983,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--110
 \pydata@fh@_DA99C7CAE757036BE59C511E67D2447E.data.minted=\write9
 \openout9 = `_DA99C7CAE757036BE59C511E67D2447E.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250215204252Z DA99C7CAE757036BE59C511E67D2447E)...executed.
+runsystem(latexminted config  --timestamp 20250216004525Z DA99C7CAE757036BE59C511E67D2447E)...executed.
 
  (_DA99C7CAE757036BE59C511E67D2447E.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250215204252Z DA99C7CAE757036BE59C511E67D2447E)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20250216004525Z DA99C7CAE757036BE59C511E67D2447E)...executed.
 
- (_minted/monokai.style.minted) (_minted/0D575D37FAA1A93DD97B1DBB43ADDE6E.highlight.minted)
+ (_minted/monokai.style.minted) (_minted/01B08AAD4A0DB341D06171587923E04D.highlight.minted)
 
-[13] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.aux)
+[13]
+
+[14] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PHYC20040EXP2SM.out' has not changed.
-(rerunfilecheck)             Checksum: B58ACDFBF4000457FD4B9A52A0770CB0;2977.
+(rerunfilecheck)             Checksum: 3654240910097CBB27C3AA7BD1729AD9;3065.
  ) 
 Here is how much of TeX's memory you used:
- 32147 strings out of 473530
- 662664 string characters out of 5704664
- 1142936 words of memory out of 5000000
- 54750 multiletter control sequences out of 15000+600000
- 568341 words of font info for 70 fonts, out of 8000000 for 9000
+ 32201 strings out of 473530
+ 663802 string characters out of 5704664
+ 1158221 words of memory out of 5000000
+ 54795 multiletter control sequences out of 15000+600000
+ 569463 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,10n,117p,627b,834s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,17n,117p,715b,1164s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.pdf" (14 pages, 1937445 bytes).
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.pdf" (15 pages, 1952763 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 512 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
