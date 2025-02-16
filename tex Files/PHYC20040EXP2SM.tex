@@ -348,6 +348,9 @@ With the collected data a H-R diagram can be plotted, with the apparent magnitud
 
 \section{Results and Calculations} \label{sec:3}
 
+
+
+
 \begin{table}[H]
 
     \centering
@@ -386,6 +389,11 @@ With the collected data a H-R diagram can be plotted, with the apparent magnitud
     \label{tab:1}
 \end{table}
 
+
+
+
+
+
 \begin{minipage}{.49\textwidth}
     \captionsetup{hypcap=false}
     \centering
@@ -408,6 +416,9 @@ With the collected data a H-R diagram can be plotted, with the apparent magnitud
     \caption{\centering Graph of the Main Sequence Stars plotted against the Pleiades Cluster; \textit{shared x-axis, individual y-axes}.}
     \label{fig:pleimsgraph}
 \end{figure}
+
+
+
 
 \section{Conclusion} \label{sec:4}
 
@@ -585,6 +596,15 @@ for i in range(len(BV_ms)): # credit to Mr. ChatGPT
 
 \begin{mintedbox}
 \begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
+# Star Number
+for i in range(len(BV)): # credit to Mr. ChatGPT
+    axs.annotate(
+        star_no[i],
+        xy = (BV[i], V[i]),
+        xytext = (BV[i], V[i] - 0.5),
+        color="white", fontsize=7, ha="left", zorder=3,
+    )
+
 # Labels
 plt.title("Main Sequence Stars: V (M) vs. B-V")
 plt.xlabel("B-V Magnitude")
@@ -623,17 +643,6 @@ ax1.tick_params(axis="y")
 ax1.set_xlim(-0.45,1.85)
 ax1.set_xlabel("B-V Magnitude")
 
-# Main Sequence
-ax2 = ax1.twinx()
-ax2.set_axisbelow(True)
-
-ax2.plot(BV_ms, V_ms, c="#e6f2f1", zorder=3, linestyle="-.")
-ax2.scatter(BV_ms, V_ms, c="#e6f2f1", alpha=0.75, s=20, zorder=2, label="Main Sequence")
-
-ax2.set_ylim(17,-8)
-ax2.set_ylabel("Visual (V) Absolute Magnitude (M)")
-ax2.tick_params(axis="y")
-
 \end{minted}
 \end{mintedbox}
 
@@ -645,6 +654,17 @@ ax2.tick_params(axis="y")
 
 \begin{mintedbox}
 \begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
+# Main Sequence
+ax2 = ax1.twinx()
+ax2.set_axisbelow(True)
+
+ax2.plot(BV_ms, V_ms, c="#e6f2f1", zorder=3, linestyle="-.")
+ax2.scatter(BV_ms, V_ms, c="#e6f2f1", alpha=0.75, s=20, zorder=2, label="Main Sequence")
+
+ax2.set_ylim(17,-8)
+ax2.set_ylabel("Visual (V) Absolute Magnitude (M)")
+ax2.tick_params(axis="y")
+
 # Grids
 ax1.minorticks_on()
 ax1.grid(True, which="major", linewidth=0.8, color="#333333", zorder=0)  # Major grid
@@ -660,9 +680,29 @@ for i in range(len(BV_ms)): # credit to Mr. ChatGPT
         arrowprops=dict(arrowstyle="-", color="white", lw=0.75)
     )
 
+# Star Number
+for i in range(len(BV)): # credit to Mr. ChatGPT
+    ax1.annotate(
+        star_no[i],
+        xy = (BV[i], V[i]),
+        xytext = (BV[i], V[i] - 0.5),
+        color="white", fontsize=7, ha="left", zorder=3,
+    )
+
 # Style
 plt.style.use("dark_background")
 
+\end{minted}
+\end{mintedbox}
+
+\captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
+\end{minipage}
+
+\begin{minipage}{\linewidth}
+\captionsetup{hypcap=false}
+
+\begin{mintedbox}
+\begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
 # Labels
 plt.title("Pleiades & Main Sequence Stars: V vs. B-V")
 handles1, labels1 = ax1.get_legend_handles_labels()

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  16 FEB 2025 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  16 FEB 2025 19:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -952,17 +952,17 @@ Package pdftex.def Info: ./images/SMscreenshot_program.png  used on input line 3
 <./images/pleiades graoh.png, id=311, 595.5048pt x 616.4631pt>
 File: ./images/pleiades graoh.png Graphic file (type png)
 <use ./images/pleiades graoh.png>
-Package pdftex.def Info: ./images/pleiades graoh.png  used on input line 392.
+Package pdftex.def Info: ./images/pleiades graoh.png  used on input line 400.
 (pdftex.def)             Requested size: 237.01411pt x 245.34862pt.
 <./images/ms graph.png, id=312, 605.6226pt x 616.4631pt>
 File: ./images/ms graph.png Graphic file (type png)
 <use ./images/ms graph.png>
-Package pdftex.def Info: ./images/ms graph.png  used on input line 400.
+Package pdftex.def Info: ./images/ms graph.png  used on input line 408.
 (pdftex.def)             Requested size: 241.84843pt x 246.17639pt.
 <./images/pleiadesms graph.png, id=313, 597.6729pt x 616.4631pt>
 File: ./images/pleiadesms graph.png Graphic file (type png)
 <use ./images/pleiadesms graph.png>
-Package pdftex.def Info: ./images/pleiadesms graph.png  used on input line 407.
+Package pdftex.def Info: ./images/pleiadesms graph.png  used on input line 415.
 (pdftex.def)             Requested size: 355.65944pt x 366.84242pt.
 
 
@@ -1001,10 +1001,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--110
 \pydata@fh@_DA99C7CAE757036BE59C511E67D2447E.data.minted=\write9
 \openout9 = `_DA99C7CAE757036BE59C511E67D2447E.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250216191431Z DA99C7CAE757036BE59C511E67D2447E)...executed.
+runsystem(latexminted config  --timestamp 20250216193113Z DA99C7CAE757036BE59C511E67D2447E)...executed.
 
  (_DA99C7CAE757036BE59C511E67D2447E.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250216191431Z DA99C7CAE757036BE59C511E67D2447E)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20250216193113Z DA99C7CAE757036BE59C511E67D2447E)...executed.
 
  (_minted/monokai.style.minted) (_minted/AFCC7CB41C70D3E47C250DA86B39B7C5.highlight.minted)
 
@@ -1012,13 +1012,15 @@ runsystem(latexminted cleanconfig  --timestamp 20250216191431Z DA99C7CAE757036BE
 
 [15] (_minted/8A403EF231948FF60635B02D08B31849.highlight.minted)
 
-[16] (_minted/C1DD5F2B3A935ED351B6BA9FF4E430F8.highlight.minted)
+[16] (_minted/020DB4FD2A6E0D2761BB825F06883D52.highlight.minted)
 
-[17] (_minted/20CC2C10A772F4A94E9B326019475067.highlight.minted) (_minted/CFDE085E9800AAA895F95D9B4520EB02.highlight.minted)
+[17] (_minted/EEA50844D3FAC63DE4B919AED81C6B7B.highlight.minted) (_minted/C7A2A8D1118FCA921B9D2015435C7AB0.highlight.minted)
 
-[18]
+[18] (_minted/B421FFF227D79F9AB916C2933998F455.highlight.minted)
 
-[19] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.aux)
+[19]
+
+[20] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1027,17 +1029,17 @@ Package rerunfilecheck Info: File `PHYC20040EXP2SM.out' has not changed.
 (rerunfilecheck)             Checksum: A743C52D1E1E57B839B78C931B4EE743;3066.
  ) 
 Here is how much of TeX's memory you used:
- 32314 strings out of 473530
- 667921 string characters out of 5704664
+ 32335 strings out of 473530
+ 668696 string characters out of 5704664
  1161261 words of memory out of 5000000
- 54880 multiletter control sequences out of 15000+600000
+ 54896 multiletter control sequences out of 15000+600000
  569463 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,17n,117p,1253b,1156s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,17n,117p,1253b,1168s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.pdf" (20 pages, 2204548 bytes).
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.pdf" (21 pages, 2212507 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
+ 582 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
