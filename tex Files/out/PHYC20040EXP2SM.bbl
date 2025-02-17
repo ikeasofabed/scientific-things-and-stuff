@@ -255,6 +255,13 @@ Anon. (2004, June) {Annotated image of the pleiades and HST field of view}.
   \url{https://esahubble.org/images/opo0420b/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{rian}
+\BIBentryALTinterwordspacing
+R.~Byrne. (2025, February) Appendix 6.3 lab report student id: 23349346.
+  [Accessed 16 February 2025]. [Online]. Available:
+  \url{https://www.instagram.com/rian.o.broin/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{cleasm}
 \BIBentryALTinterwordspacing
 CLEA. (2015, May) {Photoelectric Photometry of the Pleiades}. [Accessed 15
@@ -267,6 +274,20 @@ CLEA. (2015, May) {Photoelectric Photometry of the Pleiades}. [Accessed 15
 CLEA and UCD. (2008, November) Photoelectric photometry of the pleiades student
   manual. [Accessed 13 February 2025]. [Online]. Available:
   \url{https://brightspace.ucd.ie/d2l/le/content/300670/viewContent/3521484/View}
+\BIBentrySTDinterwordspacing
+
+\bibitem{dist}
+\BIBentryALTinterwordspacing
+Anon. (2009) Finding the distance. [Accessed 17 February 2025]. [Online].
+  Available:
+  \url{https://faculty.washington.edu/ivezic/REU08/GDP/distance/background4.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{sun}
+\BIBentryALTinterwordspacing
+------. (2009) {Background Information}. [Accessed 17 February 2025]. [Online].
+  Available:
+  \url{https://faculty.washington.edu/ivezic/REU08/GDP/distance/background2.html}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

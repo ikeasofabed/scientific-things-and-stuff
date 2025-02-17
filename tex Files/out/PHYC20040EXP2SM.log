@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  16 FEB 2025 22:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  17 FEB 2025 19:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -861,12 +861,12 @@ Package hyperref Info: Link coloring ON on input line 69.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=90, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=102, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
 Package pdftex.def Info: ./images/UCDLogo.png  used on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=92, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=104, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
 Package pdftex.def Info: ./images/UCDBanner.png  used on input line 79.
@@ -897,91 +897,89 @@ l.105 \newpage
                [1
 
 ]
-<./images/eye spectra curve.png, id=136, 468.75125pt x 253.94875pt>
-File: ./images/eye spectra curve.png Graphic file (type png)
-<use ./images/eye spectra curve.png>
-Package pdftex.def Info: ./images/eye spectra curve.png  used on input line 147.
-(pdftex.def)             Requested size: 355.65944pt x 192.67755pt.
-
 
 [2]
-<./images/ubv.jpeg, id=159, 1027.84pt x 624.3325pt>
+<./images/eye spectra curve.png, id=165, 468.75125pt x 253.94875pt>
+File: ./images/eye spectra curve.png Graphic file (type png)
+<use ./images/eye spectra curve.png>
+Package pdftex.def Info: ./images/eye spectra curve.png  used on input line 154.
+(pdftex.def)             Requested size: 341.43306pt x 184.97029pt.
+<./images/ubv.jpeg, id=173, 1027.84pt x 624.3325pt>
 File: ./images/ubv.jpeg Graphic file (type jpg)
 <use ./images/ubv.jpeg>
-Package pdftex.def Info: ./images/ubv.jpeg  used on input line 163.
-(pdftex.def)             Requested size: 355.65944pt x 216.03322pt.
+Package pdftex.def Info: ./images/ubv.jpeg  used on input line 170.
+(pdftex.def)             Requested size: 341.43306pt x 207.39265pt.
 
 
 [3 <./images/eye spectra curve.png> <./images/ubv.jpeg>]
 
 [4]
-<./images/HRDiagram.png, id=223, 722.7pt x 823.075pt>
+<./images/HRDiagram.png, id=241, 722.7pt x 823.075pt>
 File: ./images/HRDiagram.png Graphic file (type png)
 <use ./images/HRDiagram.png>
-Package pdftex.def Info: ./images/HRDiagram.png  used on input line 248.
+Package pdftex.def Info: ./images/HRDiagram.png  used on input line 255.
 (pdftex.def)             Requested size: 284.52756pt x 324.04982pt.
 
 
 [5 <./images/HRDiagram.png>]
-<./images/Stellar_Classification_Chart.png, id=245, 192.72pt x 124.0635pt>
+<./images/Stellar_Classification_Chart.png, id=262, 192.72pt x 124.0635pt>
 File: ./images/Stellar_Classification_Chart.png Graphic file (type png)
 <use ./images/Stellar_Classification_Chart.png>
-Package pdftex.def Info: ./images/Stellar_Classification_Chart.png  used on input line 266.
-(pdftex.def)             Requested size: 355.65944pt x 228.95541pt.
-<./images/pleiades.jpg, id=262, 1284.8pt x 1219.55624pt>
-File: ./images/pleiades.jpg Graphic file (type jpg)
-<use ./images/pleiades.jpg>
-Package pdftex.def Info: ./images/pleiades.jpg  used on input line 295.
-(pdftex.def)             Requested size: 207.9861pt x 197.42188pt.
-<./images/pleiades anotated.jpg, id=265, 1284.8pt x 925.4575pt>
-File: ./images/pleiades anotated.jpg Graphic file (type jpg)
-<use ./images/pleiades anotated.jpg>
-Package pdftex.def Info: ./images/pleiades anotated.jpg  used on input line 303.
-(pdftex.def)             Requested size: 270.86906pt x 195.10023pt.
+Package pdftex.def Info: ./images/Stellar_Classification_Chart.png  used on input line 273.
+(pdftex.def)             Requested size: 435.32422pt x 280.24013pt.
 
 
 [6 <./images/Stellar_Classification_Chart.png>]
-<./images/SMscreenshot_program.png, id=291, 602.25pt x 484.05844pt>
+<./images/pleiades.jpg, id=294, 1284.8pt x 1219.55624pt>
+File: ./images/pleiades.jpg Graphic file (type jpg)
+<use ./images/pleiades.jpg>
+Package pdftex.def Info: ./images/pleiades.jpg  used on input line 302.
+(pdftex.def)             Requested size: 207.9861pt x 197.42188pt.
+<./images/pleiades anotated.jpg, id=297, 1284.8pt x 925.4575pt>
+File: ./images/pleiades anotated.jpg Graphic file (type jpg)
+<use ./images/pleiades anotated.jpg>
+Package pdftex.def Info: ./images/pleiades anotated.jpg  used on input line 310.
+(pdftex.def)             Requested size: 270.86906pt x 195.10023pt.
+<./images/rian pleiades.jpg, id=304, 1390.19376pt x 1337.99875pt>
+File: ./images/rian pleiades.jpg Graphic file (type jpg)
+<use ./images/rian pleiades.jpg>
+Package pdftex.def Info: ./images/rian pleiades.jpg  used on input line 321.
+(pdftex.def)             Requested size: 213.39566pt x 205.36646pt.
+
+
+[7 <./images/pleiades.jpg> <./images/pleiades anotated.jpg> <./images/rian pleiades.jpg>]
+<./images/SMscreenshot_program.png, id=325, 602.25pt x 484.05844pt>
 File: ./images/SMscreenshot_program.png Graphic file (type png)
 <use ./images/SMscreenshot_program.png>
-Package pdftex.def Info: ./images/SMscreenshot_program.png  used on input line 327.
+Package pdftex.def Info: ./images/SMscreenshot_program.png  used on input line 343.
 (pdftex.def)             Requested size: 435.32422pt x 349.90302pt.
 
 
-[7 <./images/pleiades.jpg> <./images/pleiades anotated.jpg>]
-
 [8 <./images/SMscreenshot_program.png>]
-<./images/pleiades graoh.png, id=312, 595.5048pt x 616.4631pt>
-File: ./images/pleiades graoh.png Graphic file (type png)
-<use ./images/pleiades graoh.png>
-Package pdftex.def Info: ./images/pleiades graoh.png  used on input line 400.
-(pdftex.def)             Requested size: 237.01411pt x 245.34862pt.
-<./images/ms graph.png, id=313, 605.6226pt x 616.4631pt>
-File: ./images/ms graph.png Graphic file (type png)
-<use ./images/ms graph.png>
-Package pdftex.def Info: ./images/ms graph.png  used on input line 408.
-(pdftex.def)             Requested size: 241.84843pt x 246.17639pt.
-
 
 [9]
-<./images/pleiadesms graph.png, id=323, 597.6729pt x 616.4631pt>
+<./images/pleiadesms graph.png, id=345, 597.6729pt x 616.4631pt>
 File: ./images/pleiadesms graph.png Graphic file (type png)
 <use ./images/pleiadesms graph.png>
-Package pdftex.def Info: ./images/pleiadesms graph.png  used on input line 419.
-(pdftex.def)             Requested size: 355.65944pt x 366.84242pt.
+Package pdftex.def Info: ./images/pleiadesms graph.png  used on input line 429.
+(pdftex.def)             Requested size: 341.43306pt x 352.16835pt.
 
 
-[10 <./images/pleiades graoh.png> <./images/ms graph.png> <./images/pleiadesms graph.png>]
+[10 <./images/pleiadesms graph.png>]
 
 [11]
-<./images/pleimsgraph sun.png, id=353, 597.6729pt x 616.4631pt>
+<./images/pleimsgraph sun.png, id=379, 597.6729pt x 616.4631pt>
 File: ./images/pleimsgraph sun.png Graphic file (type png)
 <use ./images/pleimsgraph sun.png>
-Package pdftex.def Info: ./images/pleimsgraph sun.png  used on input line 504.
+Package pdftex.def Info: ./images/pleimsgraph sun.png  used on input line 534.
 (pdftex.def)             Requested size: 355.65944pt x 366.84242pt.
 
 
-[12 <./images/pleimsgraph sun.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.bbl
+[12]
+
+[13 <./images/pleimsgraph sun.png>]
+
+[14] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.bbl
 Underfull \hbox (badness 1292) in paragraph at lines 106--110
 []\OT1/cmr/m/n/12 M. Rich-mond. (n.d.) As-tro-nom-i-cal "Color". [Ac-cessed 14 Febru-
  []
@@ -998,9 +996,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--110
 
 
 
-[13]
+[15]
 
-[14]) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.lof)
+[16]) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.lof
+
+[17])
 \tf@lof=\write7
 \openout7 = `PHYC20040EXP2SM.lof'.
 
@@ -1008,51 +1008,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--110
 \tf@lot=\write8
 \openout8 = `PHYC20040EXP2SM.lot'.
 
+<./images/pleiades graoh.png, id=539, 595.5048pt x 616.4631pt>
+File: ./images/pleiades graoh.png Graphic file (type png)
+<use ./images/pleiades graoh.png>
+Package pdftex.def Info: ./images/pleiades graoh.png  used on input line 636.
+(pdftex.def)             Requested size: 237.01411pt x 245.34862pt.
+<./images/ms graph.png, id=540, 605.6226pt x 616.4631pt>
+File: ./images/ms graph.png Graphic file (type png)
+<use ./images/ms graph.png>
+Package pdftex.def Info: ./images/ms graph.png  used on input line 644.
+(pdftex.def)             Requested size: 241.84843pt x 246.17639pt.
+<./images/20 axis pleims.png, id=541, 597.6729pt x 616.4631pt>
+File: ./images/20 axis pleims.png Graphic file (type png)
+<use ./images/20 axis pleims.png>
+Package pdftex.def Info: ./images/20 axis pleims.png  used on input line 651.
+(pdftex.def)             Requested size: 355.65944pt x 366.84242pt.
 
 
-[15]
+[18]
 \pydata@fh@_DA99C7CAE757036BE59C511E67D2447E.data.minted=\write9
 \openout9 = `_DA99C7CAE757036BE59C511E67D2447E.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250216222038Z DA99C7CAE757036BE59C511E67D2447E)...executed.
+runsystem(latexminted config  --timestamp 20250217191518Z DA99C7CAE757036BE59C511E67D2447E)...executed.
 
  (_DA99C7CAE757036BE59C511E67D2447E.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250216222038Z DA99C7CAE757036BE59C511E67D2447E)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20250217191518Z DA99C7CAE757036BE59C511E67D2447E)...executed.
 
- (_minted/monokai.style.minted) (_minted/AFCC7CB41C70D3E47C250DA86B39B7C5.highlight.minted)
+ (_minted/monokai.style.minted) (_minted/64CFCA21383163DDB55DACBD3BBA87A2.highlight.minted)
 
-[16] (_minted/F661AD54BF00BCE248EDF6CB5F3A2169.highlight.minted)
+[19 <./images/pleiades graoh.png> <./images/ms graph.png> <./images/20 axis pleims.png>] (_minted/9ACAB8C3C3CAA7677B9EDA8BCD1C17FD.highlight.minted) (_minted/F661AD54BF00BCE248EDF6CB5F3A2169.highlight.minted)
 
-[17] (_minted/8A403EF231948FF60635B02D08B31849.highlight.minted)
+[20] (_minted/8A403EF231948FF60635B02D08B31849.highlight.minted)
 
-[18] (_minted/020DB4FD2A6E0D2761BB825F06883D52.highlight.minted)
+[21] (_minted/C1DD5F2B3A935ED351B6BA9FF4E430F8.highlight.minted)
 
-[19] (_minted/EEA50844D3FAC63DE4B919AED81C6B7B.highlight.minted) (_minted/C7A2A8D1118FCA921B9D2015435C7AB0.highlight.minted)
+[22] (_minted/EEA50844D3FAC63DE4B919AED81C6B7B.highlight.minted) (_minted/C7A2A8D1118FCA921B9D2015435C7AB0.highlight.minted)
 
-[20] (_minted/B421FFF227D79F9AB916C2933998F455.highlight.minted)
+[23] (_minted/B421FFF227D79F9AB916C2933998F455.highlight.minted)
 
-[21] (_minted/13389D48708ADBC17ADEA81658162B5C.highlight.minted)
+[24] (_minted/13389D48708ADBC17ADEA81658162B5C.highlight.minted) (_minted/AD3CA51588D2DE48391922E55EDB8F8E.highlight.minted)
 
-[22] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.aux)
+[25] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PHYC20040EXP2SM.out' has not changed.
-(rerunfilecheck)             Checksum: FC75F8894BE8FC9D490C1DF59F12B0D4;3066.
+(rerunfilecheck)             Checksum: 13596BF4F08E2A54B0BCEAB2657C120E;3722.
  ) 
 Here is how much of TeX's memory you used:
- 32404 strings out of 473530
- 670477 string characters out of 5704664
- 1163303 words of memory out of 5000000
- 54951 multiletter control sequences out of 15000+600000
- 569463 words of font info for 75 fonts, out of 8000000 for 9000
+ 32472 strings out of 473530
+ 672408 string characters out of 5704664
+ 1163665 words of memory out of 5000000
+ 54997 multiletter control sequences out of 15000+600000
+ 571046 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,20n,117p,1253b,1168s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.pdf" (23 pages, 2335646 bytes).
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.pdf" (26 pages, 2614664 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 726 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 280 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -385,6 +385,13 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tf
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.toc
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr10.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmex10.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmti12.tfm
 INPUT ./images/eye spectra curve.png
@@ -401,8 +408,6 @@ INPUT ./images/ubv.jpeg
 INPUT ./images/ubv.jpeg
 INPUT ./images/ubv.jpeg
 INPUT ./images/ubv.jpeg
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx8.tfm
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx6.tfm
 INPUT ./images/HRDiagram.png
 INPUT ./images/HRDiagram.png
 INPUT ./images/HRDiagram.png
@@ -427,24 +432,18 @@ INPUT ./images/pleiades anotated.jpg
 INPUT ./images/pleiades anotated.jpg
 INPUT ./images/pleiades anotated.jpg
 INPUT ./images/pleiades anotated.jpg
+INPUT ./images/rian pleiades.jpg
+INPUT ./images/rian pleiades.jpg
+INPUT ./images/rian pleiades.jpg
+INPUT ./images/rian pleiades.jpg
+INPUT ./images/rian pleiades.jpg
+INPUT ./images/rian pleiades.jpg
 INPUT ./images/SMscreenshot_program.png
 INPUT ./images/SMscreenshot_program.png
 INPUT ./images/SMscreenshot_program.png
 INPUT ./images/SMscreenshot_program.png
 INPUT ./images/SMscreenshot_program.png
 INPUT ./images/SMscreenshot_program.png
-INPUT ./images/pleiades graoh.png
-INPUT ./images/pleiades graoh.png
-INPUT ./images/pleiades graoh.png
-INPUT ./images/pleiades graoh.png
-INPUT ./images/pleiades graoh.png
-INPUT ./images/pleiades graoh.png
-INPUT ./images/ms graph.png
-INPUT ./images/ms graph.png
-INPUT ./images/ms graph.png
-INPUT ./images/ms graph.png
-INPUT ./images/ms graph.png
-INPUT ./images/ms graph.png
 INPUT ./images/pleiadesms graph.png
 INPUT ./images/pleiadesms graph.png
 INPUT ./images/pleiadesms graph.png
@@ -468,6 +467,24 @@ INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.lot
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.lot
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.lot
+INPUT ./images/pleiades graoh.png
+INPUT ./images/pleiades graoh.png
+INPUT ./images/pleiades graoh.png
+INPUT ./images/pleiades graoh.png
+INPUT ./images/pleiades graoh.png
+INPUT ./images/pleiades graoh.png
+INPUT ./images/ms graph.png
+INPUT ./images/ms graph.png
+INPUT ./images/ms graph.png
+INPUT ./images/ms graph.png
+INPUT ./images/ms graph.png
+INPUT ./images/ms graph.png
+INPUT ./images/20 axis pleims.png
+INPUT ./images/20 axis pleims.png
+INPUT ./images/20 axis pleims.png
+INPUT ./images/20 axis pleims.png
+INPUT ./images/20 axis pleims.png
+INPUT ./images/20 axis pleims.png
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/_DA99C7CAE757036BE59C511E67D2447E.data.minted
 INPUT ./_DA99C7CAE757036BE59C511E67D2447E.config.minted
 INPUT ./_DA99C7CAE757036BE59C511E67D2447E.config.minted
@@ -477,24 +494,28 @@ INPUT ./_minted/_DA99C7CAE757036BE59C511E67D2447E.index.minted
 INPUT ./_minted/monokai.style.minted
 INPUT ./_minted/monokai.style.minted
 INPUT _minted/monokai.style.minted
-INPUT ./_minted/AFCC7CB41C70D3E47C250DA86B39B7C5.highlight.minted
-INPUT ./_minted/AFCC7CB41C70D3E47C250DA86B39B7C5.highlight.minted
-INPUT _minted/AFCC7CB41C70D3E47C250DA86B39B7C5.highlight.minted
+INPUT ./_minted/64CFCA21383163DDB55DACBD3BBA87A2.highlight.minted
+INPUT ./_minted/64CFCA21383163DDB55DACBD3BBA87A2.highlight.minted
+INPUT _minted/64CFCA21383163DDB55DACBD3BBA87A2.highlight.minted
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./_minted/9ACAB8C3C3CAA7677B9EDA8BCD1C17FD.highlight.minted
+INPUT ./_minted/9ACAB8C3C3CAA7677B9EDA8BCD1C17FD.highlight.minted
+INPUT _minted/9ACAB8C3C3CAA7677B9EDA8BCD1C17FD.highlight.minted
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT ./_minted/F661AD54BF00BCE248EDF6CB5F3A2169.highlight.minted
 INPUT ./_minted/F661AD54BF00BCE248EDF6CB5F3A2169.highlight.minted
 INPUT _minted/F661AD54BF00BCE248EDF6CB5F3A2169.highlight.minted
 INPUT ./_minted/8A403EF231948FF60635B02D08B31849.highlight.minted
 INPUT ./_minted/8A403EF231948FF60635B02D08B31849.highlight.minted
 INPUT _minted/8A403EF231948FF60635B02D08B31849.highlight.minted
-INPUT ./_minted/020DB4FD2A6E0D2761BB825F06883D52.highlight.minted
-INPUT ./_minted/020DB4FD2A6E0D2761BB825F06883D52.highlight.minted
-INPUT _minted/020DB4FD2A6E0D2761BB825F06883D52.highlight.minted
+INPUT ./_minted/C1DD5F2B3A935ED351B6BA9FF4E430F8.highlight.minted
+INPUT ./_minted/C1DD5F2B3A935ED351B6BA9FF4E430F8.highlight.minted
+INPUT _minted/C1DD5F2B3A935ED351B6BA9FF4E430F8.highlight.minted
 INPUT ./_minted/EEA50844D3FAC63DE4B919AED81C6B7B.highlight.minted
 INPUT ./_minted/EEA50844D3FAC63DE4B919AED81C6B7B.highlight.minted
 INPUT _minted/EEA50844D3FAC63DE4B919AED81C6B7B.highlight.minted
@@ -507,9 +528,14 @@ INPUT _minted/B421FFF227D79F9AB916C2933998F455.highlight.minted
 INPUT ./_minted/13389D48708ADBC17ADEA81658162B5C.highlight.minted
 INPUT ./_minted/13389D48708ADBC17ADEA81658162B5C.highlight.minted
 INPUT _minted/13389D48708ADBC17ADEA81658162B5C.highlight.minted
+INPUT ./_minted/AD3CA51588D2DE48391922E55EDB8F8E.highlight.minted
+INPUT ./_minted/AD3CA51588D2DE48391922E55EDB8F8E.highlight.minted
+INPUT _minted/AD3CA51588D2DE48391922E55EDB8F8E.highlight.minted
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.aux
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.out
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP2SM.out
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -518,6 +544,8 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb

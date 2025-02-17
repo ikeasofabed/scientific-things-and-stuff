@@ -1,0 +1,13 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from}\PYG{+w}{ }\PYG{n+nn}{matplotlib}\PYG{n+nn}{.}\PYG{n+nn}{ticker}\PYG{+w}{ }\PYG{k+kn}{import} \PYG{n}{AutoMinorLocator}\PYG{p}{,} \PYG{n}{FormatStrFormatter}
+
+\PYG{n}{ax1}\PYG{o}{.}\PYG{n}{yaxis}\PYG{o}{.}\PYG{n}{set\PYGZus{}minor\PYGZus{}locator}\PYG{p}{(}\PYG{n}{AutoMinorLocator}\PYG{p}{(}\PYG{p}{)}\PYG{p}{)}
+\PYG{n}{ax1}\PYG{o}{.}\PYG{n}{yaxis}\PYG{o}{.}\PYG{n}{set\PYGZus{}minor\PYGZus{}formatter}\PYG{p}{(}\PYG{n}{FormatStrFormatter}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZpc{}.1f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+\PYG{n}{ax2}\PYG{o}{.}\PYG{n}{yaxis}\PYG{o}{.}\PYG{n}{set\PYGZus{}minor\PYGZus{}locator}\PYG{p}{(}\PYG{n}{AutoMinorLocator}\PYG{p}{(}\PYG{p}{)}\PYG{p}{)}  \PYG{c+c1}{\PYGZsh{} Adjust minor tick placement (ChatGPT credit)}
+\PYG{n}{ax2}\PYG{o}{.}\PYG{n}{yaxis}\PYG{o}{.}\PYG{n}{set\PYGZus{}minor\PYGZus{}formatter}\PYG{p}{(}\PYG{n}{FormatStrFormatter}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZpc{}.1f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}  \PYG{c+c1}{\PYGZsh{} Format as 1 decimal place (ChatGPT credit)}
+
+\PYG{c+c1}{\PYGZsh{} Force Matplotlib to display minor tick labels (ChatGPT credit)}
+\PYG{n}{ax1}\PYG{o}{.}\PYG{n}{tick\PYGZus{}params}\PYG{p}{(}\PYG{n}{axis}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{y}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{which}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{minor}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{labelsize}\PYG{o}{=}\PYG{l+m+mi}{6}\PYG{p}{)}
+\PYG{n}{ax2}\PYG{o}{.}\PYG{n}{tick\PYGZus{}params}\PYG{p}{(}\PYG{n}{axis}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{y}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{which}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{minor}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{labelsize}\PYG{o}{=}\PYG{l+m+mi}{6}\PYG{p}{)}
+
+\end{MintedVerbatim}

@@ -107,18 +107,25 @@
 \begin{abstract}
 \addcontentsline{toc}{section}{Abstract}
 
-The aim of this experiment was 
+The aim of this experiment was to calculate the distance from Earth to the Pleiades star cluster using a CLEA (Contemporary Laboratory Experience in Astronomy) program to simulate the use of a photometer attached to a research telescope.
+By finding the apparent magnitudes of 24 pre-selected stars through a Blue (B) and Visual (V) filter, the B-V colour index could then be calculated which ranged from \textbf{-0.11 to 1.70}. A plot of the visual apparent magnitude (m) was then plotted against the B-V values
+for the Pleiades cluster and the line of the Main Sequence stars on the Hertzsprung-Russell diagram was overlaid on top it, with the absolute magnitudes (M) on the y-axis.
+
+The distance modulus equation was then used with the values found to determine a distance of $\mathbf{410.4097 \pm 0.1955}$ \textbf{ly} from Earth to the Pleiades cluster. This result is \textbf{0.0999\%} off from
+the estimated distance of 410 ly calculated in 1958 and \textbf{6.7251\%} off from the estimated distance of 440 ly calculated in 2004. These values were compared and verified against the accepted values and also compared against
+the theoretical distance to the Sun if it were in the Pleiades cluster. Both distance modulus agreed at \textbf{0.55} indicating internal consistencies.
 
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\vspace{4cm}
+
 \section{Theory} \label{sec:1}
 
-Photometry plays an important role when it comes to astronomy and measuring different properties of stars, such as brightness and temperature.
+Photometry is an important technique in astronomy for measuring different properties of stars, such as brightness and temperature.
 UBV Photometry and its consequent B-V colour index have greatly defined what it means to determine stellar classifications, leading to the development
-of the H-R Diagram with a focus on main-sequence stars. This experiment focuses on the study of the Pleiades cluster by comparing the calculated
-apparent magnitudes to the known absolute magnitudes and luminosity of the main sequence stars.
+of the H-R Diagram with a focus on main-sequence stars.
 
 \subsection{Photometry} \label{sec:1.1}
 
@@ -136,7 +143,7 @@ Photometry has some fundamental quantities that aid in understanding what is bei
     is \textit{candela} given by \textit{Watts per steradian}.
     \item \textbf{Illuminance} is the measurement of the level of light at a particular surface. The unit of measurement is \textit{footcandle (English)} or \textit{lux (Metric)} which is
     given by \textit{Watts per square metre}.
-    \item \textbf{Luminance} is what measures the apparent magnitude (brigthness) (see §\ref{sec:1.1.3}), it is the luminous flux that is emitted from a surface.
+    \item \textbf{Luminance} is what measures the apparent magnitude (brightness) (see §\ref{sec:1.1.3}), it is the luminous flux that is emitted from a surface.
     It is therefore measured with the unit \textit{footlambert (English)} or \textit{candela per square metre (Metric)}, given be \textit{Watt/steradian/}$m^2$.
     The human eye is the most commonly-known luminance detector, of which the sensitivity to light, and therefore colour, can be seen in figure {\ref{fig:1}}.
     \item \textbf{Luminosity} is a measure of the intrinsic brightness (absolute magnitude) of a star, measured in \textit{Watts}, mostly compared to the Sun's luminosity \cite{cosmoslumi}.
@@ -144,7 +151,7 @@ Photometry has some fundamental quantities that aid in understanding what is bei
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=12.5cm]{eye spectra curve.png}
+    \includegraphics[width=12cm]{eye spectra curve.png}
     \caption{\centering Curve of the spectral sensitivity of the human eye \protect\cite{eyecurve}. \textit{Scotopic: very low light levels; Photopic: bright light levels \protect\cite{scophoto}.}}
     \label{fig:1}
 \end{figure}
@@ -154,18 +161,18 @@ Photometry has some fundamental quantities that aid in understanding what is bei
 The UBV (Ultraviolet, Blue, Visual) classification system was originally called the Johnson-Morgan after H.L. Johnson and W.W. Morgan proposed this system for classifying stars in 1952 in accordance to their colour 
 (and therefore temperature)
 \cite{ubv1953}.
-The apparent magnitudes of stars are measured in the three aforementiones wavelength bands and their spectral types are through the associated B-V (blue filter) and U-B (Ultraviolet filter)
+The apparent magnitudes of stars are measured in the three wavelength bands mentioned in section §\ref{sec:1.1} and their spectral types are determined through the associated B-V (blue filter) and U-B (Ultraviolet filter)
 (\textit{the difference between the magnitudes through the different filters}) colour indices
 \cite{ubv1953}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=12.5cm]{ubv.jpeg}
+    \includegraphics[width=12cm]{ubv.jpeg}
     \caption{\centering Transmission curves of photometric filters \protect\cite{ubvfilters}. \textit{U: Ultraviolet; B: Blue; V: Visible; R: Red; I: Infrared.}}
     \label{fig:ubvfilters}
 \end{figure}
 
-The UBVRI system above is an extension of the original Johnson-Morgan system with the extra red and infrared filters, allowing for a greater wavelength band allowance.
+The UBVRI system in the above figure (\ref{fig:ubvfilters}) is an extension of the original Johnson-Morgan system with the extra red and infrared filters, allowing for a greater wavelength band allowance.
 
 \subsubsection{The B-V Colour Index} \label{sec:1.1.2}
 
@@ -234,12 +241,12 @@ for the UBV photometric system \cite{ccds}:
 \end{gather}
 
 In which the non-zero constant is added due to the way the 0.0 colour (Vega) is defined. Thus is can be understood that bluer (hotter) stars have a negative colour
-in comparison to Vega, and redder (colder) stars have a poisitive colour
+in comparison to Vega, and redder (colder) stars have a positive colour
 \cite{ccds}.
 
-\subsection{Hertzsprung-Russel (H-R) Diagram} \label{sec:1.2}
+\subsection{Hertzsprung-Russell (H-R) Diagram} \label{sec:1.2}
 
-The Hertzsprung-Russel (H-R) diagram plots the absolute magnitudes (see §\ref{sec:1.1.3}) against the temperatures (spectral types) of different stars \cite{brithr}.
+The Hertzsprung-Russell (H-R) diagram plots the absolute magnitudes (see §\ref{sec:1.1.3}) against the temperatures (spectral types) of different stars \cite{brithr}.
 Figure \ref{fig:hrdiagram} also includes the luminosity (see §\ref{sec:1.1}) and B-V colour (see §\ref{sec:1.1.2}) as axes on the graph.
 The 0.0 base point of the star Vega as discussed in sections §\ref{sec:1.1.3.1} and §\ref{sec:1.1.3.2} is included to the far left of the bottom y-axis.
 
@@ -263,8 +270,8 @@ size in solar radii, and their prevalence (in percent) among the main sequence s
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=12.5cm]{Stellar_Classification_Chart.png}
-    \caption{\centering Chart for calssifying of the main star types as per the Harvard classification \protect\cite{wikistar}.}
+    \includegraphics[width=.9\textwidth]{Stellar_Classification_Chart.png}
+    \caption{\centering Chart for classifying of the main star types as per the Harvard classification \protect\cite{wikistar}.}
     \label{fig:starclassy}
 \end{figure}
 
@@ -280,7 +287,7 @@ remains stable \cite{studymsstar}; the process is known as \textbf{hydrostatic e
 The relationship of a main sequence star with luminosity and temperature (spectral type) is seen in figure \ref{fig:hrdiagram}, the H-R diagram, and figure \ref{fig:starclassy},
 the stellar type classification (for main sequence stars), which also shows the hydrogen available to undergo the nuclear reactions into helium.
 
-\subsection{The Pleiades Star Cluster}
+\subsection{The Pleiades Star Cluster} \label{sec:1.3}
 
 The Pleiades star cluster, also known as \textit{the Seven Sisters} and \textit{Messier (M) 45} and \textit{Cl Melotte 22}, can be found and seen by the naked eye near the shoulder of the Taurus (bull) constellation during Winter
 \cite{nasapleiades,hubblepleiades}.
@@ -309,6 +316,15 @@ Figure \ref{fig:plei} and figure \ref{fig:pleiann} are images sourced from the H
 and the Fine Guidance Sensors shown at the periphery of Hubble's field-of-view, tracing the circumference that is the approximate angular size of the Moon \cite{pleiadesann}.
 A size/distance scale is also seen in the bottom left corner.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7.5cm]{rian pleiades.jpg}
+    \caption{\centering Image of the Pleiades as taken from a telescope \protect\cite{rian}.}
+    \label{fig:visibleplei}
+\end{figure}
+
+A photo of the Pleiades star cluster taken through the view of a telescope (photographed by fellow Rian Byrne)\cite{rian} can serve as an example of the view of this star cluster through the V (Visual) lens.
+
 \section{Methodology} \label{sec:2}
 
 This experiment made use of the \textit{Contemporary Laboratory Experience in Astronomy}, CLEA, software and the \textit{Photoelectric Photometry of the Pleiades} program included in the package.
@@ -320,7 +336,7 @@ the movement of the stars (West) in relation to the rotation of the Earth, allow
 
 The apparent magnitude for two filters, Blue (B) and Visual (V), were found for 24 pre-determined stars as provided by the accompanying lab manual with the respective
 right ascension (hours, minutes, seconds) and declination (degrees, minutes, seconds) coordinates attached \cite{UCDsm}.
-These options and readings can be found on the left-hand side of the program, as shown in figure \ref{fig:program}.
+These options and readings can be found on the left-hand side of the program, as illustrated in figure \ref{fig:program}.
 
 \begin{figure}[H]
     \centering
@@ -352,7 +368,7 @@ The data collected in the lab was put into a table (\ref{tab:1}), where B-V was 
 
 \vspace{-1.5ex}
 \begin{gather*}
-    \delta(B-V) = \sqrt{(\delta(V))^2 + (\delta(B))^2} \qquad ; \:\: \delta(V) = \frac{1}{S/N(V)} \: , \: \delta(B) = \frac{1}{S/N(B)}
+    \delta(B-V) = \sqrt{(\delta(V))^2 + (\delta(B))^2} \qquad ; \:\: \delta(V) = \frac{1}{S/R(V)} \: , \: \delta(B) = \frac{1}{S/R(B)}
 \end{gather*}
 
 \begin{table}[H]
@@ -377,6 +393,19 @@ The data collected in the lab was put into a table (\ref{tab:1}), where B-V was 
         \textbf{12}   & 3  44  19                                                        & 24  14  16                                                         & 13.782     & 80                                                         & 12.630     & 136                                                        & 1.15         & 1.450                                                            \\ \hline
         \textbf{13}   & 3  44  27                                                        & 23  57  57                                                         & 2.780      & 5547                                                       & 2.870      & 5321                                                       & -0.09        & 0.026                                                            \\ \hline
         \textbf{14}   & 3  44  39                                                        & 23  27  17                                                         & 8.952      & 723                                                        & 7.720      & 988                                                        & 1.23         & 0.171                                                            \\ \hline
+        \end{tabular}
+    }
+    \label{tab:1}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{\centering (Continuation) Table of the values gathered for the Blue (B) and Visual (V) filter with respective S/N ratios, calculated B-V and corresponding S/N ratio included.}
+    \resizebox{\textwidth}{!}{
+
+        \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+        \textbf{Star} & \textbf{\begin{tabular}[c]{@{}c@{}}RA\\ hr min sec\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Dec\\ deg min sec\end{tabular}} & \textbf{B} & \textbf{\begin{tabular}[c]{@{}c@{}}S/N\\ (B)\end{tabular}} & \textbf{V} & \textbf{\begin{tabular}[c]{@{}c@{}}S/N\\ (V)\end{tabular}} & \textbf{B-V} & \textbf{\begin{tabular}[c]{@{}c@{}}S/N\\ (B-V) (\%)\end{tabular}} \\ \hline
         \textbf{15}   & 3  44  39                                                        & 24  34  47                                                         & 17.032     & 79                                                         & 16.521     & 115                                                        & 0.51         & 1.536                                                            \\ \hline
         \textbf{16}   & 3  44  45                                                        & 23  24  52                                                         & 9.949      & 457                                                        & 8.802      & 775                                                        & 1.15         & 0.254                                                            \\ \hline
         \textbf{17}   & 3  45  09                                                        & 24  50  59                                                         & 8.162      & 465                                                        & 6.459      & 1018                                                       & 1.70         & 0.236                                                            \\ \hline
@@ -389,39 +418,20 @@ The data collected in the lab was put into a table (\ref{tab:1}), where B-V was 
         \textbf{24}   & 3  47  29                                                        & 24  20  34                                                         & 7.550      & 1068                                                       & 7.421      & 655                                                        & 0.13         & 0.179                                                            \\ \hline
         \end{tabular}
     }
-    \label{tab:1}
+    \label{tab:1.5}
 \end{table}
-
-
-
-\begin{minipage}{.49\textwidth}
-    \captionsetup{hypcap=false}
-    \centering
-    \includegraphics[width=\linewidth]{pleiades graoh.png}
-    \captionof{figure}{\centering Graph of the Pleiades data.}
-    \label{fig:pleigraph}
-\end{minipage}
-\hfill
-\begin{minipage}{.5\textwidth}
-    \captionsetup{hypcap=false}
-    \centering
-    \includegraphics[width=\linewidth]{ms graph.png}
-    \captionof{figure}{\centering Graph of Main Sequence stars.}
-    \label{fig:msgraph}
-\end{minipage}
-\vspace{0.25cm}
 
 The data in table \ref{tab:1} was then graphed (figure \ref{fig:pleigraph}) with the \textbf{apparent} magnitude against the B-V magnitudes. Similar was done for data in \ref{tab:2}, but with 
 the \textbf{absolute} magnitude against the B-V magnitudes (figure \ref{fig:pleimsgraph}).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=12.5cm]{pleiadesms graph.png}
+    \includegraphics[width=12cm]{pleiadesms graph.png}
     \caption{\centering Graph of the Main Sequence Stars plotted against the Pleiades Cluster; \textit{individual y-axes}.}
     \label{fig:pleimsgraph}
 \end{figure}
 
-By observing figure \ref{fig:pleimsgraph} and comparing agsinst the H-R diagram in section §\ref{sec:1.2}, figure \ref{fig:hrdiagram}, it can be concluded that the following stars could likely be red giants:
+By observing figure \ref{fig:pleimsgraph} and comparing against the H-R diagram in section §\ref{sec:1.2}, figure \ref{fig:hrdiagram}, it can be concluded that the following stars could likely be red giants:
 
 \begin{table}[H]
     \centering
@@ -438,6 +448,8 @@ By observing figure \ref{fig:pleimsgraph} and comparing agsinst the H-R diagram 
 Observing figure \ref{fig:pleimsgraph} again, Star No.15's divergence away from the rest of the star cluster is examined. According to the Main Sequence trail included,
 it would be of spectral class G, which is the same class our Sun belongs to so it can be assumed Star No.15 would be of \textbf{similar yellow-white colour} and likely between the same temperatures of 4 900–5 700 K. 
 However, given its isolation from the rest of the Pleiades star cluster this is likely not as prominent as its sisters.
+
+\subsection{Distance to the Pleiades Star Cluster Calculations} \label{sec:3.1}
 
 The distance to the cluster from Earth in parsecs can be found using equation \ref{eq:2}. In the case of this experiment as the absolute magnitudes were not calculated the error on the distance is entirely tied 
 to the error on the apparent magnitudes found. A derivation of the equation \ref{eq:2} must then be performed.
@@ -463,7 +475,7 @@ But with the signal to noise (S/N) ratio being defined as the following,
     S/R = \frac{F}{dF}
 \end{gather*}
 
-It can be observed how equation \ref{eq:5} contains $S/R^{-1}$. As such, the error does not need to be propagated due to the presence of only one variable.
+It can be observed how equation \ref{eq:5} contains $S/R^{-1}$. As such, the error does not need to be propagated due to the presence of only one variable, giving it a strict y dependence.
 With this knowledge, equation \ref{eq:2} can now be differentiated with respect to \textit{m} as a total derivative and multiplied by the error on \textit{m}:
 
 \vspace{-1.5ex}
@@ -492,25 +504,73 @@ With the $\Delta m$ from equation \ref{eq:5}, the result is then:
     \Delta D = \left( \frac{1}{\cancel{5}2} 10^{\frac{m-M+5}{5}} \right) (\cancel{\ln 10}) \frac{\cancel{2.5}}{\cancel{\ln 10}} \cdot \frac{dF}{F}
 \end{gather*}
 
-So finally the error on the distance is as follows:
+So finally the error on the distance is as follows \cite{rian}:
 
 \vspace{-1.5ex}
 \begin{gather}
     \Delta D = \frac{10^{\frac{m-M+5}{5}}}{2 \cdot S/R} \quad = \quad \frac{D}{2 \cdot S/R}
 \end{gather}
 
+The distance can be calculated once the absolute magnitude and its corresponding apparent magnitude are found, which was done by locating the area on the simulated
+H-R diagram where the main sequence meets the Giants region (the bend) \cite{dist}. The magnitude values were approximated to be \textbf{M = 4.75, m = 10.25} from figure \ref{fig:adjgraph}. These can be substituted
+into the equations below, with the distance modulus (m - M) equal to \textbf{5.5}.
+
+\begin{gather*}
+    D = 10 \times 10^{\frac{10.25-4.75}{5}} \quad\quad \Delta D = \frac{D}{2 (\text{average}(S/R(V)))}
+\end{gather*}
+
+The code for this calculation can be found in the Appendix (§\ref{sec:A}). The distance \textbf{D} is found to be \textbf{125.8925 pc}. The values above are then multiplied by \textbf{3.26} to \textbf{convert from parsecs (pc) to light-years (ly)}.
+The final calculated distance to the Pleiades from Earth is $\mathbf{410.4097 \pm 0.1955}$ \textbf{ly}.
+
+This value is a \textbf{0.0999\%} difference to the value of 410 ly calculated by \textit{H.L. Johnson and R.I. Mitchell} in 1958 and a \textbf{6.7251\%} difference to the value of 440 ly calculated by 
+\textit{NASA/ESA Hubble Telescope} in 2004 (see §\ref{sec:1.3}).
+
+\subsection{The Apparent Magnitude of the Sun} \label{sec:3.2}
+
+Below, figure \ref{fig:sunfeature}, the Sun has been plotted along the Main Sequence line (as the Sun belongs to the Main Sequence) at its respective B-V value, \textbf{+0.62}.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=12.5cm]{pleimsgraph sun.png}
-    \caption{\centering Figure \ref{fig:pleimsgraph} with Sun position labelled}.
+    \caption{\centering figure \ref{fig:pleimsgraph} with Sun position labelled; axes adjusted to align Main Sequence to Pleiades.}
     \label{fig:sunfeature}
 \end{figure}
 
+The \textit{absolute magnitude} for the Sun is found to be \textbf{4.63} from the graph, which is only 0.20 (4.14\%) different from the accepted value of \textbf{4.83} \cite{sun}.
+By further observation of the graph it can be found that the \textit{apparent magnitude} of the Sun (if it were part of the Pleiades cluster) would be approximately \textbf{10.25}.
+The \textit{apparent magnitude} can also be found by using the distance formula (equation \ref{eq:1}):
 
+\begin{gather*}
+    m = M - 5 + 5 \log_{10} (D) \quad \implies \quad m = 4.63 -5 + 5 \log_{10}(125.8925)
+\end{gather*}
 
+The result is an apparent magnitude of \textbf{10.13}. This is a 1.177\% difference, with the manually computed method more accurate than the estimation through observation.
+
+The distance modulus (m - M) with these values, taking the manually computed apparent magnitude, is then found to be \textbf{5.5}. This is the same value as calculated for section §\ref{sec:3.1}.
+The consistency in this value suggests that the distance calculated in section §\ref{sec:3.1} is \textit{internally} consistent within the confines of this experiment, not necessarily that the actual
+distance to the Pleiades is 410 ly as calculated.
+
+\newpage
 
 \section{Conclusion} \label{sec:4}
 
+The experiment was successful in its use of the photometer and photometric measurements to calculate the distance to the Pleiades star cluster.
+Through the analysis of the apparent magnitudes of the 24 pre-determined stars within the cluster for a blue (B) and visual (V) filter values for the B-V colour index were found to be 
+between \textbf{-0.11 and 1.70}. These values allowed for the graphing of the V apparent magnitude against the B-V values, as seen in figure \ref{fig:pleigraph}. The Main Sequence line as seen in the 
+H-R diagram (figure \ref{fig:hrdiagram}) was plotted also (see figure \ref{fig:msgraph}) and the two graphs were replotted as one (see figure \ref{fig:pleimsgraph}).
+
+This graph allowed for the calculation of the distance modulus, resulting as \textbf{0.55}, and the distance to the Pleiades cluster with its uncertainty both in lightyears, $\mathbf{410.4097 \pm 0.1955}$ \textbf{ly}.
+This value was a \textbf{0.0999\%} difference to the value calculated in 1958 by \textit{H.L. Johnson and R.I. Mitchell} (410 ly) and a \textbf{6.721\%} difference to the value
+calculated in 2004 by the \textit{NASA/ESA Hubble Telescope} (440 ly).
+
+The distance to the Sun as if it were in the Pleiades was then considered as a consistency check as it is known that the Sun lies on the Main Sequence line. By finding the point of intersection
+at this line from the known Sun B-V value of \textbf{+0.62} the apparent and absolute magnitudes could be assumed from reading the graph (see figure \ref{fig:sunfeature}). The distance modulus was found
+again to be \textbf{0.55} and the discrepancy between the two estimated values of the apparent magnitude to be \textbf{1.177\%}. This suggests that the values are consistent within the experiment; the experiment would need to
+be expanded further in order to align with real-world values.
+
+For future renditions of this experiment iterations and seconds could be managed better to further reduce the signal to noise ratio and therefore errors on the values.
+Any values that were "eyeballed" (such as Sun magnitudes, Pleiades magnitudes, for distance calculations) could be refined with more code to get exact values, but due to time constraints
+this was not feasible. There is, therefore, the error of parallax in regard to these measurements.
 
 \newpage
 
@@ -525,13 +585,22 @@ So finally the error on the distance is as follows:
 
 \listoftables
 
-\newpage
-
 \section*{Appendix} \label{sec:A}
 \addcontentsline{toc}{section}{Appendix}
 
 \subsection*{Tables}
 \addcontentsline{toc}{subsection}{Tables}
+
+\begin{table}[H]
+    \centering
+    \caption{\centering Table of the Sky Reading measurements taken before official experiment.}
+
+    \begin{tabular}{c||c}
+    \textbf{Filter} & \textbf{Mean Sky (Counts/sec)} \\
+    \textbf{B}      & 6.0                            \\
+    \textbf{V}      & 16.6                          
+    \end{tabular}
+\end{table}
 
 \begin{table}[H]
     \centering
@@ -558,6 +627,32 @@ So finally the error on the distance is as follows:
     \label{tab:2}
 \end{table}
 
+\subsection*{Graphs}
+\addcontentsline{toc}{subsection}{Graphs}
+
+\begin{minipage}{.49\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=\linewidth]{pleiades graoh.png}
+    \captionof{figure}{\centering Graph of the Pleiades data.}
+    \label{fig:pleigraph}
+\end{minipage}
+\hfill
+\begin{minipage}{.5\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=\linewidth]{ms graph.png}
+    \captionof{figure}{\centering Graph of Main Sequence stars.}
+    \label{fig:msgraph}
+\end{minipage}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12.5cm]{20 axis pleims.png}
+    \caption{\centering figure \ref{fig:pleimsgraph} with adjusted axes such that Main Sequence aligns with the Pleiades star cluster.}
+    \label{fig:adjgraph}
+\end{figure}
+
 \subsection*{Code}
 \addcontentsline{toc}{subsection}{Code}
 
@@ -581,9 +676,7 @@ B = np.array([13.316, 4.200, 8.950, 10.250, 13.058, 15.374, 8.468, 13.007, 11.16
 sn_B = np.array([242, 6449, 1774, 975, 271, 83, 404, 226, 524, 862, 357, 80, 5547, 723, 79, 457, 465, 1675, 265, 544, 237, 82, 604, 1068])
 V = np.array([12.513, 4.310, 8.600, 9.699, 12.048, 14.365, 8.112, 12.023, 10.522, 6.800, 9.469, 12.630, 2.870, 7.720, 16.521, 8.802, 6.459, 5.450, 10.018, 6.948, 11.351, 15.781, 9.168, 7.421])
 sn_V = np.array([352, 6130, 2085, 1258, 352, 133, 476, 356, 498, 871, 255, 136, 5321, 988, 115, 775, 1018, 1622, 343, 575, 241, 134, 507, 655])
-
 print(B-V)
-
 print(errorprop(sn_B,sn_V)) # fractional error, since they're already put into fractions in the eqn
 print(errorprop(sn_B,sn_V)*100) # percentage error
 
@@ -593,7 +686,29 @@ print(errorprop(sn_B,sn_V)*100) # percentage error
 \captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
 \end{minipage}
 
-%
+\begin{minipage}{\linewidth}
+\captionsetup{hypcap=false}
+
+\begin{mintedbox}
+\begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
+m_approx = 10.25
+M_approx = 4.75
+
+def D_func(m, M):
+    D_mod = m - M
+    D1 = 10**((D_mod)/5)
+    return (10*D1)
+print(D_func(m_approx, M_approx) * 3.26) # D in ly
+
+def D_err(D, SR):
+    return (D/(2*SR))
+print(D_err(D_func(m_approx, M_approx), np.average(sn_V)) * 3.26) # err on D in ly
+
+\end{minted}
+\end{mintedbox}
+
+\captionof{figure}{\centering Code used for section §\ref{sec:3.1} calculations.}
+\end{minipage}
 
 \begin{minipage}{\linewidth}
 \captionsetup{hypcap=false}
@@ -629,10 +744,8 @@ plt.show()
 \end{minted}
 \end{mintedbox}
 
-\captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
+\captionof{figure}{\centering Code used for figure \ref{fig:pleigraph}.}
 \end{minipage}
-
-%
 
 \begin{minipage}{\linewidth}
 \captionsetup{hypcap=false}
@@ -676,7 +789,7 @@ for i in range(len(BV_ms)): # credit to Mr. ChatGPT
 \end{minted}
 \end{mintedbox}
 
-\captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
+\captionof{figure}{\centering Code used for figure \ref{fig:msgraph}.}
 \end{minipage}
 
 \begin{minipage}{\linewidth}
@@ -684,15 +797,6 @@ for i in range(len(BV_ms)): # credit to Mr. ChatGPT
 
 \begin{mintedbox}
 \begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
-# Star Number
-for i in range(len(BV)): # credit to Mr. ChatGPT
-    axs.annotate(
-        star_no[i],
-        xy = (BV[i], V[i]),
-        xytext = (BV[i], V[i] - 0.5),
-        color="white", fontsize=7, ha="left", zorder=3,
-    )
-
 # Labels
 plt.title("Main Sequence Stars: V (M) vs. B-V")
 plt.xlabel("B-V Magnitude")
@@ -704,7 +808,7 @@ plt.show()
 \end{minted}
 \end{mintedbox}
 
-\captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
+\captionof{figure}{\centering Continuation of the code used for figure \ref{fig:msgraph}.}
 \end{minipage}
 
 %
@@ -734,7 +838,7 @@ ax1.set_xlabel("B-V Magnitude")
 \end{minted}
 \end{mintedbox}
 
-\captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
+\captionof{figure}{\centering Code used for figure \ref{fig:pleimsgraph}.}
 \end{minipage}
 
 \begin{minipage}{\linewidth}
@@ -783,7 +887,7 @@ plt.style.use("dark_background")
 \end{minted}
 \end{mintedbox}
 
-\captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
+\captionof{figure}{\centering Continuation of the code used for figure \ref{fig:pleimsgraph}.}
 \end{minipage}
 
 \begin{minipage}{\linewidth}
@@ -804,7 +908,7 @@ plt.show()
 \end{minted}
 \end{mintedbox}
 
-\captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
+\captionof{figure}{\centering Continuation of the code used for figure \ref{fig:pleimsgraph}.}
 \end{minipage}
 
 \begin{minipage}{\linewidth}
@@ -821,8 +925,29 @@ plt.scatter([x],[y], color="#ffb545", edgecolor="white", s=250, alpha=0.75, labe
 \end{minted}
 \end{mintedbox}
 
-\captionof{figure}{\centering Code used for table \ref{tab:1} in calculating the S/N ratio for B-V.}
+\captionof{figure}{\centering Code used for plotting Sun on the Main Sequence line in figure \ref{fig:sunfeature}.}
 \end{minipage}
 
+\begin{minipage}{\linewidth}
+\captionsetup{hypcap=false}
+
+\begin{mintedbox}
+\begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
+from matplotlib.ticker import AutoMinorLocator, FormatStrFormatter
+
+ax1.yaxis.set_minor_locator(AutoMinorLocator())
+ax1.yaxis.set_minor_formatter(FormatStrFormatter("%.1f")) 
+ax2.yaxis.set_minor_locator(AutoMinorLocator())  # Adjust minor tick placement (ChatGPT credit)
+ax2.yaxis.set_minor_formatter(FormatStrFormatter("%.1f"))  # Format as 1 decimal place (ChatGPT credit)
+
+# Force Matplotlib to display minor tick labels (ChatGPT credit)
+ax1.tick_params(axis='y', which='minor', labelsize=6)
+ax2.tick_params(axis='y', which='minor', labelsize=6)
+
+\end{minted}
+\end{mintedbox}
+
+\captionof{figure}{\centering Code added to figure \ref{fig:pleimsgraph} to add numbers to the minorticks to make reading the graph easier.}
+\end{minipage}
 
 \end{document}
