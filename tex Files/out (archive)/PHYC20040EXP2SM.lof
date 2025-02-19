@@ -1,0 +1,24 @@
+\babel@toc {english}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces \centering Curve of the spectral sensitivity of the human eye \cite {eyecurve}. \textit {Scotopic: very low light levels; Photopic: bright light levels \cite {scophoto}.}}}{3}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces \centering Transmission curves of photometric filters \cite {ubvfilters}. \textit {U: Ultraviolet; B: Blue; V: Visible; R: Red; I: Infrared.}}}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces \centering The Hertzsprung-Russell Diagram with 22 000 stars plotted in different regions highlighted accordingly \cite {wikihr}.}}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces \centering Chart for classifying of the main star types as per the Harvard classification \cite {wikistar}.}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces \centering Photo of the Pleiades/M45 \cite {pleiades}.}}{7}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces \centering Annotated photo of the Pleiades/M45 \cite {pleiadesann}.}}{7}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces \centering Image of the Pleiades as taken from a telescope \cite {rian}.}}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces \centering Screenshot of the CLEA program in use.}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces \centering Graph of the Main Sequence Stars plotted against the Pleiades Cluster; \textit {individual y-axes}.}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {10}{\ignorespaces \centering figure \ref {fig:pleimsgraph} with Sun position labelled; axes adjusted to align Main Sequence to Pleiades.}}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {11}{\ignorespaces \centering Graph of the Pleiades data.}}{19}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces \centering Graph of Main Sequence stars.}}{19}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces \centering figure \ref {fig:pleimsgraph} with adjusted axes such that Main Sequence aligns with the Pleiades star cluster.}}{19}{figure.caption.22}%
+\contentsline {figure}{\numberline {14}{\ignorespaces \centering Code used for table \ref {tab:1} in calculating the S/N ratio for B-V.}}{20}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces \centering Code used for section ^^c2^^a7\ref {sec:3.1} calculations.}}{20}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces \centering Code used for figure \ref {fig:pleigraph}.}}{21}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces \centering Code used for figure \ref {fig:msgraph}.}}{22}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces \centering Continuation of the code used for figure \ref {fig:msgraph}.}}{23}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces \centering Code used for figure \ref {fig:pleimsgraph}.}}{23}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces \centering Continuation of the code used for figure \ref {fig:pleimsgraph}.}}{24}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces \centering Continuation of the code used for figure \ref {fig:pleimsgraph}.}}{25}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces \centering Code used for plotting Sun on the Main Sequence line in figure \ref {fig:sunfeature}.}}{25}{figure.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces \centering Code added to figure \ref {fig:pleimsgraph} to add numbers to the minorticks to make reading the graph easier.}}{25}{figure.23}%
