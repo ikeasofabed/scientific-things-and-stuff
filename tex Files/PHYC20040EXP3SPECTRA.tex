@@ -1,0 +1,183 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage[english]{babel} % To obtain English text with the blindtext package
+\usepackage{blindtext}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{array, multirow} % For extra column formatting
+\usepackage{amsmath, amssymb, cancel} %for equation environment
+\usepackage{float}
+\usepackage{parskip} % For gaps between para
+\usepackage{setspace}
+\usepackage{pdfpages}
+\usepackage{abstract}
+\usepackage[export]{adjustbox}
+\usepackage{emptypage}
+\usepackage{tocloft}
+\usepackage[nottoc]{tocbibind}
+\usepackage{hyperref, url}
+\usepackage[table]{xcolor}
+\usepackage{minted}
+    \usemintedstyle{monokai}
+\usepackage{caption}
+    \captionsetup{font=footnotesize,labelfont=bf}
+\usepackage{tcolorbox}
+    \newtcolorbox{mintedbox}{
+        colback=backcolour,
+        boxrule=0pt,
+        sharp corners,
+        width=\linewidth,
+        left=0pt, right=0pt,
+        top=3pt, bottom=3pt
+    }
+
+\cftsetindents{section}{0em}{2em}
+\cftsetindents{subsection}{0em}{2em}
+
+\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
+\renewcommand\cftaftertoctitle{\hfill\mbox{}}
+
+\graphicspath{ {./images/} }
+
+\pagenumbering{arabic}
+
+\definecolor{blurple}{HTML}{5865F2}
+\definecolor{backcolour}{HTML}{272823}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blurple,
+    citecolor=blurple,
+}
+
+\urlstyle{same}
+
+\renewcommand{\arraystretch}{1.3}
+
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\newcommand\simpleparagraph[1]{%
+  \stepcounter{paragraph}\paragraph*{\theparagraph\quad{}#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{PHYC20040 Exp.2 Pleiades SM}
+\author{Joana Adao}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+
+        \begin{figure}[ht]
+            \includegraphics[width=\textwidth]{UCDLogo.png}
+        \end{figure}
+        
+        \begin{figure}
+            \centerline{\includegraphics[width=\paperwidth]{UCDBanner.png}}
+        \end{figure}
+
+        \vspace{4cm}
+
+        {\LARGE \bfseries PHYC20040 Exploring the Solar System}\\
+        \vspace{0.75cm}
+        {\Large Experiment No.3 The Classification of Stellar Spectra}
+        
+        \vspace{1cm}
+    
+    {\Large \textbf{26 February 2025}}
+
+    \vspace{2cm}
+    
+    {\large \textbf{by Joana C.C. Adao (Student No. 23311051)}}\\
+
+    \end{center}
+    
+   \clearpage
+
+\end{titlepage}
+
+\setcounter{page}{1}
+\tableofcontents
+
+\newpage
+
+\begin{abstract}
+\addcontentsline{toc}{section}{Abstract}
+
+
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{4cm}
+
+\section{Theory} \label{sec:1}
+
+\cite{rian}
+
+\section{Methodology} \label{sec:2}
+
+
+
+\section{Results and Calculations} \label{sec:3}
+
+
+
+\newpage
+
+\section{Conclusion} \label{sec:4}
+
+
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{IEEEtran}
+\bibliography{References} \label{sec:ref}
+
+\vspace{1.5cm}
+
+\listoffigures
+
+\listoftables
+
+\section*{Appendix} \label{sec:A}
+\addcontentsline{toc}{section}{Appendix}
+
+\subsection*{Tables}
+\addcontentsline{toc}{subsection}{Tables}
+
+
+
+\subsection*{Graphs}
+\addcontentsline{toc}{subsection}{Graphs}
+
+
+
+\subsection*{Code}
+\addcontentsline{toc}{subsection}{Code}
+
+%
+
+\begin{minipage}{\linewidth}
+\captionsetup{hypcap=false}
+
+\begin{mintedbox}
+\begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+\end{minted}
+\end{mintedbox}
+
+\captionof{figure}{\centering Code}
+\end{minipage}
+
+
+\end{document}

@@ -1,0 +1,26 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{numpy}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{np}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{matplotlib}\PYG{n+nn}{.}\PYG{n+nn}{pyplot}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{plt}
+
+\PYG{c+c1}{\PYGZsh{} frequency\PYGZca{}2 v Tension}
+\PYG{n}{f} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mf}{62.676}\PYG{p}{,} \PYG{l+m+mf}{85.081}\PYG{p}{,} \PYG{l+m+mf}{104.979}\PYG{p}{,} \PYG{l+m+mf}{120.806}\PYG{p}{,} \PYG{l+m+mf}{133.430}\PYG{p}{]}\PYG{p}{)}
+\PYG{n}{f2} \PYG{o}{=} \PYG{n}{f}\PYG{o}{*}\PYG{o}{*}\PYG{l+m+mi}{2}
+\PYG{n}{s} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{]}\PYG{p}{)}
+\PYG{n}{T} \PYG{o}{=} \PYG{l+m+mf}{0.26} \PYG{o}{*} \PYG{l+m+mf}{0.9970} \PYG{o}{*} \PYG{n}{s}
+
+\PYG{c+c1}{\PYGZsh{} frequency v 1/length}
+\PYG{n}{l} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mi}{50}\PYG{p}{,} \PYG{l+m+mi}{45}\PYG{p}{,} \PYG{l+m+mi}{40}\PYG{p}{,} \PYG{l+m+mi}{35}\PYG{p}{,} \PYG{l+m+mi}{30}\PYG{p}{,} \PYG{l+m+mi}{25}\PYG{p}{,} \PYG{l+m+mi}{20}\PYG{p}{,} \PYG{l+m+mi}{15}\PYG{p}{]}\PYG{p}{)} \PYG{o}{*} \PYG{l+m+mf}{1e\PYGZhy{}2}
+\PYG{n}{invl} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{o}{/}\PYG{n}{l}
+\PYG{n}{fres} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mf}{111.888}\PYG{p}{,} \PYG{l+m+mf}{111.973}\PYG{p}{,} \PYG{l+m+mf}{112.033}\PYG{p}{,} \PYG{l+m+mf}{112.002}\PYG{p}{,} \PYG{l+m+mf}{112.004}\PYG{p}{,} \PYG{l+m+mf}{112.129}\PYG{p}{,} \PYG{l+m+mf}{112.075}\PYG{p}{,} \PYG{l+m+mf}{112.060}\PYG{p}{]}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Error propagation}
+\PYG{n}{errinvl} \PYG{o}{=} \PYG{l+m+mf}{0.0005}\PYG{o}{/}\PYG{p}{(}\PYG{n}{l}\PYG{o}{*}\PYG{o}{*}\PYG{l+m+mi}{2}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} delta 1/L / 1/L = delta L / L}
+\PYG{n}{errT} \PYG{o}{=} \PYG{n}{s} \PYG{o}{*} \PYG{l+m+mf}{0.26} \PYG{o}{*} \PYG{l+m+mf}{0.00005} \PYG{c+c1}{\PYGZsh{} delta T = sz * delta W}
+\PYG{n}{errf2} \PYG{o}{=} \PYG{l+m+mi}{2} \PYG{o}{*} \PYG{n}{f} \PYG{o}{*} \PYG{l+m+mi}{1} \PYG{c+c1}{\PYGZsh{} y = f\PYGZca{}2 \PYGZhy{}\PYGZgt{} delta y = |d/df f\PYGZca{}2| * delta f}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{f2}\PYG{p}{,} \PYG{n}{T}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{invl}\PYG{p}{,} \PYG{n}{fres}\PYG{p}{)}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{errinvl}\PYG{p}{,} \PYG{n}{errT}\PYG{p}{,} \PYG{n}{errf2}\PYG{p}{)}
+
+\end{MintedVerbatim}

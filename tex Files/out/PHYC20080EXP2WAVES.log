@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  19 FEB 2025 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  21 FEB 2025 21:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -861,12 +861,12 @@ Package hyperref Info: Link coloring ON on input line 69.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=114, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=106, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
 Package pdftex.def Info: ./images/UCDLogo.png  used on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=116, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=108, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
 Package pdftex.def Info: ./images/UCDBanner.png  used on input line 79.
@@ -897,81 +897,87 @@ l.110 \newpage
                [1
 
 ]
-<./images/wavetype.jpg, id=159, 248.6088pt x 183.20445pt>
+<./images/wavetype.jpg, id=149, 248.6088pt x 183.20445pt>
 File: ./images/wavetype.jpg Graphic file (type jpg)
 <use ./images/wavetype.jpg>
-Package pdftex.def Info: ./images/wavetype.jpg  used on input line 130.
+Package pdftex.def Info: ./images/wavetype.jpg  used on input line 136.
 (pdftex.def)             Requested size: 227.3381pt x 167.53816pt.
-<./images/longtrans.png, id=162, 500.62032pt x 251.43938pt>
+<./images/longtrans.png, id=152, 500.62032pt x 251.43938pt>
 File: ./images/longtrans.png Graphic file (type png)
 <use ./images/longtrans.png>
-Package pdftex.def Info: ./images/longtrans.png  used on input line 137.
+Package pdftex.def Info: ./images/longtrans.png  used on input line 143.
 (pdftex.def)             Requested size: 246.68274pt x 123.89696pt.
-<./images/wave.png, id=173, 752.8125pt x 351.3125pt>
-File: ./images/wave.png Graphic file (type png)
-<use ./images/wave.png>
-Package pdftex.def Info: ./images/wave.png  used on input line 160.
-(pdftex.def)             Requested size: 398.33858pt x 185.89453pt.
 
 
 [2 <./images/wavetype.jpg> <./images/longtrans.png>]
-<./images/standing waves.jpg, id=209, 450.24849pt x 306.98761pt>
-File: ./images/standing waves.jpg Graphic file (type jpg)
-<use ./images/standing waves.jpg>
-Package pdftex.def Info: ./images/standing waves.jpg  used on input line 205.
-(pdftex.def)             Requested size: 284.52756pt x 194.00748pt.
+<./images/wave.png, id=177, 752.8125pt x 351.3125pt>
+File: ./images/wave.png Graphic file (type png)
+<use ./images/wave.png>
+Package pdftex.def Info: ./images/wave.png  used on input line 167.
+(pdftex.def)             Requested size: 398.33858pt x 185.89453pt.
 
 
 [3 <./images/wave.png>]
+<./images/standing waves.jpg, id=211, 450.24849pt x 306.98761pt>
+File: ./images/standing waves.jpg Graphic file (type jpg)
+<use ./images/standing waves.jpg>
+Package pdftex.def Info: ./images/standing waves.jpg  used on input line 212.
+(pdftex.def)             Requested size: 284.52756pt x 194.00748pt.
+
 
 [4 <./images/standing waves.jpg>]
-<./images/wave app.png, id=254, 707.64375pt x 302.12875pt>
+<./images/wave app.png, id=244, 707.64375pt x 302.12875pt>
 File: ./images/wave app.png Graphic file (type png)
 <use ./images/wave app.png>
-Package pdftex.def Info: ./images/wave app.png  used on input line 257.
+Package pdftex.def Info: ./images/wave app.png  used on input line 265.
 (pdftex.def)             Requested size: 483.69687pt x 206.51898pt.
-<./images/wave exp 1.jpeg, id=257, 971.3088pt x 728.4816pt>
+<./images/wave exp 1.jpeg, id=247, 971.3088pt x 728.4816pt>
 File: ./images/wave exp 1.jpeg Graphic file (type jpg)
 <use ./images/wave exp 1.jpeg>
-Package pdftex.def Info: ./images/wave exp 1.jpeg  used on input line 264.
+Package pdftex.def Info: ./images/wave exp 1.jpeg  used on input line 272.
 (pdftex.def)             Requested size: 149.94484pt x 112.45773pt.
-<./images/wave exp 2.jpeg, id=258, 971.3088pt x 728.4816pt>
+<./images/wave exp 2.jpeg, id=248, 971.3088pt x 728.4816pt>
 File: ./images/wave exp 2.jpeg Graphic file (type jpg)
 <use ./images/wave exp 2.jpeg>
-Package pdftex.def Info: ./images/wave exp 2.jpeg  used on input line 271.
+Package pdftex.def Info: ./images/wave exp 2.jpeg  used on input line 279.
 (pdftex.def)             Requested size: 149.94484pt x 112.45773pt.
-<./images/wave exp 3.jpeg, id=259, 971.3088pt x 728.4816pt>
+<./images/wave exp 3.jpeg, id=249, 971.3088pt x 728.4816pt>
 File: ./images/wave exp 3.jpeg Graphic file (type jpg)
 <use ./images/wave exp 3.jpeg>
-Package pdftex.def Info: ./images/wave exp 3.jpeg  used on input line 278.
+Package pdftex.def Info: ./images/wave exp 3.jpeg  used on input line 286.
 (pdftex.def)             Requested size: 149.94484pt x 112.45773pt.
 
 
 [5 <./images/wave app.png> <./images/wave exp 1.jpeg> <./images/wave exp 2.jpeg> <./images/wave exp 3.jpeg>]
 
 [6]
-<./images/waves length graph.png, id=285, 609.2361pt x 623.6901pt>
+<./images/waves length graph.png, id=278, 633.0852pt x 628.749pt>
 File: ./images/waves length graph.png Graphic file (type png)
 <use ./images/waves length graph.png>
-Package pdftex.def Info: ./images/waves length graph.png  used on input line 367.
-(pdftex.def)             Requested size: 241.84843pt x 247.57779pt.
-<./images/waves tension graph.png, id=288, 611.4042pt x 626.5809pt>
+Package pdftex.def Info: ./images/waves length graph.png  used on input line 388.
+(pdftex.def)             Requested size: 241.84843pt x 240.1935pt.
+
+
+[7 <./images/waves length graph.png>]
+<./images/waves tension graph.png, id=291, 633.8079pt x 620.0766pt>
 File: ./images/waves tension graph.png Graphic file (type png)
 <use ./images/waves tension graph.png>
-Package pdftex.def Info: ./images/waves tension graph.png  used on input line 394.
-(pdftex.def)             Requested size: 241.84843pt x 247.85527pt.
+Package pdftex.def Info: ./images/waves tension graph.png  used on input line 436.
+(pdftex.def)             Requested size: 241.84843pt x 236.6061pt.
 
 
-[7 <./images/waves length graph.png> <./images/waves tension graph.png>]
+[8 <./images/waves tension graph.png>]
 
-[8] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP2WAVES.bbl
+[9]
+
+[10] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP2WAVES.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 75--79
 \OT1/cmr/m/n/12 3A[]Physics[]9B[][]Waves[]Sound[]Optics[]Thermodynamics[]and[]Fluids / 01 % 3A[]Waves / 1 . 02 %
  []
 
 
 
-[9]) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP2WAVES.lof)
+[11]) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP2WAVES.lof)
 \tf@lof=\write7
 \openout7 = `PHYC20080EXP2WAVES.lof'.
 
@@ -982,35 +988,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--79
 \pydata@fh@_400B0CE369B4B249435E3437860E6CF9.data.minted=\write9
 \openout9 = `_400B0CE369B4B249435E3437860E6CF9.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250219230842Z 400B0CE369B4B249435E3437860E6CF9)...executed.
+runsystem(latexminted config  --timestamp 20250221214005Z 400B0CE369B4B249435E3437860E6CF9)...executed.
 
  (_400B0CE369B4B249435E3437860E6CF9.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250219230842Z 400B0CE369B4B249435E3437860E6CF9)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20250221214005Z 400B0CE369B4B249435E3437860E6CF9)...executed.
 
- (_minted/monokai.style.minted) (_minted/7A127D61DF332C6B1509BCB7DC926AEF.highlight.minted)
+ (_minted/monokai.style.minted) (_minted/174DA21CF2AEB333B469046BE2A96D4F.highlight.minted)
 
-[10]
+[12] (_minted/454E915BE31EC67F214374D651669A2F.highlight.minted)
 
-[11] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP2WAVES.aux)
+[13] (_minted/C291D495967A38EA0595700E460C392D.highlight.minted)
+
+[14]
+
+[15] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP2WAVES.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PHYC20080EXP2WAVES.out' has not changed.
-(rerunfilecheck)             Checksum: FC831AB032D008B0F5281C14C9BEE51D;3735.
+(rerunfilecheck)             Checksum: EA46C919C0FADDAFD3B8B2C69DC0AD7B;3561.
  ) 
 Here is how much of TeX's memory you used:
- 32201 strings out of 473530
- 663969 string characters out of 5704664
- 1143951 words of memory out of 5000000
- 54803 multiletter control sequences out of 15000+600000
- 568354 words of font info for 70 fonts, out of 8000000 for 9000
+ 32285 strings out of 473530
+ 666438 string characters out of 5704664
+ 1148040 words of memory out of 5000000
+ 54871 multiletter control sequences out of 15000+600000
+ 569811 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,16n,117p,630b,935s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP2WAVES.pdf" (12 pages, 9732649 bytes).
+ 95i,20n,117p,959b,1152s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP2WAVES.pdf" (16 pages, 9791216 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 520 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,10 +2,10 @@
 \contentsline {section}{Abstract}{2}{figure.caption.2}%
 \contentsline {section}{\numberline {1}Theory}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Waves}{2}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}The Anatomy of a Wave}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}The Anatomy of a Wave}{3}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.2}Newton's Laws and Wave Velocity}{3}{subsubsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.2}Resonance}{3}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Standing Waves}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1}Standing Waves}{4}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2}Harmonics}{4}{subsubsection.1.2.2}%
 \contentsline {section}{\numberline {2}Methodology}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Varying Length Method}{6}{subsection.2.1}%
@@ -13,16 +13,14 @@
 \contentsline {section}{\numberline {3}Results and Calculations}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Application of Theory Questions}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Varying Length}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Varying Tension}{7}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Conclusion}{8}{section.4}%
-\contentsline {section}{\numberline {5}Applications of Resonant Frequency}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Electrical Resonance}{8}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Radios Transmissions and TV Broadcasts}{8}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Environmental Monitoring}{8}{subsubsection.5.1.2}%
-\contentsline {section}{References}{9}{section*.7}%
-\contentsline {section}{List of Figures}{10}{section*.8}%
-\contentsline {section}{List of Tables}{10}{section*.9}%
-\contentsline {section}{Appendix}{11}{section*.10}%
-\contentsline {subsection}{Tables}{11}{section*.11}%
-\contentsline {subsection}{Graphs}{11}{section*.12}%
-\contentsline {subsection}{Code}{11}{section*.13}%
+\contentsline {subsection}{\numberline {3.3}Varying Tension}{8}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Conclusion}{9}{section.4}%
+\contentsline {section}{\numberline {5}Applications of Resonant Frequency}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Electrical Resonance}{10}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Radios Transmissions and TV Broadcasts}{10}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Environmental Monitoring}{10}{subsubsection.5.1.2}%
+\contentsline {section}{References}{11}{section*.7}%
+\contentsline {section}{List of Figures}{12}{section*.8}%
+\contentsline {section}{List of Tables}{12}{section*.9}%
+\contentsline {section}{Appendix}{13}{section*.10}%
+\contentsline {subsection}{Code}{13}{section*.11}%
