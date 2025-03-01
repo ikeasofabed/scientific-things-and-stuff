@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  22 FEB 2025 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  1 MAR 2025 17:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -276,15 +276,33 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 \absrightindent=\skip63
 \absparindent=\skip64
 \absparsep=\skip65
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count314
+\LTcapwidth=\dimen172
+\LT@head=\box60
+\LT@firsthead=\box61
+\LT@foot=\box62
+\LT@lastfoot=\box63
+\LT@gbox=\box64
+\LT@cols=\count315
+\LT@rows=\count316
+\c@LT@tables=\count317
+\c@LT@chunks=\count318
+\LT@p@ftn=\toks30
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkeyval.tex (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks30
-\XKV@tempa@toks=\toks31
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
 )
-\XKV@depth=\count314
+\XKV@depth=\count319
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -292,71 +310,71 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box60
+\collectedbox=\box65
 )
-\tc@llx=\dimen172
-\tc@lly=\dimen173
-\tc@urx=\dimen174
-\tc@ury=\dimen175
+\tc@llx=\dimen173
+\tc@lly=\dimen174
+\tc@urx=\dimen175
+\tc@ury=\dimen176
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen176
-\adjbox@Height=\dimen177
-\adjbox@Depth=\dimen178
-\adjbox@Totalheight=\dimen179
-\adjbox@pwidth=\dimen180
-\adjbox@pheight=\dimen181
-\adjbox@pdepth=\dimen182
-\adjbox@ptotalheight=\dimen183
+\adjbox@Width=\dimen177
+\adjbox@Height=\dimen178
+\adjbox@Depth=\dimen179
+\adjbox@Totalheight=\dimen180
+\adjbox@pwidth=\dimen181
+\adjbox@pheight=\dimen182
+\adjbox@pdepth=\dimen183
+\adjbox@ptotalheight=\dimen184
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count315
+\c@checkoddpage=\count320
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box61
-\sift@deathcycles=\count316
-\@vwid@loff=\dimen184
-\@vwid@roff=\dimen185
+\@vwid@box=\box66
+\sift@deathcycles=\count321
+\@vwid@loff=\dimen185
+\@vwid@roff=\dimen186
 )) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/emptypage/emptypage.sty
 Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip66
-\cftbeforetoctitleskip=\skip67
-\cftaftertoctitleskip=\skip68
-\cftbeforepartskip=\skip69
-\cftpartnumwidth=\skip70
-\cftpartindent=\skip71
-\cftbeforesecskip=\skip72
-\cftsecindent=\skip73
-\cftsecnumwidth=\skip74
-\cftbeforesubsecskip=\skip75
-\cftsubsecindent=\skip76
-\cftsubsecnumwidth=\skip77
-\cftbeforesubsubsecskip=\skip78
-\cftsubsubsecindent=\skip79
-\cftsubsubsecnumwidth=\skip80
-\cftbeforeparaskip=\skip81
-\cftparaindent=\skip82
-\cftparanumwidth=\skip83
-\cftbeforesubparaskip=\skip84
-\cftsubparaindent=\skip85
-\cftsubparanumwidth=\skip86
-\cftbeforeloftitleskip=\skip87
-\cftafterloftitleskip=\skip88
-\cftbeforefigskip=\skip89
-\cftfigindent=\skip90
-\cftfignumwidth=\skip91
-\c@lofdepth=\count317
-\c@lotdepth=\count318
-\cftbeforelottitleskip=\skip92
-\cftafterlottitleskip=\skip93
-\cftbeforetabskip=\skip94
-\cfttabindent=\skip95
-\cfttabnumwidth=\skip96
+\cftparskip=\skip70
+\cftbeforetoctitleskip=\skip71
+\cftaftertoctitleskip=\skip72
+\cftbeforepartskip=\skip73
+\cftpartnumwidth=\skip74
+\cftpartindent=\skip75
+\cftbeforesecskip=\skip76
+\cftsecindent=\skip77
+\cftsecnumwidth=\skip78
+\cftbeforesubsecskip=\skip79
+\cftsubsecindent=\skip80
+\cftsubsecnumwidth=\skip81
+\cftbeforesubsubsecskip=\skip82
+\cftsubsubsecindent=\skip83
+\cftsubsubsecnumwidth=\skip84
+\cftbeforeparaskip=\skip85
+\cftparaindent=\skip86
+\cftparanumwidth=\skip87
+\cftbeforesubparaskip=\skip88
+\cftsubparaindent=\skip89
+\cftsubparanumwidth=\skip90
+\cftbeforeloftitleskip=\skip91
+\cftafterloftitleskip=\skip92
+\cftbeforefigskip=\skip93
+\cftfigindent=\skip94
+\cftfignumwidth=\skip95
+\c@lofdepth=\count322
+\c@lotdepth=\count323
+\cftbeforelottitleskip=\skip96
+\cftafterlottitleskip=\skip97
+\cftbeforetabskip=\skip98
+\cfttabindent=\skip99
+\cfttabnumwidth=\skip100
 
 
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing out. on input line 1156.
@@ -391,13 +409,13 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count319
+\c@section@level=\count324
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen186
-\Hy@linkcounter=\count320
-\Hy@pagecounter=\count321
+\@linkdim=\dimen187
+\Hy@linkcounter=\count325
+\Hy@pagecounter=\count326
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -405,7 +423,7 @@ Now handling font encoding PD1 ...
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count322
+\Hy@SavedSpaceFactor=\count327
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -418,21 +436,21 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count323
+\c@Hy@tempcnt=\count328
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen187
+\XeTeXLinkMargin=\dimen188
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count324
-\Field@Width=\dimen188
-\Fld@charsize=\dimen189
+\Fld@menulength=\count329
+\Field@Width=\dimen189
+\Fld@charsize=\dimen190
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -444,9 +462,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count325
-\c@Item=\count326
-\c@Hfootnote=\count327
+\Hy@abspage=\count330
+\c@Item=\count331
+\c@Hfootnote=\count332
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.def
@@ -455,8 +473,8 @@ File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count328
-\c@bookmark@seq@number=\count329
+\Fld@listcount=\count333
+\c@bookmark@seq@number=\count334
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
@@ -464,12 +482,12 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip97
+\Hy@SectionHShift=\skip101
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
-\everycr=\toks32
-\minrowclearance=\skip98
-\rownum=\count330
+\everycr=\toks33
+\minrowclearance=\skip102
+\rownum=\count335
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/minted/minted.sty
 Package: minted 2024/11/17 v3.4.0 Yet another Pygments shim for LaTeX
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/catchfile/catchfile.sty
@@ -480,128 +498,131 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: fvextra 2024/11/17 v1.10.0 fvextra - extensions and patches for fancyvrb
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count331
+\FV@CodeLineNo=\count336
 \FV@InFile=\read3
-\FV@TabBox=\box62
-\c@FancyVerbLine=\count332
-\FV@StepNumber=\count333
+\FV@TabBox=\box67
+\c@FancyVerbLine=\count337
+\FV@StepNumber=\count338
 \FV@OutFile=\write3
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lineno/lineno.sty
 Package: lineno 2025/01/29 line numbers on paragraphs v5.4
-\linenopenalty=\count334
-\output=\toks33
-\linenoprevgraf=\count335
-\linenumbersep=\dimen190
-\linenumberwidth=\dimen191
-\c@linenumber=\count336
-\c@pagewiselinenumber=\count337
-\c@LN@truepage=\count338
-\c@internallinenumber=\count339
-\c@internallinenumbers=\count340
-\quotelinenumbersep=\dimen192
-\bframerule=\dimen193
-\bframesep=\dimen194
-\bframebox=\box63
-\@LN@amsmath@ams@eqpen=\count341
+\linenopenalty=\count339
+\output=\toks34
+\linenoprevgraf=\count340
+\linenumbersep=\dimen191
+\linenumberwidth=\dimen192
+\c@linenumber=\count341
+\c@pagewiselinenumber=\count342
+\c@LN@truepage=\count343
+\c@internallinenumber=\count344
+\c@internallinenumbers=\count345
+\quotelinenumbersep=\dimen193
+\bframerule=\dimen194
+\bframesep=\dimen195
+\bframebox=\box68
+\@LN@amsmath@ams@eqpen=\count346
 LaTeX Info: Redefining \\ on input line 3187.
 )
-\c@FancyVerbWriteLine=\count342
-\c@FancyVerbBufferLine=\count343
-\c@FV@TrueTabGroupLevel=\count344
-\c@FV@TrueTabCounter=\count345
-\FV@TabBox@Group=\box64
-\FV@TmpLength=\skip99
-\c@FV@HighlightLinesStart=\count346
-\c@FV@HighlightLinesStop=\count347
-\FV@LoopCount=\count348
-\FV@NCharsBox=\box65
-\FV@BreakIndent=\dimen195
-\FV@BreakIndentNChars=\count349
-\FV@BreakSymbolSepLeft=\dimen196
-\FV@BreakSymbolSepLeftNChars=\count350
-\FV@BreakSymbolSepRight=\dimen197
-\FV@BreakSymbolSepRightNChars=\count351
-\FV@BreakSymbolIndentLeft=\dimen198
-\FV@BreakSymbolIndentLeftNChars=\count352
-\FV@BreakSymbolIndentRight=\dimen199
-\FV@BreakSymbolIndentRightNChars=\count353
-\c@FancyVerbLineBreakLast=\count354
-\FV@LineBox=\box66
-\FV@LineIndentBox=\box67
-\c@FV@BreakBufferDepth=\count355
-\FV@LineWidth=\dimen256
+\c@FancyVerbWriteLine=\count347
+\c@FancyVerbBufferLine=\count348
+\c@FV@TrueTabGroupLevel=\count349
+\c@FV@TrueTabCounter=\count350
+\FV@TabBox@Group=\box69
+\FV@TmpLength=\skip103
+\c@FV@HighlightLinesStart=\count351
+\c@FV@HighlightLinesStop=\count352
+\FV@LoopCount=\count353
+\FV@NCharsBox=\box70
+\FV@BreakIndent=\dimen196
+\FV@BreakIndentNChars=\count354
+\FV@BreakSymbolSepLeft=\dimen197
+\FV@BreakSymbolSepLeftNChars=\count355
+\FV@BreakSymbolSepRight=\dimen198
+\FV@BreakSymbolSepRightNChars=\count356
+\FV@BreakSymbolIndentLeft=\dimen199
+\FV@BreakSymbolIndentLeftNChars=\count357
+\FV@BreakSymbolIndentRight=\dimen256
+\FV@BreakSymbolIndentRightNChars=\count358
+\c@FancyVerbLineBreakLast=\count359
+\FV@LineBox=\box71
+\FV@LineIndentBox=\box72
+\c@FV@BreakBufferDepth=\count360
+\FV@LineWidth=\dimen257
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/latex2pydata/latex2pydata.sty
 Package: latex2pydata 2024/11/17 v0.4.0 latex2pydata - write data to file in Python literal format
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks34
-\pgfkeys@temptoks=\toks35
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks36
+\pgfkeys@tmptoks=\toks37
 ))) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks37
-\pgfopts@list@add@b@toks=\toks38
+\pgfopts@list@add@a@toks=\toks38
+\pgfopts@list@add@b@toks=\toks39
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
-\c@minted@FancyVerbLineTemp=\count356
-\@float@every@listing=\toks39
-\c@listing=\count357
+\c@minted@FancyVerbLineTemp=\count361
+\@float@every@listing=\toks40
+\c@listing=\count362
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen257
-\captionmargin=\dimen258
-\caption@leftmargin=\dimen259
-\caption@rightmargin=\dimen260
-\caption@width=\dimen261
-\caption@indent=\dimen262
-\caption@parindent=\dimen263
-\caption@hangindent=\dimen264
+\caption@tempdima=\dimen258
+\captionmargin=\dimen259
+\caption@leftmargin=\dimen260
+\caption@rightmargin=\dimen261
+\caption@width=\dimen262
+\caption@indent=\dimen263
+\caption@parindent=\dimen264
+\caption@hangindent=\dimen265
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count358
-\c@continuedfloat=\count359
+\c@caption@flags=\count363
+\c@continuedfloat=\count364
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tcolorbox/tcolorbox.sty
+Package caption Info: longtable package is loaded.
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks40
-\pgfutil@tempdima=\dimen265
-\pgfutil@tempdimb=\dimen266
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen266
+\pgfutil@tempdimb=\dimen267
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box68
+\pgfutil@abb=\box73
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
-\pgf@x=\dimen267
-\pgf@y=\dimen268
-\pgf@xa=\dimen269
-\pgf@ya=\dimen270
-\pgf@xb=\dimen271
-\pgf@yb=\dimen272
-\pgf@xc=\dimen273
-\pgf@yc=\dimen274
-\pgf@xd=\dimen275
-\pgf@yd=\dimen276
+\pgf@x=\dimen268
+\pgf@y=\dimen269
+\pgf@xa=\dimen270
+\pgf@ya=\dimen271
+\pgf@xb=\dimen272
+\pgf@yb=\dimen273
+\pgf@xc=\dimen274
+\pgf@yc=\dimen275
+\pgf@xd=\dimen276
+\pgf@yd=\dimen277
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count360
-\c@pgf@countb=\count361
-\c@pgf@countc=\count362
-\c@pgf@countd=\count363
-\t@pgf@toka=\toks41
-\t@pgf@tokb=\toks42
-\t@pgf@tokc=\toks43
-\pgf@sys@id@count=\count364
+\c@pgf@counta=\count365
+\c@pgf@countb=\count366
+\c@pgf@countc=\count367
+\c@pgf@countd=\count368
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
+\pgf@sys@id@count=\count369
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -612,59 +633,59 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count365
-\pgfsyssoftpath@bigbuffer@items=\count366
+\pgfsyssoftpath@smallbuffer@items=\count370
+\pgfsyssoftpath@bigbuffer@items=\count371
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen277
-\pgfmath@count=\count367
-\pgfmath@box=\box69
-\pgfmath@toks=\toks44
-\pgfmath@stack@operand=\toks45
-\pgfmath@stack@operation=\toks46
+\pgfmath@dimen=\dimen278
+\pgfmath@count=\count372
+\pgfmath@box=\box74
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count368
+\c@pgfmathroundto@lastzeros=\count373
 )) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfint.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen278
-\pgf@picmaxx=\dimen279
-\pgf@picminy=\dimen280
-\pgf@picmaxy=\dimen281
-\pgf@pathminx=\dimen282
-\pgf@pathmaxx=\dimen283
-\pgf@pathminy=\dimen284
-\pgf@pathmaxy=\dimen285
-\pgf@xx=\dimen286
-\pgf@xy=\dimen287
-\pgf@yx=\dimen288
-\pgf@yy=\dimen289
-\pgf@zx=\dimen290
-\pgf@zy=\dimen291
+\pgf@picminx=\dimen279
+\pgf@picmaxx=\dimen280
+\pgf@picminy=\dimen281
+\pgf@picmaxy=\dimen282
+\pgf@pathminx=\dimen283
+\pgf@pathmaxx=\dimen284
+\pgf@pathminy=\dimen285
+\pgf@pathmaxy=\dimen286
+\pgf@xx=\dimen287
+\pgf@xy=\dimen288
+\pgf@yx=\dimen289
+\pgf@yy=\dimen290
+\pgf@zx=\dimen291
+\pgf@zy=\dimen292
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen292
-\pgf@path@lasty=\dimen293
+\pgf@path@lastx=\dimen293
+\pgf@path@lasty=\dimen294
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen294
-\pgf@shorten@start@additional=\dimen295
+\pgf@shorten@end@additional=\dimen295
+\pgf@shorten@start@additional=\dimen296
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box70
-\pgf@hbox=\box71
-\pgf@layerbox@main=\box72
-\pgf@picture@serial@count=\count369
+\pgfpic=\box75
+\pgf@hbox=\box76
+\pgf@layerbox@main=\box77
+\pgf@picture@serial@count=\count374
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen296
+\pgflinewidth=\dimen297
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen297
-\pgf@pt@y=\dimen298
-\pgf@pt@temp=\dimen299
+\pgf@pt@x=\dimen298
+\pgf@pt@y=\dimen299
+\pgf@pt@temp=\dimen300
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -673,17 +694,17 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen300
+\pgfarrowsep=\dimen301
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen301
-\pgf@sys@shading@range@num=\count370
-\pgf@shadingcount=\count371
+\pgf@max=\dimen302
+\pgf@sys@shading@range@num=\count375
+\pgf@shadingcount=\count376
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box73
+\pgfexternal@startupbox=\box78
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -694,104 +715,104 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box74
+\pgfnodeparttextbox=\box79
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen302
-\pgf@nodesepend=\dimen303
-) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+\pgf@nodesepstart=\dimen303
+\pgf@nodesepend=\dimen304
+)
+(/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-))
-(/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgffor.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/math/pgfmath.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgffor.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/math/pgfmath.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen304
-\pgffor@skip=\dimen305
-\pgffor@stack=\toks47
-\pgffor@toks=\toks48
+\pgffor@iter=\dimen305
+\pgffor@skip=\dimen306
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 )) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count372
-\pgfplotmarksize=\dimen306
+\pgf@plot@mark@count=\count377
+\pgfplotmarksize=\dimen307
 )
-\tikz@lastx=\dimen307
-\tikz@lasty=\dimen308
-\tikz@lastxsaved=\dimen309
-\tikz@lastysaved=\dimen310
-\tikz@lastmovetox=\dimen311
-\tikz@lastmovetoy=\dimen312
-\tikzleveldistance=\dimen313
-\tikzsiblingdistance=\dimen314
-\tikz@figbox=\box75
-\tikz@figbox@bg=\box76
-\tikz@tempbox=\box77
-\tikz@tempbox@bg=\box78
-\tikztreelevel=\count373
-\tikznumberofchildren=\count374
-\tikznumberofcurrentchild=\count375
-\tikz@fig@count=\count376
+\tikz@lastx=\dimen308
+\tikz@lasty=\dimen309
+\tikz@lastxsaved=\dimen310
+\tikz@lastysaved=\dimen311
+\tikz@lastmovetox=\dimen312
+\tikz@lastmovetoy=\dimen313
+\tikzleveldistance=\dimen314
+\tikzsiblingdistance=\dimen315
+\tikz@figbox=\box80
+\tikz@figbox@bg=\box81
+\tikz@tempbox=\box82
+\tikz@tempbox@bg=\box83
+\tikztreelevel=\count378
+\tikznumberofchildren=\count379
+\tikznumberofcurrentchild=\count380
+\tikz@fig@count=\count381
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count377
-\pgfmatrixcurrentcolumn=\count378
-\pgf@matrix@numberofcolumns=\count379
+\pgfmatrixcurrentrow=\count382
+\pgfmatrixcurrentcolumn=\count383
+\pgf@matrix@numberofcolumns=\count384
 )
-\tikz@expandcount=\count380
+\tikz@expandcount=\count385
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks49
-\verbatim@line=\toks50
+\every@verbatim=\toks50
+\verbatim@line=\toks51
 \verbatim@in@stream=\read5
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box79
-\tcb@upperbox=\box80
-\tcb@lowerbox=\box81
-\tcb@phantombox=\box82
-\c@tcbbreakpart=\count381
-\c@tcblayer=\count382
-\c@tcolorbox@number=\count383
-\l__tcobox_tmpa_box=\box83
-\l__tcobox_tmpa_dim=\dimen315
-\tcb@temp=\box84
-\tcb@temp=\box85
-\tcb@temp=\box86
-\tcb@temp=\box87
+\tcb@titlebox=\box84
+\tcb@upperbox=\box85
+\tcb@lowerbox=\box86
+\tcb@phantombox=\box87
+\c@tcbbreakpart=\count386
+\c@tcblayer=\count387
+\c@tcolorbox@number=\count388
+\l__tcobox_tmpa_box=\box88
+\l__tcobox_tmpa_dim=\dimen316
+\tcb@temp=\box89
+\tcb@temp=\box90
+\tcb@temp=\box91
+\tcb@temp=\box92
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 51.
+Package hyperref Info: Option `colorlinks' set `true' on input line 52.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count384
-\l__pdf_internal_box=\box88
+\l__color_backend_stack_int=\count389
+\l__pdf_internal_box=\box93
 ) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.aux)
 \openout1 = `PHYC20040EXP3SPECTRA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -829,17 +850,17 @@ LaTeX Font Info:    ... okay on input line 69.
 
 (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count385
-\scratchdimen=\dimen316
-\scratchbox=\box89
-\nofMPsegments=\count386
-\nofMParguments=\count387
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count388
-\MPscratchDim=\dimen317
-\MPnumerator=\count389
-\makeMPintoPDFobject=\count390
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count390
+\scratchdimen=\dimen317
+\scratchbox=\box94
+\nofMPsegments=\count391
+\nofMParguments=\count392
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count393
+\MPscratchDim=\dimen318
+\MPnumerator=\count394
+\makeMPintoPDFobject=\count395
+\everyMPtoPDFconversion=\toks53
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -854,22 +875,22 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 70.
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.out) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.out)
 \@outlinefile=\write5
 \openout5 = `PHYC20040EXP3SPECTRA.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=54, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=94, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
-Package pdftex.def Info: ./images/UCDLogo.png  used on input line 75.
+Package pdftex.def Info: ./images/UCDLogo.png  used on input line 76.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=56, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=96, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
-Package pdftex.def Info: ./images/UCDBanner.png  used on input line 79.
+Package pdftex.def Info: ./images/UCDBanner.png  used on input line 80.
 (pdftex.def)             Requested size: 597.50787pt x 86.45332pt.
 
 
@@ -893,14 +914,65 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.105 \newpage
+l.106 \newpage
                [1
 
 ]
+<./images/spectra.jpg, id=138, 1284.8pt x 722.7pt>
+File: ./images/spectra.jpg Graphic file (type jpg)
+<use ./images/spectra.jpg>
+Package pdftex.def Info: ./images/spectra.jpg  used on input line 132.
+(pdftex.def)             Requested size: 426.79134pt x 240.06866pt.
 
-[2]
 
-[3] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.bbl) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.lof)
+[2 <./images/spectra.jpg>]
+<./images/blackbody.jpg, id=159, 1244.65pt x 602.25pt>
+File: ./images/blackbody.jpg Graphic file (type jpg)
+<use ./images/blackbody.jpg>
+Package pdftex.def Info: ./images/blackbody.jpg  used on input line 161.
+(pdftex.def)             Requested size: 355.65944pt x 172.09332pt.
+
+
+[3 <./images/blackbody.jpg>]
+<./images/Stellar_Classification_Chart.png, id=194, 192.72pt x 124.0635pt>
+File: ./images/Stellar_Classification_Chart.png Graphic file (type png)
+<use ./images/Stellar_Classification_Chart.png>
+Package pdftex.def Info: ./images/Stellar_Classification_Chart.png  used on input line 227.
+(pdftex.def)             Requested size: 435.32422pt x 280.24013pt.
+
+
+[4]
+
+[5 <./images/Stellar_Classification_Chart.png>]
+<./images/msspectra.png, id=233, 665.48625pt x 702.625pt>
+File: ./images/msspectra.png Graphic file (type png)
+<use ./images/msspectra.png>
+Package pdftex.def Info: ./images/msspectra.png  used on input line 274.
+(pdftex.def)             Requested size: 355.65944pt x 375.50934pt.
+
+
+[6]
+
+[7 <./images/msspectra.png>]
+
+[8] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.bbl
+Underfull \hbox (badness 1178) in paragraph at lines 59--63
+\OT1/cmr/m/n/12 Avail-able: [][]$https : / / phys . libretexts . org / Bookshelves / University[]Physics / University[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
+\OT1/cmr/m/n/12 Physics[](OpenStax ) /University[]Physics[]III[]-[][]Optics[]and[]Modern[]Physics[](OpenStax )
+ []
+
+
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 161--167
+\OT1/cmr/m/n/12 The-[]^^Lgure-[]shows-[]various-[]stellar-[]spectra-[]for-[]the-[]main-[]sequence-[]stars-[]A5-[]to-[]M0-[]Below[]
+ []
+
+) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.lof)
 \tf@lof=\write7
 \openout7 = `PHYC20040EXP3SPECTRA.lof'.
 
@@ -911,33 +983,33 @@ l.105 \newpage
 \pydata@fh@_745DDD38BA1E37A6FAFC5EF750B047CD.data.minted=\write9
 \openout9 = `_745DDD38BA1E37A6FAFC5EF750B047CD.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250222191223Z 745DDD38BA1E37A6FAFC5EF750B047CD)...executed.
+runsystem(latexminted config  --timestamp 20250301174119Z 745DDD38BA1E37A6FAFC5EF750B047CD)...executed.
 
  (_745DDD38BA1E37A6FAFC5EF750B047CD.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250222191223Z 745DDD38BA1E37A6FAFC5EF750B047CD)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20250301174119Z 745DDD38BA1E37A6FAFC5EF750B047CD)...executed.
 
  (_minted/monokai.style.minted) (_minted/D17DBF2BFFC3FCCAF70646BBD2A89B58.highlight.minted)
 
-[4] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.aux)
+[10] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PHYC20040EXP3SPECTRA.out' has not changed.
-(rerunfilecheck)             Checksum: 6072B9F6BE25228D300281A51A4C52A5;1191.
+(rerunfilecheck)             Checksum: F21C407D7597E22D72472645E46A8265;3029.
  ) 
 Here is how much of TeX's memory you used:
- 31974 strings out of 473530
- 659579 string characters out of 5704664
- 1129132 words of memory out of 5000000
- 54640 multiletter control sequences out of 15000+600000
- 566690 words of font info for 65 fonts, out of 8000000 for 9000
+ 32273 strings out of 473530
+ 665039 string characters out of 5704664
+ 1146661 words of memory out of 5000000
+ 54883 multiletter control sequences out of 15000+600000
+ 568354 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,8n,117p,632b,941s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.pdf" (5 pages, 599886 bytes).
+ 95i,12n,117p,632b,939s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.pdf" (11 pages, 1395425 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 219 words of extra memory for PDF output out of 10000 (max. 10000000)
 
