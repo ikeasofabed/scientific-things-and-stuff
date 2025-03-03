@@ -108,13 +108,17 @@
 \begin{abstract}
 \addcontentsline{toc}{section}{Abstract}
 
-
+This experiment made use of the CLEA (Contemporary Laboratory Experience in Astronomy) \textit{'Classifying Stellar Spectra'} software to practice classifying a star's spectral type.
+The program had a list of 25 pre-determined stars that were analysed and classified on their spectral type based off of their absorption spectra when compared to the known
+spectra of main sequence stars from O-type to M-type. When these estimated spectral types were cross-checked to the spectral types as defined by the SIMBAD database and JHC Atlas,
+\textbf{30.4\%} and \textbf{45.8\%} of the results matched, respectively. The same process was done for randomly selected stars in the simulated nightsky offered by CLEA, and these chosen
+stars were compared to ones available on the SIMBAD database via input of their coordinates. 
 
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{4cm}
+\vspace{2.5cm}
 
 \section{Theory} \label{sec:1}
 
@@ -184,6 +188,7 @@ The wavelength $\mathbf{\lambda_{peak}}$ can also be found in Ångstroms (Å) by
     \lambda_{peak} (\text{\AA}) = \frac{2.9 \times 10^7}{T}
 \end{gather}
 
+\vspace{1.5cm}
 \subsection{Apparent and Absolute Magnitude} \label{sec:1.1.3}
 
 Magnitude is a logarithmic measure of the brightness of a star or other celestial body. The brighter the object, the lower the magnitude (number), and they can be negative for particularly bright stars
@@ -215,6 +220,7 @@ The above equation (\ref{eq:1}) can then be manipulated to find the distance, \t
     \log_{10}D = \frac{m - M + 5}{5} \quad \implies \quad D = 10^{\frac{m - M + 5}{5}}
 \end{gather}
 
+\vspace{1.5cm}
 \subsection{Stellar Classification}
 
 \subsubsection{Harvard Classification of Spectral Types} \label{sec:1.2.1}
@@ -224,7 +230,7 @@ The different classes and temperature thresholds are illustrated in figure \ref{
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.9\textwidth]{Stellar_Classification_Chart.png}
+    \includegraphics[width=.8\textwidth]{Stellar_Classification_Chart.png}
     \caption{\centering Chart for classifying of the main star types as per the Harvard classification \protect\cite{wikistar}.}
     \label{fig:starclassy}
 \end{figure}
@@ -347,7 +353,7 @@ The estimated spectral types for the list of the 25 stars provided by CLEA has b
         \textbf{HD 5351}    & K4 & Strong Fe I lines and surrounding dips; betw. K0 and K5         \\ \hline
         \textbf{SAO 81292} &
         M3 &
-        \begin{tabular}[c]{@{}l@{}}\textbf{(EMISSION)} v. strong Ca I line, flipped Ca II lines; \\ betw. M5 and M0\end{tabular} \\ \hline
+        \begin{tabular}[c]{@{}l@{}}\textbf{(EMISSION)} v. strong Ca II lines, strong HI (H-gamma); \\ betw. M5 and M0\end{tabular} \\ \hline
         \textbf{HD 27685}   & G6 & Nearly identical to G6                                          \\ \hline
         \textbf{HD 21619}   & A6 & Smoother spectrum; nearly A5                                    \\ \hline
         \textbf{HD 23511}   & F6 & Difference slope slightly below axis; nearly F5                 \\ \hline
@@ -524,6 +530,31 @@ of stars of spectral classes O to M for luminosity classes V, III, and I.
 
 Out of the 24 stars available on the JHC Atlas from the 25 of the CLEA list, \textbf{45.8\%} matched what was estimated.
 
+\subsubsection{A Comment on SAO 81292}
+
+During the experiment star SAO 81292 was identified to have emission lines (see figure \ref{fig:swordartonline}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7.5cm]{SAO81292spec.png}
+    \caption{\centering Image of the grayscale spectrum for star SAO 81292.}
+    \label{fig:swordartonline}
+\end{figure}
+
+This could indicate a particularly active late-stage star or a flare star. Through analysis of the lightcurve graph from data gathered by TESS, we can indeed infer that this star is a flare star (see figure \ref{fig:saolight}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{SAO lightplot.png}
+    \caption{\centering Lightcurve graph plot of the SAO 81292 star, TESS-SPOC data (2023) \protect\cite{TESSSAO}.}
+    \label{fig:saolight}
+\end{figure}
+
+The flux of light (y-axis) has been gathered over a period of 20 seconds (x-axis), and in that period 4 spikes in the flux can be seen, indicating
+flares. Known flare stars have spectral types of late-K through late-M, which is consistent with the information found on both the SIMBAD database and the JHC Atlas.
+Additionally, flare stars often have detectable Ca II and H lines, which is also consistent with what was observed from the experiment \cite{aavso}.
+As such, SAO 81292 is most likely a flare star and hence the emission lines visible on the spectra in figure \ref{fig:swordartonline}.
+
 \subsection{Spectral Classification (Telescope)}
 
 Three stars, one dim and two bright, were then located on the vast simulated expanse of the sky and the spectrographs for each star was found. Stars were chosen to be relatively far away from
@@ -572,6 +603,10 @@ on another and the findings were formatted into a compact table, table \ref{tab:
         \end{tabular}%
     }
 \end{table}
+
+It was important to get the S/N (signal to noise) ratio of each specturm to be as low as possible (higher number) so the spectra would not be as noisy. If the spectrum
+is noisy, it is much harder to identify the most prominent absorption lines. This can be helped by choosing to use a larger telescope (CLEA offers both 1.0m and 4.0m telescopes to be used) as this
+way the telescope can collect more light quicker, reducing the noise present in the spectrograph. 
 
 \subsubsection{SIMBAD Analysis}
 
@@ -664,14 +699,21 @@ from the laboratory experiment. Identical approaches were taken, different softw
 
 \section{Conclusion} \label{sec:4}
 
+Through the use of the CLEA software, this experiment was successful in practicing classifying spectral types of stars based on this spectra. When compared to two different
+databases, it was found that \textbf{30.4\%} of the estimated spectral types matched with the SIMBAD database, while \textbf{45.8\%} of the estimated spectral
+types matched with the JHC Atlas. The fact that these results do not match could be due to discrepancies in data-gathering methods and complexities of the stars, or classification threshold differences as
+SIMBAD has a lot more variable descriptors for spectral types.
 
+For the telescope-based section of the experiment, the same approach as before was taken. The factor of the signal-to-noise ratio meant that there was likely some
+error in estimating the spectral type for stars as some spectral types are more reliant on the 'smoothness' of the spectrum. Higher ratios also meant more noise, making it difficult to tell
+what were the most prominent lines of the absorption spectrum. This issue could be fixed by making use of the larger telescopes available within the software.
 
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \bibliographystyle{IEEEtran}
-\bibliography{References} \label{sec:ref}
+{\footnotesize\bibliography{References}} \label{sec:ref}
 
 \vspace{1.5cm}
 
@@ -679,70 +721,106 @@ from the laboratory experiment. Identical approaches were taken, different softw
 
 \listoftables
 
+\vspace{2.5cm}
+
 \section*{Appendix} \label{sec:A}
 \addcontentsline{toc}{section}{Appendix}
 
-\subsection*{Figures}
-\addcontentsline{toc}{subsection}{Figures}
+\subsection*{Code}
+\addcontentsline{toc}{subsection}{Code}
+
+%
+
+\begin{minipage}{\linewidth}
+\captionsetup{hypcap=false}
+
+\begin{mintedbox}
+\begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
+import matplotlib.pyplot as plt
+import lightkurve as lk
+%matplotlib inline # thank you to https://www.youtube.com/watch?v=fhQjDv_vuQU
+
+data = lk.search_lightcurve("SAO 81292", mission = "TESS")
+data
+
+lc = data.download_all()
+lc[6].plot() # from data table, [6]: exptime 20s, year 2023, author SPOC
+
+\end{minted}
+\end{mintedbox}
+
+\captionof*{figure}{\centering Code for generating the lightcurve graph in figure \ref{fig:saolight}.}
+\end{minipage}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{SAO tess data.png}
+    \caption*{\centering Data table sourced with the code from TESS.}
+\end{figure}
+
+\newpage
+
+\subsection*{CLEA Atlas of Standard Spectra}
+\addcontentsline{toc}{subsection}{CLEA Atlas of Standard Spectra}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=.47\textwidth]{O5V.png}
-    \caption{\centering Atlas of Standard Spectra: \textbf{O5}}
+    \caption*{\centering Atlas of Standard Spectra: \textbf{O5}}
 \end{figure}
 \vspace{-1.5ex}
 \begin{minipage}{.47\textwidth}
     \captionsetup{hypcap=false}
     \centering
     \includegraphics[width=\linewidth]{B0V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{B0}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{B0}}
 
     \vfill
     \includegraphics[width=\linewidth]{A1V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{A1}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{A1}}
 
     \vfill
     \includegraphics[width=\linewidth]{F0V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{F0}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{F0}}
 
     \vfill
     \includegraphics[width=\linewidth]{G0V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{G0}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{G0}}
 
     \vfill
     \includegraphics[width=\linewidth]{K0V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{K0}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{K0}}
 
     \vfill
     \includegraphics[width=\linewidth]{M0V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{M0}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{M0}}
 \end{minipage}
 \hfill
 \begin{minipage}{.47\textwidth}
     \captionsetup{hypcap=false}
     \centering
     \includegraphics[width=\linewidth]{B6V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{B6}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{B6}}
 
     \vfill
     \includegraphics[width=\linewidth]{A5V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{A5}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{A5}}
 
     \vfill
     \includegraphics[width=\linewidth]{F5V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{F5}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{F5}}
 
     \vfill
     \includegraphics[width=\linewidth]{G6V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{G6}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{G6}}
 
     \vfill
     \includegraphics[width=\linewidth]{K5V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{K5}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{K5}}
 
     \vfill
     \includegraphics[width=\linewidth]{m5V.png}
-    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{M5}}
+    \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{M5}}
 \end{minipage}
 
 \end{document}

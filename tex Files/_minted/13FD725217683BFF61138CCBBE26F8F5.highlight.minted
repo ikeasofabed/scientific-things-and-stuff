@@ -1,0 +1,12 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{matplotlib}\PYG{n+nn}{.}\PYG{n+nn}{pyplot}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{plt}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{lightkurve}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{lk}
+\PYG{o}{\PYGZpc{}}\PYG{n}{matplotlib} \PYG{n}{inline} \PYG{c+c1}{\PYGZsh{} thank you to https://www.youtube.com/watch?v=fhQjDv\PYGZus{}vuQU}
+
+\PYG{n}{data} \PYG{o}{=} \PYG{n}{lk}\PYG{o}{.}\PYG{n}{search\PYGZus{}lightcurve}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{SAO 81292}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{mission} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{TESS}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{data}
+
+\PYG{n}{lc} \PYG{o}{=} \PYG{n}{data}\PYG{o}{.}\PYG{n}{download\PYGZus{}all}\PYG{p}{(}\PYG{p}{)}
+\PYG{n}{lc}\PYG{p}{[}\PYG{l+m+mi}{6}\PYG{p}{]}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} from data table, [6]: exptime 20s, year 2023, author SPOC}
+
+\end{MintedVerbatim}

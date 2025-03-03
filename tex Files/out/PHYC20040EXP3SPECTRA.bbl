@@ -192,6 +192,18 @@ Jacoby, Hunter, and Christian. (1984) {Jacoby-Hunter-Christian Atlas}.
   \url{https://www.stsci.edu/hst/instrumentation/reference-data-for-calibration-and-tools/astronomical-catalogs/jacoby-hunter-christian-atlas}
 \BIBentrySTDinterwordspacing
 
+\bibitem{TESSSAO}
+\BIBentryALTinterwordspacing
+TESS. (2019-2023) {TIC 95431305}. [Accessed 3 March 2025]. [Online]. Available:
+  \url{https://exofop.ipac.caltech.edu/tess/target.php?id=95431305}
+\BIBentrySTDinterwordspacing
+
+\bibitem{aavso}
+\BIBentryALTinterwordspacing
+M.~Templeton. (n.d.) {UV Ceti and the flare stars}. [Accessed 3 March 2025].
+  [Online]. Available: \url{https://www.aavso.org/vsots_uvcet}
+\BIBentrySTDinterwordspacing
+
 \bibitem{SIMBADguide}
 \BIBentryALTinterwordspacing
 CDS. (2000-2025) {SIMBAD: Spectral Type Coding}. [Accessed 2 March 2025].
