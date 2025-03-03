@@ -53,7 +53,7 @@
 
 \urlstyle{same}
 
-\renewcommand{\arraystretch}{1.3}
+\renewcommand{\arraystretch}{1.4}
 
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{5}
@@ -167,7 +167,7 @@ The characteristic curve of the continuous spectrum of blackbody radiation can b
 Hotter stars emit shorter wavelengths and therefore appear bluer, while colder stars emit longer wavelengths and therefore appear redder (see figure \ref{fig:msgraphspec}).
 
 
-\subsection{Wien's Displacement Law}
+\subsubsection{Wien's Displacement Law}
 
 Wien's Law relates the peak wavelength of a blackbody's peak emission spectrum ($\mathbf{\lambda_{peak}}$) to temperature (\textbf{T}) \cite{derivwien}.
 This is given by the following, with $\mathbf{\lambda_{peak}}$ in metres (m) and temperature \textbf{T} in Kelvin (K) \cite{derivwien}:
@@ -278,11 +278,387 @@ Figure \ref{fig:msgraphspec} shows the graph of the absorption line spectrum for
 
 \section{Methodology} \label{sec:2}
 
+This experiment made use of the \textit{Contemporary Laboratory Experience in Astronomy}, CLEA, software and the \textit{Classification of Stellar Spectra} program included in the package.
+CLEA is an online software developed to simulate and illustrate modern astronomical techniques in a 'real' night sky. This experiment is divided into two separate yet related exercises.
+\cite{cleaspectra}.
 
+For the first part of the experiment, graphs of different \textit{absorption spectra} for 25 unknown stars from a list were compared and contrasted against the absorption spectra of main sequence stars of 13 different
+spectral types sourced from an Atlas of Standard Spectra. By comparing the known to the unknown, the spectral type for the unknown stars could be approximated and noted. By identifying the approximate
+spectral type, astronomers could then estimate the temperature of the star.
+
+The program offered the simulated use of a spectrometer attached to a 0.4m (16") research telescope for the second part of the experiment in which ideally 3 stars are found and studied.
+The aim is to find at least both a bright and dim star and utilise the spectrometer attached to the telescope to produce an absorption spectrum for that star. From there, the same as was done for the 
+first part of the experiment can be done and the spectral type of the star can be estimated by comparing and contrasting to the Atlas of Standard Spectra provided within the software \cite{UCDspectra}.
+
+Windows for both programs of the experiment are illustrated in figure \ref{fig:program}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{SPECTRAPIC.JPG}
+    \caption{\centering Screenshot of the Stellar Spectra CLEA program.}
+    \label{fig:program}
+\end{figure}
+
+The spectral type identification program allowed also for the use of different visualisation and data analysis methods (not pictured):
+
+\begin{itemize}
+    \item \textbf{Grayscale Photo:} this setting showed a photographed representation of the spectrum in black and white.
+    \item \textbf{Graphical Trace:} default setting, graphical representation of the spectra as pictured in figure \ref{fig:program}.
+    \item \textbf{Comb. (Photo \& Trace):} combination of both the above settings; centre panel shows the photographic representation of the unknown star whilst the bottom panel shows the graphical representation.
+\end{itemize}
+
+These settings are useful to help differentiate between the strongest dips/lines of that spectra when it is not very clear on another representation.
 
 \section{Results and Calculations} \label{sec:3}
 
+\subsection{Spectral Classification (CLEA List)}
 
+The estimated spectral types for the list of the 25 stars provided by CLEA has been formatted into a compact table below, table \ref{tab:2}, with reasons for why that spectral type was chosen for that star:
+
+\begin{table}[H]
+    \caption{\centering Table of the estimated spectral class for the CLEA star list, with reasons listed.}
+    \label{tab:2}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|l|
+        >{\columncolor[HTML]{EFEFEF}}c |l|}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{STAR}} &
+        \textbf{SP TYPE} &
+        \multicolumn{1}{c|}{\textbf{REASONS}} \\ \hline
+        \textbf{HD 124320}  & A3 & HI lines v. strong; Ca II line betw. A1 and A5                  \\ \hline
+        \textbf{HD 37767}   & B3 & Strong Ca II lines, He II and HI strong; betw. B0 and B6        \\ \hline
+        \textbf{HD 35619}   & O7 & Strong cont. spectrum, weak dips; betw. O5 and B0               \\ \hline
+        \textbf{HD 23733}   & F3 & Ca II lines v. strong; betw. F0 and F5                          \\ \hline
+        \textbf{O1015}      & B8 & HI lines similar to B6, slightly stronger dips; betw. B6 and A1 \\ \hline
+        \textbf{HD 24189}   & G3 & Strong Ca II lines, strong He II line; betw. G0 and G6          \\ \hline
+        \textbf{HD 107399}  & F7 & He I line similar to G0; betw. F5 and G0                        \\ \hline
+        \textbf{HD 240344}  & B4 & Strong HI line; betw. B0 and B6                                 \\ \hline
+        \textbf{HD 17647}   & G5 & Weak HI line, strong Ca II (K) line; betw. G0 and G6            \\ \hline
+        \textbf{BD +63 137} & M1 & Strong dip at 4227 Å; betw. M0 and M5                           \\ \hline
+        \textbf{HD 66171}   & G5 & Strong Ca II lines, weaker HI (H-gamma); betw. G0 and G6        \\ \hline
+        \textbf{HZ 948}     & F7 & Strong HI line, minimal difference slope; betw. F5 and G0       \\ \hline
+        \textbf{HD 35215}   & B3 & Strong HI (H-epsilon), minor difference slope; betw. B0 and B6  \\ \hline
+        \textbf{Feige 40}   & B4 & Strong HI (H-delta); betw. B0 and B6                            \\ \hline
+        \textbf{Feige 41}   & A0 & Strong HI (H-espilon, H-gamma, H-delta) lines; betw. B6 and A1  \\ \hline
+        \textbf{HD 6111}    & F8 & Strong Ca II line, strong HI (H-delta) line; betw. F5 and G0    \\ \hline
+        \textbf{HD 23863}   & A5 & Smoother cont. spectrum, otherwise identical to A5              \\ \hline
+        \textbf{HD 221741}  & A3 & Strong Ca II lines, smoother cont. spectrum; betw. A1 and A5    \\ \hline
+        \textbf{HD 242936}  & O5 & Nearly identical to O5                                          \\ \hline
+        \textbf{HD 5351}    & K4 & Strong Fe I lines and surrounding dips; betw. K0 and K5         \\ \hline
+        \textbf{SAO 81292} &
+        M3 &
+        \begin{tabular}[c]{@{}l@{}}\textbf{(EMISSION)} v. strong Ca I line, flipped Ca II lines; \\ betw. M5 and M0\end{tabular} \\ \hline
+        \textbf{HD 27685}   & G6 & Nearly identical to G6                                          \\ \hline
+        \textbf{HD 21619}   & A6 & Smoother spectrum; nearly A5                                    \\ \hline
+        \textbf{HD 23511}   & F6 & Difference slope slightly below axis; nearly F5                 \\ \hline
+        \textbf{HD 158659}  & B0 & V. slightly smoother cont. spectrum; nearly identical to B0     \\ \hline
+        \end{tabular}%
+    }
+\end{table}
+
+The 'HD' prefixed stars are sourced from the \textit{Henry-Draper} catalogue, 'BD' prefixed stars are sourced from the \textit{Bonner Durchmusterung} catalogue, 'HZ' prefixed stars are sourced
+from the \textit{Humason-Zwicky} catalogue, 'Feige' prefixed stars are sourced from the \textit{Feige} catalogue, and 'SAO' prefixed stars are sourced from the
+\textit{Smithsonian Astrophysical Observatory} catalogue. It is unclear where the 'O' prefixed stars are sourced from.
+
+\subsubsection{SIMBAD Analysis}
+
+The SIMBAD Astronomical Database is made of use to cross-check the stars provided and selected \cite{SIMBAD}. As of the 2nd of March 2025, SIMBAD currently has
+20 202 386 objects registered on the database.
+
+\begin{table}[H]
+    \caption{Table of the actual spectral types of the CLEA star list as per SIMBAD.}
+    \label{tab:4}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|l|
+        >{\columncolor[HTML]{EFEFEF}}c ||l|
+        >{\columncolor[HTML]{EFEFEF}}c ||l|
+        >{\columncolor[HTML]{EFEFEF}}c ||l|
+        >{\columncolor[HTML]{EFEFEF}}c ||l|
+        >{\columncolor[HTML]{EFEFEF}}c |}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (SIMBAD)\end{tabular}} &
+        \multicolumn{1}{c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (SIMBAD)\end{tabular}} &
+        \multicolumn{1}{c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (SIMBAD)\end{tabular}} &
+        \multicolumn{1}{c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (SIMBAD)\end{tabular}} &
+        \multicolumn{1}{c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (SIMBAD)\end{tabular}} \\ \hline
+        \textbf{HD 124320} &
+        A5V &
+        \textbf{HD 24189} &
+        F6V &
+        \textbf{HD 66171} &
+        G2V &
+        \textbf{HD 6111} &
+        G5 E &
+        \textbf{SAO 81292} &
+        \cellcolor[HTML]{A4DA95}dM3 C \\ \hline
+        \textbf{HD 37767} &
+        \cellcolor[HTML]{A4DA95}B3V &
+        \textbf{HD 107399} &
+        G0 E &
+        \textbf{HZ 948} &
+        N/A &
+        \textbf{HD 23863} &
+        A7Vn C &
+        \textbf{HD 27685} &
+        G2 E \\ \hline
+        \textbf{HD 35619} &
+        \cellcolor[HTML]{A4DA95}O7.5V &
+        \textbf{HD 240344} &
+        B7 E &
+        \textbf{HD 35215} &
+        B1V &
+        \textbf{HD 221741} &
+        A2 E &
+        \textbf{HD 21619} &
+        \cellcolor[HTML]{A4DA95}A6V C \\ \hline
+        \textbf{HD 23733} &
+        A9V &
+        \textbf{HD 17647} &
+        \cellcolor[HTML]{A4DA95}G5 D &
+        \textbf{Feige 40} &
+        \cellcolor[HTML]{A4DA95}B4V &
+        \textbf{HD 242936} &
+        A2V &
+        \textbf{HD 23511} &
+        F5V C \\ \hline
+        \textbf{O1015} &
+        N/A &
+        \textbf{BD +63 137} &
+        K7V &
+        \textbf{Feige 41} &
+        A1V &
+        \textbf{HD 5351} &
+        \cellcolor[HTML]{A4DA95}K4V C &
+        \textbf{HD 158659} &
+        B5(Ib/II) D \\ \hline
+        \end{tabular}%
+    }
+\end{table}
+
+Out of the 23 stars available on the SIMBAD database from the 25 of the CLEA list, \textbf{30.4\%} matched what was estimated.
+
+\subsubsection{Jacoby-Hunter-Christian Atlas Analysis}
+
+The Jacoby-Hunter-Christian (JHC) Atlas is made of use to cross-check the stars provided \cite{JHCATLAS}. The JHC Atlas was originally published in 1984 and contains 161 spectra
+of stars of spectral classes O to M for luminosity classes V, III, and I.
+
+\begin{table}[H]
+    \caption{Table of the actual spectral types of the CLEA star list as per the JHC Atlas.}
+    \label{tab:5}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|l|
+        >{\columncolor[HTML]{EFEFEF}}c ||l|
+        >{\columncolor[HTML]{EFEFEF}}c ||l|
+        >{\columncolor[HTML]{EFEFEF}}c ||l|
+        >{\columncolor[HTML]{EFEFEF}}c ||l|
+        >{\columncolor[HTML]{EFEFEF}}c |}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (JHC)\end{tabular}} &
+        \multicolumn{1}{c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (JHC)\end{tabular}} &
+        \multicolumn{1}{c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (JHC)\end{tabular}} &
+        \multicolumn{1}{c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (JHC)\end{tabular}} &
+        \multicolumn{1}{c|}{\textbf{STAR}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP TYPE\\ (JHC)\end{tabular}} \\ \hline
+        \textbf{HD 124320} &
+        A2V &
+        \textbf{HD 24189} &
+        F6V &
+        \textbf{HD 66171} &
+        G2V &
+        \textbf{HD 6111} &
+        \cellcolor[HTML]{A4DA95}F8V &
+        \textbf{SAO 81292} &
+        M4.5 Ve \\ \hline
+        \textbf{HD 37767} &
+        \cellcolor[HTML]{A4DA95}B3V &
+        \textbf{HD 107399} &
+        F9V &
+        \textbf{HZ 948} &
+        F3V &
+        \textbf{HD 23863} &
+        A7V &
+        \textbf{HD 27685} &
+        G7V \\ \hline
+        \textbf{HD 35619} &
+        \cellcolor[HTML]{A4DA95}O7V &
+        \textbf{HD 240344} &
+        \cellcolor[HTML]{A4DA95}B4V &
+        \textbf{HD 35215} &
+        B1.5V &
+        \textbf{HD 221741} &
+        \cellcolor[HTML]{A4DA95}A3V &
+        \textbf{HD 21619} &
+        \cellcolor[HTML]{A4DA95}A6V \\ \hline
+        \textbf{HD 23733} &
+        A9V &
+        \textbf{HD 17647} &
+        G1V &
+        \textbf{Feige 40} &
+        \cellcolor[HTML]{A4DA95}B4V &
+        \textbf{HD 242936} &
+        N/A &
+        \textbf{HD 23511} &
+        F4V \\ \hline
+        \textbf{O1015} &
+        \cellcolor[HTML]{A4DA95}B8V &
+        \textbf{BD +63 137} &
+        \cellcolor[HTML]{A4DA95}M1V &
+        \textbf{Feige 41} &
+        A1V &
+        \textbf{HD 5351} &
+        \cellcolor[HTML]{A4DA95}K4V &
+        \textbf{HD 158659} &
+        \cellcolor[HTML]{A4DA95}B0V \\ \hline
+        \end{tabular}%
+        }
+\end{table}
+
+Out of the 24 stars available on the JHC Atlas from the 25 of the CLEA list, \textbf{45.8\%} matched what was estimated.
+
+\subsection{Spectral Classification (Telescope)}
+
+Three stars, one dim and two bright, were then located on the vast simulated expanse of the sky and the spectrographs for each star was found. Stars were chosen to be relatively far away from
+on another and the findings were formatted into a compact table, table \ref{tab:3}, below with the same structure for spectral type and reasoning as before:
+
+\begin{table}[H]
+    \caption{\centering Table of the estimated spectral types for self-selected 1 dim and 2 bright stars.}
+    \label{tab:3}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|
+        >{\columncolor[HTML]{EFEFEF}}c |c|c|c|c|c|
+        >{\columncolor[HTML]{EFEFEF}}c |l|}
+        \hline
+        \textbf{\begin{tabular}[c]{@{}c@{}}Star\\ \#\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}Star\\ Name\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}RA\\ (h  m  s)\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}DE\\ (d  m  s)\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}App. \\ Mag. (m)\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}S/N\\ Ratio\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}SP\\ Type\end{tabular}} &
+        \textbf{Reasons} \\ \hline
+        \textbf{1} &
+        436 &
+        6  14  20 &
+        33  21  24 &
+        4.03 &
+        1001 &
+        G7 &
+        \begin{tabular}[c]{@{}l@{}}Strong Ca II lines, strong G-band; \\ betw. G6 and K0\end{tabular} \\ \hline
+        \textbf{2} &
+        57 &
+        6  22  28 &
+        30  52  21 &
+        14.65 &
+        45 &
+        A6 &
+        \begin{tabular}[c]{@{}l@{}}Sharper dips, noisy (S/N ratio); \\ betw. A5 and F0\end{tabular} \\ \hline
+        \textbf{3} &
+        49 &
+        6  07  19 &
+        30  12  32 &
+        5.98 &
+        879 &
+        B5 &
+        \begin{tabular}[c]{@{}l@{}}Strong H I (H-epsilon, H-delta, H-gamma) \\ lines, stronger Fe I line; \\ betw. B0 and B6\end{tabular} \\ \hline
+        \end{tabular}%
+    }
+\end{table}
+
+\subsubsection{SIMBAD Analysis}
+
+Much like before, the SIMBAD database can be made of use to cross-check the stars found on the digitally simulated nightsky provided by CLEA by inputing
+the RA and DE coordinates found.
+
+\begin{table}[H]
+    \centering
+    \caption{Stars found through telescope cross-matched on SIMBAD to a radius of 5 arc min.}
+    \label{tab:6}
+    \resizebox{.75\textwidth}{!}{%
+    \begin{tabular}{|
+    >{\columncolor[HTML]{EFEFEF}}c |c|c|c|c|
+    >{\columncolor[HTML]{EFEFEF}}c |}
+    \hline
+    \textbf{\begin{tabular}[c]{@{}c@{}}Star\\ \#\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}Star\\ Name\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}RA\\ (h m s)\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}DE\\ (d m s)\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}Mag. \\ (unspecified)\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}SP Type\\ (SIMBAD)\end{tabular}} \\ \hline
+    \textbf{1} & HD 253515   & 6 14 \textbf{26}          & +33 21 \textbf{01}          & 11.3  & kA1hA2mA3 \\ \hline
+    \textbf{2} & HD 44300    & 6 22 28          & +30 \textbf{56 43} & 8.82  & F0        \\ \hline
+    \textbf{3} & EM* MWC 790 & 6 07 \textbf{24} & +30 \textbf{11 44} & 12.77 & Be        \\ \hline
+    \end{tabular}%
+    }
+\end{table}
+
+The change in coordinates from those gathered has been highlighted in bold, and only the results where the spectral type was provided have been taken (as it is the aim of the experiment).
+
+According to SIMBAD, star 1 (HD 253515) is of spectral type kA1hA2mA3. This is an Am (metallic-lined) A star with Ca II K-line bands corresponding to that of an A1 spectral type,
+Hydrogen (H) lines corresponding to that of an A2 spectral type, and metallic lines (such as Iron (Fe)) corresponding to that of an A3 spectral type. Am stars are chemically peliculiar, hence 
+the deviation from standard spectral type classification.
+
+Also accoding to SIMBAD \cite{SIMBADguide}, the lowercase 'e' that follows star 3's (EM* MWC 790) spectral type B indicates emission lines in the spectrum.
+
+\subsubsection{(ADDITIONAL) Spectral Classification (SIMBAD Coordinates)}
+
+With reference to these new SIMBAD coordinates instead, the telescope was accessed again (not in the laboratory) and the experiment was done again to cross-check. As this new rendition of the experiment was not done in
+the laboratory, the newest version of the CLEA VIREO (VIRtual Educational Observatory) software was able to be accessed. This version allows for a much wider expanse of the simulated nightsky to be observed, the following results were obtained:
+
+\begin{table}[H]
+    \caption{\centering Estimated spectral types of stars as per the SIMBAD approximate coordinates \newline (non-laboratory rendition).}
+    \label{tab:7}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|
+    >{\columncolor[HTML]{EFEFEF}}c |c|c|c|c|c|
+    >{\columncolor[HTML]{EFEFEF}}c |l|}
+    \hline
+    \textbf{\begin{tabular}[c]{@{}c@{}}Star\\ \#\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}Object\\ Name\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}RA\\ (h m s)\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}DE\\ (d m s)\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}App. \\ Mag. (m)\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}S/N\\ Ratio\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}SP\\ Type\end{tabular}} &
+      \textbf{Reasons} \\ \hline
+    \textbf{1} &
+      N3000-01024 &
+      6 14 26.1 &
+      +33 21 01 &
+      11.63 &
+      521 &
+      B8 &
+      \begin{tabular}[c]{@{}l@{}}Strong HI (H-gamma) line, strong He II line; \\ betw. B6 and A1\end{tabular} \\ \hline
+    \textbf{2} &
+      N3000-00640 &
+      6 22 28.4 &
+      +30 56 43 &
+      8.35 &
+      1000 &
+      F0 &
+      Identical to F0 \\ \hline
+    \textbf{3} &
+      N3000-01059 &
+      6 07 23.7 &
+      +30 11 42 &
+      11.67 &
+      620 &
+      A3 &
+      \begin{tabular}[c]{@{}l@{}}Slightly weaker Ca II (K) line; \\ betw. A1 and A5\end{tabular} \\ \hline
+    \end{tabular}%
+    }
+\end{table}
+
+This addition to the experiment was not necessary, but merely a means to compare the data gathered from the SIMBAD database to what would have been obtained
+from the laboratory experiment. Identical approaches were taken, different softwares and settings. 
 
 \newpage
 
@@ -306,35 +682,67 @@ Figure \ref{fig:msgraphspec} shows the graph of the absorption line spectrum for
 \section*{Appendix} \label{sec:A}
 \addcontentsline{toc}{section}{Appendix}
 
-\subsection*{Tables}
-\addcontentsline{toc}{subsection}{Tables}
+\subsection*{Figures}
+\addcontentsline{toc}{subsection}{Figures}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.47\textwidth]{O5V.png}
+    \caption{\centering Atlas of Standard Spectra: \textbf{O5}}
+\end{figure}
+\vspace{-1.5ex}
+\begin{minipage}{.47\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=\linewidth]{B0V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{B0}}
 
+    \vfill
+    \includegraphics[width=\linewidth]{A1V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{A1}}
 
-\subsection*{Graphs}
-\addcontentsline{toc}{subsection}{Graphs}
+    \vfill
+    \includegraphics[width=\linewidth]{F0V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{F0}}
 
+    \vfill
+    \includegraphics[width=\linewidth]{G0V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{G0}}
 
+    \vfill
+    \includegraphics[width=\linewidth]{K0V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{K0}}
 
-\subsection*{Code}
-\addcontentsline{toc}{subsection}{Code}
-
-%
-
-\begin{minipage}{\linewidth}
-\captionsetup{hypcap=false}
-
-\begin{mintedbox}
-\begin{minted}[fontsize=\small, breaklines, baselinestretch=1.2, xleftmargin=0.5cm]{python}
-import numpy as np
-import matplotlib.pyplot as plt
-
-
-\end{minted}
-\end{mintedbox}
-
-\captionof{figure}{\centering Code}
+    \vfill
+    \includegraphics[width=\linewidth]{M0V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{M0}}
 \end{minipage}
+\hfill
+\begin{minipage}{.47\textwidth}
+    \captionsetup{hypcap=false}
+    \centering
+    \includegraphics[width=\linewidth]{B6V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{B6}}
 
+    \vfill
+    \includegraphics[width=\linewidth]{A5V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{A5}}
+
+    \vfill
+    \includegraphics[width=\linewidth]{F5V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{F5}}
+
+    \vfill
+    \includegraphics[width=\linewidth]{G6V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{G6}}
+
+    \vfill
+    \includegraphics[width=\linewidth]{K5V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{K5}}
+
+    \vfill
+    \includegraphics[width=\linewidth]{m5V.png}
+    \captionof{figure}{\centering Atlas of Standard Spectra: \textbf{M5}}
+\end{minipage}
 
 \end{document}

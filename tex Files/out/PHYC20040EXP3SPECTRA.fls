@@ -419,6 +419,12 @@ INPUT ./images/msspectra.png
 INPUT ./images/msspectra.png
 INPUT ./images/msspectra.png
 INPUT ./images/msspectra.png
+INPUT ./images/SPECTRAPIC.JPG
+INPUT ./images/SPECTRAPIC.JPG
+INPUT ./images/SPECTRAPIC.JPG
+INPUT ./images/SPECTRAPIC.JPG
+INPUT ./images/SPECTRAPIC.JPG
+INPUT ./images/SPECTRAPIC.JPG
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.bbl
@@ -430,19 +436,84 @@ INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.lot
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.lot
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.lot
-OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/_745DDD38BA1E37A6FAFC5EF750B047CD.data.minted
-INPUT ./_745DDD38BA1E37A6FAFC5EF750B047CD.config.minted
-INPUT ./_745DDD38BA1E37A6FAFC5EF750B047CD.config.minted
-INPUT _745DDD38BA1E37A6FAFC5EF750B047CD.config.minted
-INPUT ./_minted/_745DDD38BA1E37A6FAFC5EF750B047CD.index.minted
-INPUT ./_minted/_745DDD38BA1E37A6FAFC5EF750B047CD.index.minted
-INPUT ./_minted/monokai.style.minted
-INPUT ./_minted/monokai.style.minted
-INPUT _minted/monokai.style.minted
-INPUT ./_minted/D17DBF2BFFC3FCCAF70646BBD2A89B58.highlight.minted
-INPUT ./_minted/D17DBF2BFFC3FCCAF70646BBD2A89B58.highlight.minted
-INPUT _minted/D17DBF2BFFC3FCCAF70646BBD2A89B58.highlight.minted
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmtt10.tfm
+INPUT ./images/O5V.png
+INPUT ./images/O5V.png
+INPUT ./images/O5V.png
+INPUT ./images/O5V.png
+INPUT ./images/O5V.png
+INPUT ./images/O5V.png
+INPUT ./images/B0V.png
+INPUT ./images/B0V.png
+INPUT ./images/B0V.png
+INPUT ./images/B0V.png
+INPUT ./images/B0V.png
+INPUT ./images/B0V.png
+INPUT ./images/A1V.png
+INPUT ./images/A1V.png
+INPUT ./images/A1V.png
+INPUT ./images/A1V.png
+INPUT ./images/A1V.png
+INPUT ./images/A1V.png
+INPUT ./images/F0V.png
+INPUT ./images/F0V.png
+INPUT ./images/F0V.png
+INPUT ./images/F0V.png
+INPUT ./images/F0V.png
+INPUT ./images/F0V.png
+INPUT ./images/G0V.png
+INPUT ./images/G0V.png
+INPUT ./images/G0V.png
+INPUT ./images/G0V.png
+INPUT ./images/G0V.png
+INPUT ./images/G0V.png
+INPUT ./images/K0V.png
+INPUT ./images/K0V.png
+INPUT ./images/K0V.png
+INPUT ./images/K0V.png
+INPUT ./images/K0V.png
+INPUT ./images/K0V.png
+INPUT ./images/M0V.png
+INPUT ./images/M0V.png
+INPUT ./images/M0V.png
+INPUT ./images/M0V.png
+INPUT ./images/M0V.png
+INPUT ./images/M0V.png
+INPUT ./images/B6V.png
+INPUT ./images/B6V.png
+INPUT ./images/B6V.png
+INPUT ./images/B6V.png
+INPUT ./images/B6V.png
+INPUT ./images/B6V.png
+INPUT ./images/A5V.png
+INPUT ./images/A5V.png
+INPUT ./images/A5V.png
+INPUT ./images/A5V.png
+INPUT ./images/A5V.png
+INPUT ./images/A5V.png
+INPUT ./images/F5V.png
+INPUT ./images/F5V.png
+INPUT ./images/F5V.png
+INPUT ./images/F5V.png
+INPUT ./images/F5V.png
+INPUT ./images/F5V.png
+INPUT ./images/G6V.png
+INPUT ./images/G6V.png
+INPUT ./images/G6V.png
+INPUT ./images/G6V.png
+INPUT ./images/G6V.png
+INPUT ./images/G6V.png
+INPUT ./images/K5V.png
+INPUT ./images/K5V.png
+INPUT ./images/K5V.png
+INPUT ./images/K5V.png
+INPUT ./images/K5V.png
+INPUT ./images/K5V.png
+INPUT ./images/m5V.png
+INPUT ./images/m5V.png
+INPUT ./images/m5V.png
+INPUT ./images/m5V.png
+INPUT ./images/m5V.png
+INPUT ./images/m5V.png
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.aux
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.out
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.out
@@ -482,5 +553,3 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb

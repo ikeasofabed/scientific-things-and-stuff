@@ -5,19 +5,23 @@
 \contentsline {subsubsection}{\numberline {1.1.1}Absorption Line Spectra}{2}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.2}Emission Line Spectra}{3}{subsubsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.2}Blackbody Radiation}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Wien's Displacement Law}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Apparent and Absolute Magnitude}{4}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Stellar Classification}{4}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Harvard Classification of Spectral Types}{4}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}MK System of Luminosity}{5}{subsubsection.1.5.2}%
-\contentsline {subsubsection}{\numberline {1.5.3}Main Sequence Stars}{6}{subsubsection.1.5.3}%
+\contentsline {subsubsection}{\numberline {1.2.1}Wien's Displacement Law}{3}{subsubsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.3}Apparent and Absolute Magnitude}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Stellar Classification}{4}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Harvard Classification of Spectral Types}{4}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}MK System of Luminosity}{5}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Main Sequence Stars}{6}{subsubsection.1.4.3}%
 \contentsline {section}{\numberline {2}Methodology}{7}{section.2}%
-\contentsline {section}{\numberline {3}Results and Calculations}{7}{section.3}%
-\contentsline {section}{\numberline {4}Conclusion}{8}{section.4}%
-\contentsline {section}{References}{9}{section*.8}%
-\contentsline {section}{List of Figures}{10}{section*.9}%
-\contentsline {section}{List of Tables}{10}{section*.10}%
-\contentsline {section}{Appendix}{10}{section*.11}%
-\contentsline {subsection}{Tables}{10}{section*.12}%
-\contentsline {subsection}{Graphs}{10}{section*.13}%
-\contentsline {subsection}{Code}{10}{section*.14}%
+\contentsline {section}{\numberline {3}Results and Calculations}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Spectral Classification (CLEA List)}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}SIMBAD Analysis}{9}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Jacoby-Hunter-Christian Atlas Analysis}{10}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Spectral Classification (Telescope)}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}SIMBAD Analysis}{11}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}(ADDITIONAL) Spectral Classification (SIMBAD Coordinates)}{11}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Conclusion}{12}{section.4}%
+\contentsline {section}{References}{13}{section*.15}%
+\contentsline {section}{List of Figures}{14}{section*.16}%
+\contentsline {section}{List of Tables}{15}{section*.17}%
+\contentsline {section}{Appendix}{15}{section*.18}%
+\contentsline {subsection}{Figures}{15}{section*.19}%

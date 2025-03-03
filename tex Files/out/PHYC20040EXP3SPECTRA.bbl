@@ -77,7 +77,7 @@ ESA. (2019, September) {BLACKBODY RADIATION}. [Accessed 1 March 2025].
 
 \bibitem{derivwien}
 \BIBentryALTinterwordspacing
-P.~S.~Gabriel. (n.d) {Derivation and Application of Wien's Displacement Law}.
+P.~S.~Gabriel. (n.d.) {Derivation and Application of Wien's Displacement Law}.
   Department of Physics, Columbia University, New York, NY 10027. [Accessed 1
   March 2025]. [Online]. Available:
   \url{https://www.spacefirst.org/uploads/7/9/1/7/79174470/derivation_and_applications_of_wien_s_displacement_law__2_.pdf}
@@ -163,6 +163,39 @@ P.~Riaud and S.~Jean, ``{Improving Earth-like planets' detection with an ELT:
   Astrophysics - ASTRON ASTROPHYS}}, vol. 469, pp. 355--361, 07 2007, [Accessed
   1 March 2025]. [Online]. Available:
   \url{https://www.researchgate.net/figure/The-figure-shows-various-stellar-spectra-for-the-main-sequence-stars-A5-to-M0-Below_fig1_248851913}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cleaspectra}
+\BIBentryALTinterwordspacing
+{CLEA}. (n.d.) {The Classification of Stellar Spectra}. [Accessed 2 March
+  2025]. [Online]. Available:
+  \url{http://public.gettysburg.edu/~marschal/clea/speclab.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{UCDspectra}
+\BIBentryALTinterwordspacing
+{UCD}. (n.d.) {The Classification of Stellar Spectra}. [Accessed 2 March 2025].
+  [Online]. Available:
+  \url{https://brightspace.ucd.ie/d2l/le/content/300670/viewContent/3521485/View}
+\BIBentrySTDinterwordspacing
+
+\bibitem{SIMBAD}
+\BIBentryALTinterwordspacing
+CDS. (2000-2025) {SIMBAD Astronomical Database}. [Accessed 2 March 2025].
+  [Online]. Available: \url{https://simbad.cds.unistra.fr/simbad/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{JHCATLAS}
+\BIBentryALTinterwordspacing
+Jacoby, Hunter, and Christian. (1984) {Jacoby-Hunter-Christian Atlas}.
+  [Accessed 2 March 2025]. [Online]. Available:
+  \url{https://www.stsci.edu/hst/instrumentation/reference-data-for-calibration-and-tools/astronomical-catalogs/jacoby-hunter-christian-atlas}
+\BIBentrySTDinterwordspacing
+
+\bibitem{SIMBADguide}
+\BIBentryALTinterwordspacing
+CDS. (2000-2025) {SIMBAD: Spectral Type Coding}. [Accessed 2 March 2025].
+  [Online]. Available: \url{http://simbad.cds.unistra.fr/Pages/guide/chD.htx}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
