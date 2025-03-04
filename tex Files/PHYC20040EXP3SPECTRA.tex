@@ -322,9 +322,10 @@ These settings are useful to help differentiate between the strongest dips/lines
 The estimated spectral types for the list of the 25 stars provided by CLEA has been formatted into a compact table below, table \ref{tab:2}, with reasons for why that spectral type was chosen for that star:
 
 \begin{table}[H]
+    \centering
     \caption{\centering Table of the estimated spectral class for the CLEA star list, with reasons listed.}
     \label{tab:2}
-    \resizebox{\textwidth}{!}{%
+    \resizebox{.9\textwidth}{!}{%
         \begin{tabular}{|l|
         >{\columncolor[HTML]{EFEFEF}}c |l|}
         \hline
@@ -536,8 +537,8 @@ During the experiment star SAO 81292 was identified to have emission lines (see 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=7.5cm]{SAO81292spec.png}
-    \caption{\centering Image of the grayscale spectrum for star SAO 81292.}
+    \includegraphics[width=.7\linewidth]{SAO81292spec.png}
+    \captionof{figure}{\centering Grayscale spectrum for SAO 81292.}
     \label{fig:swordartonline}
 \end{figure}
 
@@ -545,7 +546,7 @@ This could indicate a particularly active late-stage star or a flare star. Throu
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=10cm]{SAO lightplot.png}
+    \includegraphics[width=.7\linewidth]{SAO lightplot.png}
     \caption{\centering Lightcurve graph plot of the SAO 81292 star, TESS-SPOC data (2023) \protect\cite{TESSSAO}.}
     \label{fig:saolight}
 \end{figure}
@@ -822,5 +823,8 @@ lc[6].plot() # from data table, [6]: exptime 20s, year 2023, author SPOC
     \includegraphics[width=\linewidth]{m5V.png}
     \captionof*{figure}{\centering Atlas of Standard Spectra: \textbf{M5}}
 \end{minipage}
+
+\subsection*{Images}
+\addcontentsline{toc}{subsection}{Images}
 
 \end{document}

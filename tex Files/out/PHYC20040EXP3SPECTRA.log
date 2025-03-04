@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  3 MAR 2025 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  4 MAR 2025 10:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -882,12 +882,12 @@ Package hyperref Info: Link coloring ON on input line 70.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=118, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=122, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
 Package pdftex.def Info: ./images/UCDLogo.png  used on input line 76.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=120, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=124, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
 Package pdftex.def Info: ./images/UCDBanner.png  used on input line 80.
@@ -918,7 +918,7 @@ l.106 \newpage
                [1
 
 ]
-<./images/spectra.jpg, id=168, 1284.8pt x 722.7pt>
+<./images/spectra.jpg, id=173, 1284.8pt x 722.7pt>
 File: ./images/spectra.jpg Graphic file (type jpg)
 <use ./images/spectra.jpg>
 Package pdftex.def Info: ./images/spectra.jpg  used on input line 136.
@@ -926,7 +926,7 @@ Package pdftex.def Info: ./images/spectra.jpg  used on input line 136.
 
 
 [2 <./images/spectra.jpg>]
-<./images/blackbody.jpg, id=189, 1244.65pt x 602.25pt>
+<./images/blackbody.jpg, id=194, 1244.65pt x 602.25pt>
 File: ./images/blackbody.jpg Graphic file (type jpg)
 <use ./images/blackbody.jpg>
 Package pdftex.def Info: ./images/blackbody.jpg  used on input line 165.
@@ -934,7 +934,7 @@ Package pdftex.def Info: ./images/blackbody.jpg  used on input line 165.
 
 
 [3 <./images/blackbody.jpg>]
-<./images/Stellar_Classification_Chart.png, id=224, 192.72pt x 124.0635pt>
+<./images/Stellar_Classification_Chart.png, id=229, 192.72pt x 124.0635pt>
 File: ./images/Stellar_Classification_Chart.png Graphic file (type png)
 <use ./images/Stellar_Classification_Chart.png>
 Package pdftex.def Info: ./images/Stellar_Classification_Chart.png  used on input line 233.
@@ -944,7 +944,7 @@ Package pdftex.def Info: ./images/Stellar_Classification_Chart.png  used on inpu
 [4]
 
 [5 <./images/Stellar_Classification_Chart.png>]
-<./images/msspectra.png, id=265, 665.48625pt x 702.625pt>
+<./images/msspectra.png, id=270, 665.48625pt x 702.625pt>
 File: ./images/msspectra.png Graphic file (type png)
 <use ./images/msspectra.png>
 Package pdftex.def Info: ./images/msspectra.png  used on input line 280.
@@ -952,7 +952,7 @@ Package pdftex.def Info: ./images/msspectra.png  used on input line 280.
 
 
 [6 <./images/msspectra.png>]
-<./images/SPECTRAPIC.JPG, id=282, 963.6pt x 637.63219pt>
+<./images/SPECTRAPIC.JPG, id=287, 963.6pt x 637.63219pt>
 File: ./images/SPECTRAPIC.JPG Graphic file (type jpg)
 <use ./images/SPECTRAPIC.JPG>
 Package pdftex.def Info: ./images/SPECTRAPIC.JPG  used on input line 303.
@@ -962,16 +962,16 @@ Package pdftex.def Info: ./images/SPECTRAPIC.JPG  used on input line 303.
 [7 <./images/SPECTRAPIC.JPG>]
 
 [8]
-<./images/SAO81292spec.png, id=299, 373.395pt x 93.34875pt>
+<./images/SAO81292spec.png, id=304, 373.395pt x 93.34875pt>
 File: ./images/SAO81292spec.png Graphic file (type png)
 <use ./images/SAO81292spec.png>
-Package pdftex.def Info: ./images/SAO81292spec.png  used on input line 539.
-(pdftex.def)             Requested size: 213.39566pt x 53.34892pt.
-<./images/SAO lightplot.png, id=301, 555.0336pt x 270.2898pt>
+Package pdftex.def Info: ./images/SAO81292spec.png  used on input line 540.
+(pdftex.def)             Requested size: 338.58632pt x 84.64978pt.
+<./images/SAO lightplot.png, id=306, 555.0336pt x 270.2898pt>
 File: ./images/SAO lightplot.png Graphic file (type png)
 <use ./images/SAO lightplot.png>
-Package pdftex.def Info: ./images/SAO lightplot.png  used on input line 548.
-(pdftex.def)             Requested size: 284.52756pt x 138.55534pt.
+Package pdftex.def Info: ./images/SAO lightplot.png  used on input line 549.
+(pdftex.def)             Requested size: 338.58632pt x 164.88066pt.
 
 
 [9 <./images/SAO81292spec.png>]
@@ -1003,86 +1003,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--63
 \pydata@fh@_745DDD38BA1E37A6FAFC5EF750B047CD.data.minted=\write9
 \openout9 = `_745DDD38BA1E37A6FAFC5EF750B047CD.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250303182826Z 745DDD38BA1E37A6FAFC5EF750B047CD)...executed.
+runsystem(latexminted config  --timestamp 20250304102517Z 745DDD38BA1E37A6FAFC5EF750B047CD)...executed.
 
  (_745DDD38BA1E37A6FAFC5EF750B047CD.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250303182826Z 745DDD38BA1E37A6FAFC5EF750B047CD)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20250304102517Z 745DDD38BA1E37A6FAFC5EF750B047CD)...executed.
 
  (_minted/monokai.style.minted) (_minted/13FD725217683BFF61138CCBBE26F8F5.highlight.minted)
-<./images/SAO tess data.png, id=409, 494.84875pt x 401.5pt>
+<./images/SAO tess data.png, id=414, 494.84875pt x 401.5pt>
 File: ./images/SAO tess data.png Graphic file (type png)
 <use ./images/SAO tess data.png>
-Package pdftex.def Info: ./images/SAO tess data.png  used on input line 757.
+Package pdftex.def Info: ./images/SAO tess data.png  used on input line 758.
 (pdftex.def)             Requested size: 483.69687pt x 392.45032pt.
 
 
 [14]
 
 [15 <./images/SAO tess data.png>]
-<./images/O5V.png, id=425, 374.90062pt x 92.59593pt>
+<./images/O5V.png, id=430, 374.90062pt x 92.59593pt>
 File: ./images/O5V.png Graphic file (type png)
 <use ./images/O5V.png>
-Package pdftex.def Info: ./images/O5V.png  used on input line 768.
+Package pdftex.def Info: ./images/O5V.png  used on input line 769.
 (pdftex.def)             Requested size: 227.3381pt x 56.14998pt.
-<./images/B0V.png, id=426, 375.65344pt x 95.6072pt>
+<./images/B0V.png, id=431, 375.65344pt x 95.6072pt>
 File: ./images/B0V.png Graphic file (type png)
 <use ./images/B0V.png>
-Package pdftex.def Info: ./images/B0V.png  used on input line 775.
+Package pdftex.def Info: ./images/B0V.png  used on input line 776.
 (pdftex.def)             Requested size: 227.3381pt x 57.86075pt.
-<./images/A1V.png, id=427, 374.90062pt x 91.09032pt>
+<./images/A1V.png, id=432, 374.90062pt x 91.09032pt>
 File: ./images/A1V.png Graphic file (type png)
 <use ./images/A1V.png>
-Package pdftex.def Info: ./images/A1V.png  used on input line 779.
+Package pdftex.def Info: ./images/A1V.png  used on input line 780.
 (pdftex.def)             Requested size: 227.3381pt x 55.23697pt.
-<./images/F0V.png, id=428, 374.90062pt x 93.34875pt>
+<./images/F0V.png, id=433, 374.90062pt x 93.34875pt>
 File: ./images/F0V.png Graphic file (type png)
 <use ./images/F0V.png>
-Package pdftex.def Info: ./images/F0V.png  used on input line 783.
+Package pdftex.def Info: ./images/F0V.png  used on input line 784.
 (pdftex.def)             Requested size: 227.3381pt x 56.60649pt.
-<./images/G0V.png, id=429, 374.90062pt x 92.59593pt>
+<./images/G0V.png, id=434, 374.90062pt x 92.59593pt>
 File: ./images/G0V.png Graphic file (type png)
 <use ./images/G0V.png>
-Package pdftex.def Info: ./images/G0V.png  used on input line 787.
+Package pdftex.def Info: ./images/G0V.png  used on input line 788.
 (pdftex.def)             Requested size: 227.3381pt x 56.14998pt.
-<./images/K0V.png, id=430, 374.90062pt x 93.34875pt>
+<./images/K0V.png, id=435, 374.90062pt x 93.34875pt>
 File: ./images/K0V.png Graphic file (type png)
 <use ./images/K0V.png>
-Package pdftex.def Info: ./images/K0V.png  used on input line 791.
+Package pdftex.def Info: ./images/K0V.png  used on input line 792.
 (pdftex.def)             Requested size: 227.3381pt x 56.60649pt.
-<./images/M0V.png, id=431, 374.90062pt x 93.34875pt>
+<./images/M0V.png, id=436, 374.90062pt x 93.34875pt>
 File: ./images/M0V.png Graphic file (type png)
 <use ./images/M0V.png>
-Package pdftex.def Info: ./images/M0V.png  used on input line 795.
+Package pdftex.def Info: ./images/M0V.png  used on input line 796.
 (pdftex.def)             Requested size: 227.3381pt x 56.60649pt.
-<./images/B6V.png, id=432, 373.395pt x 91.09032pt>
+<./images/B6V.png, id=437, 373.395pt x 91.09032pt>
 File: ./images/B6V.png Graphic file (type png)
 <use ./images/B6V.png>
-Package pdftex.def Info: ./images/B6V.png  used on input line 802.
+Package pdftex.def Info: ./images/B6V.png  used on input line 803.
 (pdftex.def)             Requested size: 227.3381pt x 55.45935pt.
-<./images/A5V.png, id=433, 374.14781pt x 92.59593pt>
+<./images/A5V.png, id=438, 374.14781pt x 92.59593pt>
 File: ./images/A5V.png Graphic file (type png)
 <use ./images/A5V.png>
-Package pdftex.def Info: ./images/A5V.png  used on input line 806.
+Package pdftex.def Info: ./images/A5V.png  used on input line 807.
 (pdftex.def)             Requested size: 227.3381pt x 56.263pt.
-<./images/F5V.png, id=434, 373.395pt x 91.84312pt>
+<./images/F5V.png, id=439, 373.395pt x 91.84312pt>
 File: ./images/F5V.png Graphic file (type png)
 <use ./images/F5V.png>
-Package pdftex.def Info: ./images/F5V.png  used on input line 810.
+Package pdftex.def Info: ./images/F5V.png  used on input line 811.
 (pdftex.def)             Requested size: 227.3381pt x 55.9177pt.
-<./images/G6V.png, id=435, 374.90062pt x 91.84312pt>
+<./images/G6V.png, id=440, 374.90062pt x 91.84312pt>
 File: ./images/G6V.png Graphic file (type png)
 <use ./images/G6V.png>
-Package pdftex.def Info: ./images/G6V.png  used on input line 814.
+Package pdftex.def Info: ./images/G6V.png  used on input line 815.
 (pdftex.def)             Requested size: 227.3381pt x 55.69347pt.
-<./images/K5V.png, id=436, 374.14781pt x 93.34875pt>
+<./images/K5V.png, id=441, 374.14781pt x 93.34875pt>
 File: ./images/K5V.png Graphic file (type png)
 <use ./images/K5V.png>
-Package pdftex.def Info: ./images/K5V.png  used on input line 818.
+Package pdftex.def Info: ./images/K5V.png  used on input line 819.
 (pdftex.def)             Requested size: 227.3381pt x 56.72044pt.
-<./images/m5V.png, id=437, 376.40625pt x 92.59593pt>
+<./images/m5V.png, id=442, 376.40625pt x 92.59593pt>
 File: ./images/m5V.png Graphic file (type png)
 <use ./images/m5V.png>
-Package pdftex.def Info: ./images/m5V.png  used on input line 822.
+Package pdftex.def Info: ./images/m5V.png  used on input line 823.
 (pdftex.def)             Requested size: 227.3381pt x 55.92674pt.
 
 
@@ -1092,20 +1092,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PHYC20040EXP3SPECTRA.out' has not changed.
-(rerunfilecheck)             Checksum: CA5806C6485948E4DEA56F0D392E45FB;4702.
+(rerunfilecheck)             Checksum: B4B4BB833154C59EAE015E33081AB916;4789.
  ) 
 Here is how much of TeX's memory you used:
- 32504 strings out of 473530
- 669680 string characters out of 5704664
- 1159826 words of memory out of 5000000
- 55080 multiletter control sequences out of 15000+600000
+ 32506 strings out of 473530
+ 669704 string characters out of 5704664
+ 1159808 words of memory out of 5000000
+ 55081 multiletter control sequences out of 15000+600000
  571364 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,17n,117p,632b,948s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.pdf" (17 pages, 1810805 bytes).
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP3SPECTRA.pdf" (17 pages, 1811366 bytes).
 PDF statistics:
- 565 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 352 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
 

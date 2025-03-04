@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex out/PHYC20040EXP3SPECTRA"] 1741026463.02332 "out/PHYC20040EXP3SPECTRA.aux" "out/PHYC20040EXP3SPECTRA.bbl" "out/PHYC20040EXP3SPECTRA" 1741026513.14522 0
-  "./References.bib" 1741025994.99584 51384 243341dbc6d7e31998a5fb901a1a52b6 ""
+["bibtex out/PHYC20040EXP3SPECTRA"] 1741083917.00981 "out/PHYC20040EXP3SPECTRA.aux" "out/PHYC20040EXP3SPECTRA.bbl" "out/PHYC20040EXP3SPECTRA" 1741083925.14989 0
+  "./References.bib" 1741082964.01324 51356 42b0add2fe0dbc0390ed474892917c85 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/bibtex/bst/ieeetran/IEEEtran.bst" 1738095043.56692 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "out/PHYC20040EXP3SPECTRA.aux" 1741026512.301 11596 26bf4e7273d71c793ac5426fe2ac3734 "pdflatex"
+  "out/PHYC20040EXP3SPECTRA.aux" 1741083924.04954 11654 78a8180e08149643866ee793bec162e1 "pdflatex"
   (generated)
   "out/PHYC20040EXP3SPECTRA.bbl"
   "out/PHYC20040EXP3SPECTRA.blg"
   (rewritten before read)
-["pdflatex"] 1741026505.68003 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20040EXP3SPECTRA.tex" "out/PHYC20040EXP3SPECTRA.pdf" "PHYC20040EXP3SPECTRA" 1741026513.14649 0
+["pdflatex"] 1741083917.4081 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20040EXP3SPECTRA.tex" "out/PHYC20040EXP3SPECTRA.pdf" "PHYC20040EXP3SPECTRA" 1741083925.15085 0
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1739744244.85176 82507 a9eef8696c92627b87e9975edea03b2a ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1737624812.87656 14064 a72e34765fecf1bdaaa2d9fbb80a0b2d ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1739629621.88023 12027821 0030363d176a2985718cb04ec3f57fd2 ""
@@ -235,8 +235,8 @@
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/varwidth/varwidth.sty" 1737627619.6116 10894 d359a13923460b2a73d4312d613554c8 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1737396739.69545 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1737396739.91271 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20040EXP3SPECTRA.tex" 1741026504.54609 36691 5c98a48deaa73e8ac1f44e09dbec6ae7 ""
-  "PHYC20040EXP3SPECTRA.tex" 1741026504.54609 36691 5c98a48deaa73e8ac1f44e09dbec6ae7 ""
+  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20040EXP3SPECTRA.tex" 1741083908.42651 36779 05c5189e8190f472a8b79c3b864861e2 ""
+  "PHYC20040EXP3SPECTRA.tex" 1741083908.42651 36779 05c5189e8190f472a8b79c3b864861e2 ""
   "_minted/13FD725217683BFF61138CCBBE26F8F5.highlight.minted" 1741022093.5847 992 77093b3b7f1d82103a1de062f07ec5e5 ""
   "_minted/_745DDD38BA1E37A6FAFC5EF750B047CD.index.minted" 1741022096.43828 279 cb566599f179eb0a55a57bfd225f2f7f ""
   "_minted/monokai.style.minted" 1739630884.4825 7023 c7089e902f66ab873db0423d87473e40 ""
@@ -263,12 +263,12 @@
   "images/m5V.png" 1740854102 2579 4051c0aed7cdd621a172a33b25b500cd ""
   "images/msspectra.png" 1740843546.32546 36696 aa99d46371111e15764102a5f0b69811 ""
   "images/spectra.jpg" 1738523323.31313 122928 d327cf5825b0a29006e4f43301e2ea1a ""
-  "out/PHYC20040EXP3SPECTRA.aux" 1741026512.301 11596 26bf4e7273d71c793ac5426fe2ac3734 "pdflatex"
-  "out/PHYC20040EXP3SPECTRA.bbl" 1741026463.34109 8354 1eb0d092e469ac40a471109d160dc22f "bibtex out/PHYC20040EXP3SPECTRA"
-  "out/PHYC20040EXP3SPECTRA.lof" 1741026512.31279 1252 70a892cf2b9d04f7136afe5b4f30be27 "pdflatex"
-  "out/PHYC20040EXP3SPECTRA.lot" 1741026512.31284 1158 5917b07ff976e4267df7acd16c12393c "pdflatex"
-  "out/PHYC20040EXP3SPECTRA.out" 1741026512.30765 4702 ca5806c6485948e4dea56f0d392e45fb "pdflatex"
-  "out/PHYC20040EXP3SPECTRA.toc" 1741026512.31258 2393 c9bfb236336f08e2f13a6b6546f0addc "pdflatex"
+  "out/PHYC20040EXP3SPECTRA.aux" 1741083924.04954 11654 78a8180e08149643866ee793bec162e1 "pdflatex"
+  "out/PHYC20040EXP3SPECTRA.bbl" 1741083917.32772 8354 1eb0d092e469ac40a471109d160dc22f "bibtex out/PHYC20040EXP3SPECTRA"
+  "out/PHYC20040EXP3SPECTRA.lof" 1741083924.06003 1234 fbbc7a491e01f6f370525b84cc0a235a "pdflatex"
+  "out/PHYC20040EXP3SPECTRA.lot" 1741083924.06009 1158 5917b07ff976e4267df7acd16c12393c "pdflatex"
+  "out/PHYC20040EXP3SPECTRA.out" 1741083924.05262 4789 b4b4bb833154c59eae015e33081ab916 "pdflatex"
+  "out/PHYC20040EXP3SPECTRA.toc" 1741083924.05996 2446 f9b5b840773d0ea1f62b46f8ddf9bd97 "pdflatex"
   (generated)
   "out/PHYC20040EXP3SPECTRA.aux"
   "out/PHYC20040EXP3SPECTRA.lof"
