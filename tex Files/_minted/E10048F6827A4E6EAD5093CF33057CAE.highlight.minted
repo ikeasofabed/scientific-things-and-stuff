@@ -1,0 +1,30 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{numpy}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{np}
+
+\PYG{n}{L} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mf}{0.455}\PYG{p}{,} \PYG{l+m+mf}{0.455}\PYG{p}{,} \PYG{l+m+mf}{0.455}\PYG{p}{,} \PYG{l+m+mf}{0.455}\PYG{p}{,} \PYG{l+m+mf}{0.455}\PYG{p}{,} \PYG{l+m+mf}{0.455}\PYG{p}{]}\PYG{p}{)}
+\PYG{n}{dL} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mf}{0.0005}\PYG{p}{,} \PYG{l+m+mf}{0.0005}\PYG{p}{,} \PYG{l+m+mf}{0.0005}\PYG{p}{,} \PYG{l+m+mf}{0.0005}\PYG{p}{,} \PYG{l+m+mf}{0.0005}\PYG{p}{,} \PYG{l+m+mf}{0.0005}\PYG{p}{]}\PYG{p}{)}
+
+\PYG{n}{R} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mf}{2.18}\PYG{p}{,} \PYG{l+m+mf}{2.17}\PYG{p}{,} \PYG{l+m+mf}{1.67}\PYG{p}{,} \PYG{l+m+mf}{2.45}\PYG{p}{,} \PYG{l+m+mf}{1.40}\PYG{p}{,} \PYG{l+m+mf}{2.04}\PYG{p}{]}\PYG{p}{)}
+\PYG{n}{aR} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{average}\PYG{p}{(}\PYG{n}{R}\PYG{p}{)}
+\PYG{n}{dR} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{std}\PYG{p}{(}\PYG{n}{R}\PYG{p}{)}\PYG{o}{/}\PYG{n}{np}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{size}\PYG{p}{(}\PYG{n}{R}\PYG{p}{)}\PYG{p}{)}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{aR}\PYG{p}{,} \PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZdl{}}\PYG{l+s+s2}{\PYGZbs{}}\PYG{l+s+s2}{pm\PYGZdl{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{dR}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} avg R and SE on R}
+
+\PYG{n}{r} \PYG{o}{=} \PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mf}{0.45}\PYG{p}{,} \PYG{l+m+mf}{0.45}\PYG{p}{,} \PYG{l+m+mf}{0.45}\PYG{p}{,} \PYG{l+m+mf}{0.50}\PYG{p}{,} \PYG{l+m+mf}{0.55}\PYG{p}{,} \PYG{l+m+mf}{0.55}\PYG{p}{]}\PYG{p}{)} \PYG{o}{*} \PYG{l+m+mf}{1e\PYGZhy{}3}\PYG{p}{)} \PYG{o}{/}\PYG{l+m+mi}{2}
+\PYG{n}{ar} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{average}\PYG{p}{(}\PYG{n}{r}\PYG{p}{)}
+
+\PYG{n}{A} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{pi} \PYG{o}{*} \PYG{p}{(}\PYG{n}{r}\PYG{p}{)}\PYG{o}{*}\PYG{o}{*}\PYG{l+m+mi}{2}
+\PYG{n}{aA} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{pi} \PYG{o}{*} \PYG{p}{(}\PYG{n}{ar}\PYG{p}{)}\PYG{o}{*}\PYG{o}{*}\PYG{l+m+mi}{2}
+
+\PYG{n}{dA} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{std}\PYG{p}{(}\PYG{n}{A}\PYG{p}{)}\PYG{o}{/}\PYG{n}{np}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{size}\PYG{p}{(}\PYG{n}{A}\PYG{p}{)}\PYG{p}{)}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{aA}\PYG{p}{,} \PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZdl{}}\PYG{l+s+s2}{\PYGZbs{}}\PYG{l+s+s2}{pm\PYGZdl{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{dA}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} avg A and SE on A}
+
+\PYG{n}{rho} \PYG{o}{=} \PYG{p}{(}\PYG{n}{R}\PYG{o}{*}\PYG{n}{A}\PYG{p}{)}\PYG{o}{/}\PYG{n}{L} \PYG{c+c1}{\PYGZsh{} for this to work on python had to add the resistance from switched wire position so the arrays were the same size}
+\PYG{n}{arho} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{average}\PYG{p}{(}\PYG{n}{rho}\PYG{p}{)}
+\PYG{n}{drho} \PYG{o}{=} \PYG{n}{rho} \PYG{o}{*} \PYG{p}{(} \PYG{p}{(}\PYG{n}{dR}\PYG{o}{/}\PYG{n}{R}\PYG{p}{)} \PYG{o}{+} \PYG{p}{(}\PYG{n}{dA}\PYG{o}{/}\PYG{n}{A}\PYG{p}{)} \PYG{o}{+} \PYG{p}{(}\PYG{n}{dL}\PYG{o}{/}\PYG{n}{L}\PYG{p}{)}\PYG{p}{)}
+\PYG{n}{adrho} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{average}\PYG{p}{(}\PYG{n}{drho}\PYG{p}{)}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{arho}\PYG{p}{,} \PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZdl{}}\PYG{l+s+s2}{\PYGZbs{}}\PYG{l+s+s2}{pm\PYGZdl{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{adrho}\PYG{p}{)}
+
+\end{MintedVerbatim}

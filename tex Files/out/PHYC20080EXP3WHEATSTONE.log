@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  4 MAR 2025 10:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  8 MAR 2025 20:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -470,6 +470,8 @@ Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks32
 \minrowclearance=\skip98
 \rownum=\count330
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/minted/minted.sty
 Package: minted 2024/11/17 v3.4.0 Yet another Pygments shim for LaTeX
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/catchfile/catchfile.sty
@@ -701,10 +703,10 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen302
 \pgf@nodesepend=\dimen303
-) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-))
-(/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgffor.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/math/pgfmath.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgffor.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/math/pgfmath.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen304
 \pgffor@skip=\dimen305
@@ -861,12 +863,12 @@ Package hyperref Info: Link coloring ON on input line 69.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=54, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=58, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
 Package pdftex.def Info: ./images/UCDLogo.png  used on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=56, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=60, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
 Package pdftex.def Info: ./images/UCDBanner.png  used on input line 79.
@@ -897,10 +899,69 @@ l.110 \newpage
                [1
 
 ]
+<./images/resistorr.jpg, id=100, 568.1225pt x 836.12375pt>
+File: ./images/resistorr.jpg Graphic file (type jpg)
+<use ./images/resistorr.jpg>
+Package pdftex.def Info: ./images/resistorr.jpg  used on input line 153.
+(pdftex.def)             Requested size: 199.16928pt x 293.11975pt.
+
 
 [2]
+<./images/laptop-charger.jpg, id=123, 523.9575pt x 313.17pt>
+File: ./images/laptop-charger.jpg Graphic file (type jpg)
+<use ./images/laptop-charger.jpg>
+Package pdftex.def Info: ./images/laptop-charger.jpg  used on input line 166.
+(pdftex.def)             Requested size: 217.66211pt x 130.09692pt.
+<./images/mobile-phone-charger.jpg, id=126, 301.125pt x 179.67125pt>
+File: ./images/mobile-phone-charger.jpg Graphic file (type jpg)
+<use ./images/mobile-phone-charger.jpg>
+Package pdftex.def Info: ./images/mobile-phone-charger.jpg  used on input line 174.
+(pdftex.def)             Requested size: 217.66211pt x 129.87585pt.
 
-[3] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP3WHEATSTONE.bbl) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP3WHEATSTONE.lof)
+
+[3 <./images/resistorr.jpg> <./images/laptop-charger.jpg> <./images/mobile-phone-charger.jpg>]
+<./images/wheatstone bridge diagram.png, id=143, 230.36063pt x 276.03125pt>
+File: ./images/wheatstone bridge diagram.png Graphic file (type png)
+<use ./images/wheatstone bridge diagram.png>
+Package pdftex.def Info: ./images/wheatstone bridge diagram.png  used on input line 202.
+(pdftex.def)             Requested size: 169.29684pt x 202.86157pt.
+<./images/wheatstone bridge instrument.png, id=146, 690.58pt x 513.92pt>
+File: ./images/wheatstone bridge instrument.png Graphic file (type png)
+<use ./images/wheatstone bridge instrument.png>
+Package pdftex.def Info: ./images/wheatstone bridge instrument.png  used on input line 210.
+(pdftex.def)             Requested size: 266.03474pt x 197.98135pt.
+<./images/simplified wheat diagram.png, id=150, 281.05pt x 262.9825pt>
+File: ./images/simplified wheat diagram.png Graphic file (type png)
+<use ./images/simplified wheat diagram.png>
+Package pdftex.def Info: ./images/simplified wheat diagram.png  used on input line 221.
+(pdftex.def)             Requested size: 213.39566pt x 199.67615pt.
+
+
+[4 <./images/wheatstone bridge diagram.png> <./images/wheatstone bridge instrument.png> <./images/simplified wheat diagram.png>]
+<./images/wheatstone apparatus.jpeg, id=176, 2047.65pt x 1535.7375pt>
+File: ./images/wheatstone apparatus.jpeg Graphic file (type jpg)
+<use ./images/wheatstone apparatus.jpeg>
+Package pdftex.def Info: ./images/wheatstone apparatus.jpeg  used on input line 302.
+(pdftex.def)             Requested size: 362.77264pt x 272.06221pt.
+
+
+[5]
+
+[6 <./images/wheatstone apparatus.jpeg>]
+
+[7]
+
+[8] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP3WHEATSTONE.bbl
+Underfull \hbox (badness 3386) in paragraph at lines 78--82
+\OT1/cmr/m/n/12 Avail-able: [][]$https : / / phys . libretexts . org / Bookshelves / Electricity[]and[]Magnetism /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+\OT1/cmr/m/n/12 Electricity[]and[]Magnetism[](Tatum ) /04 % 3A[]Batteries[]Resistors[]and[]Ohm % 27s[]Law / 4 .
+ []
+
+) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP3WHEATSTONE.lof)
 \tf@lof=\write7
 \openout7 = `PHYC20080EXP3WHEATSTONE.lof'.
 
@@ -908,36 +969,39 @@ l.110 \newpage
 \tf@lot=\write8
 \openout8 = `PHYC20080EXP3WHEATSTONE.lot'.
 
+
+
+[9]
 \pydata@fh@_293B302225ED2F889F539D02CE0EBEAD.data.minted=\write9
 \openout9 = `_293B302225ED2F889F539D02CE0EBEAD.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250304100930Z 293B302225ED2F889F539D02CE0EBEAD)...executed.
+runsystem(latexminted config  --timestamp 20250308200435Z 293B302225ED2F889F539D02CE0EBEAD)...executed.
 
  (_293B302225ED2F889F539D02CE0EBEAD.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250304100930Z 293B302225ED2F889F539D02CE0EBEAD)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20250308200435Z 293B302225ED2F889F539D02CE0EBEAD)...executed.
 
- (_minted/monokai.style.minted) (_minted/D17DBF2BFFC3FCCAF70646BBD2A89B58.highlight.minted)
+ (_minted/monokai.style.minted) (_minted/E10048F6827A4E6EAD5093CF33057CAE.highlight.minted)
 
-[4] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP3WHEATSTONE.aux)
+[10] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP3WHEATSTONE.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PHYC20080EXP3WHEATSTONE.out' has not changed.
-(rerunfilecheck)             Checksum: 6072B9F6BE25228D300281A51A4C52A5;1191.
+(rerunfilecheck)             Checksum: A5D9A207B4093B29AC51E498DEFD88C2;1629.
  ) 
 Here is how much of TeX's memory you used:
- 31974 strings out of 473530
- 659699 string characters out of 5704664
- 1129134 words of memory out of 5000000
- 54640 multiletter control sequences out of 15000+600000
- 566690 words of font info for 65 fonts, out of 8000000 for 9000
+ 32274 strings out of 473530
+ 666284 string characters out of 5704664
+ 1145532 words of memory out of 5000000
+ 54893 multiletter control sequences out of 15000+600000
+ 572064 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,8n,117p,635b,941s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP3WHEATSTONE.pdf" (5 pages, 602179 bytes).
+ 95i,14n,117p,635b,1094s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP3WHEATSTONE.pdf" (11 pages, 1973928 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
