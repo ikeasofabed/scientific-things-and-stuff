@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex out/PHYC20080EXP3WHEATSTONE"] 1741463254.33004 "out/PHYC20080EXP3WHEATSTONE.aux" "out/PHYC20080EXP3WHEATSTONE.bbl" "out/PHYC20080EXP3WHEATSTONE" 1741464282.65268 0
+["bibtex out/PHYC20080EXP3WHEATSTONE"] 1741463254.33004 "out/PHYC20080EXP3WHEATSTONE.aux" "out/PHYC20080EXP3WHEATSTONE.bbl" "out/PHYC20080EXP3WHEATSTONE" 1741464727.56286 0
   "./References.bib" 1741462894.88617 53368 32a3ed54ce983481ce161da014df5f83 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/bibtex/bst/ieeetran/IEEEtran.bst" 1738095043.56692 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "out/PHYC20080EXP3WHEATSTONE.aux" 1741464281.80019 6907 08c8a631a80191734c0ec41115bd218b "pdflatex"
+  "out/PHYC20080EXP3WHEATSTONE.aux" 1741464726.62714 6907 08c8a631a80191734c0ec41115bd218b "pdflatex"
   (generated)
   "out/PHYC20080EXP3WHEATSTONE.bbl"
   "out/PHYC20080EXP3WHEATSTONE.blg"
   (rewritten before read)
-["pdflatex"] 1741464275.65641 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20080EXP3WHEATSTONE.tex" "out/PHYC20080EXP3WHEATSTONE.pdf" "PHYC20080EXP3WHEATSTONE" 1741464282.65388 0
+["pdflatex"] 1741464719.53659 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20080EXP3WHEATSTONE.tex" "out/PHYC20080EXP3WHEATSTONE.pdf" "PHYC20080EXP3WHEATSTONE" 1741464727.56425 0
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1739744244.85176 82507 a9eef8696c92627b87e9975edea03b2a ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1737625479.41637 11548 414d15eba5d5bac88d5a055e46f51e87 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1737624812.87656 14064 a72e34765fecf1bdaaa2d9fbb80a0b2d ""
@@ -235,8 +235,8 @@
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/varwidth/varwidth.sty" 1737627619.6116 10894 d359a13923460b2a73d4312d613554c8 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1737396739.69545 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1737396739.91271 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20080EXP3WHEATSTONE.tex" 1741464274.5149 19553 059a4f09185fde7c3901053c8744a1d3 ""
-  "PHYC20080EXP3WHEATSTONE.tex" 1741464274.5149 19553 059a4f09185fde7c3901053c8744a1d3 ""
+  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20080EXP3WHEATSTONE.tex" 1741464716.47436 19553 876b2426b014b118f20bb387e3cf8533 ""
+  "PHYC20080EXP3WHEATSTONE.tex" 1741464716.47436 19553 876b2426b014b118f20bb387e3cf8533 ""
   "_minted/E10048F6827A4E6EAD5093CF33057CAE.highlight.minted" 1741462555.92041 3592 7e08fca4ef7dc56b991d9860859f9dc8 ""
   "_minted/_293B302225ED2F889F539D02CE0EBEAD.index.minted" 1741462558.20115 282 1aed78a6d20a12588c54689b30c9a2e6 ""
   "_minted/monokai.style.minted" 1739630884.4825 7023 c7089e902f66ab873db0423d87473e40 ""
@@ -249,12 +249,12 @@
   "images/wheatstone apparatus.jpeg" 1741377263.57812 597377 2e8e321bd0921d3420abfe289a3c787c ""
   "images/wheatstone bridge diagram.png" 1741452134.49026 30970 dc19b16bb5fd735d04ddb876a80c7072 ""
   "images/wheatstone bridge instrument.png" 1741452045.92862 396915 4a94cbc14eecc9a2fe9fed1a0faf85e4 ""
-  "out/PHYC20080EXP3WHEATSTONE.aux" 1741464281.80019 6907 08c8a631a80191734c0ec41115bd218b "pdflatex"
+  "out/PHYC20080EXP3WHEATSTONE.aux" 1741464726.62714 6907 08c8a631a80191734c0ec41115bd218b "pdflatex"
   "out/PHYC20080EXP3WHEATSTONE.bbl" 1741463254.63729 3784 9049d0e30cf8863e30abd39127f7b5a6 "bibtex out/PHYC20080EXP3WHEATSTONE"
-  "out/PHYC20080EXP3WHEATSTONE.lof" 1741464281.81086 1234 91d9d3e35e90d9d7bb09ddd2b244094d "pdflatex"
-  "out/PHYC20080EXP3WHEATSTONE.lot" 1741464281.8109 189 17d890e231289a279fd1a6405d355a90 "pdflatex"
-  "out/PHYC20080EXP3WHEATSTONE.out" 1741464281.80735 1629 a5d9a207b4093b29ac51e498defd88c2 "pdflatex"
-  "out/PHYC20080EXP3WHEATSTONE.toc" 1741464281.8108 918 ac9fa7651bb8e9a96d3436f934f135ef "pdflatex"
+  "out/PHYC20080EXP3WHEATSTONE.lof" 1741464726.63505 1234 91d9d3e35e90d9d7bb09ddd2b244094d "pdflatex"
+  "out/PHYC20080EXP3WHEATSTONE.lot" 1741464726.6351 189 17d890e231289a279fd1a6405d355a90 "pdflatex"
+  "out/PHYC20080EXP3WHEATSTONE.out" 1741464726.62934 1629 a5d9a207b4093b29ac51e498defd88c2 "pdflatex"
+  "out/PHYC20080EXP3WHEATSTONE.toc" 1741464726.635 918 ac9fa7651bb8e9a96d3436f934f135ef "pdflatex"
   (generated)
   "out/PHYC20080EXP3WHEATSTONE.aux"
   "out/PHYC20080EXP3WHEATSTONE.lof"

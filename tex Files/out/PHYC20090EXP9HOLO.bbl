@@ -21,11 +21,9 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{rian}
-\BIBentryALTinterwordspacing
-R.~Byrne. (2025, February) {Appendix 6.3 Lab Report Student ID: 23349346}.
-  [Accessed 16 February 2025]. [Online]. Available:
-  \url{https://www.instagram.com/rian.o.broin/}
-\BIBentrySTDinterwordspacing
+\bibitem{princetonholo}
+J.~H. Taylor, A.~Erickcek, and Z.~Kermish, ``Holography,'' in \emph{Physics
+  312}.\hskip 1em plus 0.5em minus 0.4em\relax Princeton University, 1990-2002,
+  [Accessed 9 March 2025].
 
 \end{thebibliography}
