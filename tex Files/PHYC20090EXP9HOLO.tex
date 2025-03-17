@@ -140,7 +140,7 @@ fringe spacing of the interference pattern. Therefore misalignmnets affect the c
     \captionsetup{hypcap=false}
     \centering
     \includegraphics[width=\linewidth]{hologram construction.png}
-    \captionof{figure}{\centering sample caption \protect\cite{holoimg1}.}
+    \captionof{figure}{\centering Diagram of setup to record a hologram. \protect\cite{holoimg1}.}
     \label{fig:1}
 \end{minipage}
 \hfill
@@ -148,7 +148,7 @@ fringe spacing of the interference pattern. Therefore misalignmnets affect the c
     \captionsetup{hypcap=false}
     \centering
     \includegraphics[width=\linewidth]{holo interference.jpg}
-    \captionof{figure}{\centering sample caption \protect\cite{kafri1990physics}.}
+    \captionof{figure}{\centering Interference patterns from shifted grating superposition. \protect\cite{kafri1990physics}.}
     \label{fig:2}
 \end{minipage}
 
@@ -382,23 +382,120 @@ Reflection holograms, unlike transmission holograms, can be seen under white lig
     \label{fig:8}
 \end{figure}
 
-bragg diffraction or something idk im mad tired rn
+As the interference patterns are recorded along the thickness of the emulsion, Bragg diffraction planes are created which act similarly to half-silvered mirrors, such that some of the light that was used to illuminate the object
+reflects off each recorded interference fringe. These reflected rays interfere with each other and create destructive interference planes if they are not in phase \cite{princetonholo}. The condition for these interference patterns to be constructive is $n \lambda = 2 d sin \theta$, known as Bragg's Law, which only
+allows a particular wavelength to be reflected at a specific angle. Thus, when viewing in white light, a reflection hologram selects a particular frequency at which to reconstruct the image, preventing the wash-out effect that occurs in transmission holograms \cite{princetonholo}.
 
 \subsection{How Shape, Design and Dimension Affect the Hologram}
 
+The optical properties of a surface have a direct influence on how the hologram is recorded based on how the light interacts with each surface.
+Whether a surface is "optically specular" (smooth, mirror-like) or "optically rough" (textured) is dependant on the surface and the observer, more specifically how the wavelength used interacts with the local topography to form interference patterns \cite{hausler2022reflections}.
+A surface is then considered specular when a local surface variation is depth is less than a quarter of the wavelength used to record the hologram, which avoids destructive interference and speckle formation \cite{jones1989holographic}. The complex signal for an optically specular surface degenerates to $e^{ikz} \approx 1 + ikz(x,y)$,
+indicating a strong and stable signal and a consequential hologram of good resolution and clarity. 
+For a rough surface the complex signal $e^{ikz(x,y)}$ is non-linear and chaotic as the local topography has significant variation within the diffractiin disc (optically resolved area). This leads to random destructive interference of the recording light and thus
+speckle noise. When coherency is compromised in this way random phase distortions are expected, this reduces the clarity of the reconstructed holographic image \cite{hausler2022reflections}.
+
+Holographic interferometry (applied in methods of digital holography) was an advancement that allows for the static and dynamic displacement of optically rough surfaces to be measured interferometrically \cite{jones1989holographic}.
+With this technique two holographic recordings of an object are superimposed on each other, storing a single holographic interferogram that can be observed in the absence of the original object. This technique can then be used to detect small surface displacement (topographical variations) \cite{jones1989holographic}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\textwidth]{holographic interferometry.png}
+    \caption{\centering Comparison betwen fringe intesity (interferometry) as calculated with (a) digital holography, (b) transmission holography, (c) reflection holography \protect\cite{Olchewsky17}.}
+    \label{fig:10}
+\end{figure}
 
 \subsection{Applications of Holography}
 
+\subsubsection{Medical Imaging}
 
+Holography can be used in many different aspects of the medical field and provides many benefits due to a hologram's capabilities of storing and archiving information, 3D visualisation of products and situations, and storing multiple images. Some notable applications of holography in the medical field are noted \cite{medholo}.
 
+Holography can be effectively used for the \textbf{identification of abnormal growth} in tissue, organs, and external body parts. This can then be used to detect diseases and monitor health conditions (infections, hormonal imbalances, for example).
+Having holographically stored information eliminates the need of physical check-ups while still accurately representing a 3D structure of the abnormal growth. This can then be progressed to forecast diseases and plan treatments accordingly \cite{medholo}.
+
+Holographic imaging can also provide \textbf{detailed, colourful information about the body and organs}. Holograms can reconstruct 3D images of the captured part of the body/organ in natural colour, providiing precise information in detail which can allow for quick solutions to given issues.
+This high-quality 3D image can be kept in medical records for quick referencing and even for use of researchers for development of new technology that can be modeled to the hologram image \cite{medholo}.
+
+Holograms can also be used in \textbf{medical education}. The ability of providing 3D images in natural colour for presentations to medical students can allow students to better learn about procedures and issues that affect certain parts of the body through live simulations.
+This can also be used for the simulated development and observation of artificial bones, joint movement, and prosthetic limbs. This also is able to provide real-world examples to medical students and researchers with precise learning \cite{medholo}.
+
+\subsubsection{Data Storage}
+
+Holographic data storage system architectures are largely based off of the recording medium type. In general, there are two classes: systems based on \textbf{thin, photosensitive organic media} and \textbf{thick, inorganic photorefractive crystals} \cite{hesselink2004holographic}.
+
+\textbf{Thick, bulk cyrstal} systems, typically iron-doped lithium noibate (LiNbO3), are ideal for recording geometries where the reference and object beams are incident on the medium at right angles. By varying the angle of reference beam hundredds of holograms can be superimposed at a single location on the medium. By scanning both beams over the medium, or by
+translating the medium relative to the optical beams, the total recording volume is used and the corresponding data stored can be read by illuminating a single reference beam. This media can be rewritten and the information can be stored for many (up to centuries) of years \cite{hesselink2004holographic}.
+
+\textbf{Polymer-based} resemble conventional DVD systems with a rotating, removable thin holographic polymer disc and a two-sided optical head. The photosensitive polymer material is usually sandwiched between two parallel glass plates (very thin). Due to this, conventional angular and wavelength multiplexing do not allow for the superimposition of many holograms.
+Instead, by rotating the disc, a new hologram can be superimposed at the new shifted location, partially overlapping previously recorded holograms. Consequently, sensitive photopolymer materials are write-once-read-many (WORM) media. Data is then read out by illuminating the rotating disc with the reference beam \cite{hesselink2004holographic}.
+
+\subsubsection{Augmented Reality and Virtual Reality}
+
+Augmented Reality (AR) and Virtual Reality (VR) is often considered technology of the future. This technology has made great progress in its development but one of its primary faults is limited display quality. By implementing holographic display technology the display quality of these products would be much better.
+An issue that arises with trying to implement holography in AR/VR displays is that the standard photosensitive materials cannot be written and erased repeatedly and are too greatly influenced by vibrations \cite{he2019progress}.
+However, with the rapid development in computer technology, computer-generated holograms (CGH) are now feasible. In order to display CGHs a spatial light modulator (SLM) must be employed. CGH has the advantages of avoiding environmental factors that might influence the quality of a hologram (as per traditional holograms),
+they are easier to duplicate and distribute, and they can record the information of both real and non-existent (3D modeled) objects \cite{he2019progress}.
+
+For the CGH image to be displayed, the reference light shines on the SLM and the diffracted light reaches the human eye through a beam splitter (BS) in one direction while the real (outside) world can be viewed another direction of the BS \cite{he2019progress} (see Figure \ref{fig:14}).
+Additionally, by using holographic displays in AR/VR headsets all types of 3D visual perceptions are provided without the convergence-focusing conflict \cite{he2019progress}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\textwidth]{holo vrar.png}
+    \caption{\centering AR device based on computer-generated holographic display. The CGH is uploaded onto the SLM, the diffracted light under the illumination of the reference light reaches
+    the human eyes through one direction of the BS, and the real environment enter human eyes through another direction of the BS. \protect\cite{he2019progress}}
+    \label{fig:14}
+\end{figure}
+
+While holographic display-based AR/VR devices have many advantages, one must also consider the disadvantages. Coherent illumination often causes speckle, and despite solutions such as phase calculation and ray-sampling have been proposed, speckle still causes issue for clarity of the hologram \cite{he2019progress}.
+Also, many of the existing platforms cannot accommodate nor support the demands of real-time holographic displays while mainting high display quality. Advanced algorithms should be developed in order to account for this \cite{he2019progress}.
+Lastly, SLMs have limited space bandwidth product (SBP) so the size and field-of-view (FOV) of the reconstructed holographic images in the AR/VR device are quite small \cite{he2019progress}.
 
 \section{Methodology} \label{sec:2}
 
+\subsection{Recording the Hologram}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.5\linewidth]{holo setup.jpeg}
+    \caption{\centering Apparatus set up for the recording of the reflection hologram.}
+    \label{fig:11}
+\end{figure}
+
+\subsection{Processing the Hologram}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.55\textwidth}
+        \includegraphics[width=\linewidth]{holo drying.jpeg}
+    \end{minipage}
+    \hspace{-.5em}
+    \begin{minipage}{.385\textwidth}
+        \includegraphics[width=\linewidth]{maybe this is actually holo drying.jpeg}
+    \end{minipage}
+    \caption{\centering Processed holographic plate drying under an incandescent light source.}
+    \label{fig:12}
+\end{figure}
 
 \section{Results and Calculations} \label{sec:3}
 
-
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \includegraphics[width=\linewidth]{holo done 1.jpeg}
+        \vfill
+        \includegraphics[width=\linewidth]{more red key.jpg}
+    \end{minipage}
+    \hspace{-.5em}
+    \begin{minipage}{.452\textwidth}
+        \includegraphics[width=\linewidth]{holo done 2 green.jpeg}
+        \vfill
+        \includegraphics[width=\linewidth]{more key done but red.jpg}
+    \end{minipage}
+    \caption{\centering Reflection diagram of key final product.}
+    \label{fig:13}
+\end{figure}
 
 \newpage
 

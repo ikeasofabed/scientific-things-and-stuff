@@ -11,11 +11,16 @@
 \contentsline {subsection}{\numberline {1.5}Types of Optical Holograms}{6}{subsection.1.5}%
 \contentsline {subsubsection}{\numberline {1.5.1}Transmission Holograms}{6}{subsubsection.1.5.1}%
 \contentsline {subsubsection}{\numberline {1.5.2}Reflection Holograms}{7}{subsubsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.6}How Shape, Design and Dimension Affect the Hologram}{7}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Applications of Holography}{7}{subsection.1.7}%
-\contentsline {section}{\numberline {2}Methodology}{7}{section.2}%
-\contentsline {section}{\numberline {3}Results and Calculations}{7}{section.3}%
-\contentsline {section}{\numberline {4}Conclusion}{8}{section.4}%
-\contentsline {section}{References}{9}{section*.10}%
-\contentsline {section}{List of Figures}{10}{section*.11}%
-\contentsline {section}{List of Tables}{10}{section*.12}%
+\contentsline {subsection}{\numberline {1.6}How Shape, Design and Dimension Affect the Hologram}{8}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Applications of Holography}{8}{subsection.1.7}%
+\contentsline {subsubsection}{\numberline {1.7.1}Medical Imaging}{8}{subsubsection.1.7.1}%
+\contentsline {subsubsection}{\numberline {1.7.2}Data Storage}{9}{subsubsection.1.7.2}%
+\contentsline {subsubsection}{\numberline {1.7.3}Augmented Reality and Virtual Reality}{9}{subsubsection.1.7.3}%
+\contentsline {section}{\numberline {2}Methodology}{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Recording the Hologram}{11}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Processing the Hologram}{11}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Results and Calculations}{12}{section.3}%
+\contentsline {section}{\numberline {4}Conclusion}{13}{section.4}%
+\contentsline {section}{References}{14}{section*.15}%
+\contentsline {section}{List of Figures}{15}{section*.16}%
+\contentsline {section}{List of Tables}{16}{section*.17}%
