@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  11 MAR 2025 12:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  17 MAR 2025 00:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -568,6 +568,12 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count359
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count360
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count361
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -594,14 +600,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen276
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count360
-\c@pgf@countb=\count361
-\c@pgf@countc=\count362
-\c@pgf@countd=\count363
+\c@pgf@counta=\count362
+\c@pgf@countb=\count363
+\c@pgf@countc=\count364
+\c@pgf@countd=\count365
 \t@pgf@toka=\toks41
 \t@pgf@tokb=\toks42
 \t@pgf@tokc=\toks43
-\pgf@sys@id@count=\count364
+\pgf@sys@id@count=\count366
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -612,21 +618,21 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count365
-\pgfsyssoftpath@bigbuffer@items=\count366
+\pgfsyssoftpath@smallbuffer@items=\count367
+\pgfsyssoftpath@bigbuffer@items=\count368
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen277
-\pgfmath@count=\count367
+\pgfmath@count=\count369
 \pgfmath@box=\box69
 \pgfmath@toks=\toks44
 \pgfmath@stack@operand=\toks45
 \pgfmath@stack@operation=\toks46
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count368
+\c@pgfmathroundto@lastzeros=\count370
 )) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfint.code.tex) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen278
@@ -656,7 +662,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box70
 \pgf@hbox=\box71
 \pgf@layerbox@main=\box72
-\pgf@picture@serial@count=\count369
+\pgf@picture@serial@count=\count371
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen296
@@ -677,8 +683,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen301
-\pgf@sys@shading@range@num=\count370
-\pgf@shadingcount=\count371
+\pgf@sys@shading@range@num=\count372
+\pgf@shadingcount=\count373
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -701,10 +707,10 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen302
 \pgf@nodesepend=\dimen303
-) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-))
-(/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgffor.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/math/pgfmath.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgffor.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/math/pgfmath.sty (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen304
 \pgffor@skip=\dimen305
@@ -714,7 +720,7 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count372
+\pgf@plot@mark@count=\count374
 \pgfplotmarksize=\dimen306
 )
 \tikz@lastx=\dimen307
@@ -729,17 +735,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box76
 \tikz@tempbox=\box77
 \tikz@tempbox@bg=\box78
-\tikztreelevel=\count373
-\tikznumberofchildren=\count374
-\tikznumberofcurrentchild=\count375
-\tikz@fig@count=\count376
+\tikztreelevel=\count375
+\tikznumberofchildren=\count376
+\tikznumberofcurrentchild=\count377
+\tikz@fig@count=\count378
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count377
-\pgfmatrixcurrentcolumn=\count378
-\pgf@matrix@numberofcolumns=\count379
+\pgfmatrixcurrentrow=\count379
+\pgfmatrixcurrentcolumn=\count380
+\pgf@matrix@numberofcolumns=\count381
 )
-\tikz@expandcount=\count380
+\tikz@expandcount=\count382
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/verbatim.sty
@@ -756,9 +762,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box80
 \tcb@lowerbox=\box81
 \tcb@phantombox=\box82
-\c@tcbbreakpart=\count381
-\c@tcblayer=\count382
-\c@tcolorbox@number=\count383
+\c@tcbbreakpart=\count383
+\c@tcblayer=\count384
+\c@tcolorbox@number=\count385
 \l__tcobox_tmpa_box=\box83
 \l__tcobox_tmpa_dim=\dimen315
 \tcb@temp=\box84
@@ -766,32 +772,32 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box86
 \tcb@temp=\box87
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 49.
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count384
+\l__color_backend_stack_int=\count386
 \l__pdf_internal_box=\box88
 ) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.aux)
 \openout1 = `PHYC20090EXP9HOLO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -829,16 +835,16 @@ LaTeX Font Info:    ... okay on input line 67.
 
 (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count385
+\scratchcounter=\count387
 \scratchdimen=\dimen316
 \scratchbox=\box89
-\nofMPsegments=\count386
-\nofMParguments=\count387
+\nofMPsegments=\count388
+\nofMParguments=\count389
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count388
+\MPscratchCnt=\count390
 \MPscratchDim=\dimen317
-\MPnumerator=\count389
-\makeMPintoPDFobject=\count390
+\MPnumerator=\count391
+\makeMPintoPDFobject=\count392
 \everyMPtoPDFconversion=\toks52
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -854,22 +860,22 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 67.
+Package hyperref Info: Link coloring ON on input line 68.
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.out) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.out)
 \@outlinefile=\write5
 \openout5 = `PHYC20090EXP9HOLO.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=106, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=86, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
-Package pdftex.def Info: ./images/UCDLogo.png  used on input line 73.
+Package pdftex.def Info: ./images/UCDLogo.png  used on input line 74.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=108, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=88, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
-Package pdftex.def Info: ./images/UCDBanner.png  used on input line 77.
+Package pdftex.def Info: ./images/UCDBanner.png  used on input line 78.
 (pdftex.def)             Requested size: 597.50787pt x 86.45332pt.
 
 
@@ -892,35 +898,120 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 ]
-Overfull \hbox (1.74155pt too wide) detected at line 157
-[]
- []
-
-
-Overfull \hbox (6.00545pt too wide) detected at line 165
-[]
- []
-
+<./images/hologram construction.png, id=138, 623.32875pt x 376.40625pt>
+File: ./images/hologram construction.png Graphic file (type png)
+<use ./images/hologram construction.png>
+Package pdftex.def Info: ./images/hologram construction.png  used on input line 142.
+(pdftex.def)             Requested size: 237.01411pt x 143.12775pt.
+<./images/holo interference.jpg, id=141, 963.6pt x 654.445pt>
+File: ./images/holo interference.jpg Graphic file (type jpg)
+<use ./images/holo interference.jpg>
+Package pdftex.def Info: ./images/holo interference.jpg  used on input line 150.
+(pdftex.def)             Requested size: 237.01411pt x 160.96455pt.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.169 
-       [1]
-<./images/holography1.png, id=162, 474.77374pt x 272.01625pt>
-File: ./images/holography1.png Graphic file (type png)
-<use ./images/holography1.png>
-Package pdftex.def Info: ./images/holography1.png  used on input line 195.
-(pdftex.def)             Requested size: 241.84843pt x 138.56458pt.
+l.161 
+       [1 <./images/hologram construction.png> <./images/holo interference.jpg>]
+<./images/amplitude v phase contrast.jpg, id=171, 74.3578pt x 84.315pt>
+File: ./images/amplitude v phase contrast.jpg Graphic file (type jpg)
+<use ./images/amplitude v phase contrast.jpg>
+Package pdftex.def Info: ./images/amplitude v phase contrast.jpg  used on input line 180.
+(pdftex.def)             Requested size: 241.84843pt x 274.28418pt.
 
 
-[2 <./images/holography1.png>]
+[2 <./images/amplitude v phase contrast.jpg>]
+Overfull \hbox (1.74155pt too wide) detected at line 221
+[]
+ []
+
+
+Overfull \hbox (6.00545pt too wide) detected at line 229
+[]
+ []
+
+
 
 [3]
+<./images/holography1.png, id=201, 474.77374pt x 272.01625pt>
+File: ./images/holography1.png Graphic file (type png)
+<use ./images/holography1.png>
+Package pdftex.def Info: ./images/holography1.png  used on input line 259.
+(pdftex.def)             Requested size: 241.84843pt x 138.56458pt.
+<./images/interference patterns.jpg, id=206, 3882.505pt x 2664.95625pt>
+File: ./images/interference patterns.jpg Graphic file (type jpg)
+<use ./images/interference patterns.jpg>
+Package pdftex.def Info: ./images/interference patterns.jpg  used on input line 277.
+(pdftex.def)             Requested size: 241.84843pt x 165.99007pt.
 
-[4] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.lof)
+
+[4 <./images/holography1.png>]
+<./images/incoherent source.png, id=219, 373.395pt x 226.8475pt>
+File: ./images/incoherent source.png Graphic file (type png)
+<use ./images/incoherent source.png>
+Package pdftex.def Info: ./images/incoherent source.png  used on input line 297.
+(pdftex.def)             Requested size: 217.66211pt x 132.23622pt.
+<./images/coherent source.png, id=220, 393.47pt x 234.8775pt>
+File: ./images/coherent source.png Graphic file (type png)
+<use ./images/coherent source.png>
+Package pdftex.def Info: ./images/coherent source.png  used on input line 304.
+(pdftex.def)             Requested size: 217.66211pt x 129.92848pt.
+
+
+[5 <./images/interference patterns.jpg> <./images/incoherent source.png> <./images/coherent source.png>]
+<./images/transmission reconstruction.png, id=243, 332.24126pt x 314.17375pt>
+File: ./images/transmission reconstruction.png Graphic file (type png)
+<use ./images/transmission reconstruction.png>
+Package pdftex.def Info: ./images/transmission reconstruction.png  used on input line 332.
+(pdftex.def)             Requested size: 217.66211pt x 205.82605pt.
+<./images/reflection reconstruction.png, id=244, 345.29pt x 309.155pt>
+File: ./images/reflection reconstruction.png Graphic file (type png)
+<use ./images/reflection reconstruction.png>
+Package pdftex.def Info: ./images/reflection reconstruction.png  used on input line 339.
+(pdftex.def)             Requested size: 217.66211pt x 194.8866pt.
+<./images/transmission holo.jpg, id=254, 401.5pt x 341.275pt>
+File: ./images/transmission holo.jpg Graphic file (type jpg)
+<use ./images/transmission holo.jpg>
+Package pdftex.def Info: ./images/transmission holo.jpg  used on input line 358.
+(pdftex.def)             Requested size: 207.9861pt x 176.79225pt.
+<./images/trans 2 holo.jpg, id=255, 158.16806pt x 105.5142pt>
+File: ./images/trans 2 holo.jpg Graphic file (type jpg)
+<use ./images/trans 2 holo.jpg>
+Package pdftex.def Info: ./images/trans 2 holo.jpg  used on input line 364.
+(pdftex.def)             Requested size: 266.03474pt x 177.48483pt.
+
+
+[6 <./images/transmission reconstruction.png> <./images/reflection reconstruction.png>]
+<./images/reflection hologram.jpg, id=271, 768.8725pt x 575.14874pt>
+File: ./images/reflection hologram.jpg Graphic file (type jpg)
+<use ./images/reflection hologram.jpg>
+Package pdftex.def Info: ./images/reflection hologram.jpg  used on input line 380.
+(pdftex.def)             Requested size: 241.84843pt x 180.90953pt.
+
+
+[7 <./images/transmission holo.jpg> <./images/trans 2 holo.jpg> <./images/reflection hologram.jpg>]
+
+[8] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
+\OT1/cmr/m/n/12 / / www . researchgate . net / publication / 265680973[]Discrete[]transforms[]fast[]algorithms[]and[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--61
+\OT1/cmr/m/n/12 net / pro^^Lle / Oded-[]Kafri / publication / 37406594[]The[]Physics[]of[]Moire[]Metrology / links /
+ []
+
+
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
+\OT1/cmr/m/n/12 / / inis . jinr . ru / sl / vol2 / Physics / [] % CE % EF % F2 % E8 % EA % E0 ,[] %DD % EB % E5 % EA % F2 %
+ []
+
+) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.lof)
 \tf@lof=\write7
 \openout7 = `PHYC20090EXP9HOLO.lof'.
 
@@ -930,8 +1021,8 @@ Package pdftex.def Info: ./images/holography1.png  used on input line 195.
 
 
 
-[5]
-runsystem(latexminted cleantemp  --timestamp 20250311120457Z C50BE11CDCAD040BE677D33206ECF68E)...executed.
+[10]
+runsystem(latexminted cleantemp  --timestamp 20250317000619Z C50BE11CDCAD040BE677D33206ECF68E)...executed.
 
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.aux)
  ***********
@@ -939,20 +1030,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PHYC20090EXP9HOLO.out' has not changed.
-(rerunfilecheck)             Checksum: 9E0A612A9B851761FDB22115955A20E3;4468.
+(rerunfilecheck)             Checksum: 35A7A1E63F6842719820ED81DFBC3230;3269.
  ) 
 Here is how much of TeX's memory you used:
- 31752 strings out of 473530
- 654435 string characters out of 5704664
- 1136154 words of memory out of 5000000
- 54416 multiletter control sequences out of 15000+600000
- 566869 words of font info for 65 fonts, out of 8000000 for 9000
+ 32023 strings out of 473530
+ 661301 string characters out of 5704664
+ 1144317 words of memory out of 5000000
+ 54659 multiletter control sequences out of 15000+600000
+ 567206 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,9n,117p,629b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.pdf" (7 pages, 725598 bytes).
+ 95i,9n,117p,629b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.pdf" (12 pages, 3231767 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 228 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 419 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

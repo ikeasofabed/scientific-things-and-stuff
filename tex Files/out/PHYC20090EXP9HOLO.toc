@@ -2,25 +2,20 @@
 \contentsline {section}{Abstract}{1}{figure.caption.2}%
 \contentsline {section}{\numberline {1}Theory}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Recording and Reconstruction of Holograms}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Fourier Transforms}{1}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Properties of Laser Light in Holography}{3}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Interference and Diffraction}{3}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Coherence}{3}{subsubsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.3}Monochromaticity}{3}{subsubsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {1.3.4}Beam Properties: Intensity and Directionality}{3}{subsubsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.4}Amplitude and Phase}{3}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Types of Holograms}{3}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Transmission Holograms}{3}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Reflection Holograms}{3}{subsubsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.6}Materials and Processing Techniques}{3}{subsection.1.6}%
-\contentsline {subsubsection}{\numberline {1.6.1}Photographic Emulsion vs. Photopolymers}{3}{subsubsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.2}Chemical Processing}{3}{subsubsection.1.6.2}%
-\contentsline {subsubsection}{\numberline {1.6.3}Chemical Effects on Hologram Quality}{3}{subsubsection.1.6.3}%
-\contentsline {subsection}{\numberline {1.7}How Shape, Design and Dimension Affect the Hologram}{3}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}Applications of Holography}{3}{subsection.1.8}%
-\contentsline {section}{\numberline {2}Methodology}{3}{section.2}%
-\contentsline {section}{\numberline {3}Results and Calculations}{3}{section.3}%
-\contentsline {section}{\numberline {4}Conclusion}{4}{section.4}%
-\contentsline {section}{References}{5}{section*.4}%
-\contentsline {section}{List of Figures}{5}{section*.5}%
-\contentsline {section}{List of Tables}{5}{section*.6}%
+\contentsline {subsection}{\numberline {1.2}Amplitude and Phase}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Fourier Transforms}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Properties of Laser Light in Holography}{4}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Monochromaticity}{4}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Coherence}{5}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Intensity and Directionality}{5}{subsubsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.5}Types of Optical Holograms}{6}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Transmission Holograms}{6}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Reflection Holograms}{7}{subsubsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.6}How Shape, Design and Dimension Affect the Hologram}{7}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Applications of Holography}{7}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Methodology}{7}{section.2}%
+\contentsline {section}{\numberline {3}Results and Calculations}{7}{section.3}%
+\contentsline {section}{\numberline {4}Conclusion}{8}{section.4}%
+\contentsline {section}{References}{9}{section*.10}%
+\contentsline {section}{List of Figures}{10}{section*.11}%
+\contentsline {section}{List of Tables}{10}{section*.12}%

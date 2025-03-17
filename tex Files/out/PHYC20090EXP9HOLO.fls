@@ -211,6 +211,8 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/subcaption.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/subcaption.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tcolorbox/tcolorbox.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tcolorbox/tcolorbox.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
@@ -385,17 +387,84 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tf
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.toc
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr10.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
-INPUT ./images/holography1.png
-INPUT ./images/holography1.png
-INPUT ./images/holography1.png
-INPUT ./images/holography1.png
-INPUT ./images/holography1.png
-INPUT ./images/holography1.png
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT ./images/hologram construction.png
+INPUT ./images/hologram construction.png
+INPUT ./images/hologram construction.png
+INPUT ./images/hologram construction.png
+INPUT ./images/hologram construction.png
+INPUT ./images/hologram construction.png
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl
-INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl
-INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl
+INPUT ./images/holo interference.jpg
+INPUT ./images/holo interference.jpg
+INPUT ./images/holo interference.jpg
+INPUT ./images/holo interference.jpg
+INPUT ./images/holo interference.jpg
+INPUT ./images/holo interference.jpg
+INPUT ./images/amplitude v phase contrast.jpg
+INPUT ./images/amplitude v phase contrast.jpg
+INPUT ./images/amplitude v phase contrast.jpg
+INPUT ./images/amplitude v phase contrast.jpg
+INPUT ./images/amplitude v phase contrast.jpg
+INPUT ./images/amplitude v phase contrast.jpg
+INPUT ./images/holography1.png
+INPUT ./images/holography1.png
+INPUT ./images/holography1.png
+INPUT ./images/holography1.png
+INPUT ./images/holography1.png
+INPUT ./images/holography1.png
+INPUT ./images/interference patterns.jpg
+INPUT ./images/interference patterns.jpg
+INPUT ./images/interference patterns.jpg
+INPUT ./images/interference patterns.jpg
+INPUT ./images/interference patterns.jpg
+INPUT ./images/interference patterns.jpg
+INPUT ./images/incoherent source.png
+INPUT ./images/incoherent source.png
+INPUT ./images/incoherent source.png
+INPUT ./images/incoherent source.png
+INPUT ./images/incoherent source.png
+INPUT ./images/incoherent source.png
+INPUT ./images/coherent source.png
+INPUT ./images/coherent source.png
+INPUT ./images/coherent source.png
+INPUT ./images/coherent source.png
+INPUT ./images/coherent source.png
+INPUT ./images/coherent source.png
+INPUT ./images/transmission reconstruction.png
+INPUT ./images/transmission reconstruction.png
+INPUT ./images/transmission reconstruction.png
+INPUT ./images/transmission reconstruction.png
+INPUT ./images/transmission reconstruction.png
+INPUT ./images/transmission reconstruction.png
+INPUT ./images/reflection reconstruction.png
+INPUT ./images/reflection reconstruction.png
+INPUT ./images/reflection reconstruction.png
+INPUT ./images/reflection reconstruction.png
+INPUT ./images/reflection reconstruction.png
+INPUT ./images/reflection reconstruction.png
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmti12.tfm
+INPUT ./images/transmission holo.jpg
+INPUT ./images/transmission holo.jpg
+INPUT ./images/transmission holo.jpg
+INPUT ./images/transmission holo.jpg
+INPUT ./images/transmission holo.jpg
+INPUT ./images/transmission holo.jpg
+INPUT ./images/trans 2 holo.jpg
+INPUT ./images/trans 2 holo.jpg
+INPUT ./images/trans 2 holo.jpg
+INPUT ./images/trans 2 holo.jpg
+INPUT ./images/trans 2 holo.jpg
+INPUT ./images/trans 2 holo.jpg
+INPUT ./images/reflection hologram.jpg
+INPUT ./images/reflection hologram.jpg
+INPUT ./images/reflection hologram.jpg
+INPUT ./images/reflection hologram.jpg
+INPUT ./images/reflection hologram.jpg
+INPUT ./images/reflection hologram.jpg
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.lof
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.lof
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.lof
@@ -407,6 +476,8 @@ OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Lab
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.aux
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.out
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.out
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
