@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  17 MAR 2025 23:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  18 MAR 2025 19:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -867,12 +867,12 @@ Package hyperref Info: Link coloring ON on input line 68.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=106, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=102, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
 Package pdftex.def Info: ./images/UCDLogo.png  used on input line 74.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=108, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=104, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
 Package pdftex.def Info: ./images/UCDBanner.png  used on input line 78.
@@ -898,12 +898,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 ]
-<./images/hologram construction.png, id=163, 623.32875pt x 376.40625pt>
+<./images/hologram construction.png, id=158, 623.32875pt x 376.40625pt>
 File: ./images/hologram construction.png Graphic file (type png)
 <use ./images/hologram construction.png>
 Package pdftex.def Info: ./images/hologram construction.png  used on input line 142.
 (pdftex.def)             Requested size: 237.01411pt x 143.12775pt.
-<./images/holo interference.jpg, id=166, 963.6pt x 654.445pt>
+<./images/holo interference.jpg, id=161, 963.6pt x 654.445pt>
 File: ./images/holo interference.jpg Graphic file (type jpg)
 <use ./images/holo interference.jpg>
 Package pdftex.def Info: ./images/holo interference.jpg  used on input line 150.
@@ -916,7 +916,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.161 
        [1 <./images/hologram construction.png> <./images/holo interference.jpg>]
-<./images/amplitude v phase contrast.jpg, id=196, 74.3578pt x 84.315pt>
+<./images/amplitude v phase contrast.jpg, id=191, 74.3578pt x 84.315pt>
 File: ./images/amplitude v phase contrast.jpg Graphic file (type jpg)
 <use ./images/amplitude v phase contrast.jpg>
 Package pdftex.def Info: ./images/amplitude v phase contrast.jpg  used on input line 180.
@@ -936,12 +936,12 @@ Overfull \hbox (6.00545pt too wide) detected at line 229
 
 
 [3]
-<./images/holography1.png, id=226, 474.77374pt x 272.01625pt>
+<./images/holography1.png, id=221, 474.77374pt x 272.01625pt>
 File: ./images/holography1.png Graphic file (type png)
 <use ./images/holography1.png>
 Package pdftex.def Info: ./images/holography1.png  used on input line 259.
 (pdftex.def)             Requested size: 241.84843pt x 138.56458pt.
-<./images/interference patterns.jpg, id=231, 3882.505pt x 2664.95625pt>
+<./images/interference patterns.jpg, id=226, 3882.505pt x 2664.95625pt>
 File: ./images/interference patterns.jpg Graphic file (type jpg)
 <use ./images/interference patterns.jpg>
 Package pdftex.def Info: ./images/interference patterns.jpg  used on input line 277.
@@ -949,12 +949,12 @@ Package pdftex.def Info: ./images/interference patterns.jpg  used on input line 
 
 
 [4 <./images/holography1.png>]
-<./images/incoherent source.png, id=244, 373.395pt x 226.8475pt>
+<./images/incoherent source.png, id=239, 373.395pt x 226.8475pt>
 File: ./images/incoherent source.png Graphic file (type png)
 <use ./images/incoherent source.png>
 Package pdftex.def Info: ./images/incoherent source.png  used on input line 297.
 (pdftex.def)             Requested size: 217.66211pt x 132.23622pt.
-<./images/coherent source.png, id=245, 393.47pt x 234.8775pt>
+<./images/coherent source.png, id=240, 393.47pt x 234.8775pt>
 File: ./images/coherent source.png Graphic file (type png)
 <use ./images/coherent source.png>
 Package pdftex.def Info: ./images/coherent source.png  used on input line 304.
@@ -962,22 +962,22 @@ Package pdftex.def Info: ./images/coherent source.png  used on input line 304.
 
 
 [5 <./images/interference patterns.jpg> <./images/incoherent source.png> <./images/coherent source.png>]
-<./images/transmission reconstruction.png, id=268, 332.24126pt x 314.17375pt>
+<./images/transmission reconstruction.png, id=263, 332.24126pt x 314.17375pt>
 File: ./images/transmission reconstruction.png Graphic file (type png)
 <use ./images/transmission reconstruction.png>
 Package pdftex.def Info: ./images/transmission reconstruction.png  used on input line 332.
 (pdftex.def)             Requested size: 217.66211pt x 205.82605pt.
-<./images/reflection reconstruction.png, id=269, 345.29pt x 309.155pt>
+<./images/reflection reconstruction.png, id=264, 345.29pt x 309.155pt>
 File: ./images/reflection reconstruction.png Graphic file (type png)
 <use ./images/reflection reconstruction.png>
 Package pdftex.def Info: ./images/reflection reconstruction.png  used on input line 339.
 (pdftex.def)             Requested size: 217.66211pt x 194.8866pt.
-<./images/transmission holo.jpg, id=279, 401.5pt x 341.275pt>
+<./images/transmission holo.jpg, id=274, 401.5pt x 341.275pt>
 File: ./images/transmission holo.jpg Graphic file (type jpg)
 <use ./images/transmission holo.jpg>
 Package pdftex.def Info: ./images/transmission holo.jpg  used on input line 358.
 (pdftex.def)             Requested size: 207.9861pt x 176.79225pt.
-<./images/trans 2 holo.jpg, id=280, 158.16806pt x 105.5142pt>
+<./images/trans 2 holo.jpg, id=275, 158.16806pt x 105.5142pt>
 File: ./images/trans 2 holo.jpg Graphic file (type jpg)
 <use ./images/trans 2 holo.jpg>
 Package pdftex.def Info: ./images/trans 2 holo.jpg  used on input line 364.
@@ -985,7 +985,7 @@ Package pdftex.def Info: ./images/trans 2 holo.jpg  used on input line 364.
 
 
 [6 <./images/transmission reconstruction.png> <./images/reflection reconstruction.png>]
-<./images/reflection hologram.jpg, id=296, 768.8725pt x 575.14874pt>
+<./images/reflection hologram.jpg, id=291, 768.8725pt x 575.14874pt>
 File: ./images/reflection hologram.jpg Graphic file (type jpg)
 <use ./images/reflection hologram.jpg>
 Package pdftex.def Info: ./images/reflection hologram.jpg  used on input line 380.
@@ -993,7 +993,7 @@ Package pdftex.def Info: ./images/reflection hologram.jpg  used on input line 38
 
 
 [7 <./images/transmission holo.jpg> <./images/trans 2 holo.jpg> <./images/reflection hologram.jpg>]
-<./images/holographic interferometry.png, id=314, 284.7438pt x 115.632pt>
+<./images/holographic interferometry.png, id=309, 284.7438pt x 115.632pt>
 File: ./images/holographic interferometry.png Graphic file (type png)
 <use ./images/holographic interferometry.png>
 Package pdftex.def Info: ./images/holographic interferometry.png  used on input line 403.
@@ -1003,15 +1003,15 @@ Package pdftex.def Info: ./images/holographic interferometry.png  used on input 
 [8 <./images/holographic interferometry.png>]
 
 [9]
-<./images/holo vrar.png, id=344, 395.4775pt x 224.84pt>
+<./images/holo vrar.png, id=339, 395.4775pt x 224.84pt>
 File: ./images/holo vrar.png Graphic file (type png)
 <use ./images/holo vrar.png>
 Package pdftex.def Info: ./images/holo vrar.png  used on input line 445.
 (pdftex.def)             Requested size: 338.58632pt x 192.4975pt.
-<./images/holo setup.jpeg, id=350, 971.3088pt x 728.4816pt>
+<./images/holo setup.jpeg, id=346, 971.3088pt x 728.4816pt>
 File: ./images/holo setup.jpeg Graphic file (type jpg)
 <use ./images/holo setup.jpeg>
-Package pdftex.def Info: ./images/holo setup.jpeg  used on input line 461.
+Package pdftex.def Info: ./images/holo setup.jpeg  used on input line 463.
 (pdftex.def)             Requested size: 241.84843pt x 181.3863pt.
 
 
@@ -1019,40 +1019,47 @@ Package pdftex.def Info: ./images/holo setup.jpeg  used on input line 461.
 <./images/holo drying.jpeg, id=357, 768.471pt x 509.7444pt>
 File: ./images/holo drying.jpeg Graphic file (type jpg)
 <use ./images/holo drying.jpeg>
-Package pdftex.def Info: ./images/holo drying.jpeg  used on input line 471.
+Package pdftex.def Info: ./images/holo drying.jpeg  used on input line 485.
 (pdftex.def)             Requested size: 266.03474pt x 176.4609pt.
 <./images/maybe this is actually holo drying.jpeg, id=358, 311.4837pt x 298.2342pt>
 File: ./images/maybe this is actually holo drying.jpeg Graphic file (type jpg)
 <use ./images/maybe this is actually holo drying.jpeg>
-Package pdftex.def Info: ./images/maybe this is actually holo drying.jpeg  used on input line 475.
+Package pdftex.def Info: ./images/maybe this is actually holo drying.jpeg  used on input line 489.
 (pdftex.def)             Requested size: 186.22063pt x 178.30481pt.
-<./images/holo done 1.jpeg, id=359, 640.5531pt x 584.1825pt>
+
+
+[11 <./images/holo setup.jpeg>]
+<./images/holo done 1.jpeg, id=367, 640.5531pt x 584.1825pt>
 File: ./images/holo done 1.jpeg Graphic file (type jpg)
 <use ./images/holo done 1.jpeg>
-Package pdftex.def Info: ./images/holo done 1.jpeg  used on input line 486.
+Package pdftex.def Info: ./images/holo done 1.jpeg  used on input line 506.
 (pdftex.def)             Requested size: 241.84843pt x 220.56543pt.
-<./images/more red key.jpg, id=360, 4095.3pt x 3071.475pt>
+<./images/more red key.jpg, id=368, 4095.3pt x 3071.475pt>
 File: ./images/more red key.jpg Graphic file (type jpg)
 <use ./images/more red key.jpg>
-Package pdftex.def Info: ./images/more red key.jpg  used on input line 488.
+Package pdftex.def Info: ./images/more red key.jpg  used on input line 508.
 (pdftex.def)             Requested size: 241.84843pt x 181.3748pt.
-<./images/holo done 2 green.jpeg, id=361, 604.8999pt x 659.1024pt>
+<./images/holo done 2 green.jpeg, id=369, 604.8999pt x 659.1024pt>
 File: ./images/holo done 2 green.jpeg Graphic file (type jpg)
 <use ./images/holo done 2 green.jpeg>
-Package pdftex.def Info: ./images/holo done 2 green.jpeg  used on input line 492.
+Package pdftex.def Info: ./images/holo done 2 green.jpeg  used on input line 512.
 (pdftex.def)             Requested size: 218.62897pt x 238.22205pt.
-<./images/more key done but red.jpg, id=362, 4095.3pt x 3071.475pt>
+<./images/more key done but red.jpg, id=370, 4095.3pt x 3071.475pt>
 File: ./images/more key done but red.jpg Graphic file (type jpg)
 <use ./images/more key done but red.jpg>
-Package pdftex.def Info: ./images/more key done but red.jpg  used on input line 494.
+Package pdftex.def Info: ./images/more key done but red.jpg  used on input line 514.
 (pdftex.def)             Requested size: 218.62897pt x 163.94032pt.
 
 
-[11 <./images/holo setup.jpeg> <./images/holo drying.jpeg> <./images/maybe this is actually holo drying.jpeg>]
+[12 <./images/holo drying.jpeg> <./images/maybe this is actually holo drying.jpeg>]
 
-[12 <./images/holo done 1.jpeg> <./images/more red key.jpg> <./images/holo done 2 green.jpeg> <./images/more key done but red.jpg>]
+LaTeX Warning: Reference `1.5.2' on page 13 undefined on input line 523.
 
-[13] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl
+
+
+[13 <./images/holo done 1.jpeg> <./images/more red key.jpg> <./images/holo done 2 green.jpeg> <./images/more key done but red.jpg>]
+
+[14] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 47--53
 \OT1/cmr/m/n/12 / / www . researchgate . net / publication / 265680973[]Discrete[]transforms[]fast[]algorithms[]and[]
  []
@@ -1064,46 +1071,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--61
 
 
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 121--126
 \OT1/cmr/m/n/12 / / inis . jinr . ru / sl / vol2 / Physics / [] % CE % EF % F2 % E8 % EA % E0 ,[] %DD % EB % E5 % EA % F2 %
  []
 
 ) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.lof
 
-[15])
+[16])
 \tf@lof=\write7
 \openout7 = `PHYC20090EXP9HOLO.lof'.
 
- (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.lot)
-\tf@lot=\write8
-\openout8 = `PHYC20090EXP9HOLO.lot'.
 
 
-
-[16]
-runsystem(latexminted cleantemp  --timestamp 20250317230313Z C50BE11CDCAD040BE677D33206ECF68E)...executed.
+[17]
+runsystem(latexminted cleantemp  --timestamp 20250318194049Z C50BE11CDCAD040BE677D33206ECF68E)...executed.
 
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `PHYC20090EXP9HOLO.out' has not changed.
-(rerunfilecheck)             Checksum: 4C2D1CD9F3415E2BDC827DA5EA4D416B;4164.
+(rerunfilecheck)             Checksum: C3217A2D98A7903C1E07EF388A0A20F3;4032.
  ) 
 Here is how much of TeX's memory you used:
- 32142 strings out of 473530
- 664721 string characters out of 5704664
- 1145440 words of memory out of 5000000
- 54756 multiletter control sequences out of 15000+600000
+ 32137 strings out of 473530
+ 664391 string characters out of 5704664
+ 1145576 words of memory out of 5000000
+ 54754 multiletter control sequences out of 15000+600000
  567206 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,9n,117p,629b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.pdf" (18 pages, 24662554 bytes).
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090EXP9HOLO.pdf" (19 pages, 24669027 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
+ 543 PDF objects out of 1000 (max. 8388607)
  82 named destinations out of 1000 (max. 500000)
- 328 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
