@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex out/PHYC20090EXP9HOLO"] 1742326848.36565 "out/PHYC20090EXP9HOLO.aux" "out/PHYC20090EXP9HOLO.bbl" "out/PHYC20090EXP9HOLO" 1742326854.55419 0
+["bibtex out/PHYC20090EXP9HOLO"] 1742334175.71119 "out/PHYC20090EXP9HOLO.aux" "out/PHYC20090EXP9HOLO.bbl" "out/PHYC20090EXP9HOLO" 1742334182.30335 0
   "./References.bib" 1742250926.49436 65158 a2c5eb45f2d77e883c9cfa818f545557 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/bibtex/bst/ieeetran/IEEEtran.bst" 1738095043.56692 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "out/PHYC20090EXP9HOLO.aux" 1742326853.52244 14218 211fe267bd4ea0d06d7ac874559b68de "pdflatex"
+  "out/PHYC20090EXP9HOLO.aux" 1742334181.21813 14348 b6c0cab23cbdc8cb6e6adfd8b45dc15d "pdflatex"
   (generated)
   "out/PHYC20090EXP9HOLO.bbl"
   "out/PHYC20090EXP9HOLO.blg"
   (rewritten before read)
-["pdflatex"] 1742326848.76709 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20090EXP9HOLO.tex" "out/PHYC20090EXP9HOLO.pdf" "PHYC20090EXP9HOLO" 1742326854.55549 0
+["pdflatex"] 1742334176.12298 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20090EXP9HOLO.tex" "out/PHYC20090EXP9HOLO.pdf" "PHYC20090EXP9HOLO" 1742334182.30577 0
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1741777614.23221 82507 a9eef8696c92627b87e9975edea03b2a ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1737624812.87656 14064 a72e34765fecf1bdaaa2d9fbb80a0b2d ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1739629621.88023 12027821 0030363d176a2985718cb04ec3f57fd2 ""
@@ -219,8 +219,8 @@
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/varwidth/varwidth.sty" 1737627619.6116 10894 d359a13923460b2a73d4312d613554c8 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1737396739.69545 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1737396739.91271 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20090EXP9HOLO.tex" 1742326841.5645 35019 27ed997026478cc7e929571536d66a36 ""
-  "PHYC20090EXP9HOLO.tex" 1742326841.5645 35019 27ed997026478cc7e929571536d66a36 ""
+  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/PHYC20090EXP9HOLO.tex" 1742334167.96998 38115 23852b64ead29ced42599ca0ad8fe220 ""
+  "PHYC20090EXP9HOLO.tex" 1742334167.96998 38115 23852b64ead29ced42599ca0ad8fe220 ""
   "images/UCDBanner.png" 1737989558.70779 28942 301d2953f3824d682b2b34b5fe503a65 ""
   "images/UCDLogo.png" 1737622953.17789 557052 dc7c213cace55740c3ec09422bf6583e ""
   "images/amplitude v phase contrast.jpg" 1742155931.91305 127543 de10cfaa0576236f3fd13d53133e38de ""
@@ -244,11 +244,11 @@
   "images/trans 2 holo.jpg" 1742165253.82441 383515 24ad44c3e62cafc6c25dd8744d76492a ""
   "images/transmission holo.jpg" 1742165150.47894 51070 750ea61804003a28de096151beebefcf ""
   "images/transmission reconstruction.png" 1742168651.52857 20662 5497ceb0b1d143235a5abee89440f76f ""
-  "out/PHYC20090EXP9HOLO.aux" 1742326853.52244 14218 211fe267bd4ea0d06d7ac874559b68de "pdflatex"
-  "out/PHYC20090EXP9HOLO.bbl" 1742326848.68777 8206 23bb737c45fba1ab32674ef24d293ce0 "bibtex out/PHYC20090EXP9HOLO"
-  "out/PHYC20090EXP9HOLO.lof" 1742326853.53926 2983 1b3dbb31aa69c8a1198614335cb8f0af "pdflatex"
-  "out/PHYC20090EXP9HOLO.out" 1742326853.53256 4032 c3217a2d98a7903c1e07ef388a0a20f3 "pdflatex"
-  "out/PHYC20090EXP9HOLO.toc" 1742326853.53919 2103 17c754a6395ff9521726dfa27c8bc8e0 "pdflatex"
+  "out/PHYC20090EXP9HOLO.aux" 1742334181.21813 14348 b6c0cab23cbdc8cb6e6adfd8b45dc15d "pdflatex"
+  "out/PHYC20090EXP9HOLO.bbl" 1742334176.04436 8206 23bb737c45fba1ab32674ef24d293ce0 "bibtex out/PHYC20090EXP9HOLO"
+  "out/PHYC20090EXP9HOLO.lof" 1742334181.2399 3047 73d2405da638fe4bfdef1e36063dd15b "pdflatex"
+  "out/PHYC20090EXP9HOLO.out" 1742334181.22434 4032 c3217a2d98a7903c1e07ef388a0a20f3 "pdflatex"
+  "out/PHYC20090EXP9HOLO.toc" 1742334181.23983 2105 4f5100e596cd4394618e37652a5893eb "pdflatex"
   (generated)
   "out/PHYC20090EXP9HOLO.aux"
   "out/PHYC20090EXP9HOLO.lof"
