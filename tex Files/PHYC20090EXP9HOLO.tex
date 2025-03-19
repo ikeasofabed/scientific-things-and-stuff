@@ -30,6 +30,7 @@
         left=0pt, right=0pt,
         top=3pt, bottom=3pt
     }
+\usepackage{cite}
 
 \cftsetindents{section}{0em}{2em}
 \cftsetindents{subsection}{0em}{2em}
@@ -50,6 +51,8 @@
 }
 
 \urlstyle{same}
+
+\pagenumbering{arabic}
 
 \renewcommand{\arraystretch}{1.3}
 
@@ -100,15 +103,15 @@
 
 \end{titlepage}
 
-\setcounter{page}{1}
+
 \tableofcontents
-\pagenumbering{roman}
+\thispagestyle{empty}
 
 \newpage
 
-\begin{abstract}
-\addcontentsline{toc}{section}{Abstract}
-\pagenumbering{arabic}
+\section*{Abstract}
+\addtocontents{toc}{\protect\contentsline{section}{\textbf{Abstract}}{\hfill}{}}
+\thispagestyle{empty}
 
 Holography is a technique that is able to record and reconstruct wavefronts of light in order to create a three-dimensional replica of an object. The aim of this experiment was to explore
 the principles and concepts of holography by recording and developing a reflection hologram with red laser light. This process was done with carefully assembled apparatus to be able to properly develop the 
@@ -117,13 +120,11 @@ with notable variations in intensity that capture the effect of light on the sur
 the necessity of using a laser light for holography due to its monochromaticity, coherence, intensity, and directionality properties. Holography was then explored for use in the medical field, data storage, and in
 augmented/virtual reality devices.
 
- 
-\end{abstract}
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{4.5cm}
-
+\setcounter{page}{1}
 \section{Theory} \label{sec:1}
 
 \subsection{Recording and Reconstruction of Holograms}
@@ -143,7 +144,7 @@ These beams interfere to create an interference pattern that is recorded onto th
 fringe spacing of the interference pattern. Therefore misalignmnets affect the clarity and resolution of the final hologram
 \cite{UCDholo,collier2013optical}.
 
-\begin{minipage}{.49\textwidth}
+\begin{minipage}{.51\textwidth}
     \captionsetup{hypcap=false}
     \centering
     \includegraphics[width=\linewidth]{hologram construction.png}
@@ -151,7 +152,7 @@ fringe spacing of the interference pattern. Therefore misalignmnets affect the c
     \label{fig:1}
 \end{minipage}
 \hfill
-\begin{minipage}{.49\textwidth}
+\begin{minipage}{.48\textwidth}
     \captionsetup{hypcap=false}
     \centering
     \includegraphics[width=\linewidth]{holo interference.jpg}
@@ -187,7 +188,7 @@ It is the phase encodement that makes a hologram appear to have a three-dimensio
 \begin{figure}[H]
     \centering
     \includegraphics[width=.5\textwidth]{amplitude v phase contrast.jpg}
-    \caption{\centering Comparison of amplitude (a-b) and phase (c-d) contrast in holography. Modeled phase images (e) and cross-sections (f) of experimental (c) phase images \protect\cite{ampvphaseimg}.}
+    \caption{Comparison of amplitude (a-b) and phase (c-d) contrast in holography. Modeled phase images (e) and cross-sections (f) of experimental (c) phase images \protect\cite{ampvphaseimg}.}
     \label{fig:6}
 \end{figure}
 
@@ -266,7 +267,7 @@ photographic plate and travelling backwards in time; and (right) an undeflected 
 \begin{figure}[H]
     \centering
     \includegraphics[width=.7\textwidth]{holography1.png}
-    \caption{\centering Two-dimensional projection of the interference patterns produced. A photographic plate at P1 would result in a transmission hologram.
+    \caption{Two-dimensional projection of the interference patterns produced. A photographic plate at P1 would result in a transmission hologram.
     A photographic plate at P2 wiuld result in a reflection hologram. \protect\cite{princetonholo}}
     \label{fig:3}
 \end{figure}
@@ -276,7 +277,7 @@ photographic plate and travelling backwards in time; and (right) an undeflected 
 Holography relies on the properties of laser light in order to reconstruct and record the necessary three-dimensional images. Lasers are \textbf{highly monochromatic, coherent, intense, and coherent} which allows for stable
 interference patterns. These properties are then what enable the precise encoding of the phase and amplitude information necessary for the reconstruction of the hologram \cite{UCDholo}.
 
-\subsubsection{Monochromaticity}
+\subsubsection{Monochromaticity} \label{sec:1.4.1}
 
 For stable interference the source itself must be stable such that the light is emitted at a single wavelength \cite{princelaser}.
 Any variation in wavelength would cause the recorded fringes to become "blurred", which affects the clarity of the final hologram, so the laser being monochromatic ensures the fringes remain sharp and stable (well-defined).
@@ -291,7 +292,7 @@ Any variation in wavelength would cause the recorded fringes to become "blurred"
 As can be seen in Figure \ref{fig:4}, the interference patterns from the monochromatic light sources (red, green, blue) appear much sharper than the "blurred" interference pattern of the white light (top)
 due to the range of wavelengths present in white light.
 
-\subsubsection{Coherence}
+\subsubsection{Coherence} \label{sec:1.4.2}
 
 For there to be stable interference the light source must have a fixed phase relationship at different points in time and/or space \cite{wolf2007introduction}.
 This property ensures that the reference and object beams maintain a consistent phase difference, allowing them to interfere and create the fringes of greater and lesser amplitudes
@@ -314,8 +315,8 @@ Thus, lasers are used in holography due to their spatial, strong correlation bet
         \caption{\centering Coherent laser light source}
         \label{fig:5b}
     \end{subfigure}
-    \caption{\centering '(a) The electric field strength E(t) of light of a lamp consists of uncorrelated individual wave tracks.
-    (b) Laser light consists of a single coherent very strong wave track.' \protect\cite{haken1986laser}.}
+    \caption{(a) The electric field strength E(t) of light of a lamp consists of uncorrelated individual wave tracks.
+    (b) Laser light consists of a single coherent very strong wave track. \protect\cite{haken1986laser}.}
     \label{fig:5}
 \end{figure}
 
@@ -412,7 +413,7 @@ With this technique two holographic recordings of an object are superimposed on 
 \begin{figure}[H]
     \centering
     \includegraphics[width=.9\textwidth]{holographic interferometry.png}
-    \caption{\centering Comparison betwen fringe intesity (interferometry) as calculated with (a) digital holography, (b) transmission holography, (c) reflection holography \protect\cite{Olchewsky17}.}
+    \caption{Comparison betwen fringe intesity (interferometry) as calculated with (a) digital holography, (b) transmission holography, (c) reflection holography \protect\cite{Olchewsky17}.}
     \label{fig:10}
 \end{figure}
 
@@ -467,32 +468,46 @@ While holographic display-based AR/VR devices have many advantages, one must als
 Also, many of the existing platforms cannot accommodate nor support the demands of real-time holographic displays while mainting high display quality. Advanced algorithms should be developed in order to account for this \cite{he2019progress}.
 Lastly, SLMs have limited space bandwidth product (SBP) so the size and field-of-view (FOV) of the reconstructed holographic images in the AR/VR device are quite small \cite{he2019progress}.
 
+\newpage
+
 \section{Methodology} \label{sec:2}
 
 \subsection{Recording the Hologram}
 
-To record the hologram the apparatus was setup as shown in Figure \ref{fig:11}. The red laser was allowed to warm up before the procedure was carried out and the darkroom was kept completely blacked-out.
+To record the hologram the apparatus was setup as shown in Figure \ref{fig:11}. The red laser was allowed to warm up before the procedure to ensure stable power output and coherence. The darkroom was kept completely blacked-out to prevent unnecessary exposure to external light \cite{UCDholo}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.5\linewidth]{holo setup.jpeg}
+    \includegraphics[width=.65\linewidth]{holo setup.jpeg}
     \caption{\centering Apparatus set up for the recording of the reflection hologram.}
     \label{fig:11}
 \end{figure}
 
-The holographic emulsion plates were opened and unwrapped \textit{inside} the darkroom to avoid any noise in the hologram when developing due to unwanted exposure, despite the difficulty in doing so as it is hard to see.
-The emulsion side was identified by feeling for a slight tackiness, taking careful care to feel at the corners rather than the centre. Since the hologram is recorded along the emulsion (see §\ref{sec:1.5.2}) smudging the emulsion could result in a lesser-quality hologram.
+The holographic emulsion plates were opened and unwrapped \textit{inside} the darkroom to avoid any noise in the hologram when developing due to unwanted pre-exposure.
+The emulsion side was identified by feeling for a slight tackiness, taking careful care to feel at the corners rather than the centre to avoid contaminating the emulsion surface. Since the hologram was recorded along the emulsion (see §\ref{sec:1.5.2}) smudging the emulsion via direct contact could result in degraded hologram quality.
 
-The emulsion plate was placed on the object of choice (ie. a key) with the emulsion side to the object, ensuring the laser light was positioned properly to illuminate the entire object. This has to be done with great care as to not create unnecessary vibrations that could lessen the final
-hologram quality. About 15 minutes of laser light exposure are required for the hologram to be recorded on the holographic plate.
+The holographic plate was placed on the object of choice (a key) with the emulsion side to the object. The laser light beam was positioned to fully illuminate the entire object, ensuring equal and even exposure to avoid distortions and noise in the final result.
+Special care is taken to minimise vibrations during setup as this could result in a lesser-quality hologram due to disturbances that reduce image sharpness.
+Approximately 15 minutes of laser light exposure are required for the hologram to be recorded on the holographic plate. The exposure time is based on the plate photosensitivity and the laser intensity, but emulsion thickness should also be taken into account \cite{UCDholo}.
+Longer exposure times could improve hologram contrast and sharpness, but run the risk of higher noise due to background interference and overexposure.
 
 \subsection{Processing the Hologram}
 
-Proper safety equipment of gloves and goggles must be used in the development of the hologram as chemicals will be used (see Figure \ref{fig:12}, right). A developer of equal parts of Part A (4-(Methylamino)phenol) and Part B (Sodium Carbonate Anhydrous, Sodium Hydroxide), a
-bleach solution (Copper Sulfate Pentahydrate, Potassium Bromide, Sodium Bisulfate (Monohydrate)), distilled water, and a wetting solution are used.
+Proper safety equipment, including gloves and  protective goggles, must be used in the development of the hologram as chemical reagents are used (see Figure \ref{fig:12}, right). The development process made use of a series of chemical baths: a developer solution, distilled water to rinse, a bleaching solution, and wetting solution.
+The developer consisted of equal parts of Part A (4-(Methylamino)phenol) and Part B (Sodium Carbonate Anhydrous, Sodium Hydroxide). The
+bleach solution contained Copper Sulfate Pentahydrate, Potassium Bromide, Sodium Bisulfate (Monohydrate). All solutions were prepared with precise and consistent concentrations.
 
-For processing, the holographic plate is kept emulsion-side up to avoid scratching and must be agitated in the conatiners of each chemical in the following order: developer, rinse (distilled water), bleach, rinse, wetting solution.
-The holographic plate is then left standing vertically up to dry (see Figure \ref{fig:12}). Results should start being visible at around 30 minutes, and can take up to an hour to fully dry.
+For processing, the holographic plate was kept emulsion-side up to avoid scratching. The plate was then gently agitated in the conatiners of each chemical in the following order:
+
+\begin{itemize}
+    \item \textbf{Developer}, 20 seconds to 2 minutes or until the holographic plate turns dark.
+    \item \textbf{Distilled water} to rinse, 1 to 3 minutes to remove excess developer.
+    \item \textbf{Bleach solution}, 1 to 2 minutes or until the holographic plate turns clear again.
+    \item \textbf{Distilled water} to rinse, 1 to 3 minutes to stop the bleachin process.
+    \item \textbf{Wetting solution}, 20 seconds to 1 minute, allows for uniform drying and prevents streaking.
+\end{itemize}
+
+The developed holographic plate was then arranged to dry vertically (see Figure \ref{fig:12}), preventing streak formation and to dry evenly as excess solutions run down. Results started becoming visible after approximately 30 minutes \cite{UCDholo}.
 
 \begin{figure}[H]
     \centering
@@ -509,11 +524,13 @@ The holographic plate is then left standing vertically up to dry (see Figure \re
 
 \section{Results and Discussion} \label{sec:3}
 
-The final hologram for this experiment turned out incredibly good. The image was sharp and the details could be clearly seen down to the imperfections where the key was buffed. There was some skepticism in regards to whether there would even
-be a final hologram when this lab waas conducted, but the end result was very rewarding (see Figure \ref{fig:13}). 
+The final hologram that was produced for this experiment showcased incredible clarity, with sharp image that captured the fine details of the object, including minor imperfections where the key had been
+buffed unevenly. There was initial skepticism on whether a successful hologram would be produced, thus the high-quality end result achieved was particularly rewarding (see Figure \ref{fig:13}).
 
-What I find to be one of the coolest aspects of this hologram is that it captured the areas of the key that would appear to shine brighter
-under a light, such as the edges of the divots and down the centre. This is due to the fact that the key is mostly optically specular (see §\ref{sec:1.6}) and the only (visually) changes in topographical depth of the key come from the large divot down the centre of the body.
+One of the most notable aspects of this hologram was its ability to capture reflective characteristics of the key, particularly at the time of recording. Areas that normally appear brighter under direct light,
+such as the edges of the divots and central groove, were distinctly more visible as they appeared to reflect more intensely. This effect was due to the predominantly "optically specular" (see §\ref{sec:1.6}) properties of the key,
+with the significant topographical variations limited mostly to the central groove, appearing darker than the rest of the illuminated key. Should the key have been polished, the overall specular reflectivity would have increased, further
+enhancing the contrast between the areas of different depths.
 
 \begin{figure}[H]
     \centering
@@ -532,30 +549,41 @@ under a light, such as the edges of the divots and down the centre. This is due 
     \label{fig:13}
 \end{figure}
 
-As can be seen in Figure \ref{fig:13}, the full key was not captured. Particularly, the top of the circular head was not captured. The laser was clearly not fully positioned over the entire key, but as we wanted the room to be as dark as
-possible we positioned everything in the dark and so were unable to verify if the key was completely illuminated. While the laser light was indeed a light source, the fact that it was red and so coherent it just resulted in headaches.
-However, the fact that the part that wasn't recorded fades out rather than being a cut-off showcases the interacting behaviour of the light with the holographic plate. Additionally, while at most angles the key hologram is shown in the same colour
-as the recording laser (red), there is a specific angle wherein it appears green instead (see Figure \ref{fig:13}, top right). This relates back to the fact that reflection holograms make use of Bragg diffraction in order to be seen in white light (see §\ref{sec:1.5.2}).
+As shown in Figure \ref{fig:13}, the full key was not recorded. Specifically, the upper portion of the circular key head is missing, most likely due to improper alignment of the laser that resulted in improper illumination of the complete key.
+Due to the setup being done in complete darkness to avoid any unnecessary exposure, it was not possible to ensure that the entire key was illuminated by the laser light's path. While the laser was a light source, its coherence and monochromaticity does not aid in visibility.
+As the missing top portion appears to fade rather than experience an abrupt cut-off, the interaction between the laser light and holographic plate is highlighted.
 
-Despite the hologram appearing incredibly sharp and well-defined to the human eye, there were liekly some factors that, if avoided further, could have resulted in a higher quality hologram. It was decided to do all of the development of the hologram in the dark, just to make
-sure there truly wasn't any accidental exposure until the hologram was fully developed in the chemicals, but this also meant that I was digging around the chemical containers in the dark looking for the edges of a near-invisible plate. This likely caused some scrathing on the emulsion surface.
-As well, since I didn't want to stand in the dark room for the full 15 minuts of recording, I tried to leave as slowly and carefully as possible to minimise vibrations and outside light in as possible. Of course, I am still only human,
-and it's likely there were still vibrations and light exposure. 
+The clarity of the holographic image is directly related to the coherence of the laser light source used during the recording process as with a coherent source the interference pattern remains well-defined during recording (see §\ref{sec:1.4.2}).
+This results in a sharp, well-defined and accurate reconstruction of the object on the holographic plate. Any phase shifts or wavelength variations that are present in incoherent sources would result in a blurry image with reduced contrast (see §\ref{sec:1.4.1}).
+
+Additionally, despite the hologram being recorded with red laser light, at certain angles a green colouring can be viewed instead (see Figure \ref{fig:13}, top right). This occurs due to the Bragg diffraction present in reflection holograms, which allows reflection holograms to be seen
+under white light (see §\ref{sec:1.5.2}). This colour shift occurs due to the angular dependence of diffraction. A change in viewing angle would consequently change the angle at which the visible interference pattern occurs, effectively changing the wavelength at which the constructive
+pattern is formed at. As the hologram recorded shifts from red to green, it would suggest that it is selectively diffracting shorter wavelengths at steeper angles, consistent with Bragg diffraction properties. Had the object been recorded with green laser light instead,
+the key would appear green instead for pmost viewing angles and slightly bluer in colouring at steeper angles. However, to view it bluer, the angle of viewing would have to be more extreme with respect to the original recording wavelength as blue light has much shorter wavelengths.
+
+Despite the high-quality results, there were several factors likely influenced the final hologram clairty by introducing minor imperfections. The recording and processing of the hologram were both entirely conducted in darkness to minimise accidental exposure before the hologram was fully processsed.
+However, due to lack of visibility in a dark room, issues arose when handling the holographic plate. As the plate was not easily located in the dark, surface scratches on the emulsion might have been formed during the chemical processing. Additionally, in an effort to minimse vibrations and external light exposure,
+movement within the dark room was kept slow, careful, and deliberate. Despite this precautions, and due to limitations in the experimental setup, there was likely some degree of vibrations and light leak that was unintended. Had these factors been further minimised or removed entirely the final hologram would have likely appeared sharper and clearer, with overall
+higher-quality.
+
+\vspace{2.5cm}
 
 \section{Conclusion} \label{sec:4}
 
-This experiment was successful in recording and reconstructing a hologram of a key with great clarity and sharpness, and thus also successfully desmonstrated the key concepts and principles explored in holography.
-The final results of the hologram showed the strong correlation between the image quality of the hologram and influence factors discussed in the Theory section, such as alignment, laser coherence and monochromaticity, and minimal vibrations/outside exposure
-during the recording process.
+This experiment successfully recorded and reconstructed the desired high-quality hologram of a key, effectively demonstrating the key concepts and principles of holography. The final results highlights the strong correlation between
+hologram clarity and influential factors such as laser coherence, alignment, and the minimisation of vibrations and external light exposure during the recording process of the hologram. The resulting hologram showcased a high-quality three-dimensional
+reconstruction of the key with the fine details and specular reflective properties accurately captured. However, due to improper laser positioning, a portion of the top of the key was left missing. Despite this, the hologram still shows sharp contrast which confirms the effectiveness of the 
+recording environment and processing conditions.
 
-The final hologram clearly displayed the expected results of a well-defined 3D image reconstruction of the original object. A portion of the key was not captured due to errors in laser positioning during the recording process but all other
-influencing factors appear to have been minimised as the resulting hologram was clear and sharp.
+For further iterations of this experiment, the final result would benefit in refinements to the setup to improve hologram quality. Vibrations should be reduced, ideally minimised, to improve image quality and reduce blurriness. This can be done with the use of vivration-free flat surfaces \cite{UCDholo,princetonholo}.
+For example, the use of a air-damped optical table could be useful for this experiment due to their low resonant frequencies and self-levelling features that keep constant height, therefore reducing vibrations and improving stability \cite{opticaltable}.
+Complete illumination of the object should be ensured to avoid unnecessary missing portions of the final hologram. Varying laser wavelengths (discussed in §\ref{sec:3}) and experimenting with different exposure times could provide further insight into how resolution and image quality can be improved. Greater exposure times
+would allow for further defined interference patterns, resulting in a sharper holographic image. However, excessive exposure could laed to overexposure, which can reduce contrast by increasing noise in the final hologram. Optimal exposure times would depend on the laser power (light intensity), the plate's photosensitivity, and environmental stability (as discussed).
+Additional improvements could be made in allowing minimal minimal lighting in the darkroom during chemical processing to aid in handling of the emulsion plate while also minimising risk of accidental external exposure until the hologram is fully developed.
 
-In future renditions of this experiment, greater care could be taken to further minimise vibrations and unwanted light exposure, as well as ensuring the laser is properly illuminating the full object so a well-rounded conclusion can be accomplished.
-Greater care when processing the holographic emulsion plate in the chemicals can be considered to avoid possibly scratching the surface, and some light can be allowed into the darkroom during this process so the location of the holographic plate is not lost.
-
-Despite shortcomings, this experiment was able to reaffirm the particular importance of using a laser light in holography due to its properties of monochromaticity, cohrerence, directionality, and intensity, as well as successfully displaying the effects of Bragg diffraction in
-reflection holograms when viewing the hologram at parallax. These results also further emphasise the versatility of holography in all sectors of the world, particularly those discussed of medical imaging, data storage, and augmented/virtual reality devices.
+Overall, the experiment was able to reinforce the critical role of laser properties (monochromaticity, coherence, intensity, directionality) in creating a successful hologram. The observed Bragg diffraction effects highlighted the
+optical principles in reflection holography, further emphasising the role of laser light in hologram creation. The results obtained showcased the broad applicability of holography in fields such as medical imaging, data storage, and augmented/virtual reality devices, encouraging
+further exploration for refinement and applications of this technique.
 
 \newpage
 
