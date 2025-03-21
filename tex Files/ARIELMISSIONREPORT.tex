@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt]{report}
 \usepackage[a4paper, margin=2cm]{geometry}
 \usepackage[english]{babel} % To obtain English text with the blindtext package
 \usepackage{blindtext}
@@ -29,6 +29,7 @@
         left=0pt, right=0pt,
         top=3pt, bottom=3pt
     }
+\usepackage{fancyhdr, titlesec}
 
 \cftsetindents{section}{0em}{2em}
 \cftsetindents{subsection}{0em}{2em}
@@ -56,6 +57,19 @@
 \setcounter{tocdepth}{5}
 \newcommand\simpleparagraph[1]{%
   \stepcounter{paragraph}\paragraph*{\theparagraph\quad{}#1}}
+
+\pagestyle{fancy}
+\renewcommand\sectionmark[1]{}
+\makeatletter
+\renewcommand{\chaptermark}[1]
+    {\markboth{\ifnum\value{chapter}>0\@chapapp\ \thechapter\fi\hfill#1}{}}
+\makeatother
+\fancyhf{}
+\fancyhead[R]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{15pt}
+
+\titleformat{\chapter}[hang]{\LARGE\bfseries}{\thechapter.}{1em}{} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -93,15 +107,14 @@
 
 \end{titlepage}
 
-\setcounter{page}{1}
 \tableofcontents
-\pagenumbering{roman}
+\thispagestyle{empty}
 
 \newpage
 
 \begin{abstract}
-\addcontentsline{toc}{section}{Abstract}
-\pagenumbering{arabic}
+\addtocontents{toc}{\protect\contentsline{chapter}{\textbf{Abstract}}{\hfill}{}}
+\thispagestyle{empty}
 
 
 
@@ -110,22 +123,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{4.5cm}
+\setcounter{page}{1}
+\pagenumbering{arabic}
 
-\section{Theory} \label{sec:1}
+\chapter{Theory} \label{sec:1}
 
 \cite{rian}
-
-
-\section{Methodology} \label{sec:2}
-
-
-
-\section{Results and Discussion} \label{sec:3}
-
-
-
-\section{Conclusion} \label{sec:4}
 
 
 
