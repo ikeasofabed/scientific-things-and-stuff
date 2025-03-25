@@ -21,10 +21,49 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{rian}
+\bibitem{ENDL2007887}
 \BIBentryALTinterwordspacing
-R.~Byrne. (2025, February) {Student ID: 23349346}. [Accessed 16 February 2025].
-  [Online]. Available: \url{https://www.instagram.com/rian.o.broin/}
+M.~Endl and W.~D. Cochran, ``{CHAPTER 47 - Extrasolar Planets},'' in
+  \emph{{Encyclopedia of the Solar System (Second Edition)}}, 2nd~ed., L.-A.
+  McFadden, P.~R. Weissman, and T.~V. Johnson, Eds.\hskip 1em plus 0.5em minus
+  0.4em\relax San Diego: Academic Press, 2007, pp. 887--902. [Online].
+  Available:
+  \url{https://www.sciencedirect.com/science/article/pii/B9780120885893500517}
+\BIBentrySTDinterwordspacing
+
+\bibitem{UCDastrometry}
+CLEA, \emph{{Astrometry of Asteroids}}, November 2008.
+
+\bibitem{owen2000error}
+W.~M. Owen~Jr, ``{Error Sources in Asteroid Astrometry},'' \emph{NASA}, 2000.
+
+\bibitem{hipparcos}
+\BIBentryALTinterwordspacing
+ESA. (1989-1993) Hipparcos overview. [Accessed 22 March 2025]. [Online].
+  Available:
+  \url{https://www.esa.int/Science_Exploration/Space_Science/Hipparcos_overview}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gaiaesa}
+\BIBentryALTinterwordspacing
+------. (2013-2025) {gaia mission}. [Accessed 22 March 2025]. [Online].
+  Available: \url{https://www.esa.int/Science_Exploration/Space_Science/Gaia}
+\BIBentrySTDinterwordspacing
+
+\bibitem{equatorialcoords}
+J.~Patris, ``{Preparing astronomical observations and observing with OHP
+  facilities},'' \emph{EPJ Web of Conferences}, vol.~9, p. 217, December 2010.
+
+\bibitem{warren1990fifth}
+W.~H. Warren~Jr, ``{Fifth Fundamental Catalogue (FK5). Part 1: Basic
+  fundamental stars (Fricke, Schwan, and Lederle 1988): Documentation for the
+  machine-readable version},'' \emph{NSSDC WDC-A-R\&S}, 1990.
+
+\bibitem{hstgsc}
+\BIBentryALTinterwordspacing
+NASA. (2012, August) {GSC - HST Guide Star Catalog, Version 1.2}. [Accessed 22
+  March 2025]. [Online]. Available:
+  \url{https://heasarc.gsfc.nasa.gov/w3browse/all/gsc.html}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

@@ -1,0 +1,5 @@
+{"rule":"SENTENCE_WHITESPACE","sentence":"^\\QAbstract.\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\Q[L]\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\Qsection Abstract\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\Qsample  !\\E$"}
+{"rule":"COLLECTIVE_NOUN_VERB_AGREEMENT_VBP","sentence":"^\\QtextbfWhat fraction of planets are covered by clouds?\\E$"}

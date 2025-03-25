@@ -57,6 +57,8 @@
 \newcommand\simpleparagraph[1]{%
   \stepcounter{paragraph}\paragraph*{\theparagraph\quad{}#1}}
 
+\pagenumbering{arabic}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -81,7 +83,7 @@
 
         {\LARGE \bfseries PHYC20040 Exploring the Solar System}\\
         \vspace{0.75cm}
-        {\Large Experiment No.4 Astometry of Asteroids}
+        {\Large Experiment No.4 Astrometry of Asteroids}
         
         \vspace{1cm}
     
@@ -92,33 +94,73 @@
     {\large \textbf{by Joana C.C. Adao (Student No. 23311051)}}\\
 
     \end{center}
-    
+
    \clearpage
 
 \end{titlepage}
 
-\setcounter{page}{1}
 \tableofcontents
-\pagenumbering{roman}
+\thispagestyle{empty}
 
 \newpage
 
 \begin{abstract}
-\addcontentsline{toc}{section}{Abstract}
-\pagenumbering{arabic}
+\addtocontents{toc}{\protect\contentsline{section}{\textbf{Abstract}}{\hfill}{}}
+\thispagestyle{empty}
 
 
 
  
 \end{abstract}
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{4.5cm}
-
+\setcounter{page}{1}
 \section{Theory} \label{sec:1}
 
-\cite{rian}
+\subsection{Introduction to Astrometry}
+
+Astrometry is a type of astronomical measurement technique that focuses specifically on measuring the location of moving celestial objects within the sky plane \cite{ENDL2007887}.
+This was one of the first techniques developed for searching planets around other stars, and remains a fundamental tool to astronomers to this day \cite{UCDastrometry,ENDL2007887}.
+
+There are, of course, standard errors that come from measuring the movement of celestial objects through astrometric observations. This applies to both one's personal measurements and those found in star catalogues.
+There will always be noise error when collecting photons from the targets, whether that be from background noise or from the target itself, photon distribution will vary between measurements at each different exposure time \cite{owen2000error}.
+When measuring the position of an asteroid there will be tracking errors due to the fact that astroids move, sometimes producing trails that are neither straight nor uniformly illuminated, hence determining the centre is difficult \cite{owen2000error}.
+These are examples of random errors that can be encountered, but there also exist systematic errors. The reference star catalogue may have possible zone errors, meaning stars have a bias for a particular region
+of the sky that apply to any other asteroid measured in that sky region. The Hipparcos mission (1989-1993) was able to better pinpoint star's motion and position, thus effectively lessening this error \cite{owen2000error} and is being further
+refined by the Gaia mission (2013-2025) \cite{hipparcos,gaiaesa}.
+
+\subsection{Equatorial Coordinates}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.5\textwidth]{equatorial coords.png}
+    \caption{Definition of equatorial coordinates system on the sky. Observer is at the centre of the sphere, which has an arbitrary radius of $\infty$ \protect\cite{equatorialcoords}.}
+    \label{fig:1}
+\end{figure}
+
+\subsubsection{Right Ascension and Declination}
+
+
+
+\subsubsection{Reference Star Catalogues}
+
+\textbf{FK5} \cite{warren1990fifth}.
+
+\textbf{Hubble Space Telescope Guide Star Catalogue (HST GSC)} \cite{hstgsc}.
+
+\subsection{Celestial Coordinates}
+
+
+
+\subsection{Principles of Parallax}
+
+
+
+
 
 
 \section{Methodology} \label{sec:2}
