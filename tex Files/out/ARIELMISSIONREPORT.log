@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  25 MAR 2025 23:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  26 MAR 2025 22:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -951,19 +951,18 @@ File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
 Package pdftex.def Info: ./images/UCDLogo.png  used on input line 90.
 (pdftex.def)             Requested size: 386.95897pt x 135.62495pt.
-
-
-[1
-
-{/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./images/UCDLogo.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 112.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 112.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+
+[1
+
+{/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./images/UCDLogo.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.toc)
 \tf@toc=\write5
 \openout5 = `ARIELMISSIONREPORT.toc'.
 
@@ -973,7 +972,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 \newpage
+l.123 \newpage
                [1
 
 ]
@@ -984,67 +983,103 @@ l.120 \newpage
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.189 \newpage
-               [1]
+l.196 
+       [1]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.258 
-       [2]
-<./images/ariel target map.png, id=134, 563.10374pt x 330.23375pt>
+l.204 \newpage
+               [2]
+<./images/sun no touch.jpg, id=145, 723.70375pt x 356.33125pt>
+File: ./images/sun no touch.jpg Graphic file (type jpg)
+<use ./images/sun no touch.jpg>
+Package pdftex.def Info: ./images/sun no touch.jpg  used on input line 236.
+(pdftex.def)             Requested size: 435.32422pt x 214.3441pt.
+
+
+[3]
+
+[4 <./images/sun no touch.jpg>]
+
+[5]
+<./images/science interruptions.png, id=186, 1171.37625pt x 660.4675pt>
+File: ./images/science interruptions.png Graphic file (type png)
+<use ./images/science interruptions.png>
+Package pdftex.def Info: ./images/science interruptions.png  used on input line 320.
+(pdftex.def)             Requested size: 435.32422pt x 245.45757pt.
+
+
+[6]
+<./images/distribution ariel.png, id=199, 631.35875pt x 593.21625pt>
+File: ./images/distribution ariel.png Graphic file (type png)
+<use ./images/distribution ariel.png>
+Package pdftex.def Info: ./images/distribution ariel.png  used on input line 339.
+(pdftex.def)             Requested size: 241.84843pt x 227.23486pt.
+
+
+[7 <./images/science interruptions.png>]
+<./images/planet w small orbits.png, id=220, 448.67625pt x 333.245pt>
+File: ./images/planet w small orbits.png Graphic file (type png)
+<use ./images/planet w small orbits.png>
+Package pdftex.def Info: ./images/planet w small orbits.png  used on input line 367.
+(pdftex.def)             Requested size: 362.77264pt x 269.44897pt.
+
+
+[8 <./images/distribution ariel.png>]
+
+[9 <./images/planet w small orbits.png>]
+<./images/ariel target map.png, id=256, 563.10374pt x 330.23375pt>
 File: ./images/ariel target map.png Graphic file (type png)
 <use ./images/ariel target map.png>
-Package pdftex.def Info: ./images/ariel target map.png  used on input line 264.
+Package pdftex.def Info: ./images/ariel target map.png  used on input line 430.
 (pdftex.def)             Requested size: 435.32422pt x 255.29863pt.
 
 
-[3 <./images/ariel target map.png>]
-<./images/tier 1 transit graph.png, id=151, 1275.76625pt x 444.66125pt>
+[10 <./images/ariel target map.png>]
+<./images/tier 1 transit graph.png, id=274, 1275.76625pt x 444.66125pt>
 File: ./images/tier 1 transit graph.png Graphic file (type png)
 <use ./images/tier 1 transit graph.png>
-Package pdftex.def Info: ./images/tier 1 transit graph.png  used on input line 279.
+Package pdftex.def Info: ./images/tier 1 transit graph.png  used on input line 445.
 (pdftex.def)             Requested size: 435.32422pt x 151.72562pt.
 
 
-[4 <./images/tier 1 transit graph.png>]
-<./images/tier 1 radius and temp plots.png, id=169, 794.97pt x 303.1325pt>
+[11 <./images/tier 1 transit graph.png>]
+<./images/tier 1 radius and temp plots.png, id=291, 794.97pt x 303.1325pt>
 File: ./images/tier 1 radius and temp plots.png Graphic file (type png)
 <use ./images/tier 1 radius and temp plots.png>
-Package pdftex.def Info: ./images/tier 1 radius and temp plots.png  used on input line 310.
+Package pdftex.def Info: ./images/tier 1 radius and temp plots.png  used on input line 476.
 (pdftex.def)             Requested size: 435.32422pt x 165.9972pt.
 
 
-[5 <./images/tier 1 radius and temp plots.png>]
-<./images/comparison tiers.png, id=192, 1208.515pt x 416.55624pt>
+[12 <./images/tier 1 radius and temp plots.png>]
+<./images/comparison tiers.png, id=314, 1208.515pt x 416.55624pt>
 File: ./images/comparison tiers.png Graphic file (type png)
 <use ./images/comparison tiers.png>
-Package pdftex.def Info: ./images/comparison tiers.png  used on input line 348.
+Package pdftex.def Info: ./images/comparison tiers.png  used on input line 514.
 (pdftex.def)             Requested size: 435.32422pt x 150.04912pt.
 
 
-[6 <./images/comparison tiers.png>]
-<./images/tiers ariel.png, id=208, 615.29875pt x 512.91624pt>
+[13 <./images/comparison tiers.png>]
+<./images/tiers ariel.png, id=330, 615.29875pt x 512.91624pt>
 File: ./images/tiers ariel.png Graphic file (type png)
 <use ./images/tiers ariel.png>
-Package pdftex.def Info: ./images/tiers ariel.png  used on input line 374.
+Package pdftex.def Info: ./images/tiers ariel.png  used on input line 540.
 (pdftex.def)             Requested size: 266.03474pt x 221.77061pt.
 
 
-[7 <./images/tiers ariel.png>]
+[14 <./images/tiers ariel.png>]
 
-[8]
+[15]
 
-[9]
+[16]
 
-[10]
+[17] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl
 
-[11]
+[18]) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lof
 
-[12] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lof
-
-[13])
+[19])
 \tf@lof=\write6
 \openout6 = `ARIELMISSIONREPORT.lof'.
 
@@ -1054,10 +1089,8 @@ Package pdftex.def Info: ./images/tiers ariel.png  used on input line 374.
 
 
 
-[14]
-
-[15]
-runsystem(latexminted cleantemp  --timestamp 20250325233604Z 8B56276D456E6CB0D58627FFBDE9C464)...executed.
+[20]
+runsystem(latexminted cleantemp  --timestamp 20250326224946Z 8B56276D456E6CB0D58627FFBDE9C464)...executed.
 
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.aux)
  ***********
@@ -1066,17 +1099,17 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33516 strings out of 473530
- 684361 string characters out of 5704664
- 1171277 words of memory out of 5000000
- 56114 multiletter control sequences out of 15000+600000
+ 33615 strings out of 473530
+ 686717 string characters out of 5704664
+ 1175824 words of memory out of 5000000
+ 56189 multiletter control sequences out of 15000+600000
  569273 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,20n,117p,1305b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.pdf" (18 pages, 1386931 bytes).
+ 95i,20n,117p,1305b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.pdf" (23 pages, 1769333 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 629 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 359 words of extra memory for PDF output out of 10000 (max. 10000000)
 

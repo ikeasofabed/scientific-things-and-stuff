@@ -50,11 +50,16 @@ B.~Edwards, L.~Mugnai, G.~Tinetti, E.~Pascale, and S.~Sarkar, ``{An updated
   study of potential targets for Ariel},'' \emph{The Astronomical Journal},
   vol. 157, no.~6, p. 242, 2019.
 
-\bibitem{arielTESScandidates}
+\bibitem{ARIEL_M4_Proposal}
 \BIBentryALTinterwordspacing
-TESS, ``{Ariel TESS Candidates (377)},'' [Accessed 3 March 2025]. [Online].
-  Available: \url{https://exofop.ipac.caltech.edu/tess/view_toi_ariel.php}
+{ESA}, ``{ARIEL M4 Proposal: Atmospheric Remote-sensing Infrared Exoplanet
+  Large-survey},'' 2019, [Accessed 22 March 2025]. [Online]. Available:
+  \url{https://www.cosmos.esa.int/documents/1783156/3267291/ARIEL_M4_Proposal_Finalred.pdf/446fb1e6-9e07-5afc-a70f-f19b23d99590?t=1566986011370}
 \BIBentrySTDinterwordspacing
+
+\bibitem{kondo2001kepler}
+Y.~Kondo, ``{Kepler Mission: Detecting Earth-sized Planets in Habitable
+  Zones},'' in \emph{Millennium Philcon Conference}, 2001.
 
 \bibitem{salvignol2024ariel}
 J.-C. Salvignol, T.~L{\"u}ftinger, G.~S. Criado, S.~Fahmy, C.~D. de~la Fosse,
@@ -72,6 +77,40 @@ G.~Tinetti, C.~Haswell, J.~Leconte, P.-O. Lagage, G.~Micela, M.~Min, L.~Testi,
   \url{https://sci.esa.int/documents/34022/36216/Ariel_Definition_Study_Report_2020.pdf}
 \BIBentrySTDinterwordspacing
 
+\bibitem{charnay2021phasecurve}
+B.~Charnay, J.~M. Mendon{\c{c}}a, L.~Kreidberg, N.~B. Cowan, J.~Taylor, T.~J.
+  Bell, O.~Demangeon, B.~Edwards, C.~A. Haswell, G.~Morello \emph{et~al.}, ``{A
+  survey of Exoplanet Phase curves with Ariel},'' \emph{Experimental
+  Astronomy}, vol.~53, no.~2, p. 417–446, March 2021.
+
+\bibitem{platofact}
+\BIBentryALTinterwordspacing
+ESA, ``{PLATO Fast Facts},'' [Accessed 26 March 2025]. [Online]. Available:
+  \url{https://platomission.com/plato-fast-facts/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{keplerfact}
+\BIBentryALTinterwordspacing
+A.~Barbara, ``{KEPLER},'' [Accessed 26 March 2025]. [Online]. Available:
+  \url{https://archive.stsci.edu/missions-and-data/kepler}
+\BIBentrySTDinterwordspacing
+
+\bibitem{tessfact}
+J.~Schleider, ``{TESS Observatory Guide},'' \emph{TESS Guest Investigator
+  Program}, p.~33, June 2017.
+
+\bibitem{fortier2024cheops}
+A.~Fortier, A.~Simon, C.~Broeg, G.~Olofsson, A.~Deline, T.~Wilson, P.~Maxted,
+  A.~Brandeker, A.~C. Cameron, M.~Beck \emph{et~al.}, ``{CHEOPS in-flight
+  performance-A comprehensive look at the first 3.5 yr of operations},''
+  \emph{Astronomy \& Astrophysics}, vol. 687, p. A302, 2024.
+
+\bibitem{arielTESScandidates}
+\BIBentryALTinterwordspacing
+TESS, ``{Ariel TESS Candidates (377)},'' [Accessed 3 March 2025]. [Online].
+  Available: \url{https://exofop.ipac.caltech.edu/tess/view_toi_ariel.php}
+\BIBentrySTDinterwordspacing
+
 \bibitem{morales2022ariel}
 J.~C. Morales, N.~Nakhjiri, J.~Colom{\'e}, I.~Ribas, E.~Garc{\'\i}a, D.~Moreno,
   and F.~Vilardell, ``{Ariel mission planning: Scheduling the survey of a
@@ -82,5 +121,11 @@ J.~C. Morales, N.~Nakhjiri, J.~Colom{\'e}, I.~Ribas, E.~Garc{\'\i}a, D.~Moreno,
 B.~Edwards and G.~Tinetti, ``{The Ariel target list: The impact of TESS and the
   potential for characterizing multiple planets within a system},'' \emph{The
   Astronomical Journal}, vol. 164, no.~1, p.~15, 2022.
+
+\bibitem{tinetti2018chemical}
+G.~Tinetti, P.~Drossart, P.~Eccleston, P.~Hartogh, A.~Heske, J.~Leconte,
+  G.~Micela, M.~Ollivier, G.~Pilbratt, L.~Puig \emph{et~al.}, ``{A chemical
+  survey of exoplanets with ARIEL},'' \emph{Experimental astronomy}, vol.~46,
+  pp. 135--209, 2018.
 
 \end{thebibliography}

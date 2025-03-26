@@ -2,32 +2,38 @@
 \contentsline {section}{\textbf {Abstract}}{\hfill }{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivation for Ariel}{1}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Importance of Studying Exoplanets}{1}{subsubsection.1.1.1}%
-\contentsline {section}{\numberline {2}Scientific Objectives}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Past Exoplanet Characterisation Efforts}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Criteria for Exoplanet Selection}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Ariel Tier List System for Observational Prioritisation}{2}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Survey (Tier 1)}{4}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Deep (Tier 2)}{5}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Benchmark (Tier 3)}{6}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Phase Curves (Tier 4)}{7}{subsubsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.4}Expected Discoveries}{8}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Spacecraft Overview}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}General Spacecraft Design}{9}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Key Components and Subsystems}{9}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Service Module (SVM)}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Payload Module (PLM)}{9}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Payload Instrumentation and Technology}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Optical and Spectroscopic Instruments}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Calibration and Performance}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Data Transmission and Storage}{10}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Mission Operations and Timeline}{11}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Launch and Deployment}{11}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Orbital Parameters}{11}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Operational Phases}{11}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Conclusion}{12}{section.6}%
-\contentsline {section}{References}{13}{section.6}%
-\contentsline {section}{Contributions}{14}{section.6}%
-\contentsline {section}{List of Figures}{14}{section*.10}%
-\contentsline {section}{List of Tables}{14}{section*.11}%
-\contentsline {section}{Appendix}{15}{section*.11}%
+\contentsline {subsubsection}{\numberline {1.1.1}The Need For Space-Based Exoplanet Observations}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Ariel's Role in the Era of JWST and ELTs}{2}{subsubsection.1.1.2}%
+\contentsline {section}{\numberline {2}Mission Operations and Timeline}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Launch and Mission Performance}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Science-Driven Performance Requirements}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Mission Design and Launch}{3}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Attitude and Autonomy}{4}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Observation Strategy}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Operational Phases}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Scientific Objectives}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Past Exoplanet Characterisation Efforts}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Criteria for Exoplanet Selection}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Ariel Tier List System for Observational Prioritisation}{9}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Survey (Tier 1)}{11}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Deep (Tier 2)}{12}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Benchmark (Tier 3)}{13}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Phase Curves (Tier 4)}{14}{subsubsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.4}The Scientific Reasoning for Studying Hot Exoplanets}{15}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Expected Discoveries}{15}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Spacecraft Overview}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}General Spacecraft Design}{16}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Key Components and Subsystems}{16}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}Service Module (SVM)}{16}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Payload Module (PLM)}{16}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Ariel IR Spectrometer (AIRS)}{16}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Fine Guidance System (FGS)}{16}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Analysis and Testing of the PLM}{16}{subsubsection.4.3.3}%
+\contentsline {paragraph}{\numberline {4.3.3.1}Surface Charging Analysis}{16}{paragraph.4.3.3.1}%
+\contentsline {paragraph}{\numberline {4.3.3.2}Thermoelastic Analysis}{16}{paragraph.4.3.3.2}%
+\contentsline {section}{\numberline {5}Conclusion}{17}{section.5}%
+\contentsline {section}{References}{18}{section.5}%
+\contentsline {section}{Contributions}{19}{section.5}%
+\contentsline {section}{List of Figures}{19}{section*.15}%
+\contentsline {section}{List of Tables}{20}{section*.16}%
+\contentsline {section}{Appendix}{20}{section*.16}%

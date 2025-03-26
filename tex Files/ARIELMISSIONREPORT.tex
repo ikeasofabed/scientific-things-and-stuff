@@ -106,7 +106,10 @@
     
     {\large \textbf{by}}\\
     \vspace{.5cm}
-    {\normalsize Joana Carranço Cabral Adão, Kyla Boyle, Ewan Finlayson, Ananya Laxmeshwar, Isha Mathew, Matilda Onnebrink, Brian Woods}\\
+    \begin{minipage}{.8\textwidth}
+        \centering
+        \normalsize{Joana Carranço Cabral Adão, Kyla Boyle, Ewan Finlayson, Ananya Laxmeshwar, Isha Mathew, Matilda Onnebrink, Brian Woods}
+    \end{minipage}
 
     \end{center}
     
@@ -165,7 +168,7 @@ found over 600 exoplanets and thousands more to be confirmed \cite{exoplanet_and
 The next significant research opportunity for the field lies in the spectroscopic observation of exoplanets' atmospheres \cite{madhusudhan2019exoplanetary}.
 Studying exoplanetary atmospheres is key to understanding planetary formation and evolution \cite{zingales2018ariel}.
 
-It can now be said that "we have entered the era of comparative exoplanetology" \cite[p. 617]{madhusudhan2019exoplanetary}.
+It can now be said that "we have entered the era of comparative exoplanetology" \cite[p.617]{madhusudhan2019exoplanetary}.
 Currently, only some exoplanetary atmospheres have been studied, and they have revealed new insights into the diversity of their chemical compositions and atmospheric processes \cite{madhusudhan2019exoplanetary}.
 More are expected to be studied by the James Webb Space Telescope (JWST) and the ground-based Extremely Large Telescope (ELT) \cite{beichman2014observations}.
 
@@ -181,10 +184,163 @@ in a competitive environment, where limited funding and resources dictate missio
 
 \subsection{Motivation for Ariel}
 
+\subsubsection{The Need For Space-Based Exoplanet Observations}
 
+To detect as many molecular species as possible, study the thermal structure of exoplanetary atmospheres, and account for contamination from the host star's photosphere, broad and continuous wavelength coverage is essential.
+The Ariel mission focuses on planets hotter than 600 K ($\sim$327 $^{\circ}$C), which requires infrared coverage from approximately 2 to 8 $\mu$m, along with simultaneous visible-light observations to track stellar activity \cite{ARIEL_M4_Proposal}.
+However, observing this spectral range from the ground is difficult due to interference from Earth's atmosphere (telluric contamination) \cite{ARIEL_M4_Proposal}.
 
-\subsubsection{Importance of Studying Exoplanets}
+At high temperatures, molecular absorption bands become broader, so only a modest spectral resolution is needed to detect them, something that a relatively small space telescope can achieve.
+To study hundreds of exoplanets, a highly stable and flexible space-based platform is necessary \cite{ARIEL_M4_Proposal}. A mission like Ariel would be able to observe the entire sky within a year, with targets near the ecliptic visible for about 30\%
+of the mission lifetime, something that isn't possible with ground-based operations \cite{ARIEL_M4_Proposal}.
 
+\subsubsection{Ariel's Role in the Era of JWST and ELTs}
+
+Future telescopes with large collecting areas, like the James Webb Space Telescope (JWST) and the Extremely Large Telescope (ELT), will provide much better exoplanet spectra than what we currently have, especially for fainter planets. While JWST and ELT will observe a few dozen exoplanets in great deal,
+studying how exoplanets form and evolve requires data from a much larger sample (about 10 times more). A larger collection area means higher photon detection, which is beneficial, but past missions like Spitzer and Hubble have shown that other factors, such as instrument stability and understanding systematics, are just as important.
+For example, Kepler was highly successful because it was specifically designed to reach the precise photometric accuracy ($10^{4}$ to $10^{-5}$) needed to detect Earth-sized planets \cite{kondo2001kepler}. 
+Another challenge is stellar activity, which can interfere with combining measurements taken at different wavelengths over different times. Additionally, many instruments are not calibrated well enough to accurately merge multiple observations. A key solution is using instruments that can observe a wide range of wavelengths at the same time \cite{ARIEL_M4_Proposal}.
+
+\newpage
+
+\section{Mission Operations and Timeline}
+
+\subsection{Launch and Mission Performance}
+
+\subsubsection{Science-Driven Performance Requirements}
+
+The key perfomance requirements impacting achievement of the science objectives are:
+
+\begin{itemize}
+    \item[-] \textbf{Wavelength Coverage:} Ariel observes from visible to infrared light wavelengths (0.5 to 1.1 $\mu$m) to capture to diverse spectral signatures of exoplanet atmospheres \cite{salvignol2024ariel}.
+    \item[-] \textbf{Spectral Resolving Power:} This determines Ariel's ability to distinguish wavelengths and identify atmospheric chemicals with the necessary precision \cite{salvignol2024ariel}.
+    \item[-] \textbf{Signal-to-Noise Ratio (SNR) and Noise Requirements:} A high signal-to-noise ratio is crucial for isolating faint exoplanet signals from background noise to ensure accurate measurements \cite{salvignol2024ariel}.
+    \item[-] \textbf{Photometric Stability/Pointing Stability:} Stable photometry and pointing are essential for minimising measurement errors and accurately capturing exoplanet signals \cite{salvignol2024ariel}.
+    \item[-] \textbf{Sky Visibility/Source Accessibility:} High sky visibility ensures that Ariel can observe a large number of targets throughout its mission \cite{salvignol2024ariel}.
+    \item[-] \textbf{Temporal Resolution:} Temporal resolution allows Ariel to observe changes in exoplanet atmospheres over time \cite{salvignol2024ariel}.
+    \item[-] \textbf{Limiting Targets:} Observing extreme exoplanets tests Ariel's capabilities and expands our understanding of atmospheric diversity \cite{salvignol2024ariel}.
+    \item[-] \textbf{Calibration:} Accurate calibration is necessary to remove instrumental effects and obtain reliable atmospheric measurements \cite{salvignol2024ariel}.
+    \item[-] \textbf{Zodiacal Light and Background:} Minimising the impact of zodiacal light and background noise is important for maximising signal clarity \cite{salvignol2024ariel}.
+\end{itemize}
+
+\subsubsection{Mission Design and Launch}
+
+The Ariel mission is schedule for launch in 2029 aboard an Ariane 6.2 rocket from Kourou in French Guiana, sharing the mission with ESA's Comet-Interceptor (F1) mission. The spacecraft will be deployed into a large, eclipse-free quasi-halo orbit around the second Lagrange Point (L2) of the Sun-Earth system, a location selected for its 
+stable thermal environment, consistent emission availability, and optimal sky visibility that ensures a consistent orientation of the Sun and Earth relative to the spacecraft.
+This positioning minimises thermal fluctuations and enhances observational stability, ensuring that the spacecraft remains free of Earth and Moon perturbations for up to six years \cite{salvignol2024ariel,arielstudyreport}.
+This allows the Payload Module (PLM) to remain in the shadow of the Service Module (SVM) as required (see Figure \ref{fig:6}) \cite{salvignol2024ariel}.
+The ejection of the spacecraft will be optimised to avoid risks of collisions and to account for each mission's individual constraints \cite{arielstudyreport}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\textwidth]{sun no touch.jpg}
+    \caption{Illustration of the Sun allowed region (green) in the XZAriel plane (left, showing associated rotations around YAriel) and YZAriel plane (right, showing associated roatations around XAriel) \protect\cite{salvignol2024ariel}.}
+    \label{fig:6}
+\end{figure}
+
+During operations, the spacecraft maintains a constrained field of regard but is capable of a full 360-degree roation around its z-axis for optimal target observations. Specific attitude control strategies around the x- and y-axes allow for extended observations of single targets without the need for spacecraft slewing \cite{salvignol2024ariel}.
+
+\subsubsection{Attitude and Autonomy}
+
+The nominal mission lifetime is set at four years, with a possible extension to six years based on performance and operational requirements \cite{salvignol2024ariel}. Mission operations will be conducted through two primary centres:
+
+\begin{itemize}
+    \item[-] The \textbf{Mission Operations Centre (MOC)} at ESA's European Space Operations Centre (ESOC), responsible for spacecraft operations and telemetry management \cite{salvignol2024ariel}.
+    \item[-] The \textbf{Science Ground Segment (SGS)}, which includes the \textbf{Science Operations Center (SOC)} at ESA's European Space Astronomy Centre (ESAC), and the \textbf{Instrument Operations and Science Data Centre (IOSDC)}, managed by the Ariel Mission Consortium (AMC) \cite{salvignol2024ariel}
+\end{itemize}
+
+Due to limited ground station contact periods, Ariel is designed to operate autonomously for at least six days at a time. The \textbf{Attitude and Orbit Control System (AOCS)} autonomously adjusts the spacecraft's orientation to meet the pointing requirements. Attitude adjustments are pre-planned and uploaded in advance, allowing for the 6 days of autonomous operations for onboard maneuvres and payload configuration commands \cite{salvignol2024ariel}.
+These adjustments are executed through ground-commanded attitudes, uplinked target quaternions, or pre-computed attitude profiles from ground control \cite{salvignol2024ariel}.
+Autonomous control is crititcal for maintaining operational integrity, particularly for avoiding Sun exclusion and restricted zones (see Figure \ref{fig:6}). If the AOCS inadvertently directs the spacecraft toward an unsafe position, the onboard Fault Detection, Isolation, and Recovery (FDIR) system prevents dangerous attitudes and ensures spacecraft safety \cite{salvignol2024ariel}.
+
+\subsection{Observation Strategy}
+
+Variations in the measured signal from spatially unresolved observations of an exoplanet at different points in its orbit around its host star provide insights into the planet's
+atmospheric spcetrum and phase-curve modulation. Since both the star and the exoplanet are observed simultaneously, the exoplanet's signal can be isolated by comparing measurements taken at different orbital positions \cite{salvignol2024ariel}.
+
+The Ariel mission observational strategy prioritises continuous phase-curve monitoring, even when multiple orbits are needed. Observations begin and end with the secondary eclipse, which serves as a reference point for the phase-curve measurements.
+To maintain precise timing, a margin of 7\% of the orbital period is included before and after the eclipse, minimising the uncertainty in eccentricity (e) to a maximum of 0.1 \cite{salvignol2024ariel}.
+
+Three key observation types are used to analyse different aspects of the exoplanetary atmosphere:
+
+\begin{itemize}
+    \item[-] \textbf{Emission/Reflection Spectroscopy During Eclipse/Occultation:} By comparing observations taken in and out of occultation, the planet's dayside spectrum can be determined \cite{salvignol2024ariel}.
+    \item[-] \textbf{Transmission Spectroscopy During Transit:} Absorption features in the exoplanet's atmosphere are measured by analysing differences between in-transit and out-of-transit measurements \cite{salvignol2024ariel}.
+    \item[-] \textbf{Phase Variation Analysis:} Monitoring changes in the planet's visible hemisphere throughout its orbit reveals insights into energy redistribution and atmospheric dynamics by detecting subtle differences between observations at various orbital phases \cite{salvignol2024ariel}.
+\end{itemize}
+
+The Table \ref{tab:3} summarises known planets from the phase-curve target list, including the number of orbits required to reach a signal-to-noise ratio (SNR) greater than 10. For thermal emission,
+we report the highest SNR value between the different photometric channels, assuming a Bond albedo of A$_B$ = 0.3 for planets with T$_p$ $<$ 700 K and A$_B$ = 0.1 for planets with T$_p$ $>$ 700 K \cite{salvignol2024ariel}. 
+For reflected light curves, the SNR is calculated by integrating flux over the 0.5 to 1.1 $\mu$m wavelength range, assuming a geometric albedo equal to the Bond albedo. The geometric albedo represents the raio of a planet's observed brightness (as seen from the light source) to that of an idealised,
+fully reflecting, diffusively scattering disc with the same cross-section \cite{salvignol2024ariel}.
+
+\begin{table}[H]
+    \centering
+    \caption{The study of variability through multi-epoch phase curves will be limited to one or two selected planets, such as HD 189733b, with plans to gather three phase curves for these targets. This comprehensive approach aims to provide a deeper understanding of the atmospheric dynamics and characteristics of the observed exoplanets \protect\cite{charnay2021phasecurve}.}
+    \label{tab:3}
+    \resizebox{.9\textwidth}{!}{%
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Planet} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}Period\\ (days)\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}Orbits Required\\ (SNR $>$ 10)\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}SNR\\ (Thermal Emission)\end{tabular}} &
+      \textbf{\begin{tabular}[c]{@{}c@{}}SNR\\ (Reflected Light)\end{tabular}} \\ \hline
+    GJ 1214b   & 1.58 & 11     & 1.0 & 0.3 \\ \hline
+    K2-266b    & 0.66 & 11     & 1.1 & 0.5 \\ \hline
+    55 Cnc e   & 0.74 & 10     & 0.3 & 0.3 \\ \hline
+    GJ 436b    & 2.64 & 15     & 2.0 & 0.9 \\ \hline
+    GJ 3470b   & 3.34 & 10     & 0.4 & 0.6 \\ \hline
+    HD 189733b & 2.22 & 1 or 3 & 5.2 & 3.0 \\ \hline
+    HD 209458b & 3.52 & 1 or 3 & 6.1 & 2.3 \\ \hline
+    XO-6b      & 3.77 & 10     & 7.6 & 3.5 \\ \hline
+    WASP-77Ab  & 1.36 & 10     & 6.1 & 3.5 \\ \hline
+    KELT-7b    & 2.73 & 10     & 5.3 & 2.8 \\ \hline
+    WASP-74b   & 2.14 & 9      & 7.6 & 3.4 \\ \hline
+    XO-3b      & 3.19 & 9      & 5.1 & 3.5 \\ \hline
+    WASP-82b   & 2.71 & 7      & 8.8 & 3.0 \\ \hline
+    WASP-14b   & 2.24 & 7      & 5.1 & 2.3 \\ \hline
+    KELT-O14b  & 1.71 & 7      & 1.1 & 3.9 \\ \hline
+    \end{tabular}%
+    }
+\end{table}
+
+\subsection{Operational Phases}
+
+Following launch, Ariel will undergo a transfer phase of approximately 1 month before reaching the final L2 orbit. The launcher will place the spacecraft on a direct transfer trajectory, requiring three planned control maneuvres \cite{salvignol2024ariel}:
+
+\begin{itemize}
+    \item[-] The first maneuvre will occur within 1 day after separation from the launcher, but no later than 2 days.
+    \item[-] No additional insertion maneuvre is required.
+    \item[-] A six-month commissioning and calibration phase following launcher separation, including 1 month for transfer operations and 5 months of calibration at L2.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\textwidth]{science interruptions.png}
+    \caption{\centering Overall Science operation plan and interruptions \protect\cite{salvignol2024ariel}.}
+    \label{fig:7}
+\end{figure}
+
+Once in the L2 orbit, the spacecraft maintains high availability for scientific observations with only minimal interruptions (see Figure \ref{fig:7}) \cite{salvignol2024ariel}:
+
+\begin{itemize}
+    \item[-] \textbf{Station-Keeping Maneuvres:} Conducted every 28 days, requiring less than 2 hours.
+    \item[-] \textbf{Data Transmission:} Performed every 2-4 days, the spacecraft reorients its high-gain antenna toward Earth to transmit science data, requiring less than 1.5 hours.
+    \item[-] \textbf{Target Transition Maneuvres:} Between successive observations, pointing adjustments and stability convergence require less than 20 minutes.
+\end{itemize}
+
+Typical Science observation slots last an average of 7.7 hours, with a maximum duration of up to 3 days per target \cite{salvignol2024ariel}.
+Inaction slots are inevitable for the Ariel mission, but through simulation it has been demonstrated that 85\%-90\% of the mission lifetime is available for Science observations, including extra observations of target exoplanets, observations of backup targets,
+or using the time for ancillary science (see Figure \ref{fig:8}) \cite{arielstudyreport}.
+
+\begin{SCfigure}[50][ht]
+    \centering
+    \includegraphics[width=.5\textwidth]{distribution ariel.png}
+    \caption{Distribution of the mission lifetime between different operations considered in the Ariel mission planning of the MRS target list. Inner and outer ring charts correspond to the genetic and hierarchical greedy algorithms, respectively. More than
+    85-90\% of the time can be used for MRS (on targets time), ancillary science targets (inactive slots), or science calibration observations \protect\cite{arielstudyreport}.}
+    \label{fig:8}
+\end{SCfigure}
 
 \newpage
 
@@ -192,7 +348,10 @@ in a competitive environment, where limited funding and resources dictate missio
 
 \subsection{Past Exoplanet Characterisation Efforts}
 
-
+Nasa's Kepler, K2, and TESS missions, alongside ESA's Cheops and PLATO, use visible light to find exoplanets by detecting their transits or measuring their sizes after discovery through radial velocity \cite{ARIEL_M4_Proposal}.
+These missions have already found thousands of exoplanets, especially around bright stars, and many more will be discovered in the coming years. The next big step is measuring and studying these planets' atmospheres using infrared (IR) spectroscopy, which can reveal their chemical composition.
+However, none of these missions are designed for that, most taking measurements in visible light \cite{platofact,keplerfact} \cite[p.8]{tessfact}, with Cheops the closest at near-infrared \cite[p.4]{fortier2024cheops}.
+ESA's Ariel will be the first mission fully dedicated to analysing the atmospheres of hundreds of exoplanets using IR spectroscopy, helping scientists understand their makeup and temperature, expanding our knowledge of planets beyond the Solar System \cite{salvignol2024ariel,ARIEL_M4_Proposal}.
 
 \subsection{Criteria for Exoplanet Selection}
 
@@ -201,7 +360,14 @@ The planets must therefore be selected in accordance to various criteria; the sa
 different spectral types and metallicity. A correspondingly large number of planets covering the widest possible spectrum can be sourced and selected from exoplanets discovered by previous missions, such as
 the Kepler Space Mission \cite{zingales2018ariel} and the Transiting Exoplanet Survey Satellite (TESS) \cite{arielTESScandidates}.
 
-The Ariel mission will focus primarily on planets with an orbital period that's less than 50 days, typically corresponding to warmer planets. 
+The Ariel mission will focus primarily on planets with an orbital period that's less than 50 days, typically corresponding to warmer planets (see Figure \ref{fig:9}). 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\textwidth]{planet w small orbits.png}
+    \caption{Average number of planets per star and per size bin with an orbital period shorter than 85 days orbiting around F, G, K stars \protect\cite{zingales2018ariel}}
+    \label{fig:9}
+\end{figure}
 
 \subsection{Ariel Tier List System for Observational Prioritisation}
 
@@ -233,7 +399,7 @@ and SNR \cite{salvignol2024ariel}. An additional fourth tier has been planned fo
 \end{table}
 
 \begin{table}[H]
-    \caption{The total science time is $\sim$24 800 hr over the primary 4 year mission lifetime. Table of mission time required to achieve different observation goals. Note that for some bright targets (e.g. HD 209458b) Tier 2 or Tier 3 
+    \caption{The total science time is $\sim$24 800 hr over the primary 4-year mission lifetime. Table of mission time required to achieve different observation goals. Note that for some bright targets (e.g. HD 209458b) Tier 2 or Tier 3 
     resolutions would be reached in a single observation \protect\cite{arielstudyreport}.}
     \centering
     \label{tab:2}
@@ -274,7 +440,7 @@ Tier 1 observations will help refine orbital and planetary parameters that can t
 Most giant planets and Neptunes fulfil the Tier 1 criteria set for the science objectives in 1 transit/eclipse, while the smaller planets would require upwards fo 6 events (see Figure \ref{fig:3}) \cite{zingales2018ariel}.
 Additionally, it will be possible to generate colour-colour and colour-magnitude diagrams, which might lead to the same developments in understanding as the H-R diagram did \cite{edwards2019updated,salvignol2024ariel}.
 
-\begin{figure}[b]
+\begin{figure}[H]
     \centering
     \includegraphics[width=.9\textwidth]{tier 1 transit graph.png}
     \caption{Complete set of Tier 1 planets from the Ariel mission reference population. The final list of Tier 1 planets will include an optimal sub-sample. Different colours indicate the number of transits/eclipses needed to reach
@@ -343,7 +509,7 @@ The focus will be on "weather planets", selected for their potential to showcase
 By conducting repeated observations, Ariel Tier 3 observations aim to capture the temporal evolution of exoplanetary atmospheres, revealing essential insights into cloud formation, atmospheric circulation, and climate dynamics on exoplanets \cite{salvignol2024ariel}.
 Figure \ref{fig:4} shows a possible MRS (Mission Reference Sample) with all the three tiers discuss (Survey, Deep, Benchmark) nested together, optimised to yield maximum number of targets. 
 
-\begin{figure}[b]
+\begin{figure}[H]
     \centering
     \includegraphics[width=.9\textwidth]{comparison tiers.png}
     \caption{Overview of the Ariel MRS (Mission Reference Sample), comparing the number of planets observable in the three tiers during the mission lifetime \protect\cite{zingales2018ariel}.}
@@ -373,11 +539,19 @@ By integrating these observations, researchers can develop a more comprehensive 
     \centering
     \includegraphics[width=.55\textwidth]{tiers ariel.png}
     \caption{Schematic diagram of Ariel's 4-Tier ecosystem. Tier 1 will provide the base for selecting Tier 2 planets, which in turn inform the selection of Tier 3 targets. The planets in each Tier will give us deeper insight into the nature of the planets in preceding Tiers. This interdependence among Tiers means that the
-    scientific value of the data collected by Ariel will grow over time. Tier 4 observations will benefit from the insight gained by the planetary populations of the other Tiers and will in turn provide a better understanding of their atmospheric behaviour \protect\cite[p. 40]{arielstudyreport}.}
+    scientific value of the data collected by Ariel will grow over time. Tier 4 observations will benefit from the insight gained by the planetary populations of the other Tiers and will in turn provide a better understanding of their atmospheric behaviour \protect\cite[p.40]{arielstudyreport}.}
     \label{fig:5}
 \end{SCfigure}
 
+\subsection{The Scientific Reasoning for Studying Hot Exoplanets}
+
+Hot planets provide a unique opportunity to study their elemental and chemical composition because their atmospheres lack cold traps that would otherwise condense key molecules, like H$_2$O NH$_3$, CH$_4$, SiO, CO$_2$, CO, and, at high temperatures, metallic compounds such as TiO, VO, and CrH \cite{ARIEL_M4_Proposal} \cite[p.135]{tinetti2018chemical}.
+Understanding these hot planets is crucial for building a broad foundation before shifting the focus to cooler planets. Moreover, many of the exoplanets discovered so far, or expected to be found, are in close orbits around their stars, making them naturally hot. Their short orbital periods make them ideal candidates for transit and eclipse spectroscopy, allowing detailed
+atmospheric studies. While the ultimate goal is to characterise a wide range of exoplanets, including potentially habitable ones, Ariel will serve as a crucial stepping stone, paving the way for even more advanced future missions \cite{ARIEL_M4_Proposal}.
+
 \subsection{Expected Discoveries}
+
+
 
 \newpage
 
@@ -394,29 +568,17 @@ By integrating these observations, researchers can develop a more comprehensive 
 
 \subsection{Payload Module (PLM)}
 
-\newpage
+\subsubsection{Ariel IR Spectrometer (AIRS)} 
 
-\section{Payload Instrumentation and Technology}
+\subsubsection{Fine Guidance System (FGS)}
 
-\subsection{Optical and Spectroscopic Instruments}
+\subsubsection{Analysis and Testing of the PLM}
 
+\paragraph{Surface Charging Analysis} ~\\
+filler
 
-\subsection{Calibration and Performance}
-
-
-\subsection{Data Transmission and Storage}
-
-\newpage
-
-\section{Mission Operations and Timeline}
-
-\subsection{Launch and Deployment}
-
-
-\subsection{Orbital Parameters}
-
-
-\subsection{Operational Phases}
+\paragraph{Thermoelastic Analysis} ~\\
+filler
 
 
 \newpage
