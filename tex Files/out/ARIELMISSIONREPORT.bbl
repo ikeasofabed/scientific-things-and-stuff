@@ -128,4 +128,47 @@ G.~Tinetti, P.~Drossart, P.~Eccleston, P.~Hartogh, A.~Heske, J.~Leconte,
   survey of exoplanets with ARIEL},'' \emph{Experimental astronomy}, vol.~46,
   pp. 135--209, 2018.
 
+\bibitem{morgante2022thermal}
+G.~Morgante, L.~Terenzi, L.~Desjonqueres, P.~Eccleston, G.~Bishop, A.~Caldwell,
+  M.~Crook, R.~Drummond, M.~Hills, T.~Hunt \emph{et~al.}, ``{The thermal
+  architecture of the ESA ARIEL payload at the end of phase B1},''
+  \emph{Experimental Astronomy}, vol.~53, no.~2, pp. 905--944, 2022.
+
+\bibitem{puig2018phase}
+L.~Puig, G.~Pilbratt, A.~Heske, I.~Escudero, P.-E. Crouzet, B.~de~Vogeleer,
+  K.~Symonds, R.~Kohley, P.~Drossart, P.~Eccleston \emph{et~al.}, ``{The phase
+  a study of the ESA M4 mission candidate ARIEL},'' \emph{Experimental
+  Astronomy}, vol.~46, pp. 211--239, 2018.
+
+\bibitem{arielassessreport}
+\BIBentryALTinterwordspacing
+P.~Tinetti, Giovanna adn~Drossart, P.~Eccleston, P.~Hartogh, J.~Leconte,
+  G.~Micela, M.~Ollivier, D.~Turrini, B.~Vandenbussche, P.~Wolkenberg
+  \emph{et~al.}, ``{Ariel Assessment Study Report},'' \emph{ESA}, March 2017.
+  [Online]. Available:
+  \url{https://arielspacemission.wordpress.com/wp-content/uploads/2017/05/sci-2017-2-ariel.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{martignac2022airs}
+J.~Martignac, J.~Amiaux, M.~Berth{\'e}, C.~Cara, C.~Delisles, A.~Direk,
+  L.~Dumaye, J.~Fontignie, A.~Goestschy, B.~Horeau \emph{et~al.}, ``{AIRS:
+  Ariel IR spectrometer status},'' in \emph{Space Telescopes and
+  Instrumentation 2022: Optical, Infrared, and Millimeter Wave}, vol.
+  12180.\hskip 1em plus 0.5em minus 0.4em\relax SPIE, 2022, pp. 427--453.
+
+\bibitem{Michelagnoli_Focardi_Pudney_Renouf_Merola_Noce_Nunez_Dinuzzi_Chiarucci_2024}
+M.~Michelagnoli, M.~Focardi, M.~Pudney, I.~Renouf, P.~Merola, V.~Noce, M.~V.
+  Nunez, G.~Dinuzzi, and S.~Chiarucci, ``{Surface charging analysis of Ariel
+  spacecraft in L2-relevant space plasma environment and Geo Early Transfer
+  Orbit},'' \emph{MDPI}, November 2024.
+
+\bibitem{Garcia-Perez_Alonso_Gomez-San-Juan_Perez-Alvarez_2021}
+A.~García-Pérez, G.~Alonso, A.~Gómez-San-Juan, and J.~Pérez-Álvarez,
+  ``{Thermoelastic evaluation of The payload module of the ariel mission},''
+  \emph{Experimental Astronomy}, vol.~53, no.~2, p. 831–846, February 2021.
+
+\bibitem{spry2023testing}
+R.~Spry, ``{Testing the Ariel exoplanet space observatory},'' Ph.D.
+  dissertation, University of Oxford, 2023.
+
 \end{thebibliography}

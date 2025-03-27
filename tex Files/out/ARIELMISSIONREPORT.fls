@@ -461,10 +461,97 @@ INPUT ./images/tiers ariel.png
 INPUT ./images/tiers ariel.png
 INPUT ./images/tiers ariel.png
 INPUT ./images/tiers ariel.png
-INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl
-INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl
-INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl
+INPUT ./images/industrial ariel.png
+INPUT ./images/industrial ariel.png
+INPUT ./images/industrial ariel.png
+INPUT ./images/industrial ariel.png
+INPUT ./images/industrial ariel.png
+INPUT ./images/industrial ariel.png
+INPUT ./images/ariel svm1.png
+INPUT ./images/ariel svm1.png
+INPUT ./images/ariel svm1.png
+INPUT ./images/ariel svm1.png
+INPUT ./images/ariel svm1.png
+INPUT ./images/ariel svm1.png
+INPUT ./images/ariel core1.png
+INPUT ./images/ariel core1.png
+INPUT ./images/ariel core1.png
+INPUT ./images/ariel core1.png
+INPUT ./images/ariel core1.png
+INPUT ./images/ariel core1.png
+INPUT ./images/ariel svm2.png
+INPUT ./images/ariel svm2.png
+INPUT ./images/ariel svm2.png
+INPUT ./images/ariel svm2.png
+INPUT ./images/ariel svm2.png
+INPUT ./images/ariel svm2.png
+INPUT ./images/ariel core2.png
+INPUT ./images/ariel core2.png
+INPUT ./images/ariel core2.png
+INPUT ./images/ariel core2.png
+INPUT ./images/ariel core2.png
+INPUT ./images/ariel core2.png
+INPUT ./images/ariel label1.png
+INPUT ./images/ariel label1.png
+INPUT ./images/ariel label1.png
+INPUT ./images/ariel label1.png
+INPUT ./images/ariel label1.png
+INPUT ./images/ariel label1.png
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmti8.tfm
+INPUT ./images/ariel label2.png
+INPUT ./images/ariel label2.png
+INPUT ./images/ariel label2.png
+INPUT ./images/ariel label2.png
+INPUT ./images/ariel label2.png
+INPUT ./images/ariel label2.png
+INPUT ./images/plm.png
+INPUT ./images/plm.png
+INPUT ./images/plm.png
+INPUT ./images/plm.png
+INPUT ./images/plm.png
+INPUT ./images/plm.png
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmti12.tfm
+INPUT ./images/ariel mag1.png
+INPUT ./images/ariel mag1.png
+INPUT ./images/ariel mag1.png
+INPUT ./images/ariel mag1.png
+INPUT ./images/ariel mag1.png
+INPUT ./images/ariel mag1.png
+INPUT ./images/ariel mag2 simple.png
+INPUT ./images/ariel mag2 simple.png
+INPUT ./images/ariel mag2 simple.png
+INPUT ./images/ariel mag2 simple.png
+INPUT ./images/ariel mag2 simple.png
+INPUT ./images/ariel mag2 simple.png
+INPUT ./images/surface charging.png
+INPUT ./images/surface charging.png
+INPUT ./images/surface charging.png
+INPUT ./images/surface charging.png
+INPUT ./images/surface charging.png
+INPUT ./images/surface charging.png
+INPUT ./images/autoCAD ariel simple.png
+INPUT ./images/autoCAD ariel simple.png
+INPUT ./images/autoCAD ariel simple.png
+INPUT ./images/autoCAD ariel simple.png
+INPUT ./images/autoCAD ariel simple.png
+INPUT ./images/autoCAD ariel simple.png
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT ./images/materials ariel autoCAD.png
+INPUT ./images/materials ariel autoCAD.png
+INPUT ./images/materials ariel autoCAD.png
+INPUT ./images/materials ariel autoCAD.png
+INPUT ./images/materials ariel autoCAD.png
+INPUT ./images/materials ariel autoCAD.png
+INPUT ./images/ariel plasma param.png
+INPUT ./images/ariel plasma param.png
+INPUT ./images/ariel plasma param.png
+INPUT ./images/ariel plasma param.png
+INPUT ./images/ariel plasma param.png
+INPUT ./images/ariel plasma param.png
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lof
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lof
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lof
@@ -474,14 +561,22 @@ INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lot
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lot
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.aux
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
@@ -502,3 +597,5 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti8.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti8.pfb

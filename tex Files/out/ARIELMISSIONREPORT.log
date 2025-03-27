@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  26 MAR 2025 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  27 MAR 2025 16:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -829,7 +829,7 @@ Package: sidecap 2023/01/24 v1.7a SideCap Package (RN/HjG)
 \c@SC@C=\count389
 \SC@BOX=\box91
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 66.
+Package hyperref Info: Option `colorlinks' set `true' on input line 68.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count390
@@ -837,24 +837,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.aux)
 \openout1 = `ARIELMISSIONREPORT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -923,7 +923,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 86.
+Package hyperref Info: Link coloring ON on input line 88.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: sidecap package is loaded.
 Package caption Info: threeparttable package is loaded.
@@ -949,13 +949,13 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 <./images/UCDLogo.png, id=6, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
-Package pdftex.def Info: ./images/UCDLogo.png  used on input line 90.
+Package pdftex.def Info: ./images/UCDLogo.png  used on input line 92.
 (pdftex.def)             Requested size: 386.95897pt x 135.62495pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 112.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 114.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 112.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -972,7 +972,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.123 \newpage
+l.125 \newpage
                [1
 
 ]
@@ -983,19 +983,19 @@ l.123 \newpage
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.196 
+l.199 
        [1]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \newpage
+l.207 \newpage
                [2]
-<./images/sun no touch.jpg, id=145, 723.70375pt x 356.33125pt>
+<./images/sun no touch.jpg, id=153, 723.70375pt x 356.33125pt>
 File: ./images/sun no touch.jpg Graphic file (type jpg)
 <use ./images/sun no touch.jpg>
-Package pdftex.def Info: ./images/sun no touch.jpg  used on input line 236.
+Package pdftex.def Info: ./images/sun no touch.jpg  used on input line 239.
 (pdftex.def)             Requested size: 435.32422pt x 214.3441pt.
 
 
@@ -1004,48 +1004,46 @@ Package pdftex.def Info: ./images/sun no touch.jpg  used on input line 236.
 [4 <./images/sun no touch.jpg>]
 
 [5]
-<./images/science interruptions.png, id=186, 1171.37625pt x 660.4675pt>
+<./images/science interruptions.png, id=194, 1171.37625pt x 660.4675pt>
 File: ./images/science interruptions.png Graphic file (type png)
 <use ./images/science interruptions.png>
-Package pdftex.def Info: ./images/science interruptions.png  used on input line 320.
+Package pdftex.def Info: ./images/science interruptions.png  used on input line 323.
 (pdftex.def)             Requested size: 435.32422pt x 245.45757pt.
 
 
-[6]
-<./images/distribution ariel.png, id=199, 631.35875pt x 593.21625pt>
+[6 <./images/science interruptions.png>]
+<./images/distribution ariel.png, id=209, 631.35875pt x 593.21625pt>
 File: ./images/distribution ariel.png Graphic file (type png)
 <use ./images/distribution ariel.png>
-Package pdftex.def Info: ./images/distribution ariel.png  used on input line 339.
-(pdftex.def)             Requested size: 241.84843pt x 227.23486pt.
+Package pdftex.def Info: ./images/distribution ariel.png  used on input line 342.
+(pdftex.def)             Requested size: 290.22107pt x 272.6927pt.
 
 
-[7 <./images/science interruptions.png>]
-<./images/planet w small orbits.png, id=220, 448.67625pt x 333.245pt>
+[7 <./images/distribution ariel.png>]
+<./images/planet w small orbits.png, id=229, 448.67625pt x 333.245pt>
 File: ./images/planet w small orbits.png Graphic file (type png)
 <use ./images/planet w small orbits.png>
-Package pdftex.def Info: ./images/planet w small orbits.png  used on input line 367.
+Package pdftex.def Info: ./images/planet w small orbits.png  used on input line 370.
 (pdftex.def)             Requested size: 362.77264pt x 269.44897pt.
 
 
-[8 <./images/distribution ariel.png>]
-
-[9 <./images/planet w small orbits.png>]
+[8 <./images/planet w small orbits.png>]
 <./images/ariel target map.png, id=256, 563.10374pt x 330.23375pt>
 File: ./images/ariel target map.png Graphic file (type png)
 <use ./images/ariel target map.png>
-Package pdftex.def Info: ./images/ariel target map.png  used on input line 430.
+Package pdftex.def Info: ./images/ariel target map.png  used on input line 433.
 (pdftex.def)             Requested size: 435.32422pt x 255.29863pt.
 
 
-[10 <./images/ariel target map.png>]
-<./images/tier 1 transit graph.png, id=274, 1275.76625pt x 444.66125pt>
+[9]
+<./images/tier 1 transit graph.png, id=275, 1275.76625pt x 444.66125pt>
 File: ./images/tier 1 transit graph.png Graphic file (type png)
 <use ./images/tier 1 transit graph.png>
-Package pdftex.def Info: ./images/tier 1 transit graph.png  used on input line 445.
+Package pdftex.def Info: ./images/tier 1 transit graph.png  used on input line 448.
 (pdftex.def)             Requested size: 435.32422pt x 151.72562pt.
 
 
-[11 <./images/tier 1 transit graph.png>]
+[10 <./images/ariel target map.png> <./images/tier 1 transit graph.png>]
 <./images/tier 1 radius and temp plots.png, id=291, 794.97pt x 303.1325pt>
 File: ./images/tier 1 radius and temp plots.png Graphic file (type png)
 <use ./images/tier 1 radius and temp plots.png>
@@ -1053,44 +1051,138 @@ Package pdftex.def Info: ./images/tier 1 radius and temp plots.png  used on inpu
 (pdftex.def)             Requested size: 435.32422pt x 165.9972pt.
 
 
-[12 <./images/tier 1 radius and temp plots.png>]
-<./images/comparison tiers.png, id=314, 1208.515pt x 416.55624pt>
+[11 <./images/tier 1 radius and temp plots.png>]
+
+[12]
+<./images/comparison tiers.png, id=322, 1208.515pt x 416.55624pt>
 File: ./images/comparison tiers.png Graphic file (type png)
 <use ./images/comparison tiers.png>
-Package pdftex.def Info: ./images/comparison tiers.png  used on input line 514.
+Package pdftex.def Info: ./images/comparison tiers.png  used on input line 517.
 (pdftex.def)             Requested size: 435.32422pt x 150.04912pt.
 
 
 [13 <./images/comparison tiers.png>]
-<./images/tiers ariel.png, id=330, 615.29875pt x 512.91624pt>
+<./images/tiers ariel.png, id=340, 615.29875pt x 512.91624pt>
 File: ./images/tiers ariel.png Graphic file (type png)
 <use ./images/tiers ariel.png>
-Package pdftex.def Info: ./images/tiers ariel.png  used on input line 540.
+Package pdftex.def Info: ./images/tiers ariel.png  used on input line 543.
 (pdftex.def)             Requested size: 266.03474pt x 221.77061pt.
 
 
 [14 <./images/tiers ariel.png>]
+<./images/industrial ariel.png, id=359, 2372.865pt x 925.4575pt>
+File: ./images/industrial ariel.png Graphic file (type png)
+<use ./images/industrial ariel.png>
+Package pdftex.def Info: ./images/industrial ariel.png  used on input line 573.
+(pdftex.def)             Requested size: 483.69687pt x 188.64679pt.
+<./images/ariel svm1.png, id=364, 351.3125pt x 205.76875pt>
+File: ./images/ariel svm1.png Graphic file (type png)
+<use ./images/ariel svm1.png>
+Package pdftex.def Info: ./images/ariel svm1.png  used on input line 584.
+(pdftex.def)             Requested size: 193.47578pt x 113.32385pt.
+<./images/ariel core1.png, id=365, 343.2825pt x 246.9225pt>
+File: ./images/ariel core1.png Graphic file (type png)
+<use ./images/ariel core1.png>
+Package pdftex.def Info: ./images/ariel core1.png  used on input line 586.
+(pdftex.def)             Requested size: 193.47578pt x 139.16483pt.
+<./images/ariel svm2.png, id=366, 364.36125pt x 204.765pt>
+File: ./images/ariel svm2.png Graphic file (type png)
+<use ./images/ariel svm2.png>
+Package pdftex.def Info: ./images/ariel svm2.png  used on input line 590.
+(pdftex.def)             Requested size: 193.47578pt x 108.72801pt.
+<./images/ariel core2.png, id=367, 331.2375pt x 243.91125pt>
+File: ./images/ariel core2.png Graphic file (type png)
+<use ./images/ariel core2.png>
+Package pdftex.def Info: ./images/ariel core2.png  used on input line 592.
+(pdftex.def)             Requested size: 193.47578pt x 142.46605pt.
 
-[15]
 
-[16]
+[15 <./images/industrial ariel.png>]
 
-[17] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl
+[16 <./images/ariel svm1.png> <./images/ariel core1.png> <./images/ariel svm2.png> <./images/ariel core2.png>]
+<./images/ariel label1.png, id=407, 822.07124pt x 331.2375pt>
+File: ./images/ariel label1.png Graphic file (type png)
+<use ./images/ariel label1.png>
+Package pdftex.def Info: ./images/ariel label1.png  used on input line 644.
+(pdftex.def)             Requested size: 237.01411pt x 95.50044pt.
+<./images/ariel label2.png, id=408, 786.94pt x 346.29375pt>
+File: ./images/ariel label2.png Graphic file (type png)
+<use ./images/ariel label2.png>
+Package pdftex.def Info: ./images/ariel label2.png  used on input line 650.
+(pdftex.def)             Requested size: 237.01411pt x 104.29579pt.
+<./images/plm.png, id=419, 760.8425pt x 300.12125pt>
+File: ./images/plm.png Graphic file (type png)
+<use ./images/plm.png>
+Package pdftex.def Info: ./images/plm.png  used on input line 673.
+(pdftex.def)             Requested size: 386.95897pt x 152.64307pt.
 
-[18]) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lof
 
-[19])
+[17 <./images/ariel label1.png> <./images/ariel label2.png>]
+<./images/ariel mag1.png, id=446, 269.92845pt x 222.71205pt>
+File: ./images/ariel mag1.png Graphic file (type png)
+<use ./images/ariel mag1.png>
+Package pdftex.def Info: ./images/ariel mag1.png  used on input line 712.
+(pdftex.def)             Requested size: 217.66211pt x 179.59036pt.
+<./images/ariel mag2 simple.png, id=447, 285.10515pt x 222.71205pt>
+File: ./images/ariel mag2 simple.png Graphic file (type png)
+<use ./images/ariel mag2 simple.png>
+Package pdftex.def Info: ./images/ariel mag2 simple.png  used on input line 717.
+(pdftex.def)             Requested size: 217.66211pt x 170.03433pt.
+
+
+[18 <./images/plm.png>]
+<./images/surface charging.png, id=461, 255.71535pt x 220.06215pt>
+File: ./images/surface charging.png Graphic file (type png)
+<use ./images/surface charging.png>
+Package pdftex.def Info: ./images/surface charging.png  used on input line 729.
+(pdftex.def)             Requested size: 241.84843pt x 208.13779pt.
+<./images/autoCAD ariel simple.png, id=466, 499.6266pt x 381.22424pt>
+File: ./images/autoCAD ariel simple.png Graphic file (type png)
+<use ./images/autoCAD ariel simple.png>
+Package pdftex.def Info: ./images/autoCAD ariel simple.png  used on input line 740.
+(pdftex.def)             Requested size: 338.58632pt x 258.34486pt.
+
+
+[19 <./images/ariel mag1.png> <./images/ariel mag2 simple.png> <./images/surface charging.png>]
+
+[20 <./images/autoCAD ariel simple.png>]
+
+[21]
+
+[22] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.bbl
+
+[23])
+
+[24]
+<./images/materials ariel autoCAD.png, id=545, 1034.86626pt x 648.4225pt>
+File: ./images/materials ariel autoCAD.png Graphic file (type png)
+<use ./images/materials ariel autoCAD.png>
+Package pdftex.def Info: ./images/materials ariel autoCAD.png  used on input line 847.
+(pdftex.def)             Requested size: 483.69687pt x 303.07661pt.
+
+
+[25]
+<./images/ariel plasma param.png, id=553, 626.34pt x 552.0625pt>
+File: ./images/ariel plasma param.png Graphic file (type png)
+<use ./images/ariel plasma param.png>
+Package pdftex.def Info: ./images/ariel plasma param.png  used on input line 854.
+(pdftex.def)             Requested size: 338.58632pt x 298.43784pt.
+ (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lof
+
+[26 <./images/materials ariel autoCAD.png> <./images/ariel plasma param.png>])
 \tf@lof=\write6
 \openout6 = `ARIELMISSIONREPORT.lof'.
 
- (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lot)
+
+
+[27] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.lot)
 \tf@lot=\write7
 \openout7 = `ARIELMISSIONREPORT.lot'.
 
 
 
-[20]
-runsystem(latexminted cleantemp  --timestamp 20250326224946Z 8B56276D456E6CB0D58627FFBDE9C464)...executed.
+[28]
+runsystem(latexminted cleantemp  --timestamp 20250327163131Z 8B56276D456E6CB0D58627FFBDE9C464)...executed.
 
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.aux)
  ***********
@@ -1099,17 +1191,17 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33615 strings out of 473530
- 686717 string characters out of 5704664
- 1175824 words of memory out of 5000000
- 56189 multiletter control sequences out of 15000+600000
- 569273 words of font info for 75 fonts, out of 8000000 for 9000
+ 33855 strings out of 473530
+ 692742 string characters out of 5704664
+ 1182531 words of memory out of 5000000
+ 56398 multiletter control sequences out of 15000+600000
+ 570271 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,20n,117p,1305b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.pdf" (23 pages, 1769333 bytes).
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/ARIELMISSIONREPORT.pdf" (31 pages, 12219056 bytes).
 PDF statistics:
- 629 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 359 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 884 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
+ 461 words of extra memory for PDF output out of 10000 (max. 10000000)
 
