@@ -95,4 +95,27 @@ UCD, \emph{{PHYC20080 Interference and Diffraction}}.
 P.~P. Urone and R.~Hinrichs, \emph{{Young's Double Slit Experiment}}.\hskip 1em
   plus 0.5em minus 0.4em\relax OpenStax, 2012, ch. 27.3, pp. 963--967.
 
+\bibitem{Paschotta_2019_holography}
+\BIBentryALTinterwordspacing
+R.~Paschotta, ``{Holography},'' RP Photonics Encyclopedia, 2019, [Accessed 28
+  March 2025]. [Online]. Available:
+  \url{https://www.rp-photonics.com/holography.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ownholo}
+J.~C.~C.~Adao, ``{PHYC20090 Electronics and Devices Experiment No. 9
+  Holography},'' \emph{UCD School of Physics}, February 2025.
+
+\bibitem{hansen2015diffraction}
+T.~C. Hansen, ``{Diffraction: Principles and application},'' in \emph{EPJ Web
+  of Conferences}, vol. 104.\hskip 1em plus 0.5em minus 0.4em\relax EDP
+  Sciences, 2015, p. 01002.
+
+\bibitem{hairwidth}
+\BIBentryALTinterwordspacing
+B.~Brookshire, ``{Measure the width of your hair with a laser pointer},'' July
+  2014, [Accessed 28 March 2025]. [Online]. Available:
+  \url{https://www.snexplores.org/blog/eureka-lab/measure-width-your-hair-laser-pointer}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

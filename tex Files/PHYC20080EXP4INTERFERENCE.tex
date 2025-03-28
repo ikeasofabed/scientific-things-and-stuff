@@ -115,8 +115,11 @@
 \addtocontents{toc}{\protect\contentsline{section}{\textbf{Abstract}}{\hfill}{}}
 \thispagestyle{empty}
 
-
-
+This experiment aimed to explore the principles of wave interference and diffraction through the single slit and Young's double slit experiment. With the use of a coherent light source, both experiments were successful in demonstrating these properties
+by calculating the slit width (a) for the single slit experiment and the slit separation (d) for the double slit experiment. The results of (a) for two renditions of the single slit experiment were found to be \textbf{8.131 $\mathbf{\times 10^{-5} \: \pm}$ 6.776 $\mathbf{\times 10^{-6}}$ m} and
+\textbf{1.630 $\mathbf{\times 10^{-4} \: \pm}$ 2.717 $\mathbf{\times 10^{-5}}$ m}. This same experiment was applied to find the width of a human hair, with the result of \textbf{1.222 $\mathbf{\times 10^{-4} \: \pm}$ 1.528 $\mathbf{\times 10^{-5}}$ m}, which was within the range of typical human hair thickness of 
+1.7$\times 10^{-5}$-1.80$\times 10^{-4}$ m. For the Young's double slit experiment the result of (d) was found to be \textbf{2.845 $\mathbf{\times 10^{-7} \: \pm}$ 3.230 $\mathbf{\times 10^{-8}}$ m}. These findings validated the wave nature of light and further reinforced key concepts in optics, exploring how
+these properties can be applied in holography and crystalography.
  
 \end{abstract}
 \newpage
@@ -193,11 +196,11 @@ where $I$ is the intensity, $a$ is the slit width, $k$ is the wavenumber, $\thet
 Interference, when in reference to light and optics, occurs when two or more light beams collide and are superimposed. Interference occurs when spatial and temporal phases overlap for both light beams,
 the phase is \textit{coherent}, and the light has non-orthogonal polarisation states \cite{Paschotta_2005_interference}.
 
-\subsubsection{Laser Properties for Interference}
+\subsubsection{Laser Properties for Interference} \label{sec:1.3.1}
 
 Lasers are \textbf{highly monochromatic and coherent} which allows for stable interference patterns to be formed, making it much simpler to read and see the interference fringes.
 
-\paragraph{Monochromaticity} \label{sec:1.3.1} \leavevmode\\
+\paragraph{Monochromaticity} \label{sec:1.3.1.1} \leavevmode\\
 \vspace{-3ex}
 
 For stable interference, the source itself must be stable such that the light is emitted at a single wavelength \cite{princelaser}.
@@ -213,7 +216,7 @@ Any variation in wavelength would cause the fringes to become "blurred". The las
 As can be seen in Figure \ref{fig:4}, the interference patterns from the monochromatic light sources (red, green, blue) appear much sharper than the "blurred" interference pattern of the white light (top)
 due to the range of wavelengths present in white light. White light appears "blurry" due to the wavelength of each colour being diffracted at a alightly different angle.
 
-\paragraph{Coherence} \label{sec:1.3.2} \leavevmode\\
+\paragraph{Coherence} \label{sec:1.3.1.2} \leavevmode\\
 \vspace{-3ex}
 
 For there to be stable interference, the light source must have a fixed phase relationship at different points in time and/or space \cite{wolf2007introduction}.
@@ -250,7 +253,7 @@ as the wave arrives either in or out of phase to a common location (the screen).
 
 The following equation describes the minima of the fringe pattern,
 
-\vspace{-2ex}
+\vspace{-2ex} \label{eq:1}
 \begin{gather}
     a sin \theta = m \lambda
 \end{gather}
@@ -258,8 +261,8 @@ The following equation describes the minima of the fringe pattern,
 where $a$ is the slit width, $\theta$ is the angle, $m$ is an integer, and $\lambda$ is the wavelength. It can then be found that the slit width is (for $\theta$ small $\approx sin \theta$) \cite{UCDinterference}:
 
 \vspace{-2ex}
-\begin{gather}
-    a = \lambda \frac{D}{Y}
+\begin{gather} \label{eq:2}
+    a = \lambda \: \frac{D}{Y}
 \end{gather}
 
 with $D$ as the distance from the pattern to the slit, and $Y$ as the distance from the central maximum to the first minimum.
@@ -281,7 +284,7 @@ The equation for the double slit experiment imply there are a series of dark and
 This can be observed by examining the equation \cite{urone2012collegedouble},
 
 \vspace{-2ex}
-\begin{gather}
+\begin{gather} \label{eq:3}
     d sin \theta = n \lambda
 \end{gather}
 
@@ -304,7 +307,7 @@ When the angle is small, the approximation $sin \theta \approx \theta$ may be us
 therefore the angular separation between adjacent maxima is
 
 \vspace{-2ex}
-\begin{gather}
+\begin{gather} \label{eq:5}
     \frac{\lambda}{d} = \frac{y}{D}
 \end{gather}
 
@@ -312,34 +315,178 @@ where $y$ is the linear separation between adjacent maxima, and $D$ is the dista
 
 \subsection{Applications of Interference and Diffraction}
 
-\textbf{Holography} is based on \textit{interference}
+\textbf{Holography} is based on \textit{interference}. Holograms are formed when two mutually coherent light monochromatic laser sources, an object-illumating beam and reference beam, are superimposed onto a recording medium to form an interfence pattern. By recording both the phase
+and amplitude of a wave, the wavefront, a 3D image reconstruction of the original object can be achieved when the hologram is illuminated by the reference beam \cite{Paschotta_2019_holography,ownholo}.
 
-\textbf{Spectroscopy} is based on \textit{diffraction}
+\textbf{Crystalography} is based on \textit{diffraction}. Particularly, Bragg diffraction forms the fundamental principles of this practice, in which x-rays bounce off the atoms in a crystal lattice planes (see Figure \ref{fig:6}). At certain angles, 
+constructive interference patterns are formed. By measuring these angles and intensities, crystallographers can apply it to Bragg's Law, a version of Eq. \ref{eq:3}: $2d sin \theta = n \lambda$. This allows the crystallographers to find d, the interplanar spacing \cite{hansen2015diffraction}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.8\textwidth]{bragg lattice.png}
+    \caption{Bragg diffraction as a specular reflection on semi-transparetn mirrors of lattice planes: constructive interference only for certain path differences \protect\cite{hansen2015diffraction}.}
+    \label{fig:6}
+\end{figure}
 
 \section{Methodology} \label{sec:2}
 
+Both parts of the experiment have the same setup (see Figure \ref{fig:7}). A laser light is used for its monochromatic and coherent properties (discussed in §\ref{sec:1.3.1}).
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[H]{.55\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{slits.jpeg}
+    \end{subfigure}
+    \hspace{-.5em}
+    \begin{subfigure}[H]{.418\textwidth}
+        \centering
+        \includegraphics[width=\linewidth,angle=270]{candid laser shot.jpeg}
+    \end{subfigure}
+    \caption{Experimental setup, bridge (left) and laser position (right).}
+    \label{fig:7}
+\end{figure}
+
 \subsection{Single Slit Experiment Method} \label{sec:2.1}
 
+To reproduce the single slit experiment, a diffraction grating of a single slit must be used in the centre holder of the bridge. The laser light must be positioned
+such that it passes through the slit and is seen on viewing screen (see Figure \ref{fig:7}). The distance D between the slit and the viewing screen should be as large as possible. This will make the interfence patterns appear larger (bigger angle) and thus the
+distance between the minima adjacent to the central maximum will be easier to read and measure. The distance between the first order minima (see Figure \ref{fig:8}) will be 2Y.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.6\textwidth]{single slit diffraction.jpeg}
+    \caption{Diffraction pattern as per the single slit experiment, with the distance between the first order minima 2Y labelled.}
+    \label{fig:8}
+\end{figure}
+
+Using Eq. \ref{eq:2}, the width of the single slit (a) can be found as the wavelegnth of the laser light is given.
 
 \subsection{Double Slit (Young's) Experiment Method} \label{sec:2.2}
 
+To reproduce Young's slit experiment, a diffraction grating of a double slit must be used in the centre holder of the bridge. The laser light beam must be positioneed in such a way that it passes through both slits. Increasing the distance between the laser and the slits
+will allow for this, but ensuring the largest distance possible between the viewing screen and the slits is still important to increases visibility of the minima. In the case of the double slit experiment,
+two fringes account for a single gap (see Figure \ref{fig:9}).
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.6\textwidth]{young diffraction.jpeg}
+    \caption{Diffraction as per the double (Young's) slit experiment, with maxima (dark blue) and minima (white) labelled.}
+    \label{fig:9}
+\end{figure}
 
+Using Eq. \ref{eq:5}, the slit separation (d) can be found, knowing that the linear separation between adjacent maxima y is the maxima divided by the minima.
 
 \section{Results and Discussion} \label{sec:3}
 
 \subsection{Single Slit Experiment Results}
 
+The wavelength for the laser source was given as \textbf{632.8 nm}. With this, Eq. \ref{eq:2} can be used to find the slit width (a) for two renditions of the single slit experiment (Table \ref{tab:1}).
 
+\begin{table}[H]
+    \caption{Table of results for 2 single slits.}
+    \label{tab:1}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{
+        >{\columncolor[HTML]{EFEFEF}}c ccccc}
+        \textbf{\#} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}D (m) \\ $\mathbf{\times 10^{-2}}$\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}2Y (m)\\ (1st min.) $\mathbf{\times 10^{-3}}$\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}$\mathbf{a = \lambda \: \frac{D}{Y}}$ (m)\\ (1st min.)\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}2Y (m)\\ (2nd min.) $\mathbf{\times 10^{-3}}$\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}$\mathbf{a = 2 \lambda \: \frac{D}{Y}}$ (m)\\ (2nd min.)\end{tabular}} \\ \hline
+        \textbf{1} &
+        77.1 $\pm$ 0.05 &
+        12 $\pm$ 0.5 &
+        8.131 $\times 10^{-5}$ $\pm$ 6.776 $\times 10^{-6}$ &
+        24 $\pm$ 0.5 &
+        4.066 $\times 10^{-5}$ $\pm$ 3.388 $\times 10^{-6}$ \\
+        \textbf{2} &
+        77.3 $\pm$ 0.05 &
+        6 $\pm$ 0.5 &
+        1.630 $\times 10^{-4}$ $\pm$ 2.717 $\times 10^{-5}$ &
+        14 $\pm$ 0.5 &
+        6.988 $\times 10^{-5}$ $\pm$ 4.992 $\times 10^{-6}$
+        \end{tabular}%
+    }
+\end{table}
+
+The results, as per Eq. \ref{eq:2}, for the second order minima for slit witdth a can be seen on the far right of Table \ref{tab:1}, but recall at second minima m = 2. If the results obtained for the slit width (a) at the second minima
+were multiplied by 2 (m), the same answers as was achieved for the first minima would be obtained. This shows the relationship between the fringes and the slit width, which in turn showcases the relationship between the slit width and angle.
+
+The same experiment can be recreated using human hair as the "slit", a similar barrier formed. The measurements for this rendition of the experiment were recorded in Table \ref{tab:2}.
+
+\begin{table}[H]
+    \caption{Table of results with human hair as a slit.}
+    \label{tab:2}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{ccccc}
+        \textbf{\begin{tabular}[c]{@{}c@{}}D (m) \\ $\mathbf{\times 10^{-2}}$\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}2Y (m)\\ (1st min.) $\mathbf{\times 10^{-3}}$\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}$\mathbf{a = \lambda \: \frac{D}{Y}}$ (m)\\ (1st min.)\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}2Y (m)\\ (2nd min.) $\mathbf{\times 10^{-3}}$\end{tabular}} &
+        \textbf{\begin{tabular}[c]{@{}c@{}}$\mathbf{a = \lambda \: \frac{D}{Y}}$ (m)\\ (2nd min.)\end{tabular}} \\ \hline
+        77.3 $\pm$ 0.05 &
+        8 $\pm$ 0.5 &
+        1.222 $\times 10^{-4}$ $\pm$ 1.528 $\times 10^{-5}$ &
+        16 $\pm$ 0.5 &
+        6.114 $\times 10^{-5}$ $\pm$ 3.821 $\times 10^{-6}$
+        \end{tabular}%
+    }
+\end{table}
+
+The average hair width range is between 17-180 $\mu$m, or 1.7$\times 10^{-5}$-1.80$\times 10^{-4}$ m \cite{hairwidth}. The value calcualted above for the widht of the hair falls within this range, therefore the results
+agree, proving the validity of this method in measuring the width of the hair.
+
+The uncertainties for the slit width (a) is given by:
+
+\vspace{-2ex}
+\begin{gather*}
+    \Delta a = a \sqrt{\left( \frac{\Delta D}{D} \right)^2 + \left( \frac{\Delta Y}{Y}^2 \right)^2}
+\end{gather*}
 
 \subsection{Double Slit (Young's) Experiment Results}
 
+The laser remained the same at \textbf{632.8 nm}, hence \ref{eq:5} can be used to find the slit separation (d) for Young's double slit experiment, given in Table \ref{tab:3}.
 
+\begin{table}[H]
+    \centering
+    \caption{Table of results for the double slit experiment.}
+    \label{tab:3}
+    \begin{tabular}{ccc}
+    \textbf{D (m)}                                    & \textbf{y}                 & \textbf{$\mathbf{d = \lambda \: \frac{D}{y}}$ (m)}      \\ \hline
+    48.7 $\times 10^{-2}$ $\pm$ 0.05 $\times 10^{-2}$ & $\frac{6.5}{6}$ $\pm$ 0.123 & 2.845 $\times 10^{-7}$ $\pm$ 3.230 $\times 10^{-8}$
+    \end{tabular}%
+\end{table}
+
+The difference between the wavelegnth and the slit separation is found to be almost 1/2 (0.45). This small difference in value likely lead to distorted diffraction and interference patterns that appeared blurred,
+making it harder to correctly read and differentiate between maxima and minima. 
+
+The uncertainty for slit separation (d) is given by:
+
+\begin{gather*}
+    \Delta d = d \sqrt{\left( \frac{\Delta D}{D} \right)^2 + \left( \frac{\Delta y}{y}^2 \right)^2}
+\end{gather*}
+
+\vspace{2cm}
 
 \section{Conclusion} \label{sec:4}
 
+The single slit and Young's double slit experiments were both successful in results for validating the key concepts and properties of light discussed and explored in this report.
 
+For the single slit experiment, the results \textbf{8.131 $\mathbf{\times 10^{-5} \: \pm}$ 6.776 $\mathbf{\times 10^{-6}}$ m} and \textbf{1.630 $\mathbf{\times 10^{-4} \: \pm}$ 2.717 $\mathbf{\times 10^{-5}}$ m} were calcualted for two different slit widths.
+These results were found to agree with the same process done for the second minima, \textbf{4.066 $\mathbf{\times 10^{-5} \: \pm}$ 3.388 $\mathbf{\times 10^{-6}}$ m} and \textbf{6.988 $\mathbf{\times 10^{-5} \: \pm}$ 4.992 $\mathbf{\times 10^{-6}}$ m} respectively, which were found to be 
+roughly half the values calculated for the first minima. This aligns with theoretical assumptions as m = 2 (Eq. \ref{eq:1}) for the second minima, indicating double the original wavelength.
+Values also agreed with the theoretical ones when this experiment was conducted with use of a human hair, whose width was found to be \textbf{1.222 $\mathbf{\times 10^{-4} \: \pm}$ 1.528 $\mathbf{\times 10^{-5}}$ m}. The range of typical human hair is found to be 1.7$\times 10^{-5}$-1.80$\times 10^{-4}$ m \cite{hairwidth},
+and the obtained value falls within this range.
+
+For the Young's double slit experiment the slit separation was calculated to be \textbf{2.845 $\mathbf{\times 10^{-7} \: \pm}$ 3.230 $\mathbf{\times 10^{-8}}$ m}. The slit separation was found to be 0.45 of the wavelength of the laser source, which likely lead to distortions of the fringe pattern and presumed blurriness, 
+meaning it was likely more difficult to read the maxima and minima of the pattern as the slit acted more as a single slit.
+
+For future renditions of the single slit experiment, the distance between the viewing screen and the slit could be increased further to ensure clear and accurate readings of the fringe pattern. This could also be applied as an improvement for future renditions of the double slit experiment,
+as greater distance between the screen and the slit would likely result in more fringes of the double slit diffraction. If there are more slits, however, it might turn difficult to count how many there are as they get closer together. If different colour laser light, like green for example, was used for this experiment,
+results could be more diverse. A disadvantage of using a laser light with shorter wavelength would be smaller fringes that are closer together, but with better sharpness and clarity. Despite this, better analysis could be achieved by comparing numerical results between laser lights of different colours, mainting the slit width/separation
+constant.
 
 \newpage
 
@@ -352,5 +499,6 @@ where $y$ is the linear separation between adjacent maxima, and $D$ is the dista
 
 \listoffigures
 
+\listoftables
 
 \end{document}

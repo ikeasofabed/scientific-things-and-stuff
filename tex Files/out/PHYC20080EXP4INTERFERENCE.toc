@@ -12,12 +12,13 @@
 \contentsline {subsection}{\numberline {1.4}Single Slit Experiment}{3}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Double Slit (Young's) Experiment}{4}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}Applications of Interference and Diffraction}{5}{subsection.1.6}%
-\contentsline {section}{\numberline {2}Methodology}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Single Slit Experiment Method}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Double Slit (Young's) Experiment Method}{5}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Results and Discussion}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Single Slit Experiment Results}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Double Slit (Young's) Experiment Results}{5}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Conclusion}{5}{section.4}%
-\contentsline {section}{References}{6}{section.4}%
-\contentsline {section}{List of Figures}{6}{section*.8}%
+\contentsline {section}{\numberline {2}Methodology}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Single Slit Experiment Method}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Double Slit (Young's) Experiment Method}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Results and Discussion}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Single Slit Experiment Results}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Double Slit (Young's) Experiment Results}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Conclusion}{9}{section.4}%
+\contentsline {section}{References}{10}{section.4}%
+\contentsline {section}{List of Figures}{11}{section*.15}%
+\contentsline {section}{List of Tables}{11}{section*.16}%
