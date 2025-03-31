@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  22 MAR 2025 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  30 MAR 2025 23:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -771,33 +771,39 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box85
 \tcb@temp=\box86
 \tcb@temp=\box87
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip100
+\bibsep=\skip101
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count386
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 49.
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count386
+\l__color_backend_stack_int=\count387
 \l__pdf_internal_box=\box88
 ) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.aux)
 \openout1 = `PHYC20040EXP4ASTEROIDS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -835,20 +841,26 @@ LaTeX Font Info:    ... okay on input line 69.
 
 (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count387
+\scratchcounter=\count388
 \scratchdimen=\dimen316
 \scratchbox=\box89
-\nofMPsegments=\count388
-\nofMParguments=\count389
+\nofMPsegments=\count389
+\nofMParguments=\count390
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count390
+\MPscratchCnt=\count391
 \MPscratchDim=\dimen317
-\MPnumerator=\count391
-\makeMPintoPDFobject=\count392
+\MPnumerator=\count392
+\makeMPintoPDFobject=\count393
 \everyMPtoPDFconversion=\toks52
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape.sty
@@ -860,22 +872,22 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 72.
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.out) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.out)
 \@outlinefile=\write5
 \openout5 = `PHYC20040EXP4ASTEROIDS.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=54, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=102, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
-Package pdftex.def Info: ./images/UCDLogo.png  used on input line 75.
+Package pdftex.def Info: ./images/UCDLogo.png  used on input line 78.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=56, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=104, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
-Package pdftex.def Info: ./images/UCDBanner.png  used on input line 79.
+Package pdftex.def Info: ./images/UCDBanner.png  used on input line 82.
 (pdftex.def)             Requested size: 597.50787pt x 86.45332pt.
 
 
@@ -899,16 +911,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.105 \newpage
+l.108 \newpage
                [1
 
 ]
 
 [2]
-<./images/equatorial coords.png, id=97, 650.43pt x 726.715pt>
+<./images/equatorial coords.png, id=161, 650.43pt x 726.715pt>
 File: ./images/equatorial coords.png Graphic file (type png)
 <use ./images/equatorial coords.png>
-Package pdftex.def Info: ./images/equatorial coords.png  used on input line 138.
+Package pdftex.def Info: ./images/equatorial coords.png  used on input line 143.
 (pdftex.def)             Requested size: 241.84843pt x 270.21098pt.
 
 
@@ -916,22 +928,77 @@ Package pdftex.def Info: ./images/equatorial coords.png  used on input line 138.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 ...Telescope Guide Star Catalogue (HST GSC)}
-                                                   \cite{hstgsc}. [1 <./images/equatorial coords.png>]
+l.151 T
+       he ecliptic plane represents the plane of Earth's orbit around the Su... [1 <./images/equatorial coords.png>]
+<./images/parallax.jpg, id=204, 803.0pt x 452.69125pt>
+File: ./images/parallax.jpg Graphic file (type jpg)
+<use ./images/parallax.jpg>
+Package pdftex.def Info: ./images/parallax.jpg  used on input line 187.
+(pdftex.def)             Requested size: 362.77264pt x 204.51735pt.
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 \newpage
-               [2] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.bbl) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.lof)
+l.191 
+       [2]
+<./images/asteroids solar system.png, id=235, 602.25pt x 602.25pt>
+File: ./images/asteroids solar system.png Graphic file (type png)
+<use ./images/asteroids solar system.png>
+Package pdftex.def Info: ./images/asteroids solar system.png  used on input line 201.
+(pdftex.def)             Requested size: 241.84843pt x 241.85144pt.
+
+
+[3 <./images/parallax.jpg> <./images/asteroids solar system.png>]
+
+[4]
+
+[5]
+<./images/freehand asteroid.png, id=268, 623.32875pt x 551.05875pt>
+File: ./images/freehand asteroid.png Graphic file (type png)
+<use ./images/freehand asteroid.png>
+Package pdftex.def Info: ./images/freehand asteroid.png  used on input line 285.
+(pdftex.def)             Requested size: 386.95897pt x 342.09853pt.
+
+
+[6 <./images/freehand asteroid.png>]
+
+[7]
+
+[8]
+
+[9]
+
+[10] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.bbl
+
+[11]) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.lof)
 \tf@lof=\write7
 \openout7 = `PHYC20040EXP4ASTEROIDS.lof'.
 
+ (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.lot)
+\tf@lot=\write8
+\openout8 = `PHYC20040EXP4ASTEROIDS.lot'.
 
 
-[3]
-runsystem(latexminted cleantemp  --timestamp 20250322175257Z D535BE237015E2C05BB5362B3151FDEE)...executed.
+
+[12]
+<./images/vel comp.png, id=358, 648.4225pt x 358.33875pt>
+File: ./images/vel comp.png Graphic file (type png)
+<use ./images/vel comp.png>
+Package pdftex.def Info: ./images/vel comp.png  used on input line 498.
+(pdftex.def)             Requested size: 241.84843pt x 133.65495pt.
+<./images/sunearth orbit.png, id=359, 530.98375pt x 427.5975pt>
+File: ./images/sunearth orbit.png Graphic file (type png)
+<use ./images/sunearth orbit.png>
+Package pdftex.def Info: ./images/sunearth orbit.png  used on input line 508.
+(pdftex.def)             Requested size: 241.84843pt x 194.75943pt.
+
+
+[13 <./images/vel comp.png> <./images/sunearth orbit.png>]
+
+[14]
+runsystem(latexminted cleantemp  --timestamp 20250330235249 D535BE237015E2C05BB5362B3151FDEE)...executed.
 
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.aux)
  ***********
@@ -939,20 +1006,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PHYC20040EXP4ASTEROIDS.out' has not changed.
-(rerunfilecheck)             Checksum: 06319045D94FF80712FF6D6B869CA6F2;1775.
+(rerunfilecheck)             Checksum: 04696B7F3D67CDBBF33F3738D539C539;5342.
  ) 
 Here is how much of TeX's memory you used:
- 31842 strings out of 473530
- 656153 string characters out of 5704664
- 1133266 words of memory out of 5000000
- 54513 multiletter control sequences out of 15000+600000
- 568568 words of font info for 73 fonts, out of 8000000 for 9000
+ 32431 strings out of 473530
+ 665972 string characters out of 5704664
+ 1149627 words of memory out of 5000000
+ 55032 multiletter control sequences out of 15000+600000
+ 571739 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,6n,117p,634b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.pdf" (6 pages, 660491 bytes).
+ 95i,12n,117p,870b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20040EXP4ASTEROIDS.pdf" (17 pages, 1225987 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 455 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,10 +5,22 @@
 \contentsline {subsection}{\numberline {1.2}Equatorial Coordinates}{1}{subsection.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1}Right Ascension and Declination}{2}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2}Reference Star Catalogues}{2}{subsubsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.3}Celestial Coordinates}{2}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Principles of Parallax}{2}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Methodology}{2}{section.2}%
-\contentsline {section}{\numberline {3}Results and Discussion}{2}{section.3}%
-\contentsline {section}{\numberline {4}Conclusion}{2}{section.4}%
-\contentsline {section}{References}{3}{section*.4}%
-\contentsline {section}{List of Figures}{3}{section*.5}%
+\contentsline {subsection}{\numberline {1.3}Stellar Parallax}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Asteroids}{3}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Methodology}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Part I: Finding Asteroids by Blinking Images}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Part II: Measuring the Equatorial Coordinates of an Asteroid by Comparing It to Positions of Known Stars in the HST-GSC}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Part III: Angular Velocity of Asteroid 1992 JB}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Part IV: Measuring the Distance of Asteroid 1992 JB by Parallax}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Part V: The Tangential Velocity of Asteroid 1992 JB}{5}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Results and Discussion}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Part I: 1992 JB Path Through Blinking}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Part II: 1992 JB in Equatorial Coordinates}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Part III: The Angular Velocity of 1992 JB}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Part IV: 1992 JB Distance by Parallax}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Part V: 1992 JB Tangential Velocity}{9}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Conclusion}{10}{section.4}%
+\contentsline {section}{References}{11}{section*.11}%
+\contentsline {section}{List of Figures}{12}{section*.12}%
+\contentsline {section}{List of Tables}{12}{section*.13}%
+\contentsline {section}{Appendix: Questions}{13}{section*.14}%

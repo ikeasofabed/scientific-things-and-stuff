@@ -1,0 +1,24 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\textbf {Abstract}}{\hfill }{}
+\contentsline {section}{\numberline {1}Theory}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Wave Nature of Light}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Diffraction}{1}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Fresnel Diffraction}{1}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Fraunhofer Diffraction}{2}{subsubsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.3}Interference}{2}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Laser Properties for Interference}{2}{subsubsection.1.3.1}%
+\contentsline {paragraph}{\numberline {1.3.1.1}Monochromaticity}{2}{paragraph.1.3.1.1}%
+\contentsline {paragraph}{\numberline {1.3.1.2}Coherence}{3}{paragraph.1.3.1.2}%
+\contentsline {subsection}{\numberline {1.4}Single Slit Experiment}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Double Slit (Young's) Experiment}{4}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Applications of Interference and Diffraction}{5}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Methodology}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Single Slit Experiment Method}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Double Slit (Young's) Experiment Method}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Results and Discussion}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Single Slit Experiment Results}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Double Slit (Young's) Experiment Results}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Conclusion}{9}{section.4}%
+\contentsline {section}{References}{10}{section.4}%
+\contentsline {section}{List of Figures}{11}{section*.15}%
+\contentsline {section}{List of Tables}{11}{section*.16}%
