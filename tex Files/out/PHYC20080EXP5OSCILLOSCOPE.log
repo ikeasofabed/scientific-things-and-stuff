@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  18 MAR 2025 22:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  12 APR 2025 19:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -771,33 +771,44 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box85
 \tcb@temp=\box86
 \tcb@temp=\box87
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen316
+\WF@size=\dimen317
+\c@WF@wrappedlines=\count386
+\WF@box=\box88
+\WF@everypar=\toks51
+Package: wrapfig 2003/01/31  v 3.6
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 49.
+Package hyperref Info: Option `colorlinks' set `true' on input line 51.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count386
-\l__pdf_internal_box=\box88
+\l__color_backend_stack_int=\count387
+\l__pdf_internal_box=\box89
 ) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.aux)
 \openout1 = `PHYC20080EXP5OSCILLOSCOPE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -835,17 +846,17 @@ LaTeX Font Info:    ... okay on input line 67.
 
 (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count387
-\scratchdimen=\dimen316
-\scratchbox=\box89
-\nofMPsegments=\count388
-\nofMParguments=\count389
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count390
-\MPscratchDim=\dimen317
-\MPnumerator=\count391
-\makeMPintoPDFobject=\count392
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count388
+\scratchdimen=\dimen318
+\scratchbox=\box90
+\nofMPsegments=\count389
+\nofMParguments=\count390
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count391
+\MPscratchDim=\dimen319
+\MPnumerator=\count392
+\makeMPintoPDFobject=\count393
+\everyMPtoPDFconversion=\toks53
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -860,58 +871,149 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 67.
+Package hyperref Info: Link coloring ON on input line 71.
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.out) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.out)
 \@outlinefile=\write5
 \openout5 = `PHYC20080EXP5OSCILLOSCOPE.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<./images/UCDLogo.png, id=34, 1638.12pt x 574.145pt>
+<./images/UCDLogo.png, id=62, 1638.12pt x 574.145pt>
 File: ./images/UCDLogo.png Graphic file (type png)
 <use ./images/UCDLogo.png>
-Package pdftex.def Info: ./images/UCDLogo.png  used on input line 73.
+Package pdftex.def Info: ./images/UCDLogo.png  used on input line 77.
 (pdftex.def)             Requested size: 483.69687pt x 169.52899pt.
-<./images/UCDBanner.png, id=36, 1019.81pt x 147.55125pt>
+<./images/UCDBanner.png, id=64, 1019.81pt x 147.55125pt>
 File: ./images/UCDBanner.png Graphic file (type png)
 <use ./images/UCDBanner.png>
-Package pdftex.def Info: ./images/UCDBanner.png  used on input line 77.
+Package pdftex.def Info: ./images/UCDBanner.png  used on input line 81.
 (pdftex.def)             Requested size: 597.50787pt x 86.45332pt.
 
 
 [1
 
-{/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./images/UCDLogo.png> <./images/UCDBanner.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+{/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./images/UCDLogo.png> <./images/UCDBanner.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 118.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 118.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write6
-\openout6 = `PHYC20080EXP5OSCILLOSCOPE.toc'.
-
-
-
-[1
-
-]
+)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.141 \newpage
-               [1] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.bbl) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.lof)
+l.127 \newpage
+               [1
+
+] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.toc)
+\tf@toc=\write6
+\openout6 = `PHYC20080EXP5OSCILLOSCOPE.toc'.
+
+
+
+[2]
+<./images/open resonance.png, id=112, 592.2125pt x 381.425pt>
+File: ./images/open resonance.png Graphic file (type png)
+<use ./images/open resonance.png>
+Package pdftex.def Info: ./images/open resonance.png  used on input line 161.
+(pdftex.def)             Requested size: 217.66211pt x 140.188pt.
+<./images/closed resonance.png, id=113, 592.2125pt x 381.425pt>
+File: ./images/closed resonance.png Graphic file (type png)
+<use ./images/closed resonance.png>
+Package pdftex.def Info: ./images/closed resonance.png  used on input line 168.
+(pdftex.def)             Requested size: 217.66211pt x 140.188pt.
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.193 \end{gather}
+                   [1 <./images/open resonance.png> <./images/closed resonance.png>]
+<./images/tektronix tds3052.jpg, id=150, 587.19376pt x 448.67625pt>
+File: ./images/tektronix tds3052.jpg Graphic file (type jpg)
+<use ./images/tektronix tds3052.jpg>
+Package pdftex.def Info: ./images/tektronix tds3052.jpg  used on input line 204.
+(pdftex.def)             Requested size: 290.22107pt x 221.75653pt.
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.213 \newpage
+               [2 <./images/tektronix tds3052.jpg>]
+<./images/exp oscil setup.jpeg, id=167, 971.3088pt x 728.4816pt>
+File: ./images/exp oscil setup.jpeg Graphic file (type jpg)
+<use ./images/exp oscil setup.jpeg>
+Package pdftex.def Info: ./images/exp oscil setup.jpeg  used on input line 223.
+(pdftex.def)             Requested size: 237.01411pt x 177.75146pt.
+<./images/exp oscil oscil.jpeg, id=168, 971.3088pt x 728.4816pt>
+File: ./images/exp oscil oscil.jpeg Graphic file (type jpg)
+<use ./images/exp oscil oscil.jpeg>
+Package pdftex.def Info: ./images/exp oscil oscil.jpeg  used on input line 228.
+(pdftex.def)             Requested size: 237.01411pt x 177.75146pt.
+<./images/oscil pulses.jpeg, id=172, 971.3088pt x 728.4816pt>
+File: ./images/oscil pulses.jpeg Graphic file (type jpg)
+<use ./images/oscil pulses.jpeg>
+Package pdftex.def Info: ./images/oscil pulses.jpeg  used on input line 251.
+(pdftex.def)             Requested size: 241.84843pt x 181.3863pt.
+
+
+[3 <./images/exp oscil setup.jpeg> <./images/exp oscil oscil.jpeg>]
+<./images/oscil 4 qs.png, id=179, 380.42125pt x 370.38374pt>
+File: ./images/oscil 4 qs.png Graphic file (type png)
+<use ./images/oscil 4 qs.png>
+Package pdftex.def Info: ./images/oscil 4 qs.png  used on input line 264.
+(pdftex.def)             Requested size: 193.47578pt x 188.37326pt.
+
+
+[4 <./images/oscil pulses.jpeg> <./images/oscil 4 qs.png>]
+
+[5]
+
+[6]
+
+[7] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 59--64
+\OT1/cmr/m/n/12 Book % 3A[]Sound[]-[][]An[]Interactive[]eBook[](Forinash[]and[]Christian ) /11 % 3A[]Tubes / 11 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+\OT1/cmr/m/n/12 edu . au / faculty-[]of-[]medicine-[]health-[]and-[]human-[]sciences / departments-[]and-[]schools /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+\OT1/cmr/m/n/12 department-[]of-[]linguistics / our-[]research / phonetics-[]and-[]phonology / speech / acoustics /
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 95--100
+[]\OT1/cmr/m/n/12 Tektronix, ``Tek-tronix TDS3052 Dig-i-tal Phos-phor Os-cil-lo-scope, 2-
+ []
+
+
+Overfull \hbox (37.47pt too wide) in paragraph at lines 95--100
+\OT1/cmr/m/n/12 tektronix-[]tds3052-[]digital-[]phosphor-[]oscilloscope-[]2-[]channel-[]500-[]mhz-[]with-[]tds3trg-[]tds3^^Kt-[]tds3em/$[][] 
+ []
+
+) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.lof
+
+[8])
 \tf@lof=\write7
 \openout7 = `PHYC20080EXP5OSCILLOSCOPE.lof'.
 
 
 
-[2]
-runsystem(latexminted cleantemp  --timestamp 20250318220009Z 733CB4AFCB44F670BD01F725592B4C86)...executed.
+[9]
+runsystem(latexminted cleantemp  --timestamp 20250412191335 733CB4AFCB44F670BD01F725592B4C86)...executed.
 
  (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.aux)
  ***********
@@ -919,20 +1021,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PHYC20080EXP5OSCILLOSCOPE.out' has not changed.
-(rerunfilecheck)             Checksum: CAC0CB7F7039E07FDFF5090CB9692D3D;732.
+(rerunfilecheck)             Checksum: 31B69FA879E38DB56543FA6CE9E1E514;1785.
  ) 
 Here is how much of TeX's memory you used:
- 31787 strings out of 473530
- 655282 string characters out of 5704664
- 1128848 words of memory out of 5000000
- 54475 multiletter control sequences out of 15000+600000
- 566214 words of font info for 63 fonts, out of 8000000 for 9000
+ 32113 strings out of 473530
+ 661392 string characters out of 5704664
+ 1149988 words of memory out of 5000000
+ 54750 multiletter control sequences out of 15000+600000
+ 566882 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,6n,117p,637b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.pdf" (4 pages, 571697 bytes).
+ 95i,12n,117p,637b,669s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20080EXP5OSCILLOSCOPE.pdf" (12 pages, 9247761 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
