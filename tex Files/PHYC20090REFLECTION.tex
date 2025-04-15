@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage[english]{babel} % To obtain English text with the blindtext package
+\usepackage{blindtext}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{array, multirow} % For extra column formatting
+\usepackage{amsmath, amssymb, cancel} %for equation environment
+\usepackage{float}
+\usepackage{parskip} % For gaps between para
+\usepackage{setspace}
+\usepackage{pdfpages}
+\usepackage[export]{adjustbox}
+\usepackage{emptypage}
+\usepackage{tocloft}
+\usepackage[nottoc]{tocbibind}
+\usepackage{hyperref, url}
+\usepackage[table]{xcolor}
+
+\cftsetindents{section}{0em}{2em}
+\cftsetindents{subsection}{0em}{2em}
+
+\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
+\renewcommand\cftaftertoctitle{\hfill\mbox{}}
+
+\graphicspath{ {./images/} }
+
+\definecolor{blurple}{HTML}{5865F2}
+\definecolor{backcolour}{HTML}{272823}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=blurple,
+}
+
+\urlstyle{same}
+
+\renewcommand{\arraystretch}{1.3}
+
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\newcommand\simpleparagraph[1]{%
+  \stepcounter{paragraph}\paragraph*{\theparagraph\quad{}#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{PHYC20090 Reflection}
+\author{Joana Adao}
+\date{\today}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+this is my reflection
+
+
+
+\end{document}
