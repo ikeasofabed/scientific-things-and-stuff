@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  15 APR 2025 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  16 APR 2025 19:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -570,17 +570,17 @@ Package rerunfilecheck Info: File `PHYC20090REFLECTION.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14575 strings out of 473530
- 239939 string characters out of 5704664
- 657121 words of memory out of 5000000
- 37571 multiletter control sequences out of 15000+600000
- 559135 words of font info for 37 fonts, out of 8000000 for 9000
+ 14577 strings out of 473530
+ 239960 string characters out of 5704664
+ 663121 words of memory out of 5000000
+ 37572 multiletter control sequences out of 15000+600000
+ 559442 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,5n,79p,631b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090REFLECTION.pdf" (1 page, 12746 bytes).
+</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/PHYC20090REFLECTION.pdf" (1 page, 32874 bytes).
 PDF statistics:
- 16 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
