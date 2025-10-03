@@ -1,0 +1,18 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\textbf {Abstract}}{\hfill }{}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Wave Nature of Light}{1}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Spherical Waves}{1}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Huygens-Fresnel Principle}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Diffraction}{3}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Fraunhofer vs. Fresnel Diffraction}{3}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Diffraction for a Single Slit}{4}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Diffraction for Two Slits}{5}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Diffraction for a Circular Aperture}{5}{subsubsection.2.3.4}%
+\contentsline {section}{\numberline {3}Experimental Setup \& Procedure}{6}{section.3}%
+\contentsline {section}{\numberline {4}Results}{6}{section.4}%
+\contentsline {section}{\numberline {5}Analysis \& Discussion}{6}{section.5}%
+\contentsline {section}{\numberline {6}Conclusion}{6}{section.6}%
+\contentsline {section}{Appendix}{7}{section*.10}%
+\contentsline {section}{References}{7}{section*.11}%
