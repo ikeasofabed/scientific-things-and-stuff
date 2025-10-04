@@ -21,16 +21,23 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{hecht2012optics}
-E.~Hecht, \emph{Optics}.\hskip 1em plus 0.5em minus 0.4em\relax Pearson
-  Education India, 2012.
-
 \bibitem{Born_Wolf_Bhatia_Clemmow_Gabor_Stokes_Taylor_Wayman_Wilcock_1999}
 M.~Born, E.~Wolf, A.~B. Bhatia, P.~C. Clemmow, D.~Gabor, A.~R. Stokes, A.~M.
   Taylor, P.~A. Wayman, and W.~L. Wilcock, \emph{{Principles of Optics:
   Electromagnetic Theory of Propagation, Interference and Diffraction of
   Light}}, 7th~ed.\hskip 1em plus 0.5em minus 0.4em\relax Cambridge University
   Press, 1999.
+
+\bibitem{hecht2012optics}
+E.~Hecht, \emph{Optics}.\hskip 1em plus 0.5em minus 0.4em\relax Pearson
+  Education India, 2012.
+
+\bibitem{openstax3}
+\BIBentryALTinterwordspacing
+O.~et~al., \emph{{University Physics Volume 3}}.\hskip 1em plus 0.5em minus
+  0.4em\relax OpenStax, 2016. [Online]. Available:
+  \url{"https://openstax.org/details/books/university-physics-volume-3"}
+\BIBentrySTDinterwordspacing
 
 \bibitem{reportguide7}
 UCD, ``7. {D}iffraction {P}attern due to a {R}ectangular {A}perture,''
@@ -62,13 +69,6 @@ J.~M. Cowley, \emph{Diffraction physics}.\hskip 1em plus 0.5em minus
 M.~Norouzpour, ``{The Development of Self-interference of Split HOLZ (SIS-HOLZ)
   lines for Measuring z-dependent Atomic Displacement in Crystals},'' Ph.D.
   dissertation, University of Tehran, 04 2017.
-
-\bibitem{openstax3}
-\BIBentryALTinterwordspacing
-O.~et~al., \emph{{University Physics Volume 3}}.\hskip 1em plus 0.5em minus
-  0.4em\relax OpenStax, 2016. [Online]. Available:
-  \url{"https://openstax.org/details/books/university-physics-volume-3"}
-\BIBentrySTDinterwordspacing
 
 \bibitem{enwiki:1313573322}
 \BIBentryALTinterwordspacing
@@ -103,6 +103,26 @@ E.~Koushki and S.~Alavi, ``Diffraction of a partial temporal coherent beam from
 I.~Cooper and D.~Arora, ``Single-slit diffraction — visual physics,'' n.d.,
   [Accessed 27-September-2025]. [Online]. Available:
   \url{"https://d-arora.github.io/VisualPhysics/mod31/m31_singleSlit.htm"}
+\BIBentrySTDinterwordspacing
+
+\bibitem{enwiki:1314266286}
+\BIBentryALTinterwordspacing
+{Wikipedia contributors}, ``Fresnel diffraction --- {Wikipedia}{,} the free
+  encyclopedia,'' 2025, [Accessed 3-October-2025]. [Online]. Available:
+  \url{https://en.wikipedia.org/w/index.php?title=Fresnel_diffraction&oldid=1314266286}
+\BIBentrySTDinterwordspacing
+
+\bibitem{bootcamp}
+\BIBentryALTinterwordspacing
+S.~J.~Ling, ``{Physics Bootcamp},'' 2025, [Accessed 3-October-2025]. [Online].
+  Available: \url{"https://www.physicsbootcamp.org/author-bio-TWJ.html"}
+\BIBentrySTDinterwordspacing
+
+\bibitem{lecture1999}
+\BIBentryALTinterwordspacing
+Anon., ``{13. Lecture, 14 October 1999},'' 1999, [Accessed 3-October-2025].
+  [Online]. Available:
+  \url{"https://www.pas.rochester.edu/~dmw/ast203/Lectures/Lect_13.pdf"}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

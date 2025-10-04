@@ -48,6 +48,8 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/multirow/multirow.sty
@@ -68,8 +70,6 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cancel/cancel.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cancel/cancel.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/parskip/parskip.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/parskip/parskip.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvoptions/kvoptions.sty
@@ -178,9 +178,19 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/colortbl/colortbl.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/colortbl/colortbl.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cite/cite.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cite/cite.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstpatch.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstpatch.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstpatch.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/minted/minted.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/minted/minted.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/catchfile/catchfile.sty
@@ -310,8 +320,9 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/environ/environ.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/trimspaces/trimspaces.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/trimspaces/trimspaces.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cite/cite.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cite/cite.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.aux
@@ -332,6 +343,7 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape-nometadata.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/lscape.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/lscape.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.out
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.out
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.out
@@ -340,6 +352,8 @@ OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Lab
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.out
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.out
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.out
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/textcomp.sty
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/textcomp.sty
 INPUT ./images/UCDLogo.png
 INPUT ./images/UCDLogo.png
 INPUT ./images/UCDLogo.png
@@ -438,13 +452,133 @@ INPUT ./images/circularapert.png
 INPUT ./images/circularapert.png
 INPUT ./images/circularapert.png
 INPUT ./images/circularapert.png
+INPUT ./images/vsslit_400nm.png
+INPUT ./images/vsslit_400nm.png
+INPUT ./images/vsslit_400nm.png
+INPUT ./images/vsslit_400nm.png
+INPUT ./images/vsslit_400nm.png
+INPUT ./images/vsslit_400nm.png
+INPUT ./images/vsslit_500nm.png
+INPUT ./images/vsslit_500nm.png
+INPUT ./images/vsslit_500nm.png
+INPUT ./images/vsslit_500nm.png
+INPUT ./images/vsslit_500nm.png
+INPUT ./images/vsslit_500nm.png
+INPUT ./images/vsslit_600nm.png
+INPUT ./images/vsslit_600nm.png
+INPUT ./images/vsslit_600nm.png
+INPUT ./images/vsslit_600nm.png
+INPUT ./images/vsslit_600nm.png
+INPUT ./images/vsslit_600nm.png
+INPUT ./images/vsslit_400nm_100mm.png
+INPUT ./images/vsslit_400nm_100mm.png
+INPUT ./images/vsslit_400nm_100mm.png
+INPUT ./images/vsslit_400nm_100mm.png
+INPUT ./images/vsslit_400nm_100mm.png
+INPUT ./images/vsslit_400nm_100mm.png
+INPUT ./images/vsslit_400nm_300mm.png
+INPUT ./images/vsslit_400nm_300mm.png
+INPUT ./images/vsslit_400nm_300mm.png
+INPUT ./images/vsslit_400nm_300mm.png
+INPUT ./images/vsslit_400nm_300mm.png
+INPUT ./images/vsslit_400nm_300mm.png
+INPUT ./images/vsslit_500nm_100mm.png
+INPUT ./images/vsslit_500nm_100mm.png
+INPUT ./images/vsslit_500nm_100mm.png
+INPUT ./images/vsslit_500nm_100mm.png
+INPUT ./images/vsslit_500nm_100mm.png
+INPUT ./images/vsslit_500nm_100mm.png
+INPUT ./images/vsslit_500nm_300mm.png
+INPUT ./images/vsslit_500nm_300mm.png
+INPUT ./images/vsslit_500nm_300mm.png
+INPUT ./images/vsslit_500nm_300mm.png
+INPUT ./images/vsslit_500nm_300mm.png
+INPUT ./images/vsslit_500nm_300mm.png
+INPUT ./images/vsslit_600nm_100mm.png
+INPUT ./images/vsslit_600nm_100mm.png
+INPUT ./images/vsslit_600nm_100mm.png
+INPUT ./images/vsslit_600nm_100mm.png
+INPUT ./images/vsslit_600nm_100mm.png
+INPUT ./images/vsslit_600nm_100mm.png
+INPUT ./images/vsslit_600nm_300mm.png
+INPUT ./images/vsslit_600nm_300mm.png
+INPUT ./images/vsslit_600nm_300mm.png
+INPUT ./images/vsslit_600nm_300mm.png
+INPUT ./images/vsslit_600nm_300mm.png
+INPUT ./images/vsslit_600nm_300mm.png
+INPUT ./images/hsslit_400nm.png
+INPUT ./images/hsslit_400nm.png
+INPUT ./images/hsslit_400nm.png
+INPUT ./images/hsslit_400nm.png
+INPUT ./images/hsslit_400nm.png
+INPUT ./images/hsslit_400nm.png
+INPUT ./images/hsslit_500nm.png
+INPUT ./images/hsslit_500nm.png
+INPUT ./images/hsslit_500nm.png
+INPUT ./images/hsslit_500nm.png
+INPUT ./images/hsslit_500nm.png
+INPUT ./images/hsslit_500nm.png
+INPUT ./images/hsslit_600nm.png
+INPUT ./images/hsslit_600nm.png
+INPUT ./images/hsslit_600nm.png
+INPUT ./images/hsslit_600nm.png
+INPUT ./images/hsslit_600nm.png
+INPUT ./images/hsslit_600nm.png
+INPUT ./images/dslit_400nm.png
+INPUT ./images/dslit_400nm.png
+INPUT ./images/dslit_400nm.png
+INPUT ./images/dslit_400nm.png
+INPUT ./images/dslit_400nm.png
+INPUT ./images/dslit_400nm.png
+INPUT ./images/dslit_500nm.png
+INPUT ./images/dslit_500nm.png
+INPUT ./images/dslit_500nm.png
+INPUT ./images/dslit_500nm.png
+INPUT ./images/dslit_500nm.png
+INPUT ./images/dslit_500nm.png
+INPUT ./images/dslit_600nm.png
+INPUT ./images/dslit_600nm.png
+INPUT ./images/dslit_600nm.png
+INPUT ./images/dslit_600nm.png
+INPUT ./images/dslit_600nm.png
+INPUT ./images/dslit_600nm.png
+INPUT ./images/circular_400nm.png
+INPUT ./images/circular_400nm.png
+INPUT ./images/circular_400nm.png
+INPUT ./images/circular_400nm.png
+INPUT ./images/circular_400nm.png
+INPUT ./images/circular_400nm.png
+INPUT ./images/circular_500nm.png
+INPUT ./images/circular_500nm.png
+INPUT ./images/circular_500nm.png
+INPUT ./images/circular_500nm.png
+INPUT ./images/circular_500nm.png
+INPUT ./images/circular_500nm.png
+INPUT ./images/circular_600nm.png
+INPUT ./images/circular_600nm.png
+INPUT ./images/circular_600nm.png
+INPUT ./images/circular_600nm.png
+INPUT ./images/circular_600nm.png
+INPUT ./images/circular_600nm.png
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.bbl
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmti12.tfm
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.lof
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.lof
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.lof
+OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.lof
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/labs_code/HuygensDiffraction_Python.py
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/labs_code/HuygensDiffraction_Python.py
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmtt8.tfm
+INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/labs_code/HuygensDiffraction_Python.py
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tctt0800.tfm
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.aux
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.out
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB1.out
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tctt0800.pk
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tctt0800.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -457,6 +591,8 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
@@ -471,9 +607,13 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt8.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt8.pfb

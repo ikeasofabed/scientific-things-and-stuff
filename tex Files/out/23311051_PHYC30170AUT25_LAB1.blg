@@ -15,44 +15,44 @@ Database file #1: PHYC30170References.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 15 entries,
+You've used 18 entries,
             4087 wiz_defined-function locations,
-            907 strings with 9816 characters,
-and the built_in function-call counts, 7474 in all, are:
-= -- 621
-> -- 122
+            919 strings with 10201 characters,
+and the built_in function-call counts, 8704 in all, are:
+= -- 729
+> -- 134
 < -- 31
-+ -- 62
-- -- 25
-* -- 329
-:= -- 1332
-add.period$ -- 30
-call.type$ -- 15
-change.case$ -- 16
++ -- 68
+- -- 28
+* -- 377
+:= -- 1572
+add.period$ -- 36
+call.type$ -- 18
+change.case$ -- 22
 chr.to.int$ -- 57
-cite$ -- 15
-duplicate$ -- 579
-empty$ -- 661
-format.name$ -- 28
-if$ -- 1682
+cite$ -- 18
+duplicate$ -- 678
+empty$ -- 772
+format.name$ -- 31
+if$ -- 1949
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 110
-newline$ -- 80
-num.names$ -- 15
-pop$ -- 265
+int.to.str$ -- 18
+missing$ -- 134
+newline$ -- 95
+num.names$ -- 18
+pop$ -- 331
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 594
+skip$ -- 690
 stack$ -- 0
-substring$ -- 151
-swap$ -- 390
+substring$ -- 160
+swap$ -- 447
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 15
+type$ -- 18
 warning$ -- 0
-while$ -- 28
-width$ -- 17
-write$ -- 169
+while$ -- 31
+width$ -- 20
+write$ -- 202
