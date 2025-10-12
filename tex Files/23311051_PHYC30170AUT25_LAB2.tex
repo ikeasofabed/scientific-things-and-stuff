@@ -1,0 +1,165 @@
+\documentclass[11pt, a4paper, twocolumn]{article}
+
+% Fonts and math (Elsevier-like Times style)
+\usepackage{graphicx} % Required for inserting images
+\usepackage{array} % For extra column formatting
+\usepackage{amsmath, amssymb, cancel} % for equation environment
+\usepackage{float,geometry}
+\geometry{margin=2cm}
+\usepackage{parskip} % For gaps between paragraphs
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{cite, bookmark}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{caption,subcaption}
+    \captionsetup{font=footnotesize,labelfont=bf}
+    \subcaptionsetup{font=footnotesize}
+
+% --- Abstract styling (elsarticle look)
+\usepackage{abstract}
+\renewcommand{\abstractnamefont}{\normalfont\bfseries}
+\renewcommand{\abstracttextfont}{\normalfont}
+\renewenvironment{abstract}{%
+  \par\noindent\rule{\linewidth}{0.4pt}\par
+  \begin{center}\bfseries Abstract\end{center}%
+}{%
+  \par\rule{\linewidth}{0.4pt}\par
+}
+
+% --- Section styling (similar to elsarticle)
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+
+% Table of contents styling
+\usepackage{tocloft}
+\cftsetindents{section}{0em}{2em}
+\cftsetindents{subsection}{0em}{2em}
+\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
+\renewcommand\cftaftertoctitle{\hfill\mbox{}}
+
+\graphicspath{ {./images/} }
+
+\definecolor{blurple}{HTML}{5865F2}
+\definecolor{backcolour}{HTML}{272823}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=blurple,
+}
+
+\urlstyle{same}
+
+\DeclareMathOperator{\sinc}{sinc}
+
+\pagenumbering{arabic}
+\renewcommand{\arraystretch}{1.3}
+
+% Python code export
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\scriptsize,
+    keywordstyle=\color{teal},       
+    commentstyle=\color{gray},        
+    stringstyle=\color{magenta},  
+    showstringspaces=false,
+    frame=single,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny\color{gray}
+}
+
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{%
+\includegraphics[width=0.2\linewidth]{ucd_brandmark_black.jpg} \vspace{1.5cm}\\
+{\large PHYC30170 Physics Astronomy and Space Lab I}\\
+{\bfseries Diffraction Pattern due to a Rectangular Aperture}
+}
+\author{Joana C.C. Adao \\ \small Student No.: 23311051}
+\date{20 September 2025}
+
+\begin{document}
+
+% Title page - single column
+\onecolumn
+\maketitle
+
+% Abstract - single column
+\thispagestyle{empty}
+\begin{abstract}
+
+This is the abstract.
+
+\end{abstract}
+
+\newpage
+
+% Table of Contents - single column
+\tableofcontents
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Start main content in two columns
+\twocolumn
+
+\section{Introduction} \label{sec:1}
+
+\section{Experiment 5} \label{sec:2}
+
+\subsection{Objective} \label{sec:2.1}
+
+\subsection{Theory} \label{sec:2.2}
+
+\subsection{Methodology} \label{sec:2.3}
+
+\subsection{Results and Analysis} \label{sec:2.4}
+
+\subsection{Discussion} \label{sec:2.5}
+
+\subsection{Conclusion} \label{sec:2.6}
+
+\cite{reportguide7} words words words
+
+\section{Experiment 7} \label{sec:3}
+
+\subsection{Objective} \label{sec:3.1}
+
+\subsection{Theory} \label{sec:3.2}
+
+
+\section{Experiment 12} \label{sec:4}
+
+\section{Experiment 19} \label{sec:5}
+
+\section{Experiment 20} \label{sec:6}
+
+\section{Experiment 21} \label{sec:7}
+
+\section{Experiment 25} \label{sec:8}
+
+\section{Experiment 27} \label{sec:9}
+
+% References - switch to single column
+\onecolumn
+
+\bibliographystyle{IEEEtran}
+\bibliography{PHYC30170References} \label{sec:ref}
+
+% Appendix - single column
+\section*{Appendix} \label{sec:A}
+\addcontentsline{toc}{section}{Appendix}
+
+
+% Your appendix content here
+
+\end{document}
