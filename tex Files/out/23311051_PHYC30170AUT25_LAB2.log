@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  11 OCT 2025 20:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  19 OCT 2025 21:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -310,32 +310,7 @@ File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
- (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
-Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen171
-\captionmargin=\dimen172
-\caption@leftmargin=\dimen173
-\caption@rightmargin=\dimen174
-\caption@width=\dimen175
-\caption@indent=\dimen176
-\caption@parindent=\dimen177
-\caption@hangindent=\dimen178
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count307
-\c@continuedfloat=\count308
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count309
-Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count310
-) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/abstract/abstract.sty
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/abstract/abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
 \abstitleskip=\skip57
 \absleftindent=\skip58
@@ -347,12 +322,12 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box60
 \beforetitleunit=\skip62
 \aftertitleunit=\skip63
-\ttl@plus=\dimen179
-\ttl@minus=\dimen180
+\ttl@plus=\dimen171
+\ttl@minus=\dimen172
 \ttl@toksa=\toks28
-\titlewidth=\dimen181
-\titlewidthlast=\dimen182
-\titlewidthfirst=\dimen183
+\titlewidth=\dimen173
+\titlewidthlast=\dimen174
+\titlewidthfirst=\dimen175
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
@@ -382,8 +357,8 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforefigskip=\skip87
 \cftfigindent=\skip88
 \cftfignumwidth=\skip89
-\c@lofdepth=\count311
-\c@lotdepth=\count312
+\c@lofdepth=\count307
+\c@lotdepth=\count308
 \cftbeforelottitleskip=\skip90
 \cftafterlottitleskip=\skip91
 \cftbeforetabskip=\skip92
@@ -394,46 +369,46 @@ Package tocloft Info: The document has section divisions on input line 51.
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing out. on input line 1156.
 
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 53.
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count313
+\l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box61
 ) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.aux)
 \openout1 = `23311051_PHYC30170AUT25_LAB2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count314
-\scratchdimen=\dimen184
+\scratchcounter=\count310
+\scratchdimen=\dimen176
 \scratchbox=\box62
-\nofMPsegments=\count315
-\nofMParguments=\count316
+\nofMPsegments=\count311
+\nofMParguments=\count312
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count317
-\MPscratchDim=\dimen185
-\MPnumerator=\count318
-\makeMPintoPDFobject=\count319
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen177
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
 \everyMPtoPDFconversion=\toks30
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -475,20 +450,18 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 89.
-\c@lstlisting=\count320
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 91.
+\c@lstlisting=\count316
 <./images/ucd_brandmark_black.jpg, id=3, 426.59375pt x 626.34pt>
 File: ./images/ucd_brandmark_black.jpg Graphic file (type jpg)
 <use ./images/ucd_brandmark_black.jpg>
-Package pdftex.def Info: ./images/ucd_brandmark_black.jpg  used on input line 94.
+Package pdftex.def Info: ./images/ucd_brandmark_black.jpg  used on input line 96.
 (pdftex.def)             Requested size: 96.73788pt x 142.02904pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
 (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -504,19 +477,60 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [2]
 
+<./images/ex5_setup.JPG, id=64, 282.05376pt x 309.155pt>
+File: ./images/ex5_setup.JPG Graphic file (type jpg)
+<use ./images/ex5_setup.JPG>
+Package pdftex.def Info: ./images/ex5_setup.JPG  used on input line 168.
+(pdftex.def)             Requested size: 213.16214pt x 233.64882pt.
+<./images/ex5_TINA.png, id=67, 733.5405pt x 479.8728pt>
+File: ./images/ex5_TINA.png Graphic file (type png)
+<use ./images/ex5_TINA.png>
+Package pdftex.def Info: ./images/ex5_TINA.png  used on input line 183.
+(pdftex.def)             Requested size: 236.84843pt x 154.93901pt.
 
 
 [3
 
+ <./images/ex5_setup.JPG>]
+<./images/ex5_OSC.png, id=86, 724.1454pt x 479.8728pt>
+File: ./images/ex5_OSC.png Graphic file (type png)
+<use ./images/ex5_OSC.png>
+Package pdftex.def Info: ./images/ex5_OSC.png  used on input line 203.
+(pdftex.def)             Requested size: 236.84843pt x 156.95264pt.
+<./images/ex5_OSC_tau.png, id=88, 719.0865pt x 479.8728pt>
+File: ./images/ex5_OSC_tau.png Graphic file (type png)
+<use ./images/ex5_OSC_tau.png>
+Package pdftex.def Info: ./images/ex5_OSC_tau.png  used on input line 213.
+(pdftex.def)             Requested size: 236.84843pt x 158.05829pt.
 
-] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.bbl)
-
-Package caption Warning: Unused \captionsetup[sub] on input line 18.
-See the caption package documentation for explanation.
 
 
 
-[4
+[4 <./images/ex5_TINA.png> <./images/ex5_OSC.png> <./images/ex5_OSC_tau.png>]
+Underfull \hbox (badness 1014) in paragraph at lines 245--247
+\OT1/cmr/m/n/10.95 of an RC cir-cuit and val-i-dated the the-o-ret-i-
+ []
+
+<./images/ex7_TINA.png, id=99, 720.5319pt x 482.7636pt>
+File: ./images/ex7_TINA.png Graphic file (type png)
+<use ./images/ex7_TINA.png>
+Package pdftex.def Info: ./images/ex7_TINA.png  used on input line 275.
+(pdftex.def)             Requested size: 236.84843pt x 158.6937pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+<./images/ex7_circuit.png, id=100, 717.6411pt x 482.7636pt>
+File: ./images/ex7_circuit.png Graphic file (type png)
+<use ./images/ex7_circuit.png>
+Package pdftex.def Info: ./images/ex7_circuit.png  used on input line 283.
+(pdftex.def)             Requested size: 236.84843pt x 159.32721pt.
+
+
+[5 <./images/ex7_TINA.png> <./images/ex7_circuit.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.bbl)
+
+[6
 
 ] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.aux)
  ***********
@@ -525,17 +539,17 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14730 strings out of 473530
- 236819 string characters out of 5704664
- 819816 words of memory out of 5000000
- 37747 multiletter control sequences out of 15000+600000
+ 13437 strings out of 473530
+ 211555 string characters out of 5704664
+ 801384 words of memory out of 5000000
+ 36448 multiletter control sequences out of 15000+600000
  567202 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,7n,79p,1315b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.pdf" (4 pages, 193363 bytes).
+ 69i,9n,79p,1315b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.pdf" (6 pages, 569679 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 

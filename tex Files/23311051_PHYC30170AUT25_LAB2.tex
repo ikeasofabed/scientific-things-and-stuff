@@ -6,16 +6,13 @@
 \usepackage{amsmath, amssymb, cancel} % for equation environment
 \usepackage{float,geometry}
 \geometry{margin=2cm}
-\usepackage{parskip} % For gaps between paragraphs
+\usepackage[skip=10pt]{parskip}
 \usepackage{setspace}
 \usepackage{hyperref}
 \usepackage{cite, bookmark}
 \usepackage{url}
 \usepackage{xcolor}
 \usepackage{listings}
-\usepackage{caption,subcaption}
-    \captionsetup{font=footnotesize,labelfont=bf}
-    \subcaptionsetup{font=footnotesize}
 
 % --- Abstract styling (elsarticle look)
 \usepackage{abstract}
@@ -28,7 +25,7 @@
   \par\rule{\linewidth}{0.4pt}\par
 }
 
-% --- Section styling (similar to elsarticle)
+% --- Section styling (similar to elsarticle
 \usepackage{titlesec}
 \titleformat{\section}{\normalfont\large\bfseries}{\thesection.}{0.5em}{}
 \titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection.}{0.5em}{}
@@ -36,7 +33,7 @@
 % Table of contents styling
 \usepackage{tocloft}
 \cftsetindents{section}{0em}{2em}
-\cftsetindents{subsection}{0em}{2em}
+\cftsetindents{subsection}{1em}{2em}
 \renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
 \renewcommand\cftaftertoctitle{\hfill\mbox{}}
 
@@ -57,7 +54,7 @@
 \DeclareMathOperator{\sinc}{sinc}
 
 \pagenumbering{arabic}
-\renewcommand{\arraystretch}{1.3}
+\renewcommand{\arraystretch}{1.4}
 
 % Python code export
 \lstset{
@@ -79,12 +76,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title{%
-\includegraphics[width=0.2\linewidth]{ucd_brandmark_black.jpg} \vspace{1.5cm}\\
+
+\includegraphics[width=0.2\linewidth]{ucd_brandmark_black.jpg} \vspace{0.5cm}\\
+
+{\Large\bfseries UCD School of Physics}\vspace{1.5cm}\\
+
 {\large PHYC30170 Physics Astronomy and Space Lab I}\\
-{\bfseries Diffraction Pattern due to a Rectangular Aperture}
+{\bfseries Electronics Laboratory}
+
 }
 \author{Joana C.C. Adao \\ \small Student No.: 23311051}
-\date{20 September 2025}
+\date{18 October 2025}
 
 \begin{document}
 
@@ -116,26 +118,177 @@ This is the abstract.
 
 \section{Experiment 5} \label{sec:2}
 
-\subsection{Objective} \label{sec:2.1}
+The objective of this experiment is to simulate and build a simple RC circuit driven by a square wave voltage source.
+The voltage across the resistor and capacitor will be observed using an oscilloscope, and the time constant of the circuit will be determined.
 
-\subsection{Theory} \label{sec:2.2}
+\subsection{Theory} \label{sec:2.1}
 
-\subsection{Methodology} \label{sec:2.3}
+\subsubsection{Kirchhoff's Laws} \label{sec:2.1.1}
 
-\subsection{Results and Analysis} \label{sec:2.4}
+Kirchhoff has two primary and distinct laws that deal with the conservation of charge and energy within electrical circuits. These are:
 
-\subsection{Discussion} \label{sec:2.5}
+\textbf{Kirchhoff's Current Law (KCL):} This law states that the sum of currents entering a junction (or node) in an electrical circuit 
+must equal the sum of currents leaving that junction. Essentially, it is a statement of the conservation of electric charge.
 
-\subsection{Conclusion} \label{sec:2.6}
+\textbf{Kirchhoff's Voltage Law (KVL):} This law states that the sum of electrical charge, or the voltage drop,
+around any closed loop is zero. Essentially, it is a statement of the conservation of energy within an electrical circuit. \cite{horowitz1989art}
 
-\cite{reportguide7} words words words
+\subsubsection{Time Constant} \label{sec:2.1.2}
+
+The time constant, denoted by the Greek letter tau (\( \tau \)), is a measure of the time it takes for a system to respond to a change in input. 
+For electrical circuits, the time constant is often used to describe the behavior of an RC (resistor-capacitor) circuit.
+
+The time constant for an RC circuit is given by the formula:
+
+\begin{equation} \label{eq:1}
+    \tau = R C
+\end{equation}
+
+And such, the solution to the equation for a circuit's voltage response over time is then given by:
+
+\begin{equation} \label{eq:2}
+    V(t) = V_f + Ae^{-\frac{t}{\tau}}
+\end{equation}
+
+where R is the resistance in ohms (\( \Omega \)), C is the capacitance in farads (F), \( V(t) \) is the voltage at time t,
+\( V_f \) is the final voltage, A is a constant determined by initial conditions. \cite{horowitz1989art}
+
+As the capacitor charges, the slope (which is proportional to the current) is proportional to the remaining voltage. Therefore, the
+waveform produced is exponential in nature. For \( t \gg \tau \), the voltage across the capacitor approaches its final value \( V_f \) asymptotically. \cite{horowitz1989art}
+
+\subsection{Methodology} \label{sec:2.2}
+
+The circuit was constructed on the TINA software as shown in Figure \ref{fig:5}. 
+A resistor of 1 k\( \Omega \) and a capacitor of 0.1 \( \mu \)F were connected in series in the circuit.
+A square wave voltage source was used to drive the circuit, with a frequency of 1 kHz and an amplitude of 5 V.
+The voltage across the capacitor and resistor was observed using an oscilloscope.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{ex5_setup.JPG}
+    \caption{Experimental setup constructed on the TINA software.}
+    \label{fig:5}
+\end{figure}
+
+A similar physical circuit was then constructed on a veroboard using the same components as in the simulation.
+The oscilloscope was used to supply the square wave voltage source and to observe the voltage across the capacitor and resistor.
+
+\subsection{Results} \label{sec:2.3}
+
+Results were gathered from both the TINA simulation and the physical circuit using the oscilloscope. The graphs produced are shown in
+Figures \ref{fig:5.1} and \ref{fig:5.2}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{ex5_TINA.png}
+    \caption{Oscilloscope output from the TINA simulation driven by a square wave voltage source.}
+    \label{fig:5.1}
+\end{figure}
+
+The oscilloscope shows the two channels: Channel 1 (blue) represents the input square wave voltage,
+while Channel 2 (green) represents the charging and discharging voltage across the capacitor.
+
+The time constant for the theoretical simulation can be found directly using Equation \ref{eq:1} and the component values:
+
+\begin{equation*}
+    \begin{aligned}
+    \tau = 1 \times 10^3 \cdot 0.1 \times 10^{-6} &= 1 \times 10^{-3} \; \text{s} \\ &= 1.00 \; \text{ms}
+    \end{aligned}
+\end{equation*}
+
+For the practical circuit, the output observed from the oscilloscope is shown in Figure \ref{fig:5.2}. The same two channels are represented.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex5_OSC.png}
+    \caption{Oscilloscope output for the physical RC circuit driven by a square wave voltage source.}
+    \label{fig:5.2}
+\end{figure}
+
+From this output, a zoomed-in section of the charging curve can be taken to measure the time constant and fitting
+an exponential curve to it, as shown in Figure \ref{fig:5.3}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{ex5_OSC_tau.png}
+    \caption{Zoomed-in section of the charging curve from the oscilloscope output for the physical RC circuit between 0ms and 10ms.}
+    \label{fig:5.3}
+\end{figure}
+
+Simple curve fitting was performed using Python's SciPy library to fit an exponential curve to the data points.
+The model for the exponent fitted to the curve was based on Equation \ref{eq:2}, taking a negative exponent.
+
+The output of the curve gave a time constant \( \tau \) of \( 9.8894 \times 10^{-4} \) s or 0.99 ms for the physical circuit.
+
+Comparing the theoretical and practical time constants gives a percentage error of approximately 1.01\%.
+
+\subsection{Analysis and Discussion} \label{sec:2.4}
+
+The experimental results obtained from the physical RC circuit closely matched the theoretical predictions from the TINA simulation, showing 
+a strong agreement. From the calculations made, the theoretical time constant was found to be 1.00 ms, 
+while the practical time constant obtained from the oscilloscope data through curve fitting was approximately 0.99 ms, giving
+a percentage error of about 1.01\%, which is within the acceptable range for experimental errors.
+
+The close correspondence between the theoretical and practical results indicates that the RC circuit behaves as expected 
+within the range of frequencies and voltages used. The exponential charging and discharging curves
+observed with the oscilloscope traces confirm the transient response characteristics of RC circuits, with the voltage
+dropping to zero as the capacitor remained fully charged before the next cycle.
+
+Small discrepancies between the theoretical and practical results can be attributed to several factors.
+These include the parasitic resistances in the lead wires and veroboard connections, which may slightly alter the effective
+resistance of the circuit. Additionally, the capacitor and the resistor have tolerances (typically \( \pm \)
+10\% for the capacitor, \( \pm \) 5\% for the resistor), which can lead to variations in the actual time constant. Furthermore,
+the oscilloscope's measurement accuracy and the resolution of the time base can also introduce minor errors in the trace readings.
+Despite these potential sources of error, the overall agreement between theory and experiment indicates high accuracy, making the deviation
+negligible for practical purposes.
+
+Overall, the experiment successfully demonstrated the key relationship between resistance, capacitance, and the time-dependent voltage 
+behaviour of an RC circuit and validated the theoretical models through practical implementation and measurement.
+
+\subsection{Conclusion} \label{sec:2.5}
+
+The objective of this experiment was to simulate and build a simple RC circuit driven by a square wave voltage source,
+observe the voltage across the resistor and capacitor using an oscilloscope, and determine the time constant of the circuit, comparing both
+the theoretical and practical values. The time constant otained from the practical circuit (\( \tau \) = 0.99 ms) closely matched the calculated
+theoretical prediction (\( \tau \) = 1.00 ms) with a minimal percentage error of approximately 1.01\%. 
+
+This agreement validates the theoretical models for capacitor charging and discharging in an RC circuit, and validates 
+Kirchhoff's laws in the energy and charge conservation within electrical circuits. The experiment highlighted the usefulness of
+simulation software like TINA for predicting circuit behaviour, as well as the importance of practical measurements using an oscilloscope.
 
 \section{Experiment 7} \label{sec:3}
 
-\subsection{Objective} \label{sec:3.1}
+The objective of this experiment is to simulate and construct an RC-network voltage divider circuit. Using a signal analyser,
+the amplitude and phase response of the circuit will be measured over a range of frequencies to plot a Bode plot.
 
-\subsection{Theory} \label{sec:3.2}
+\subsection{Theory} \label{sec:3.1}
 
+
+\subsection{Methodology} \label{sec:3.2}
+
+
+
+\subsection{Results} \label{sec:3.3}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex7_TINA.png}
+    \caption{Bode plot from the TINA simulation of the RC-network voltage divider circuit driven by a sine wave voltage source.}
+    \label{fig:7.1}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex7_circuit.png}
+    \caption{Bode plot from the physical RC-network voltage divider circuit driven by a sine wave voltage source.}
+    \label{fig:7.2}
+\end{figure}
+
+\subsection{Analysis and Discussion} \label{sec:3.4}
+
+
+\subsection{Conclusion} \label{sec:3.5}
 
 \section{Experiment 12} \label{sec:4}
 

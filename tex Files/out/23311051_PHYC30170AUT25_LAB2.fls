@@ -136,12 +136,6 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/subcaption.sty
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/subcaption.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/abstract/abstract.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/abstract/abstract.sty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titlesec/titlesec.sty
@@ -176,6 +170,8 @@ INPUT ./images/ucd_brandmark_black.jpg
 INPUT ./images/ucd_brandmark_black.jpg
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr6.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm
@@ -201,8 +197,6 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tf
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
-INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.toc
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.toc
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.toc
@@ -213,6 +207,42 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tf
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 OUTPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.toc
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./images/ex5_setup.JPG
+INPUT ./images/ex5_setup.JPG
+INPUT ./images/ex5_setup.JPG
+INPUT ./images/ex5_setup.JPG
+INPUT ./images/ex5_setup.JPG
+INPUT ./images/ex5_setup.JPG
+INPUT ./images/ex5_TINA.png
+INPUT ./images/ex5_TINA.png
+INPUT ./images/ex5_TINA.png
+INPUT ./images/ex5_TINA.png
+INPUT ./images/ex5_TINA.png
+INPUT ./images/ex5_TINA.png
+INPUT ./images/ex5_OSC.png
+INPUT ./images/ex5_OSC.png
+INPUT ./images/ex5_OSC.png
+INPUT ./images/ex5_OSC.png
+INPUT ./images/ex5_OSC.png
+INPUT ./images/ex5_OSC.png
+INPUT ./images/ex5_OSC_tau.png
+INPUT ./images/ex5_OSC_tau.png
+INPUT ./images/ex5_OSC_tau.png
+INPUT ./images/ex5_OSC_tau.png
+INPUT ./images/ex5_OSC_tau.png
+INPUT ./images/ex5_OSC_tau.png
+INPUT ./images/ex7_TINA.png
+INPUT ./images/ex7_TINA.png
+INPUT ./images/ex7_TINA.png
+INPUT ./images/ex7_TINA.png
+INPUT ./images/ex7_TINA.png
+INPUT ./images/ex7_TINA.png
+INPUT ./images/ex7_circuit.png
+INPUT ./images/ex7_circuit.png
+INPUT ./images/ex7_circuit.png
+INPUT ./images/ex7_circuit.png
+INPUT ./images/ex7_circuit.png
+INPUT ./images/ex7_circuit.png
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.bbl
 INPUT /Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.bbl
@@ -222,9 +252,21 @@ INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb

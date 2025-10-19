@@ -21,8 +21,9 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{reportguide7}
-UCD, ``7. {D}iffraction {P}attern due to a {R}ectangular {A}perture,''
-  \emph{3rd Year Astro and Space Physics Laboratory Manual}, n.d.
+\bibitem{horowitz1989art}
+P.~Horowitz, W.~Hill, and I.~Robinson, \emph{The art of electronics}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Cambridge university press Cambridge, 1989,
+  vol.~2.
 
 \end{thebibliography}
