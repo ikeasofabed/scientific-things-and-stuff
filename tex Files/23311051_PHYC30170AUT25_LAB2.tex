@@ -11,7 +11,8 @@
 \usepackage{hyperref}
 \usepackage{cite, bookmark}
 \usepackage{url}
-\usepackage{xcolor}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[export]{adjustbox}
 \usepackage{listings}
 
 % --- Abstract styling (elsarticle look)
@@ -105,6 +106,7 @@ This is the abstract.
 \newpage
 
 % Table of Contents - single column
+\setcounter{page}{1}
 \tableofcontents
 
 \newpage
@@ -159,7 +161,7 @@ waveform produced is exponential in nature. For \( t \gg \tau \), the voltage ac
 \subsection{Methodology} \label{sec:2.2}
 
 The circuit was constructed on the TINA software as shown in Figure \ref{fig:5}. 
-A resistor of 1 k\( \Omega \) and a capacitor of 0.1 \( \mu \)F were connected in series in the circuit.
+A resistor of 1 k\( \Omega \) and a capacitor of 1 \( \mu \)F were connected in series in the circuit.
 A square wave voltage source was used to drive the circuit, with a frequency of 1 kHz and an amplitude of 5 V.
 The voltage across the capacitor and resistor was observed using an oscilloscope.
 
@@ -259,38 +261,324 @@ simulation software like TINA for predicting circuit behaviour, as well as the i
 \section{Experiment 7} \label{sec:3}
 
 The objective of this experiment is to simulate and construct an RC-network voltage divider circuit. Using a signal analyser,
-the amplitude and phase response of the circuit will be measured over a range of frequencies to plot a Bode plot.
+the amplitude and phase response of the circuit will be measured over a range of frequencies to plot a Bode plot for computational,
+simulated, and achieved results and compared.
 
 \subsection{Theory} \label{sec:3.1}
 
+\subsubsection{Impedance} \label{sec:3.1.1}
+
+"Impedance" can be used in place of "resistance" in order to describe circuits with linear devices, such as resistors, capacitors, and inductors, and
+thus generalising Ohm's law. Impedance (Z) can be referred to as the "generalised resistance" and is described by the complex relationship: 
+impedance = resistance + reactance, or \( Z = R + jX \). \cite{horowitz1989art}
+
+The generalised Ohm's law can be written as the following \cite{reportguide3Y}:
+
+\begin{equation}\label{eq:3}
+    Z = \frac{V}{I}
+\end{equation}
+
+The reactance X applies for capacitors and inductors, which are reactive and always 90° out of phase. For resistors, they have reactance (R),
+which is always in phase and resistive.
+
+For a capacitor, this reactance (\( X_C \)) is given by \cite{horowitz1989art}:
+
+\begin{equation} \label{eq:4}
+    X_C = \frac{1}{\omega C}
+\end{equation}
+
+And thus the impedance (\( Z_C \)) of a capacitor is then \cite{horowitz1989art,reportguide3Y}:
+
+\begin{equation}\label{eq:5}
+    Z_C = -\frac{j}{\omega C} = \frac{1}{j\omega C}
+\end{equation}
+
+with C as the capacitance in farads (F) and \( \omega \) as the angular frequency in hertz (Hz). The complex part of the equation accounts for
+the 90° phase shift in the current-voltage curve.
+
+\subsubsection{Voltage Dividers} \label{sec:3.1.2}
+
+Voltage dividers are circuits that produce a fraction of the input voltage as the output voltage for a given voltage input. They are often used
+to produce a particular voltage from a larger voltage, either fixed or varying. In general, the division ratio of \( V_{out} \) to \( V_{in} \) is 
+not constant as it is dependent on the frequency \( \omega \). \cite{horowitz1989art}
+
+The Thévenin equivalent circuit, which states that "any two-terminal network of resistors and voltage sources is equivalent to a single resistor
+R in series with a single voltage source V", can also be generalised with impedance \cite{horowitz1989art,reportguide3Y}:
+
+\begin{equation} \label{eq:6}
+    V_{out} = V_{in} \frac{R_2}{R_1 + R_2} = V_{in} \frac{Z_2}{Z_1 + Z_2}
+\end{equation}
+
+\subsubsection{Decibels} \label{sec:3.1.3}
+
+To compare the relative amplitude, or magnitudes, of two signals, the logarithmic decibel scale is used. This ratio is typically 
+given with the relative intensities \cite{horowitz1989art,reportguide3Y}:
+
+\begin{equation} \label{eq:7}
+    dB = 10 \log_{10} \frac{I_2}{I_1}
+\end{equation}
+
+However, since the intensity \( \propto \) the amplitude\( ^2 \), and signal amplitudes are most commonly dealt with in circuits, Equation \ref{eq:7}
+can be rewritten \cite{reportguide3Y}:
+
+\begin{equation} \label{eq:8}
+    \begin{aligned}
+        dB  & = 10 \log_{10} \frac{V_2^2}{V_1^2} \\\\
+        & = 20 \log_{10} \frac{V_2}{V_1}
+    \end{aligned}
+\end{equation}
+
+As the voltage V is often the amplitude source of a circuit.
+
+\subsubsection{RC High-Pass Filter} \label{sec:3.1.4}
+
+By combining resistors and capacitors in a circuit it is possible to make frequency-dependent voltage divider with the use of the frequency-dependence
+in the impedance of a capacitor \( Z_C = -j / \omega C \). These circuits have the abilities to reject undesired signal frequencies, only allowing
+the desired frequencies to pass. \cite{horowitz1989art}
+
+At high frequencies \( \omega \gtrsim 1/RC \), the output is approximately equal to the input and approaches zero at low frequencies.
+The -3 dB point at which the curve bends and the capacitor is approximately 63\% charged after a time \( \tau = RC \) may be referred to 
+as the "breakpoint" and is given by \cite{horowitz1989art,reportguide3Y}:
+
+\begin{equation} \label{eq:9}
+    f_{3\,\text{dB}} = \frac{1}{2 \pi RC}
+\end{equation}
+
+At \( \omega = 0 \) the phase shift is the expected +90°. At \( \omega_{3 \, \text{dB}} \) the phase shift changes to +45°, and at
+\( \omega = \infty \) the phase shift changes to a flat 0°. \cite{horowitz1989art}
+
+The bandwidth of the circuit is then described as the range over which the response does not drop by over 3 dB; or, the range of frequencies
+that can be rejected or passed in a voltage divider circuit. \cite{reportguide3Y}
 
 \subsection{Methodology} \label{sec:3.2}
 
-
-
-\subsection{Results} \label{sec:3.3}
+The circuit was constructed on the TINA software as shown in Figure \ref{fig:7}, which is identical to the circuit in experiment 5 
+(§\ref{sec:2.2}) with the difference of a signal analyser in place of an oscilloscope connection. The same resistor (R = 1 k\( \Omega \)) and
+capacitor (C = 1 \( \mu \)F) were used. A sinusoidal wave source of 1V was used to drive the circuit.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{ex7_TINA.png}
-    \caption{Bode plot from the TINA simulation of the RC-network voltage divider circuit driven by a sine wave voltage source.}
+    \includegraphics[width=.8\linewidth]{EX7_setup.JPG}
+    \caption{Experimental setup constructed on the TINA software.}
+    \label{fig:7}
+\end{figure}
+
+The same physical circuit as used in experiment 5 (§\ref{sec:2.2}) was used for the practical measurements of this experiment.
+
+\subsection{Results} \label{sec:3.3}
+
+Using the generalised voltage equation (Eq. \ref{eq:6}) and the impedance form for resistance (R, simply) and capacitance (Eq. \ref{eq:5}), the
+transfer function for the gain can be approximated:
+
+\begin{equation*}
+    \begin{aligned}
+        V_{out} & = V_{in} \frac{R}{\frac{1}{j\omega C}+R} \\\\
+        & = V_{in} \frac{j\omega RC}{1 + j\omega RC}
+    \end{aligned}
+\end{equation*}
+
+Such, the ratio of \( V_{out} / V_{in} \) can be found and defined as the complex transfer function \( H(j\omega) \):
+
+\begin{equation*}
+    H(j\omega) = \frac{V_{out}}{V_{in}} = \frac{j\omega RC}{1 + j\omega RC}
+\end{equation*}
+
+The magnitude of this function can be found by applying Equation \ref{eq:8} directly as it is the ratio of \( V_{out} / V_{in} \).
+The phase angle can be determined by taking the arctangent of the imaginary part of the transfer function (1) divided by the real 
+part of the transfer function (\( \omega RC \)).
+
+Plotted across a range of frequencies from 1 Hz to 1 MHz (\( 10^0 \; \text{to} \; 10^6 \), as a logarithm), the gain and phase shift of the
+RC high-pass voltage divider circuit are found and plotted in Figure \ref{fig:7.1}.
+
+For this plot, the cutoff frequency is found to be approximately \textbf{159 Hz}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex7_calculation.png}
+    \caption{Bode plot from the calculations of an RC-network voltage divider circuit driven by a sine wave voltage source with \( V_0 \) = 1, C = 1 \( \mu \)F, and R = 1 k\( \Omega \).}
     \label{fig:7.1}
 \end{figure}
 
+As the magnitude (gain) was already found on a logarithmic scale (decibels), only frequency is showcased as a logarithmic scale. Despite this,
+the gain plot is a log-log plot, whilst the phase angle plot is a log-linear plot with the phase angles linear.
+
+A similar graph was plotted for the TINA simulation results, shown in Figure \ref{fig:7.2} using the Signal Analysis instrument in the
+T\&M menu, resulting in the output represented as a Bode plot (gain and phase).
+
+For this plot, the cutoff frequency is found to be approximately \textbf{160 Hz}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{ex7_TINA.png}
+    \caption{Bode plot from the TINA simulation of the RC-network voltage divider circuit driven by a sine wave voltage source.}
+    \label{fig:7.2}
+\end{figure}
+
+Again, a similar graph was plotted for the results obtained from the physical circuit constructed, shown in Figure \ref{fig:7.3}. Instead of a 
+smooth plot, logarithmic values for frequency were chosen (1 Hz, 10 Hz, 100 Hz, 1 kHz, 10 kHz, 100 kHz, 1 MHz) and the amplitude and phase responses 
+observed. Results were tabled (\hyperref[sec:A]{Appendix}, table \ref{tab:7}) and graphed, with the magnitude/gain found with Equation \ref{eq:8}.
+
+For this plot, the cutoff frequency is found to be approximately \textbf{542 Hz}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{ex7_circuit.png}
     \caption{Bode plot from the physical RC-network voltage divider circuit driven by a sine wave voltage source.}
-    \label{fig:7.2}
+    \label{fig:7.3}
 \end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{ex7_comparison.png}
+    \caption{Comparison of the gain (top) and phase (bottom) Bode plot curves.}
+    \label{fig:7.4}
+\end{figure}
+
+For visual comparison of plot agreement, all obtained curves and points were plotted against each other, shown in Figure \ref{fig:7.4}.
+
+The expected cutoff frequency for this circuit can be calculated with Equation \ref{eq:9}, and is determined to be at approximately \textbf{159 Hz}.
 
 \subsection{Analysis and Discussion} \label{sec:3.4}
 
+The results from the computational calculation (Fig. \ref{fig:7.1}), TINA simulation (Fig. \ref{fig:7.2}), and physical circuit (Fig. \ref{fig:7.3})
+all show the expected behaviour of an RC high-pass voltage divider. As predicted by the transfer function
+
+\begin{equation*}
+    H(j\omega) = \frac{j\omega RC}{1 + j\omega RC}
+\end{equation*}
+
+the output amplitude increases with frequency \( \omega \). At low frequencies (\( \omega \ll 1/RC\)), the capacitor impedance dominates
+that effectively blocks the input signal and results in a low output voltage. At high frequencies (\( \omega \gtrsim 1/RC \)), the gain approaches
+unity (0 dB) and allowing a greater portion of the signal to appear through the resistor, approaching the input voltage. The corresponding phase
+response transitions from approximately +90° at low frequencies to 0° at high frequencies, and a +45° phase shift at the cutoff frequency (-3 dB).
+
+The theoretical cutoff frequency, determined with Equation \ref{eq:9}, is found to be approximately \textbf{159 Hz} for R = 1 k\( \Omega \) and 
+C = 1 \( \mu \)F. This value very closely matches the value obtained from the TINA simulation of \textbf{160 Hz}, demonstrating a strong agreement
+between the analytical and simulated models. However, the experiment cutoff frequency for the physical circuit was measured at approximately
+\textbf{542 Hz}, which is an upward deviation of roughly \textbf{241\%} from the calculation.
+
+This discrepancy can be attributed to several experimental factors. The tolerance for a capacitor (often ±10\%) and for a resistor (±5\%) may have
+shifted the true RC product, directly affecting the \( f_{3\,\text{dB}} \) as a lower actual capacitance than the expected 1 \(\mu\)F would increase
+the cutoff frequency proportionally, similarly were it the resistor. Additionally, parasitic capacitance and resistance in the veroboard and
+connecting leads, and internal impedance from the oscilloscope input, can modify the circuit's effective impedance. At higher frequencies, small
+parasitic resistances and inductances can distort both amplitude and phase responses.
+
+Despite deviations, the shape and trend of the experiment Bode plots agree with the theoretical expectations (Fig. \ref{fig:7.4}).
+The gain plot displays the behaviour expected as discussed, while the phase response plot displays a smooth decrease toward 0° from +90°.
+These results confirm that the constructed circuit functions as a high-pass filter voltage divider, allowing greater frequencies to pass while
+holding back lower frequencies.
+
+Overall, the experiment successfully illustrated the principles of the frequency-dependent impedance, the relationship between gain and phase
+in a reactive circuit, and the analytical calculation of the cutoff frequency expected for such circuit. The minor quantitative discrepancies
+can be explained by the realistic non-ideal component behaviours and measurement limitations.
 
 \subsection{Conclusion} \label{sec:3.5}
 
+The aim of this experiment was to investigate the frequency response of an RC high-pass filter voltage divider circuit and 
+produce a Bode plot for the values obtained, alongside determining its cutoff frequency, through analytical, simulated, and experimental approaches.
+The results obtained for the analytical and TINA simulation were in excellent agreement, both predicting a cutoff frequency near \textbf{159-160 Hz}.
+
+The result obtained from the physical experiment circuit, however, yielded a higher cutoff frequency of approximately \textbf{542 Hz}, a
+discrepancy from the other obtained values that may be attributed to component tolerances and parasitic effects within the measurement setup.
+Despite this, the overall gain and phase behaviour matched the expected curve form, validating the fundamental relationship between impedance and
+frequency in RC circuits.
+
+The experiment results provided an effective demonstration to the usefulness of visualising both amplitude and phase response in a Bode plot,
+bridging theoretical results with practical measurements. 
+
 \section{Experiment 12} \label{sec:4}
+
+\subsection{Theory} \label{sec:4.1}
+
+\subsubsection{Diodes}
+
+\subsection{Methodology} \label{sec:4.2}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{exp12a_setup.JPG}
+    \caption{Experimental setup constructed on the TINA software.}
+    \label{fig:12a}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{exp12b_setup.JPG}
+    \caption{Experimental setup constructed on the TINA software, driven by a sinusoidal waveform.}
+    \label{fig:12b}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{exp12b_setup_cap.JPG}
+    \caption{Experimental setup constructed on the TINA software, with a capacitor in parallel with the resistor and driven by a sinusoidal waveform.}
+    \label{fig:12bcap}
+\end{figure}
+
+\subsection{Results} \label{sec:4.3}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex12a_TINA_fb.png}
+    \caption{Forward TINA}
+    \label{fig:12.1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex12a_circuit_fb.png}
+    \caption{Forward circuit}
+    \label{fig:12.2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex12a_TINA_rb.png}
+    \caption{Reverse TINA}
+    \label{fig:12.3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex12a_TINA_rb_zoom.png}
+    \caption{Reverse TINA zoom}
+    \label{fig:12.4}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex12b_TINA_nocap.png}
+    \caption{No cap TINA}
+    \label{fig:12.5}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex12b_circuit_nocap.png}
+    \caption{No cap circuit}
+    \label{fig:12.6}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex12b_TINA_cap.png}
+    \caption{Cap TINA}
+    \label{fig:12.7}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex12b_circuit_cap.png}
+    \caption{Cap circuit}
+    \label{fig:12.8}
+\end{figure}
+
+\subsection{Analysis and Discussion} \label{sec:4.4}
+
+
+\subsection{Conclusion} \label{sec:4.5}
+
+
 
 \section{Experiment 19} \label{sec:5}
 
@@ -312,7 +600,23 @@ the amplitude and phase response of the circuit will be measured over a range of
 \section*{Appendix} \label{sec:A}
 \addcontentsline{toc}{section}{Appendix}
 
-
-% Your appendix content here
+\begin{table}[H]
+    \centering
+    \caption{Table for the values obtained for the physical experimental circuit.}
+    \vspace{1em}
+    \label{tab:7}
+    \begin{tabular}{|
+    >{\columncolor[HTML]{EFEFEF}}c |c|c|c|}
+    \hline
+    \cellcolor[HTML]{C0C0C0}f (Hz) & \cellcolor[HTML]{C0C0C0}$V_{in}$ (V) & \cellcolor[HTML]{C0C0C0}$V_{out}$ & \cellcolor[HTML]{C0C0C0}$\phi$ (°) \\ \hline
+    1    & 8.52 & 61.1m & 87    \\ \hline
+    10   & 1.01 & 61.2m & 84.8  \\ \hline
+    100  & 1.02 & 502m  & 59.68 \\ \hline
+    1k   & 970m & 1.00  & 6.95  \\ \hline
+    10k  & 950m & 1.02  & 0.14  \\ \hline
+    100k & 970m & 1.02  & 0.56  \\ \hline
+    1M   & 930m & 970m  & 0.90  \\ \hline
+    \end{tabular}%
+\end{table}
 
 \end{document}

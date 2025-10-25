@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  19 OCT 2025 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  24 OCT 2025 23:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -286,130 +286,178 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty
-\lst@mode=\count299
-\lst@gtempboxa=\box58
-\lst@token=\toks27
-\lst@length=\count300
-\lst@currlwidth=\dimen167
-\lst@column=\count301
-\lst@pos=\count302
-\lst@lostspace=\dimen168
-\lst@width=\dimen169
-\lst@newlines=\count303
-\lst@lineno=\count304
-\lst@maxwidth=\dimen170
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks27
+\minrowclearance=\skip57
+\rownum=\count299
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkeyval.tex (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
+)
+\XKV@depth=\count300
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box58
+)
+\tc@llx=\dimen167
+\tc@lly=\dimen168
+\tc@urx=\dimen169
+\tc@ury=\dimen170
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen171
+\adjbox@Height=\dimen172
+\adjbox@Depth=\dimen173
+\adjbox@Totalheight=\dimen174
+\adjbox@pwidth=\dimen175
+\adjbox@pheight=\dimen176
+\adjbox@pdepth=\dimen177
+\adjbox@ptotalheight=\dimen178
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count301
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box59
+\sift@deathcycles=\count302
+\@vwid@loff=\dimen179
+\@vwid@roff=\dimen180
+)) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty
+\lst@mode=\count303
+\lst@gtempboxa=\box60
+\lst@token=\toks30
+\lst@length=\count304
+\lst@currlwidth=\dimen181
+\lst@column=\count305
+\lst@pos=\count306
+\lst@lostspace=\dimen182
+\lst@width=\dimen183
+\lst@newlines=\count307
+\lst@lineno=\count308
+\lst@maxwidth=\dimen184
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count305
-\lst@skipnumbers=\count306
-\lst@framebox=\box59
+\c@lstnumber=\count309
+\lst@skipnumbers=\count310
+\lst@framebox=\box61
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/abstract/abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip57
-\absleftindent=\skip58
-\absrightindent=\skip59
-\absparindent=\skip60
-\absparsep=\skip61
+\abstitleskip=\skip58
+\absleftindent=\skip59
+\absrightindent=\skip60
+\absparindent=\skip61
+\absparsep=\skip62
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box60
-\beforetitleunit=\skip62
-\aftertitleunit=\skip63
-\ttl@plus=\dimen171
-\ttl@minus=\dimen172
-\ttl@toksa=\toks28
-\titlewidth=\dimen173
-\titlewidthlast=\dimen174
-\titlewidthfirst=\dimen175
+\ttl@box=\box62
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen185
+\ttl@minus=\dimen186
+\ttl@toksa=\toks31
+\titlewidth=\dimen187
+\titlewidthlast=\dimen188
+\titlewidthfirst=\dimen189
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip64
-\cftbeforetoctitleskip=\skip65
-\cftaftertoctitleskip=\skip66
-\cftbeforepartskip=\skip67
-\cftpartnumwidth=\skip68
-\cftpartindent=\skip69
-\cftbeforesecskip=\skip70
-\cftsecindent=\skip71
-\cftsecnumwidth=\skip72
-\cftbeforesubsecskip=\skip73
-\cftsubsecindent=\skip74
-\cftsubsecnumwidth=\skip75
-\cftbeforesubsubsecskip=\skip76
-\cftsubsubsecindent=\skip77
-\cftsubsubsecnumwidth=\skip78
-\cftbeforeparaskip=\skip79
-\cftparaindent=\skip80
-\cftparanumwidth=\skip81
-\cftbeforesubparaskip=\skip82
-\cftsubparaindent=\skip83
-\cftsubparanumwidth=\skip84
-\cftbeforeloftitleskip=\skip85
-\cftafterloftitleskip=\skip86
-\cftbeforefigskip=\skip87
-\cftfigindent=\skip88
-\cftfignumwidth=\skip89
-\c@lofdepth=\count307
-\c@lotdepth=\count308
-\cftbeforelottitleskip=\skip90
-\cftafterlottitleskip=\skip91
-\cftbeforetabskip=\skip92
-\cfttabindent=\skip93
-\cfttabnumwidth=\skip94
+\cftparskip=\skip65
+\cftbeforetoctitleskip=\skip66
+\cftaftertoctitleskip=\skip67
+\cftbeforepartskip=\skip68
+\cftpartnumwidth=\skip69
+\cftpartindent=\skip70
+\cftbeforesecskip=\skip71
+\cftsecindent=\skip72
+\cftsecnumwidth=\skip73
+\cftbeforesubsecskip=\skip74
+\cftsubsecindent=\skip75
+\cftsubsecnumwidth=\skip76
+\cftbeforesubsubsecskip=\skip77
+\cftsubsubsecindent=\skip78
+\cftsubsubsecnumwidth=\skip79
+\cftbeforeparaskip=\skip80
+\cftparaindent=\skip81
+\cftparanumwidth=\skip82
+\cftbeforesubparaskip=\skip83
+\cftsubparaindent=\skip84
+\cftsubparanumwidth=\skip85
+\cftbeforeloftitleskip=\skip86
+\cftafterloftitleskip=\skip87
+\cftbeforefigskip=\skip88
+\cftfigindent=\skip89
+\cftfignumwidth=\skip90
+\c@lofdepth=\count311
+\c@lotdepth=\count312
+\cftbeforelottitleskip=\skip91
+\cftafterlottitleskip=\skip92
+\cftbeforetabskip=\skip93
+\cfttabindent=\skip94
+\cfttabnumwidth=\skip95
 
 
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing out. on input line 1156.
 
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 50.
+Package hyperref Info: Option `colorlinks' set `true' on input line 51.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count309
-\l__pdf_internal_box=\box61
+\l__color_backend_stack_int=\count313
+\l__pdf_internal_box=\box63
 ) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.aux)
 \openout1 = `23311051_PHYC30170AUT25_LAB2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen176
-\scratchbox=\box62
-\nofMPsegments=\count311
-\nofMParguments=\count312
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen177
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count314
+\scratchdimen=\dimen190
+\scratchbox=\box64
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen191
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks33
 ) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -450,18 +498,18 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 91.
-\c@lstlisting=\count316
+Package hyperref Info: Link coloring ON on input line 92.
+\c@lstlisting=\count320
 <./images/ucd_brandmark_black.jpg, id=3, 426.59375pt x 626.34pt>
 File: ./images/ucd_brandmark_black.jpg Graphic file (type jpg)
 <use ./images/ucd_brandmark_black.jpg>
-Package pdftex.def Info: ./images/ucd_brandmark_black.jpg  used on input line 96.
+Package pdftex.def Info: ./images/ucd_brandmark_black.jpg  used on input line 97.
 (pdftex.def)             Requested size: 96.73788pt x 142.02904pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
 (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -475,62 +523,188 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-[2]
 
-<./images/ex5_setup.JPG, id=64, 282.05376pt x 309.155pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.112 \newpage
+               [1]
+
+<./images/ex5_setup.JPG, id=83, 282.05376pt x 309.155pt>
 File: ./images/ex5_setup.JPG Graphic file (type jpg)
 <use ./images/ex5_setup.JPG>
-Package pdftex.def Info: ./images/ex5_setup.JPG  used on input line 168.
+Package pdftex.def Info: ./images/ex5_setup.JPG  used on input line 170.
 (pdftex.def)             Requested size: 213.16214pt x 233.64882pt.
-<./images/ex5_TINA.png, id=67, 733.5405pt x 479.8728pt>
+<./images/ex5_TINA.png, id=86, 733.5405pt x 479.8728pt>
 File: ./images/ex5_TINA.png Graphic file (type png)
 <use ./images/ex5_TINA.png>
-Package pdftex.def Info: ./images/ex5_TINA.png  used on input line 183.
+Package pdftex.def Info: ./images/ex5_TINA.png  used on input line 185.
 (pdftex.def)             Requested size: 236.84843pt x 154.93901pt.
 
 
-[3
+[2
 
  <./images/ex5_setup.JPG>]
-<./images/ex5_OSC.png, id=86, 724.1454pt x 479.8728pt>
+<./images/ex5_OSC.png, id=105, 724.1454pt x 479.8728pt>
 File: ./images/ex5_OSC.png Graphic file (type png)
 <use ./images/ex5_OSC.png>
-Package pdftex.def Info: ./images/ex5_OSC.png  used on input line 203.
+Package pdftex.def Info: ./images/ex5_OSC.png  used on input line 205.
 (pdftex.def)             Requested size: 236.84843pt x 156.95264pt.
-<./images/ex5_OSC_tau.png, id=88, 719.0865pt x 479.8728pt>
+<./images/ex5_OSC_tau.png, id=107, 719.0865pt x 479.8728pt>
 File: ./images/ex5_OSC_tau.png Graphic file (type png)
 <use ./images/ex5_OSC_tau.png>
-Package pdftex.def Info: ./images/ex5_OSC_tau.png  used on input line 213.
+Package pdftex.def Info: ./images/ex5_OSC_tau.png  used on input line 215.
 (pdftex.def)             Requested size: 236.84843pt x 158.05829pt.
 
 
 
 
-[4 <./images/ex5_TINA.png> <./images/ex5_OSC.png> <./images/ex5_OSC_tau.png>]
-Underfull \hbox (badness 1014) in paragraph at lines 245--247
+[3 <./images/ex5_TINA.png> <./images/ex5_OSC.png> <./images/ex5_OSC_tau.png>]
+Underfull \hbox (badness 1014) in paragraph at lines 247--249
 \OT1/cmr/m/n/10.95 of an RC cir-cuit and val-i-dated the the-o-ret-i-
  []
 
-<./images/ex7_TINA.png, id=99, 720.5319pt x 482.7636pt>
-File: ./images/ex7_TINA.png Graphic file (type png)
-<use ./images/ex7_TINA.png>
-Package pdftex.def Info: ./images/ex7_TINA.png  used on input line 275.
-(pdftex.def)             Requested size: 236.84843pt x 158.6937pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<./images/ex7_circuit.png, id=100, 717.6411pt x 482.7636pt>
+
+
+[4]
+
+<./images/EX7_setup.JPG, id=146, 228.855pt x 309.155pt>
+File: ./images/EX7_setup.JPG Graphic file (type jpg)
+<use ./images/EX7_setup.JPG>
+Package pdftex.def Info: ./images/EX7_setup.JPG  used on input line 361.
+(pdftex.def)             Requested size: 189.47946pt x 255.97118pt.
+
+
+[5 <./images/EX7_setup.JPG>]
+<./images/ex7_calculation.png, id=162, 852.786pt x 563.706pt>
+File: ./images/ex7_calculation.png Graphic file (type png)
+<use ./images/ex7_calculation.png>
+Package pdftex.def Info: ./images/ex7_calculation.png  used on input line 397.
+(pdftex.def)             Requested size: 236.84843pt x 156.55498pt.
+<./images/ex7_TINA.png, id=164, 852.786pt x 563.706pt>
+File: ./images/ex7_TINA.png Graphic file (type png)
+<use ./images/ex7_TINA.png>
+Package pdftex.def Info: ./images/ex7_TINA.png  used on input line 412.
+(pdftex.def)             Requested size: 236.84843pt x 156.55498pt.
+
+
+<./images/ex7_circuit.png, id=169, 852.786pt x 563.706pt>
 File: ./images/ex7_circuit.png Graphic file (type png)
 <use ./images/ex7_circuit.png>
-Package pdftex.def Info: ./images/ex7_circuit.png  used on input line 283.
-(pdftex.def)             Requested size: 236.84843pt x 159.32721pt.
+Package pdftex.def Info: ./images/ex7_circuit.png  used on input line 425.
+(pdftex.def)             Requested size: 236.84843pt x 156.55498pt.
+<./images/ex7_comparison.png, id=170, 852.786pt x 563.706pt>
+File: ./images/ex7_comparison.png Graphic file (type png)
+<use ./images/ex7_comparison.png>
+Package pdftex.def Info: ./images/ex7_comparison.png  used on input line 432.
+(pdftex.def)             Requested size: 236.84843pt x 156.55498pt.
 
 
-[5 <./images/ex7_TINA.png> <./images/ex7_circuit.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.bbl)
+[6 <./images/ex7_calculation.png> <./images/ex7_TINA.png> <./images/ex7_circuit.png>]
 
-[6
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--474
+\OT1/cmr/m/n/10.95 the prin-ci-ples of the frequency-dependent
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 486--488
+[]\OT1/cmr/m/n/10.95 The ex-per-i-ment re-sults pro-vided an ef-fec-tive
+ []
+
+
+
+[7 <./images/ex7_comparison.png>]
+<./images/exp12a_setup.JPG, id=196, 329.23pt x 211.79124pt>
+File: ./images/exp12a_setup.JPG Graphic file (type jpg)
+<use ./images/exp12a_setup.JPG>
+Package pdftex.def Info: ./images/exp12a_setup.JPG  used on input line 499.
+(pdftex.def)             Requested size: 236.84843pt x 152.36678pt.
+<./images/exp12b_setup.JPG, id=197, 302.12875pt x 381.425pt>
+File: ./images/exp12b_setup.JPG Graphic file (type jpg)
+<use ./images/exp12b_setup.JPG>
+Package pdftex.def Info: ./images/exp12b_setup.JPG  used on input line 506.
+(pdftex.def)             Requested size: 213.16214pt x 269.10835pt.
+<./images/exp12b_setup_cap.JPG, id=198, 302.12875pt x 381.425pt>
+File: ./images/exp12b_setup_cap.JPG Graphic file (type jpg)
+<use ./images/exp12b_setup_cap.JPG>
+Package pdftex.def Info: ./images/exp12b_setup_cap.JPG  used on input line 513.
+(pdftex.def)             Requested size: 213.16214pt x 269.10835pt.
+
+Underfull \vbox (badness 2961) has occurred while \output is active []
+
+
+
+<./images/ex12a_TINA_fb.png, id=199, 719.0865pt x 479.8728pt>
+File: ./images/ex12a_TINA_fb.png Graphic file (type png)
+<use ./images/ex12a_TINA_fb.png>
+Package pdftex.def Info: ./images/ex12a_TINA_fb.png  used on input line 522.
+(pdftex.def)             Requested size: 236.84843pt x 158.05829pt.
+<./images/ex12a_circuit_fb.png, id=200, 719.0865pt x 479.8728pt>
+File: ./images/ex12a_circuit_fb.png Graphic file (type png)
+<use ./images/ex12a_circuit_fb.png>
+Package pdftex.def Info: ./images/ex12a_circuit_fb.png  used on input line 529.
+(pdftex.def)             Requested size: 236.84843pt x 158.05829pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[8 <./images/exp12a_setup.JPG> <./images/exp12b_setup.JPG> <./images/exp12b_setup_cap.JPG> <./images/ex12a_TINA_fb.png>]
+<./images/ex12a_TINA_rb.png, id=210, 717.6411pt x 479.8728pt>
+File: ./images/ex12a_TINA_rb.png Graphic file (type png)
+<use ./images/ex12a_TINA_rb.png>
+Package pdftex.def Info: ./images/ex12a_TINA_rb.png  used on input line 536.
+(pdftex.def)             Requested size: 236.84843pt x 158.37315pt.
+<./images/ex12a_TINA_rb_zoom.png, id=211, 720.5319pt x 490.7133pt>
+File: ./images/ex12a_TINA_rb_zoom.png Graphic file (type png)
+<use ./images/ex12a_TINA_rb_zoom.png>
+Package pdftex.def Info: ./images/ex12a_TINA_rb_zoom.png  used on input line 543.
+(pdftex.def)             Requested size: 236.84843pt x 161.30692pt.
+<./images/ex12b_TINA_nocap.png, id=212, 718.3638pt x 479.8728pt>
+File: ./images/ex12b_TINA_nocap.png Graphic file (type png)
+<use ./images/ex12b_TINA_nocap.png>
+Package pdftex.def Info: ./images/ex12b_TINA_nocap.png  used on input line 550.
+(pdftex.def)             Requested size: 236.84843pt x 158.21207pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+<./images/ex12b_circuit_nocap.png, id=213, 711.8595pt x 479.8728pt>
+File: ./images/ex12b_circuit_nocap.png Graphic file (type png)
+<use ./images/ex12b_circuit_nocap.png>
+Package pdftex.def Info: ./images/ex12b_circuit_nocap.png  used on input line 557.
+(pdftex.def)             Requested size: 236.84843pt x 159.66187pt.
+<./images/ex12b_TINA_cap.png, id=214, 718.3638pt x 479.8728pt>
+File: ./images/ex12b_TINA_cap.png Graphic file (type png)
+<use ./images/ex12b_TINA_cap.png>
+Package pdftex.def Info: ./images/ex12b_TINA_cap.png  used on input line 564.
+(pdftex.def)             Requested size: 236.84843pt x 158.21207pt.
+<./images/ex12b_circuit_cap.png, id=215, 711.8595pt x 479.8728pt>
+File: ./images/ex12b_circuit_cap.png Graphic file (type png)
+<use ./images/ex12b_circuit_cap.png>
+Package pdftex.def Info: ./images/ex12b_circuit_cap.png  used on input line 571.
+(pdftex.def)             Requested size: 236.84843pt x 159.66187pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[9 <./images/ex12a_circuit_fb.png> <./images/ex12a_TINA_rb.png> <./images/ex12a_TINA_rb_zoom.png> <./images/ex12b_TINA_nocap.png> <./images/ex12b_circuit_nocap.png> <./images/ex12b_TINA_cap.png>]
+
+
+
+[10
+
+ <./images/ex12b_circuit_cap.png>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.bbl)
+
+[11
 
 ] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.aux)
  ***********
@@ -539,17 +713,17 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13437 strings out of 473530
- 211555 string characters out of 5704664
- 801384 words of memory out of 5000000
- 36448 multiletter control sequences out of 15000+600000
- 567202 words of font info for 67 fonts, out of 8000000 for 9000
+ 14863 strings out of 473530
+ 238524 string characters out of 5704664
+ 825276 words of memory out of 5000000
+ 37797 multiletter control sequences out of 15000+600000
+ 567543 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,79p,1315b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.pdf" (6 pages, 569679 bytes).
+ 69i,11n,79p,1315b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170AUT25_LAB2.pdf" (12 pages, 1424509 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 362 words of extra memory for PDF output out of 10000 (max. 10000000)
 
