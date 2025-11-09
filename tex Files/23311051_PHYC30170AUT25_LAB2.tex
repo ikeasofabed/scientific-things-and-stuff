@@ -13,7 +13,7 @@
 \usepackage{url}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage[export]{adjustbox}
-\usepackage{listings}
+\usepackage{listings,pdfpages}
 
 % --- Abstract styling (elsarticle look)
 \usepackage{abstract}
@@ -37,6 +37,9 @@
 \cftsetindents{subsection}{1em}{2em}
 \renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
 \renewcommand\cftaftertoctitle{\hfill\mbox{}}
+\renewcommand\cftfigfont{\footnotesize}
+\renewcommand\cftfigpagefont{\footnotesize}
+\renewcommand\cftloftitlefont{\large}
 
 \graphicspath{ {./images/} }
 
@@ -96,12 +99,12 @@
 \maketitle
 
 % Abstract - single column
-\thispagestyle{empty}
-\begin{abstract}
+%\thispagestyle{empty}
+%\begin{abstract}
 
-This is the abstract.
+%This is the abstract.
 
-\end{abstract}
+%\end{abstract}
 
 \newpage
 
@@ -115,8 +118,6 @@ This is the abstract.
 
 % Start main content in two columns
 \twocolumn
-
-\section{Introduction} \label{sec:1}
 
 \section{Experiment 5} \label{sec:2}
 
@@ -488,11 +489,73 @@ bridging theoretical results with practical measurements.
 
 \section{Experiment 12} \label{sec:4}
 
+The objective of this experiment is to build and simulate a resistor-diode circuit and experimentally measure the produce I-V curve.
+Additionally, by driving a sinusoidal wave through the circuit the effect of the diode on the wave can be visualised with an oscilloscope. Then,
+by adding a capacitor in parallel with the resistor the characteristic curve of the circuit observed will change. Comments are then made on the
+observed graphs.
+
 \subsection{Theory} \label{sec:4.1}
 
-\subsubsection{Diodes}
+\subsubsection{Diodes} \label{sec:4.1.1}
+
+Diodes are non-linear devices in the frequency domain, as opposed to the time domain devices (§\ref{sec:2.1.2}). As opposed to a linear response
+of doubling signal responses per applied signal, diodes are two-terminal semiconductor devices that control the flow of power. The two terminals
+are the positive anode and the negative cathode. The diode's arrow (anode terminal) points in the direction of the forward current flow, known as
+the "forward voltage drop" (typically 0.6 V for silicon diodes).
+
+While the forward current bias diodes are measured in the milliamp range, the reverse current bias diodes are measured in the nanoamp range.
+Diodes in reverse current configurations are never of any consequence until the reverse breakdown voltage is reached. Typically, at quite high voltages,
+a general-purpose diode would break down and short.
+
+Diodes do not have an associated resistance, and therefore do not obey Ohm's law. Additionally, because of this fact, diodes in a circuit also 
+do not have a Thévenin equivalent equation. \cite{horowitz1989art}
+
+\subsubsection{Rectifiers} \label{sec:4.1.2}
+
+A rectifier changes an alternating current (ac) to a direct current (dc) and is one of the most common and simplest applications of a diode in a
+circuit. For a sine-wave input much higher than the forward drop of a diode, the resulting output will be half-wave in an unfiltered circuit. It is 
+called this way as only half of the input waveform is used. \cite{horowitz1989art}
+
+\subsubsection{Power Filtering \& Ripple Voltage} \label{sec:4.1.3}
+
+The rectified waveforms are only "dc" in the sense that the polarity does not change, though a lot of periodic variations in the steady voltage
+remain, known as the "ripple" voltage. This ripple "dc" can be smoothed out in order to generate a genuine dc supply with the use of a relatively
+large-value capacitor. The capacitor charges up to peak voltage output during the diode conduction, and the output voltage is provided by the 
+stored charge (\( Q = CV \)) during charging cycles. However, due to the nature of the diode as a rectifier, it does not allow the capacitor to
+discharge back through the ac source. \cite{horowitz1989art}
+
+The capacitor value is chosen such that,
+
+\begin{equation*}
+    R_{\text{load}}C \gg 1/f
+\end{equation*}
+
+with C as the capacitance in farads (F), R as the resistance in ohms (\( \Omega \)), and f as the ripple frequency in hertz (Hz). The capacitor is 
+chosen in this way so that the time constant for discharging is much longer than the time between recharging, ensuring a small ripple. \cite{horowitz1989art}
+
+This way, when the ripple voltage is small compared to the dc voltage supply, the approximation of the ripple voltage is easily determined as one can
+assume that the load current stays constant in this case. As such \cite{horowitz1989art}:
+
+\begin{equation*}
+    \Delta V = \frac{I}{C} \Delta t \qquad \left( \text{from} \, I=C\frac{dV}{dt} \right)
+\end{equation*}
+
+This can also be expressed with the waveform produced by a half-wave rectifier, approximated for \( \Delta t \) as the capacitor begins
+charging again in less than half a cycle \cite{horowitz1989art}:
+
+\begin{equation}
+    \Delta V = \frac{I_\text{load}}{fC}
+\end{equation}
+
+with V as the voltage in volts (V), \( I_{\text{load}} \) as the load current in amps (A), f as the frequency in hertz (H), and C as the capacitance 
+in farads (F). For a small ripple, viewing the initial discharge curve as a ramp is more accurate than if an exponential discharge formula and curve
+were used. \cite{horowitz1989art}
 
 \subsection{Methodology} \label{sec:4.2}
+
+The circuit was constructed and simulated on the TINA software as shown in Figure \ref{fig:12a}. A digital multimeter was used to find and 
+determine the current in the circuit as it passed through a 470 \( \Omega \) resistor and 1N4148 diode. 
+A variable voltage supply source was used, with a range of voltages observed chosen to be 0-1.5 V.
 
 \begin{figure}[H]
     \centering
@@ -501,12 +564,22 @@ bridging theoretical results with practical measurements.
     \label{fig:12a}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[hb]
     \centering
     \includegraphics[width=.9\linewidth]{exp12b_setup.JPG}
     \caption{Experimental setup constructed on the TINA software, driven by a sinusoidal waveform.}
     \label{fig:12b}
 \end{figure}
+
+With the same circuit as in Figure \ref{fig:12a}, an oscilloscope was connected in place of the digital multimeter, measuring the input voltage
+across the entire circuit and the output voltage through the diode and resistor, as shown in Figure \ref{fig:12b}. A voltage/amplitude of 3 V and
+frequency of 500 Hz was used.
+
+A sinusoidal waveform was driven through the circuit and the rectifier properties of the diode were observed graphically on the oscilloscope.
+
+A capacitor of 10 \( \mu \)F was then attached in parallel with the resistor, as seen in Figure \ref{fig:12bcap} and an oscilloscope was connected to the circuit,
+measuring the input voltage across the entire circuit and the output voltage through the resistor and parallel capacitor, and the resulting
+diode output.
 
 \begin{figure}[H]
     \centering
@@ -515,80 +588,800 @@ bridging theoretical results with practical measurements.
     \label{fig:12bcap}
 \end{figure}
 
+A sinusoidal waveform was driven through the circuit and the rectifier properties of the diode were observed graphically on the oscilloscope,
+with the addition of the expected capacitor charging and discharging ramp.
+
 \subsection{Results} \label{sec:4.3}
 
-\begin{figure}[H]
+By simulating the constructed circuit in TINA, an I-V plot can be graphed with the built-in DC transfer characteristic mode. With a voltage range
+of the chosen 0-1.5 V, the output graph and curve is shown in Figure \ref{fig:12.1}. It shows the expected "knee" for a forward biased diode
+at the threshold frequency where a clear surge in current is observed.
+
+\begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{ex12a_TINA_fb.png}
-    \caption{Forward TINA}
+    \caption{Forward-bias diode characteristic I-V curve simulated on the TINA software.}
     \label{fig:12.1}
 \end{figure}
+
+The same was then done on the physical experimental circuit for the same varying range of voltages 0-1.5 V and a table then created of the values
+obtained (\hyperref[sec:A]{Appendix}, table \ref{tab:12a}). The values were then plotted on an I-V graph and compared with the theoretical TINA
+curve by overlaying it, as shown in Figure \ref{fig:12.2}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{ex12a_circuit_fb.png}
-    \caption{Forward circuit}
+    \caption{Forward-bias diode characteristic I-V curve obtained from the physical experimental circuit with the TINA curve overlaid for comparison.}
     \label{fig:12.2}
 \end{figure}
 
-\begin{figure}[H]
+Similarly can be done for the reverse-bias of the diode by inputting negative voltages on the TINA software with the same DC transfer
+characteristic mode included in the toolkit. The resulting curve, when the voltage range is rather large (-100-0 V, in this case), clearly shows
+the expected breakdown curve of the diode shorting, as shown in Figure \ref{fig:12.3}, with a "knee" in the -80 V to -70 V range.
+
+\begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{ex12a_TINA_rb.png}
-    \caption{Reverse TINA}
+    \caption{Reverse-bias diode characteristic I-V curve simulated on the TINA software, showing the breakdown voltage drop.}
     \label{fig:12.3}
 \end{figure}
+
+Closer to zero, at a smaller range (-5-0 V), the small step down of the current through the diode can be visualised, as seen in Figure \ref{fig:12.4}.
+This value is still very close to zero but is not exactly zero.
+
+As reverse-biased diode currents are measure in nanoamps, and due to the limited equipment available, a graph could not be made for the true values
+of the reverse-bias diode with the physical experimental circuit as all values measured with the improper digital multimeter would just show as zero
+(\hyperref[sec:A]{Appendix}, table \ref{tab:12a}).
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{ex12a_TINA_rb_zoom.png}
-    \caption{Reverse TINA zoom}
+    \caption{Forward-bias diode characteristic I-V curve simulated on the TINA software, showing the voltage curve close to 0 V.}
     \label{fig:12.4}
 \end{figure}
 
-\begin{figure}[H]
+When connected to an oscilloscope and driven by a sinusoidal waveform, the diode acts as a rectifier for the voltage, resulting in a half-wave output
+as shown in Figure \ref{fig:12.5} for the TINA simulation.
+
+\begin{figure}[t]
     \centering
     \includegraphics[width=\linewidth]{ex12b_TINA_nocap.png}
-    \caption{No cap TINA}
+    \caption{Resitor-diode circuit simulated on TINA driven by a sinusoidal waveform and visualised on an oscilloscope.}
     \label{fig:12.5}
 \end{figure}
+
+Similarly, when connected to an oscilloscope and driven by a sinusoidal waveform, the physical experimental circuit diode acts as a rectifier for the
+voltage, resulting in a half-wave output visualised on the oscilloscope, as shown in Figure \ref{fig:12.6}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{ex12b_circuit_nocap.png}
-    \caption{No cap circuit}
+    \caption{Resitor-diode physical experimental circuit driven by a sinusoidal waveform and visualised on an oscilloscope.}
     \label{fig:12.6}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[b]
     \centering
     \includegraphics[width=\linewidth]{ex12b_TINA_cap.png}
-    \caption{Cap TINA}
+    \caption{Resitor-capacitor-diode circuit simulated on TINA driven by a sinusoidal waveform and visualised on an oscilloscope.}
     \label{fig:12.7}
 \end{figure}
+
+When a capacitor is added in parallel with the resistor in the TINA simulation circuit, the oscilloscope output resembles a half-wave with the
+capacitor discharging periods observed as ramps during the period of the diode rectifier cycle, shown in Figure \ref{fig:12.7}.
+
+Similarly, when a capacitor is added in parallel with the resistor in the physical experimental circuit and driven by a sinusoidal wave observed on
+an oscilloscope, the resultant output voltage is a ramp curve of the capacitor discharging during the diode cycle, and thus the flattened, rejected
+sections of the half-wave output, as shown in Figure \ref{fig:12.8}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{ex12b_circuit_cap.png}
-    \caption{Cap circuit}
+    \caption{Resitor-capacitor-diode physical experimental circuit driven by a sinusoidal waveform and visualised on an oscilloscope.}
     \label{fig:12.8}
 \end{figure}
 
 \subsection{Analysis and Discussion} \label{sec:4.4}
 
+The diode circuits both simulated and experimentally constructed demonstrated the expected non-linear behaviour of semiconductor diodes.
+The forward-biased I-V characteristic curves (Figs. \ref{fig:12.1}-\ref{fig:12.2}) show a near-zero current for small voltages followed by a rapid
+exponential increase at the "knee" once the threshold voltage is achieved, which is approximately 0.7 V for silicon diodes (1N4148). \cite{reportguide3Y}
+The experimental data is observed to closely resemble with the TINA simulated curve, confirming the theoretical model of the diode conduction. Minor
+deviations between the experimental and simulated curves can be attributed to limitations in measurement equipment, diode manufacturing tolerances,
+and variation of the current read by the digital multimeter, alongside possible parasitic resistances of the physical circuit and power supply.
+
+For the reverse-bias graphs, the simulated curve (Figs. \ref{fig:12.3}-\ref{fig:12.4}) show the expected negligible reverse current (near-zero),
+with the breakdown region at around -80 V to -70 V. The experimental setup could not measure this effect accurately due to the current being on the
+nanoamp scale, which is below the sensitivity of the provided digital multimeter. However, the overall trend is consistent with the theory, in which
+there is minimal current until breakdown, shorting the diode and confirming its rectifying properties.
+
+When driven by a sinusoidal waveform, the diode-resistor circuit produced a half-wave rectified output (Figs. \ref{fig:12.5}-\ref{fig:12.6}),
+matching theoretical expectations. During the positive half-cycle, the diode conducted once the threshold frequency was obtained, allowing
+the current to flow through the resistor. During the negative half-cycle, the diode became reverse-biased, which effectively blocked the 
+current flow, generating the half-wave output waveform discussed. The TINA simulation showed a sharp, ideal cutoff while the experimental
+waveform is more rounded and marginally weakened. This difference could be due to the waveform generator's output impedance of 50 \( \Omega \),
+parasitic resistances in the veroboard and components, and non-ideal diode switching behaviour. These effects collectively cause a smoother
+transition and lower peak output voltage in the experimental waveform when compared to the simulation, which is idealised.
+
+When the capacitor was added to the circuit in parallel with the resistor, the circuit acted as a half-wave rectifier with smoothing (Figs.
+\ref{fig:12.7}-\ref{fig:12.8}), which aligns with theory. The capacitor charges to the peak voltage during conduction and discharges slowly through
+the resistor during the non-conducting half-cycle of the diode rectifier, producing the characteristic ramp waveform. The TINA simulation produced 
+a well-defined decay between peaks, while the experimental curve showed a slower charging period of the capacitor and slightly faster voltage drop
+with less smoothing. These discrepancies can be attributed to the non-ideal real-world capacitor having as effective internal resistance and
+leakage current, reducing the time constant that determines the charging and discharging rates. The additional further impedance provided by the 
+waveform generator further limited the peak charging current, preventing the capacitor from fully reaching the input voltage during each cycle.
+
+Across all parts of the experiment, the expected theoretical behaviour of the circuit was observed with minor discrepancies across the physical
+experimental circuits, though these qualitative differences were explained by component tolerances, instrument impedances, and non-ideal behaviours
+present in the real-world components.
 
 \subsection{Conclusion} \label{sec:4.5}
 
+The experiment successfully demonstrated the expected theoretical behaviour of a diode circuit and their application as rectifiers and
+high-pass filters (for an RC circuit). The I0V characteristic curve confirmed the expected forward threshold voltage of approximately 0.7 V for 
+silicon diodes, of which 1N4148 is, and negligible reverse current below the breakdown region. The half-wave rectifier circuit effectively converted 
+the ac input into a dc output with a "ripple" voltage, which was smoothed with the charging and discharging of a capacitor in the circuit 
+parallel to the resistor.
 
+The theoretical simulated results from the TINA software showed strong qualitative agreement with the experimental data, though slight differences
+between values were observed with the output voltages and waveform shapes. These differences were primarily caused by the waveform generator's
+internal output impedance of 50 \( \Omega \), which limited current flow and introduced a small voltage drop, as well as the non-ideal
+behaviours of real-world components and circuit connections.
 
 \section{Experiment 19} \label{sec:5}
 
+The objective of this experiment was to simulate a transistor circuit on the TINA software and explore how it functions as a current amplifier.
+
+\subsection{Theory} \label{sec:5.1}
+
+\subsubsection{Bipolar Transistors} \label{sec:5.1.1}
+
+Transistors are very small semiconductor diodes and have two types: field-effect transistors (FETs) and bipolar (junction) transistors, which is the
+most common type of transistor. \cite{horowitz1989art,reportguide3Y}
+
+A bipolar transistor is a three-terminal device with collector, base, and emitter terminals. They function as such that, when a small current is
+applied to the base, a much larger current can be controlled flowing through the collector and emitter. It is available in two flavours:
+npn (negative-positive-negative) and pnp (positive-negative-positive), and such that the pnp is just the reversed polarity of the npn transistor. \cite{horowitz1989art}
+
+For an npn transistor, they must be operated such that the base and collector are positive with respect to the emitter; and for a pnp transistor,
+they must be operated such that the base and collector are negative with respect to the emitter. \cite{reportguide3Y}
+
+The base-emitter and base-collector circuits behave like diodes: a small current applied controls the current flowing between the base and the emitter,
+so the base-emitter would be conducting while the base-collector would be reverse-biased, compared to a diode. Additionally, the maximum values
+of the collector current (\( I_C \)), the base current (\( I_B \)), and collector-emitter voltage (\(V_{CE}\)) cannot be emitted, or the transistor
+will short.\cite{horowitz1989art}
+
+\subsubsection{Transistors as Current Amplifiers} \label{sec:5.1.2}
+
+If all of the rules of the bipolar transistor are followed and met, the current of the collector will be approximately proportional to the base
+current, and such can be written as \cite{horowitz1989art,reportguide3Y}:
+
+\begin{equation} \label{eq:11}
+    h_{\text{FE}} = \frac{I_C}{I_B}
+\end{equation}
+
+This value, \( h_{\text{FE}} \), is known as the "current gain" and is typically between the values of 10 and 1000. It is this value that makes the
+transistor act as a diode, as discussed. It depends on the collector current, collector-emitter voltage, and the temperature. It follows as such that,
+for a base more positive than the emitter by 0.6-0.8 V, that a very large current will flow, and such a base resistor should always be present in
+order to limit the current through the junction and prevent damage to the component. \cite{horowitz1989art,reportguide3Y}
+
+\subsection{Methodology} \label{sec:5.2}
+
+The common emitter circuit was simulated on the TINA software, as shown in Figure \ref{fig:19}. A 2N4400 (npn) transistor was used and properly 
+arranged with a base resistor 1 k\(\Omega\) resistance and a variable resistor that was set to the same value of 1 k\(\Omega\) resistance. An ammeter
+was attached across the collector and the base to gather the readings of the current passing through the terminals.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{EX19_SETUP.JPG}
+    \caption{Experimental setup constructed on the TINA software of a common emitter transistor circuit.}
+    \label{fig:19}
+\end{figure}
+
+Using the DC transfer characteristic function in the TINA software and measuring across the ammeters, a plot of the diode-like behaviour
+of the transistor can be seen. Careful care must be taken in order to not exceed the maximum collector current specified in the component manual, 
+which is 1 A, but the device is recommended for applications up to 500 mA. \cite{reportguide3Y}
+
+\subsection{Results} \label{sec:5.3}
+
+The resulting graph of the base and collector current sweeps for the current amplifier is shown in Figure \ref{fig:12.1}. As \( R_B \) increases
+both \( I_B \) and \( I_C \) decrease inversely, as expected. The curve exhibits a typical diode-like exponential behaviour at low input resistances
+(i.e. high base currents), confirming the non-linear conduction characteristics of the base-emitter junction discussed.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex19_TINA.png}
+    \caption{Graph of the base resistance and collector resistance of the common emitter transistor circuit.}
+    \label{fig:19.1}
+\end{figure}
+
+From the data, the transistor's current gain was estimated to be approximately (as an average over all values obtained):
+
+\begin{equation*}
+    h_{\text{FE}} = \frac{I_C}{I_B} \approx 96
+\end{equation*}
+
+This is consistent with the range of expected current gain values, which is 20-150 for the 2N4400 transistor (dependent on \( V_{\text{CE}}\) 
+and \( I_C \)). \cite{Mouser_2N4400_DS}
+
+\subsection{Analysis and Discussion} \label{sec:5.4}
+
+The simulated results confirm that the common-emitter transistor configuration functions as a current amplifier, in which a small change in the base
+current results in a much larger proportional change in the collector current. The relationship between \( I_C \) and \( I_B \) follows the
+theoretical model \( I_C = h_{\text{FE}}I_B \), with \( h_{\text{FE}} \) as the "current gain".
+
+In the low-resistance region (\( \sim \, 1 \, \text{k}\Omega \)), the base-emitter junction becomes very strongly forward-biased, leading to a rapid
+rise in \( I_B \) and a corresponding smaller increase in \( I_C \). This is the "active" region of the transistor in which the current amplification
+occurs. At higher resistances, both currents fall exponentially, showcasing that as the base current decreases, the collector current also reduces 
+proportionally.
+
+At higher resistances (\( \gtrsim \, 50 \, \text{k}\Omega \)) a clear "cutoff" region is visible, in which the base current becomes too small to 
+forward-bias the base-emitter junction, and so \( I_C \rightarrow \, 0 \) as expected for a non-conducting transistor. Additionally, at very low
+input resistance (\( R_B \)) the voltage drop becomes minimal exponentially as the \( I_C \) reaches a limiting value despite increasing \( I_B \).
+
+The ratio obtained for the current gain of this circuit (\(h_{\text{FE}} \approx 96\)) falls within the expected range of possible values for the 2N4400
+transistor, which is 20-150 (dependent on \( V_{\text{CE}}\) and \( I_C \)). \cite{Mouser_2N4400_DS}, validating the circuit simulation.
+
+Overall, the experiment demonstrates how a transistor converts small base-current variations into large collector-current changes, which is a
+fundamental principle of the transistor functions and applications.
+
+\subsection{Conclusion} \label{sec:5.5}
+
+The objective of the experiment was to simulate and investigate the operation of a common emitter npn transistor circuit and verify its behaviour as 
+a current amplifier. The results obtained from the TINA simulation (Fig. \ref{fig:12.1}) clearly displayed the characteristic relationship between the 
+base and collector currents and confirmed the expected amplification behaviour.
+
+The estimated current gain (\(h_{\text{FE}} \approx 96\)) falls within the manufacturer specified range for the 2N4400 transistor, which validates
+the simulation and theoretical analysis. The observed behaviour demonstrated the expected regions of the transistor curve and confirmed that the 
+collector current is directly controlled by the base current.
+
 \section{Experiment 20} \label{sec:6}
+
+The objective of this experiment was to simulate a common-emitter transistor circuit with the TINA software and observe the effect of the 
+switching action of the load resistor for a range of resistances.
+
+\subsection{Theory} \label{sec:6.1}
+
+\subsubsection{Transistor as a Switch} \label{sec:6.1.1}
+
+A transistor switch is when a small control current allows a much larger current to flow in a different circuit by operating in its cutoff and
+saturation regions. When the base-emitter junction is not forward biased (i.e. \( I_B \, \approx \, 0\)) the transistor is in cutoff and "off",
+so no collector current flows and the transistor acts like an open mechanical switch. When sufficient base current is applied, the transistor
+begins entering saturation, where the collector-emitter voltage drops to a small value. In this region, the transistor in conductive and acts as
+a closed mechanical switch. \cite{horowitz1989art}
+
+Typically, the transistor is driven to "hard" saturation in order to ensure reliable switching. This can be done by:
+
+\begin{equation*}
+    I_B \geq \frac{I_C}{h_{\text{FE}}}
+\end{equation*}
+
+This guarantees saturation as the current gain value drops at low collector-to-base voltages, and thus the transistor acts a current-driven 
+switch, where a small base current controls a larger collector current. Choosing a base resistor conservatively ensures plenty of excess base
+current, which further guarantees driving the switch into "hard" saturation. A diode in series with the collector can also prevent collector-base
+conduction on the negative cycles of ac supplies, for example. \cite{horowitz1989art}
+
+\subsection{Methodology} \label{sec:6.2}
+
+The common-emitter transistor circuit was constructed on the TINA software for transistor switching analysis as shown in Figure \ref{fig:20}.
+A 2N4400 transistor was used, two power sources attached to the circuit (one varying, one constant at +6 V) and the voltage across the 
+transistor was measured. The resistor across the collector was kept at R = 1 k\( \Omega \).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{EX20_SETUP.JPG}
+    \caption{Experimental setup constructed and simulated on the TINA software for a transistor as a switch.}
+    \label{fig:20}
+\end{figure}
+
+Using the 'select control target' function of the TINA software on the base resistor, the values were varied for 10 \( \Omega \), 100 \( \Omega \), 
+1 k\( \Omega \), and 10 k\( \Omega \), and the effect of the different base resistor values on the switching action was visualised through a curve
+using TINA's DC transfer characteristic function.
+
+\subsection{Results} \label{sec:6.3}
+
+The curves obtained for the characteristic behaviour of a transistor as a switch were obtained and plotted, varying with the base resistor (\( R_B \))
+values.
+
+For a 10 \( \Omega \) base resistor, shown in Figure \ref{fig:20.1}, the cutoff region is observed to be very small and takes a long time to reach
+saturation, which does not fully approach zero. Therefore, this does not make a very fast nor effective switch.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex20__TINA_r10.png}
+    \caption{Transistor as a switch curve for a 10 \( \Omega \) base resistor.}
+    \label{fig:20.1}
+\end{figure}
+
+\begin{figure}[hb]
+    \centering
+    \includegraphics[width=\linewidth]{ex20__TINA_r100.png}
+    \caption{Transistor as a switch curve for a 100 \( \Omega \) base resistor.}
+    \label{fig:20.2}
+\end{figure}
+
+\begin{figure}[hb]
+    \centering
+    \includegraphics[width=\linewidth]{ex20__TINA_r1k.png}
+    \caption{Transistor as a switch curve for a 1 k\( \Omega \) base resistor.}
+    \label{fig:20.3}
+\end{figure}
+
+For a 100 \( \Omega \) base resistor, shown in Figure \ref{fig:20.2}, the cutoff region is observed to be larger and the decreasing slope to zero
+(ground) to fall faster, though not as fast as ideal for rapid switching. This value also does not fully approach zero but gets closer than the 
+10 \( \Omega \) base resistor value did.
+
+For a 1 k\( \Omega \) base resistor, shown in Figure \ref{fig:20.3}, the cutoff region is observed as sufficiently large with a rapid fall
+approaching zero as the transistor reaches saturation close to zero, this ensures rapid switching action in the circuit.
+
+For a 10 k\( \Omega \) base resistor, shown in Figure \ref{fig:20.4}, the cutoff region is large relative to the scale of the graph, but the
+fall of the curve to zero (ground) is very rapid and approaches zero the closest.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex20__TINA_r10k.png}
+    \caption{Transistor as a switch curve for a 10 k\( \Omega \) base resistor.}
+    \label{fig:20.4}
+\end{figure}
+
+All graphs display the expected behaviour of a transistor behaviour as a switch, with clearly visible cutoff and saturation regions approaching
+ground (zero).
+
+\subsection{Analysis and Discussion} \label{sec:6.4}
+
+The simulated common-emitter circuit produced the expected transistor switching behaviour between the cutoff and saturation regions discussed in the
+theoretical model. By varying the base resistor values, the base current was altered, which directly controlled the transistor's conduction into 
+cutoff (non-conducting) or saturation (conducting).
+
+For low base resistor values (R = 10 \( \Omega \)), the base current was sufficiently large to forward-bias the base-emitter junction strongly. Despite
+the transistor reaching saturation, the transition was not sharp, and the collector-emitter voltage did not fully approach zero. This behaviour indicates
+that the transistor was over-driven, in which excessive base current does not yield further switching improvement and instead reduces efficiency.
+Additionally, very low base resistance risks exceeding the recommended base current limits, which may lead to the overheating and damage of a transistor in
+a physical circuit.
+
+Increasing the basre resistor to R = 100 \( \Omega \) improved the switching response rate, showing a more distinct transition between cutoff and saturation.
+However, some residual collector-emitter voltage remained at saturation. The transistor, while sufficiently driven into conduction, was not yet in the
+optimal switching regime.
+
+The most effective switching occurred at R = 1 k\( \Omega \), in which a clean and rapid transition to saturation from cutoff was observed. The
+collector-emitter voltage approached its expected low saturation value, indicating that the required switching condition \( I_B \geq I_C/h_{\text{FE}} \)
+was satisfied without excessive drive current. This demonstrated effective switching performance, achieving near-ideal "on-off" control.
+
+For very high base resistance (R = 10 k\( \Omega \)), the transistor moved toward the cutoff region as the base current was insufficient to maintain
+strong forward-bias. Although the cutoff region became more pronounced, the transistor did not always reach "hard" saturation which indicates incomplete
+switching. This reinforces the requirement for a suitable supplied base current such that the transistor is reliably turned "on".
+
+Overall, the results illustrate the importance of selecting an appropriate base resistor when using a transistor as a switch. Too small of a value may
+lead to inefficient or potentially damaging current flow, while too large of a value may prevent the transistor from reaching "hard" saturation. The
+simulation confirmed the theoretical expectations for the switching behaviour of a transistor and emphasised the balance in choosing a base resistor to
+ensure reliable, quick, and efficient electrical switching.
+
+\subsection{Conclusion} \label{sec:6.5}
+
+The objective of this experiment was to investigate the behaviour of an npn transistor in a common-emitter configuration when used as a switch. By varying
+the value of the base resistor, the switching performance of the transistor was observed through the transition from the cutoff region to the saturation
+region. The results demonstrated that the transistor can act as an effective electronic switch when the base resistor is appropriately chosen, and therefore
+the base current appropriately controlled. A very small base resistance resulted in excessive base drive and inefficient switching action, while a very 
+large resistance prevented the transistor from reaching "hard" saturation. 
+
+The optimal switching characteristics were observed for intermediate resistance values for the base resistor, where the transistor was driven most
+reliably into "hard" saturation with a clean and rapid transition from cutoff to saturation. Thus, the experiment confirmed the theoretical principles
+and expectations of transistor switching and emphasised the importance of selecting suitable base resistor values.
 
 \section{Experiment 21} \label{sec:7}
 
+The objective of this experiment was to simulate and construct a light sensitive alarm using the properties of a transistor as a switch and a 
+light-dependent resistor (LDR) to drive an LED to switch on in darkness and switch off in brightness.
+
+\subsection{Theory} \label{sec:7.1}
+
+\subsubsection{LED Driver} \label{sec:7.1.1}
+
+Light-emitting diodes (LEDs) are similar to the silicon signal diodes previously used and discussed but with a larger voltage drop; as in, a range of 
+1.5-3.5 V typically rather than the ordinary diode's \( \sim \)0.7 V. Such, as voltage across the LED increases, the current begin conducting within
+the LED range and current increases rapidly as more voltage is applied, allowing the LED to light up. In comparison, the I-V behaviour curve of an LED
+is much steeper. \cite{horowitz1989art}
+
+Using an npn transistor as a switch, the LED can be constructed as such to light up in response to a digital signal line at high voltage value, choosing
+the collector resistor in a way that determines the provided current to the LED. The base resistor must also then be chosen in a way that ensures saturation,
+acting as a switch and therefore the collector resistor acts as the operating current. \cite{horowitz1989art}
+
+\subsection{Methodology} \label{sec:7.2}
+
+The common-emitter circuit was constructed and simulated on the TINA software, shown in Figure \ref{fig:21}. This ensured that the LED nor transistor
+would be damaged by any incorrect resistor or current values. The dc voltage supply was set at 5 V. The LDR resistance was assumed at 1.2 k\( \Omega \) and
+the resistor across the base junction was set to 1 k\( \Omega \).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex21_setup.JPG}
+    \caption{Experimental setup constructed on the TINA software.}
+    \label{fig:21}
+\end{figure}
+
+The load resistor (across the collector) was determined with Ohm's law and LED specifications for the threshold (assumed 1.8 V for the voltage drop necessary):
+
+\begin{equation*}
+    R_{\text{load}} = \frac{V}{I} = \frac{5-1.8}{5 \times 10^{-3}} = 640 \, \Omega
+\end{equation*}
+
+The closest value in the lab to the calculated resistance was 680 \( \Omega \), and hence that was the resistor used.
+
+To determine the value necessary for the base resistor (across the base and the LDR), the values for "bright" and "dim" of the LDR were found with a 
+digital multimeter. For "bright", this was determined as 32 \( \Omega \), and for "dim" this was determined as 0.522 M\( \Omega \). Using
+\( R_B = \sqrt{R_{\text{bright}} \cdot R_{\text{dim}}} \) the value for the base resistor was determined to be approximately 4.1 k\( \Omega \), but was
+chosen as 4.7 k\( \Omega \) from the available resistors in the lab.
+
+\subsection{Results} \label{sec:7.3}
+
+The LED turned on as intended in "dim" conditions and turned off in "bright" conditions, dependent on the LDR light exposure.
+
+On the TINA software, by explicitly changing the LDR condition to "day" and "night", this was visualised on the simulated circuit.
+
+Experimentally, due to complications with the veroboard connections (i.e. forgetting to break connections across a vertically connected resistor), the 
+base resistor value was assumed wrong and doubled (by coordinator suggestion), and such the "dim" conditions are a completely bright room, and the "bright"
+conditions are very bright lights held up at very close proximities to the LDR sensor. It is not a very effective light alarm.
+
+To estimate the cost of operating the circuit over the course of one year, the current drawn by the LED when switched on must be considered. The LED
+forward voltage was assumed to be approximately 1.8 V, and the supply voltage was 5 V. With a load (collector) resistor of 680 \( \Omega \), the current
+through the LED is given by Ohm's Law:
+
+\begin{equation*}
+    I = \frac{V_{\text{sup}}-V_{\text{LED}}}{R_l} = \frac{5-1.8}{680} = 4.7 \, \text{mA}
+\end{equation*}
+
+The power consumed by the circuit when the LED is on is therefore:
+
+\begin{equation*}
+    P = VI = (5)(4.7 \times 10^{-3}) = 0.0235 \, \text{W}
+\end{equation*}
+
+Assuming the LED is on for 12 hours per day:
+
+\begin{equation*}
+    \text{Energy per day} = 0.0235 \cdot 12 = 0.282 \, \text{Wh}
+\end{equation*}
+
+Over the course of one year, or 365 days:
+
+\begin{equation*}
+    \begin{aligned}
+        \text{Energy per year} = 0.282 \cdot 365 &= 103 \, \text{Wh} \\ 
+        &= 0.103 \, \text{kWh}
+    \end{aligned}
+\end{equation*}
+
+If electricity is assumed to cost €0.18 per kWh:
+
+\begin{equation*}
+    \text{Cost per year}= 0.103 \cdot 0.18 = 0.0185
+\end{equation*}
+
+Therefore, approximately, the total annual cost to power the circuit would be \textbf{€0.02} per year. This shows that the circuit consumes very little
+electrical power in normal operation, as expected with LEDs.
+
+\subsection{Analysis and Discussion} \label{sec:7.4}
+
+The results obtained from the constructed circuit confirm the epxected behaviour of the transistor operating as a switch controlled by the LDR. In
+"bright" conditions, where the resistance of the LDR is low, the voltage at the transistor base remained too small to forward-bias the base-emitter junction.
+As a result, the transistor was in the cutoff region and no collector current flowed, which ensured that the LED remained off. In "dim" conditions, the
+resistance of the LDR increased significantly, which raised the base voltage and therefore allowed the forward-biasing of the base-emitter junction.
+Consequently, the transistor entered the saturation region, which allowed current to flow through the collector-emitter path and therefore turn the LED on.
+This demonstrates the intended automatic light-sensitive switching behaviour.
+
+The calculated resistor values ensured that the transistor operated correctly. The load resistor was chosen to limit the LED current to safe operating levels,
+preventing damage to either the LED or transistor. The base resistor value was determined using the geometric mean of the measured LDR resistances in
+individually chosen "bright" and "dim" conditions lighting variations. However, in the physical circuit, connection difficulties and unintended conductive
+paths on the veroboard caused confusion, leading to the switching of the base resistor to a higher value and therefore altering the "bright" and "dim"
+conditions previously calculated, requiring a very strong light to switch the LED off. While this reduced the practical sensitivity, the switching behaviour
+was still observed and matched the theoretical model.
+
+The cost calculations showed that the power consumption for such a circuit are extremely low, with an estimated annual cost of approximately \textbf{€0.02}
+per year, assuming 12 hours of LED operation per day. This highlights the efficiency of the transistor-controlled switching LED circuits and their
+suitability for long-duration, power-efficient applications, such as nightlights, alarms, and sensor-triggered indicators. Overall, the experiment 
+showcased how an npn transistor can be effectively used as a switch and how variations in input resistance (via the LDR) can be used to automate a circuit
+to environmental conditions.
+
+\subsection{Conclusion} \label{sec:7.5}
+
+The objective of this experiment was to construct and test a light-sensitive switching circuit using an npn transistor and an LDR to control an LED. The
+circuit successfully switched the LED on in "dim" conditions and off in "bright" conditions, confirming the expected behaviour of the transistor switching
+between cutoff and saturation regions.
+
+While the practical limitations in the veroboard assembly affected the sensitivity threshold, the desired core switching function of the transistor remained
+consistent with theoretical predictions. The calculated power usage further showed the efficiency of the circuit as it consumed very little energy to
+operate continuously over a full year. This experiment effectively demonstrated the transistor switching capabilities and the use of LDRs as 
+light-based control elements in low-power electronic systems.
+
 \section{Experiment 25} \label{sec:8}
 
+The objective of this experiment was to create a circuit with an operational amplifier (op-amp) and generate a gain of 20 dB, driven by a 1 kHz sine-wave
+and comparing the input and output in an oscilloscope. Then, by inserting a capacitor, the effect on the signal bandwidth was observed and discussed.
+
+\subsection{Theory} \label{sec:8.1}
+
+\subsubsection{Operational Amplifiers} \label{sec:8.1.1}
+
+The operational amplifier (op-amp) is a very high-gain amplifier device with a single-ended output. Real-world op-amps have much high gain 
+(\( 10^5\sim 10^6\)) and lower output impedances, allowing them to swing through most, if not all, of the voltage supply range, often using a split
+supply (i.e. full negative to positive range). \cite{horowitz1989art}
+
+Op-amps have two input terminals: the inverting (-) and non-inverting (+) inputs that function as expected, the output going positive when the non-inverting
+input goes more positive than the inverting input. The symbols associated only serve to inform of the relative phase of the output, which is important
+when keeping the negative feedback as negative. \cite{horowitz1989art,floyd2012electronic}
+
+In circuit diagrams, the power-supply connections are often not shown and there is no grounding terminal. This is due to the nature of the op-amp having such
+a high open-loop gain that the characteristics depend only on the feedback network for any reasonable close-loop gain. \cite{horowitz1989art,floyd2012electronic}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.85\linewidth]{opamp pins.png}
+    \caption{Pin connections for LF411 op-amp in 8-pin DIP. \cite{horowitz1989art}}
+    \label{fig:250}
+\end{figure}
+
+The pin connections of a LF411 op-amp in an 8-pin DIP, for reference, are shown in Figure \ref{fig:250}. The dot, or notch, in the upper left corner indicates
+the first pin and therefore where to begin counting from. To count the pins, follow them counterclockwise, viewing them from the top. \cite{horowitz1989art}
+
+\subsubsection{Negative Feedback} \label{sec:8.1.2}
+
+Negative feedback is the process in which coupling the output voltage back, some input can be cancelled by returning the input with an opposing phase angle, 
+which can improve characteristics such as linearity, response unity, and predictability. \cite{horowitz1989art,floyd2012electronic}
+
+As op-amps are often used in high-loop-gain limits, very small input voltages would drive the op-amp into saturated output states. A closed-loop voltage
+gain (\( A_{\text{cl}}\)) can be used controlled and reduced with a negative feedback such that the op-amp functions as a linear amplifier. The feedback
+network can be either frequency- or amplitude-dependent, where frequency would make a linear amplifier and amplitude a non-linear amplifier. \cite{horowitz1989art,floyd2012electronic}
+
+\subsubsection{The Golden Rules} \label{sec:8.1.3}
+
+The two golden rules may be used to understand an op-amp with negative feedback \cite{horowitz1989art,reportguide3Y}:
+
+\begin{itemize}
+    \item[\textbf{I.}] The output attempts to do whatever necessary to make the voltage difference between inputs zero.
+    \item[\textbf{II.}] The inputs draw no current.
+\end{itemize}
+
+These rules can be assumed as the op-amp voltage is so high that any small difference between inputs will swing output over the full range, and the op-amps
+use very little current (often in the picoamp range), and such the following can be generalised and rounded to give the two golden rules. \cite{horowitz1989art}
+
+\subsubsection{The Non-Inverting Amplifier} \label{sec:8.1.4}
+
+An op-amp in a closed-loop non-inverting amplifier configuration is driven with a controlled voltage gain and the input signal is applied to the
+non-inverting (+) input. The output is applied back to the inverting (-) input through the closed feedback loop that is formed by an input resistor \( R_i\) and a 
+feedback resistor \(R_f\). \cite{floyd2012electronic}
+
+With the first golden rule, it can be imposed that the inverting input is equal to the non-inverting voltage, such that \( V_{-}= V_{\text{in}} \). Therefore,
+using Ohm's law, the current flowing through the input must be \( I_i = V_{\text{in}}/R_i \). \cite{reportguide3Y}
+
+From the second law, since the inputs draw no current, it can be imposed that \( I_i = I_f \) as all of \( I_i \) must flow also through \( R_f \). Hence \cite{reportguide3Y}:
+
+\begin{equation} \label{eq:12}
+    \begin{aligned}
+        V_{\text{out}} &= V_{-} + I_f R_f \\
+        &= V_{\text{in}} +I_i R_f \\
+        &= V_{\text{in}} + \frac{V_{\text{in}}}{R_i}R_f \\
+        &= V_{\text{in}} \left( 1 + \frac{R_f}{R_i} \right) \\
+    \therefore A_{\text{cl}} = \frac{V_{\text{out}}}{V_{\text{in}}} &= \left( 1 + \frac{R_f}{R_i} \right)
+    \end{aligned}
+\end{equation}
+
+This is such that the gain is always greater than the unity, which is independent of the open-loop gain (\(A_{\text{ol}}\)), and is controllable with the
+negative feedback network. \cite{reportguide3Y}
+
+\subsection{Methodology} \label{sec:8.2}
+
+The physical experiment circuit was set up as required with the circuit diagram shown in Figure \ref{fig:25}. The pin connections were determined with
+guidance of Figure \ref{fig:250} and carefully arrange on the veroboard. The circuit was driven with a 1 kHz sinusoidal wave and the \( V_CC \) was taken
+to be ±12 V.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{ex25_setup.png}
+    \caption{Circuit diagram of the experimental setup. \cite{reportguide3Y}}
+    \label{fig:25}
+\end{figure}
+
+An LM741 op-amp was used and the resistor components were chosen with Equation \ref{eq:12} and Equation \ref{eq:8} to give a gain of 20 dB. It follows:
+
+\begin{equation*}
+    20 \log_{10} \left( \frac{V_{\text{out}}}{V_{\text{in}}} \right) = 20
+\end{equation*}
+
+As \( A_{\text{cl}} = V_{\text{out}}{V_{\text{in}}} \), it becomes:
+
+\begin{equation*}
+    \begin{aligned}
+        \log_{10} (A) &= 1 \\
+        A &= 10^1 \\
+        &= 10
+    \end{aligned}
+\end{equation*}
+
+Substituting into Equation \ref{eq:12}, the ratio of the resistors is found:
+
+\begin{equation*}
+    \begin{aligned}
+        10 &= 1 + \frac{R_f}{R_i} \\
+        9 &= \frac{R_f}{R_i} \\
+        \therefore 9 R_i &= R_f
+    \end{aligned}
+\end{equation*}
+
+From the laboratory components available, this was chosen to be \( R_i = 220 \, \Omega \) and \( R_f = 2 \, k\Omega \), which is approximately the ratio
+calculated.
+
+The capacitor value was chosen with the use of Equation \ref{eq:9}, and found that:
+
+\begin{equation*}
+    \begin{aligned}
+        f &= \frac{1}{2 \pi RC} \\
+        C &= \frac{1}{2 \pi R_f f}
+    \end{aligned}
+\end{equation*}
+
+The closest value of capacitor available in the lab was 10 \( \mu \)F, which was also the one we were consulted to use. This capacitor was then added in 
+parallel with \( R_f \) on the physical experiment circuit.
+
+\subsection{Results} \label{sec:8.3}
+
+The characteristic Bode plot curves obtained for the non-inverting amplifier circuit \textbf{without} the capacitor remained approximately constant at 
+around 20 dB for low and mid-range frequencies, as seen in Figure \ref{fig:25.1}. The output displayed a flat magnitude response from 10 Hz up to 
+approximately \( 10^4 \) Hz.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex25_osc_nocap.png}
+    \caption{Oscilloscope gain and phase curves obtained from the op-amp circuit with no capacitor.}
+    \label{fig:25.1}
+\end{figure}
+
+This indicates that the amplifier maintained the intended close-loop gain of 10 in this region. Beyond this point from \( 10^5 - 10^7 \) Hz the gain
+fell steadily, decreasing as the frequency kept increasing. The phase response remained close to 0° at low frequencies and progressively shifted to
+negative values as frequency increased, approaching approximately -140° at the highest measured frequency (\(10^7 \) Hz).
+
+The characteristic Bode plot curves obtained for the non-inverting amplifier circuit \textbf{with} the capacitor in parellel to the feedback resistor \( R_f \),
+the gain became clearly frequency-dependent, as shown in Figure \ref{fig:25.2}, even at low frequencies. The gain remained close to 20 dB from 10-30 Hz,
+after which it decreased gradually and approached zero.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{ex25_osc_cap.png}
+    \caption{Oscilloscope gain and phase curves obtained from the op-amp circuit with a capacitor.}
+    \label{fig:25.2}
+\end{figure}
+
+With the oscilloscope data shown in the Bode plot, at around 200-300 Hz the gain falls to 10 dB, and at around 3k-\(10^4\) Hz falls close to 0 dB.
+The phase angle response shifted progressively more negative with increasing frequency, reaching values below -140° at higher frequencies. This shows how
+the capacitor significantly lowered the amplifier's bandwidth by introducing a frequency-dependent feedback network behaviour.
+
+\subsection{Analysis and Discussion} \label{sec:8.4}
+
+The results obtained confirmed the expected behaviour of the non-inverting amplifier circuit both with and without a capacitor. Without the capacitor, the
+close-loop gain matched the theoretical value:
+
+\begin{equation*}
+    A_{\text{cl}} = 1 + \frac{r_f}{R_i} \approx 10
+\end{equation*}
+
+The corresponding flat region of the Bode plot magnitude curve indicated that the amplifier functioned well within its mid-band in which the open-loop gain
+of the op-amp was high enough to sustain the desired close-loop gain. The eventual fall in gain and shift in phase at higher frequencies is consistent with
+the finite gain-bandwidth product of the op-amp.
+
+When the capacitor was added in parallel with the feedback resistor, the feedback became frequency-dependent. At low frequencies, the capacitor behaved as 
+having high impedance, which made the feedback loop effectively resistive and maintained the original closed-loop gain. As frequency increased, the
+impedance of the capacitor decreased, which in turn increased the proportion of feedback and thus reduced gain. This produced the observed low-pass
+amplifier behaviour, supported by the gradual shift of the phase angle towards negative as reactive feedback introduces phase lag as frequency increases.
+
+The measured frequency at which gain begins to drop (cutoff) is consistent with the value expected from the RC time constant value  of the feedback network.
+The experiment therefore showcased the direct relationship between feedback impedance and the amplifier-frequency response, demonstrating how reactive
+feedback can be used alter the bandwidth and improve high-frequency stability.
+
+\subsection{Conclusion} \label{sec:8.5}
+
+The objective of the experiment was to construct a non-inverting amplifier circuit with an op-amp and characterising its frequency response both with and
+without a capacitor introduced parallel to the feedback resistor.
+
+The amplifier without the capacitor exhibited a stable mid-band gain of approximately 20 dB, with the gain falling towards zero at higher frequencies as 
+expected from the op-amp's finite bandwidth.
+
+When the capacitor was introduced into the circuit, the circuit displayed a reduced bandwidth and a frequency-dependent gain, confirming the behaviour of 
+an active low-pass configuration with the addition of a reactive component.
+
+The experimental results were consistent with the theoretical expectations and effectively demonstrated the influence of negative feedback and reactive
+components on the amplifier frequency response and bandwidth.
+
 \section{Experiment 27} \label{sec:9}
+
+The objective of this experiment was to design and simulate a 4-bit Digital-to-Analogue Converter (DAC) with resistors, switches, and an op-amp,
+choosing the resistors in a way that produced a range of voltages from 0 V to -3 V.
+
+\subsection{Theory} \label{sec:9.1}
+
+\subsubsection{Summing Amplifier} \label{sec:9.1.1}
+
+The summing amplifier is a variation of the inverting amplifier which sums the currents from each of the input branches and the resulting current flows
+through the feedback resistor. So, the input current would obey Ohm's law \( V_1/R_1 + V_2/R_2 + \dotsm + V_N/R_N \). For equal resistor values, this
+would be \( V_{\text{out}} = -(V_1 + V_2 + \dotsm + V_N \)), and such the output voltage as a linear combination becomes \cite{horowitz1989art,reportguide3Y}:
+
+\begin{equation} \label{eq:13}
+    V_{\text{out}} = -R_f \left( \frac{V_1}{R_1} + \dotsm + \frac{V_N}{R_N} \right)
+\end{equation}
+
+The output voltage is then the amplified voltage of the circuit. Inputs can be positive or negative and do not have to be necessarily equal. With four inputs,
+for example, each of which is either +1 V or zero ("on" or "off"), representing values 1, 2, 4, 8, by using input resistors according to the binary
+value ratios, the output will be equal to the binary count input. This is the basis for a digital-to-analogue converter (DAC), which convert a binary
+input value into a corresponding analogue output, producing a voltage or current that is directly proportional to the digital value provided. \cite{horowitz1989art}
+
+\subsubsection{Digital Logic} \label{sec:9.1.2}
+
+Input signals are often in discrete form so the use of electronic circuits and devices is consequently natural and appropriate as they operate with signal
+representations of 0s and 1s. Thus, it can be beneficial to convert continuous (analogue) data to a digital form through the use of analogue-to-digital
+converters (ADC) or digital-to-analogue converters (DAC) to represent and store data with a computer or signal processor, for example.
+With the use of digital systems, this can also reduce "noise" in data that may otherwise be picked up by analogue forms, allowing it to be reconstructed
+without error. \cite{horowitz1989art}
+
+Typically, a system can only be in two states at any point, for example, a transistor can either be saturated or non-conducting, "on" or "off", respectively.
+These states are associated with either a 1 or a 0, known as "bits" which store the information of the current state of that device at a given time. \cite{horowitz1989art}
+
+Computers work in "byte" systems which store 8-bits per byte, though they are often organised by 16-, 32-, or 64-bit "words", such that a word is then 2,
+4, or 8 bytes respectively. This allows computers to store large amounts of information in a concise and organised manner. \cite{horowitz1989art} 
+For example, this report file is 4 megabytes, or 4 \( \times 10^6 \) bytes, which would make it a total of 32 \( \times 10^6 \) bits 
+(for a 64-bit modern computer)!
+
+\subsection{Methodology} \label{sec:9.2}
+
+The inverting summing amplifier circuit setup was constructed and simulated on the TINA software, as shown in Figure \ref{fig:27}, to create a 4-bit DAC.
+With the goal of outputting a desired range of 0 V to -3 V (inverted from positive input), a binary system was chosen such that \( 2^n \) with n = 4-bit system.
+Such, the ladder resistors were chosen as 1 k\( \Omega \), 2 k\( \Omega \), 4 k\( \Omega \), 8 k\( \Omega \) (§\ref{sec:9.1.1}), with input voltage set at 5 V.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{EX27_setup.JPG}
+    \caption{4-bit inverting amplifier circuit constructed on the TINA software.}
+    \label{fig:27}
+\end{figure}
+
+The feedback resistor across the op-amp was then chosen with Equation \ref{eq:13}:
+
+\begin{equation*}
+    \begin{aligned}
+    -3 &= - R_f\left( \frac{5}{1k} + \frac{5}{2k} + \frac{5}{4k} + \frac{5}{8k} \right) \\
+    &= - R_f\left( \frac{3}{320} \right) \\
+    \therefore R_f &= 320 \, \Omega
+    \end{aligned}
+\end{equation*}
+
+The feedback resistor was then to 320 \( \Omega \).
+
+\subsection{Results} \label{sec:9.3}
+
+By switching the analogue switches "on" or "off", the behaviour of the resistors were observed and tabled (\hyperref[sec:A]{Appendix}, table \ref{tab:27}).
+When all switches were "on", the desired output of -3 V was achieved, and when all switches were "off" the expected 0 V was approached (very small value).
+
+\subsection{Analysis and Discussion} \label{sec:9.4}
+
+The 4-bit DAC circuit constructed using an inverting summing amplifier circuit on the TINA software successfully demonstrated the conversion of discrete
+digital input states into a continuous analogue output voltage. Each binary input combination corresponded to a specific weighted contribution determined by
+the resistor network, with the op-amp producing a negative output proportional to the sum of the weighted voltages.
+
+The measured output voltages showed a near-linear relationship with the binary input values, confirming that the circuit operated as expected according to
+theoretical predictions. The maximum output of -3 V was achieved when all of the switches were "on" (i.e. "1111"), while the output approached close to 0 V
+when all of the switches were "off" (i.e. "0000").
+
+The op-amp's high open-loop gain ensured that the virtual grounding at the inverting input remained stable, allowing for the accurate summing of the input
+currents. However, any offset voltage or input bias current would still produce small errors, which are particularly noticeable at lower binary values, where
+the analogue voltage steps are smallest. Overall, the experiment demonstrated how analogue summing amplifiers can be adapted to function as DAC circuits using
+binary-weighted inputs. The close correspondence between measured outputs and expected outputs validated theoretical predictions and proper operation of the DAC.
+
+\subsection{Conclusion} \label{sec:9.5}
+
+The objective of this experiment was to design and simulate a 4-bit DAC using a summing amplifier configuration. The circuit successfully produced distinct
+analogue voltage levels corresponding to each binary input combination, showcasing the principle of the digital-to-analogue conversion. The experiment
+therefore confirmed the theoretical operation of the DAC circuit and demonstrated practical use of op-amps with digital logic in analogue systems.
+
+
+
+%%%%%%%%%%%%%%%%%%%%
 
 % References - switch to single column
 \onecolumn
@@ -596,13 +1389,15 @@ bridging theoretical results with practical measurements.
 \bibliographystyle{IEEEtran}
 \bibliography{PHYC30170References} \label{sec:ref}
 
+\listoffigures
+
 % Appendix - single column
 \section*{Appendix} \label{sec:A}
 \addcontentsline{toc}{section}{Appendix}
 
 \begin{table}[H]
     \centering
-    \caption{Table for the values obtained for the physical experimental circuit.}
+    \caption{Table for the values obtained for the physical experimental circuit corresponding to Fig. \ref{fig:7.3}.}
     \vspace{1em}
     \label{tab:7}
     \begin{tabular}{|
@@ -618,5 +1413,62 @@ bridging theoretical results with practical measurements.
     1M   & 930m & 970m  & 0.90  \\ \hline
     \end{tabular}%
 \end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Table of the values obtained from the digital multimeter for the physical experimental circuit corresponding to Fig. \ref{fig:12.2}.}
+    \label{tab:12a}
+    \begin{tabular}{|
+    >{\columncolor[HTML]{EFEFEF}}c |c|c|}
+    \hline
+    \cellcolor[HTML]{C0C0C0}V (V) & \cellcolor[HTML]{C0C0C0}$I_{\text{forward}}$ (mA) & \cellcolor[HTML]{C0C0C0}$I_{\text{reverse}}$ (mA) \\ \hline
+    0   & 0     & 0        \\ \hline
+    0.1 & 0     & $\vdots$ \\ \hline
+    0.2 & 0.001 & $\vdots$ \\ \hline
+    0.3 & 0.006 & $\vdots$ \\ \hline
+    0.4 & 0.056 & $\vdots$ \\ \hline
+    0.5 & 0.092 & $\vdots$ \\ \hline
+    0.6 & 0.202 & $\vdots$ \\ \hline
+    0.7 & 0.440 & $\vdots$ \\ \hline
+    0.8 & 0.515 & $\vdots$ \\ \hline
+    0.9 & 0.683 & $\vdots$ \\ \hline
+    1.0 & 0.881 & $\vdots$ \\ \hline
+    1.1 & 1.020 & $\vdots$ \\ \hline
+    1.2 & 1.143 & $\vdots$ \\ \hline
+    1.3 & 1.351 & $\vdots$ \\ \hline
+    1.4 & 1.437 & $\vdots$ \\ \hline
+    1.5 & 1.683 & $\vdots$ \\ \hline
+    \end{tabular}%
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Table of the binary switch combinations and respective output voltages for the DAC circuit (§\ref{sec:9}).}
+    \vspace{1em}
+    \label{tab:27}
+    \begin{tabular}{|
+    >{\columncolor[HTML]{EFEFEF}}c |c|}
+    \hline
+    \cellcolor[HTML]{C0C0C0}Binary & \cellcolor[HTML]{C0C0C0}V (V) \\ \hline
+    1111                           & -3                            \\ \hline
+    1110                           & -2.8                          \\ \hline
+    1101                           & -2.6                          \\ \hline
+    1011                           & -2.2                          \\ \hline
+    0111                           & -1.4                          \\ \hline
+    1100                           & -2.4                          \\ \hline
+    1010                           & -2                            \\ \hline
+    0110                           & -1.2                          \\ \hline
+    1001                           & -1.8                          \\ \hline
+    0101                           & -1                            \\ \hline
+    0011                           & -600m                         \\ \hline
+    0001                           & -200m                         \\ \hline
+    0010                           & -400m                         \\ \hline
+    0100                           & -800m                         \\ \hline
+    1000                           & -1.6                          \\ \hline
+    0000                           & -6.4u                         \\ \hline
+    \end{tabular}
+\end{table}
+
+\includepdf[pages=-]{/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/ElectronicsLab.pdf}
 
 \end{document}

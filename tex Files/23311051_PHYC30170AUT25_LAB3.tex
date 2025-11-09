@@ -1,0 +1,474 @@
+\documentclass[11pt, a4paper, twocolumn]{article}
+
+% Fonts and math (Elsevier-like Times style)
+\usepackage{graphicx} % Required for inserting images
+\usepackage{array} % For extra column formatting
+\usepackage{amsmath, amssymb, cancel} % for equation environment
+\usepackage{float,geometry}
+\geometry{margin=2cm}
+\usepackage[skip=10pt]{parskip}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{cite, bookmark}
+\usepackage{url}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[export]{adjustbox}
+\usepackage{listings,pdfpages}
+\usepackage{dblfloatfix}
+
+% --- Abstract styling (elsarticle look)
+\usepackage{abstract}
+\renewcommand{\abstractnamefont}{\normalfont\bfseries}
+\renewcommand{\abstracttextfont}{\normalfont}
+\renewenvironment{abstract}{%
+  \par\noindent\rule{\linewidth}{0.4pt}\par
+  \begin{center}\bfseries Abstract\end{center}%
+}{%
+  \par\rule{\linewidth}{0.4pt}\par
+}
+
+% --- Section styling (similar to elsarticle
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+
+% Table of contents styling
+\usepackage{tocloft}
+\cftsetindents{section}{0em}{2em}
+\cftsetindents{subsection}{1em}{2em}
+\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
+\renewcommand\cftaftertoctitle{\hfill\mbox{}}
+\renewcommand\cftfigfont{\footnotesize}
+\renewcommand\cftfigpagefont{\footnotesize}
+\renewcommand\cftloftitlefont{\large}
+
+\graphicspath{ {./images/} }
+
+\definecolor{blurple}{HTML}{5865F2}
+\definecolor{backcolour}{HTML}{272823}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=blurple,
+}
+
+\urlstyle{same}
+
+\DeclareMathOperator{\sinc}{sinc}
+
+\pagenumbering{arabic}
+\renewcommand{\arraystretch}{1.4}
+
+% Python code export
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\scriptsize,
+    keywordstyle=\color{teal},       
+    commentstyle=\color{gray},        
+    stringstyle=\color{magenta},  
+    showstringspaces=false,
+    frame=single,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny\color{gray}
+}
+
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{%
+
+\includegraphics[width=0.2\linewidth]{ucd_brandmark_black.jpg} \vspace{0.5cm}\\
+
+{\Large\bfseries UCD School of Physics}\vspace{1.5cm}\\
+
+{\large PHYC30170 Physics Astronomy and Space Lab I}\\
+{\bfseries Modulus of Rigidity}
+
+}
+\author{Joana C.C. Adao \\ \small Student No.: 23311051}
+\date{5 November 2025}
+
+\begin{document}
+
+% Title page - single column
+\onecolumn
+\maketitle
+
+% Abstract - single column
+\thispagestyle{empty}
+\begin{abstract}
+
+This experiment sought to investigate the torsional oscillatory response for three metal specimen rods: brass, stainless steel, and aluminium. The
+experiment was conducted over a temperature range from 60°C to 180°C, investigating effects on the modulus of rigidity and internal friction.
+Amplitude-frequency data collected with a laser sensor and National Instruments Programme were fitted with a Lorentzian curve to identify resonant
+frequency peaks and bandwidths. From these, the shear modulus and internal friction for all three metals was calculated as functions of temperature.
+All three specimen showcased a gradual decrease in resonant frequency and modulus of rigidity with increasing temperatures, consistent with theoretical
+predictions. Stainless steel displayed the lowest internal friction and sharpest resonant peaks, while aluminium displayed broader
+peaks and greater damping. Although experimental values were significantly lower than expected values from published literature, the physical trends
+aligned well with theoretical expectations, highlighting the temperature dependence of the shear modulus and energy dissipation in metals.
+
+\end{abstract}
+
+\newpage
+
+% Table of Contents - single column
+\setcounter{page}{1}
+\tableofcontents
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Start main content in two columns
+\twocolumn
+
+\section{Theory} \label{sec:2}
+
+\subsection{Torsional Oscillator} \label{sec:2.1}
+
+The torsional oscillator, or torsional pendulum, consists of a rigid mass hanging by a thin wire or rod that resists twisting with a resisting
+torque, which acts to restore the wire to its original state. The rigid body undergoes angular oscillations due to this torque, and for
+relatively small angles of twisting the magnitude of the restoring torque (\( \tau \)) will be directly proportional to the angle \cite{fitzpatrick2006torsion}:
+
+\begin{equation}
+    \tau = -C \theta
+\end{equation}
+
+with \( C \) as the torsional constant, which is dependent on the shear modulus, or modulus of rigidity, of the wire's material, and can be 
+expressed as \cite{shanker1985temperature}: 
+
+\begin{equation} \label{eq:2}
+    C = \frac{\pi G r^4}{2l}
+\end{equation}
+
+with \( r\) as the radius and \( l\) length of the rod. For a body of moment of inertia \( I \) the rotational equation of motion of 
+the system can be written as \cite{shanker1985temperature,fitzpatrick2006torsion,tatum_classical_mechanics}:
+
+\begin{equation}
+    I \frac{d^2 \theta}{dt^2} = -C \theta
+\end{equation}
+
+For the undamped case, the solution is simply \( \theta = \theta_0 \cos (\omega t - \phi) \), with \( \omega = \sqrt{C/I} \). For a damped
+oscillator, a damping factor \( \gamma \) is considered in the propagation of oscillations \cite{shanker1985temperature,filippini2020torsional_oscillator}:
+
+\begin{equation}
+    I \frac{d^2 \theta}{dt^2} + \mathbf{\gamma \frac{d \theta}{dt}} + C \theta = 0
+\end{equation}
+
+This gives the result \( T_0 \exp(i\omega t) \), with \( T_0 \) as the period of oscillation \( 2 \pi \sqrt{I/C} \).
+
+\subsection{Modulus of Rigidity} \label{sec:2.2}
+
+The modulus of rigidity, or shear modulus, is a measure of a material's resistance to shear stress deformation. It is expressed as the 
+ration of shear stress \( \tau \) to shear strain \( \gamma \) \cite{study_modulus_of_rigidity_2023,samaterials_shear_modulus_2025}:
+
+\begin{equation} \label{eq:5}
+    G = \frac{\tau}{\gamma}
+\end{equation}
+
+with \( G \) as the modulus of rigidity. It qualifies how rigid or stiff the material is under shear loading, such that a higher value of G 
+indicates a material harder to deform under shear stress. \cite{samaterials_shear_modulus_2025}
+
+Knowing that for low damping \( \theta_0 \) will be at maximum when \( \omega \approx \sqrt{C/I} = \omega_0 \) C can be substituted from 
+Equation \ref{eq:2} into Equation \ref{eq:5} to give \cite{shanker1985temperature}:
+
+\begin{equation} \label{eq:6}
+    G = \frac{2 I l \omega_0^2}{\pi r^4}
+\end{equation}
+
+The modulus of rigidity is influence by factors such as temperature, confining pressure, microstructure of the inner particles, material
+composition, and grain size. Numerical investigations of granular packings show that the modulus of rigidity is sensitive to the coordination
+number of contacts and load magnitudes, with poorly coordinated packings having a shear modulus that varies proportionally. 
+\cite{samaterials_shear_modulus_2025,agnolin2007internal}
+
+\subsection{Internal Friction} \label{sec:2.3}
+
+Internal friction in a material refers to the dissipation of mechanical energy, or the force-resisting motion between elements,
+as it undergoes "elastic" or oscillatory deformation.
+\cite{cuni_internal_friction_2025,HYDE2015211}
+
+This internal friction \( Q^{-1} \) can be taken as \cite{shanker1985temperature}:
+
+\begin{equation} \label{eq:7}
+    Q^{-1} \equiv \frac{\gamma \omega_0}{C} = \frac{\Delta \omega}{\sqrt{3} \omega_0}
+\end{equation}
+
+with \( \Delta \omega \) as the full width of the response curve at half the maximum amplitude \( \sqrt{3} \gamma \omega_0^2 / C \). This
+relation shows that internal friction increases proportionally with resonance bandwidth \( \Delta \omega \) increases, such that the internal
+loss is greater and the resonance is poorer. \cite{shanker1985temperature}
+
+\section{Methodology}
+
+The experiment was set up as shown in Figure \ref{fig:1}, with a laser pointing to a laser sensor by reflecting off of the mirror attached
+to the magnet attached to the specimen rod. The magnet was positioned between the Helmholtz coils, ensuring that the specimen rod was through
+the heater coil and clamped securely to the support stand.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\linewidth]{modrig_diagram.png}
+    \caption{Diagram of the experimental setup: 1, Specimen rod; 2, heater coil; 3, magnet; 4, mirror; 5, clamp support; 6, support stand; 7, Helmholtz coil.}
+    \label{fig:1}
+\end{figure}
+
+With light taps to generate perturbations, the rod's vibrating capacity is checked to ensure proper readings of the amplitude as it vibrates 
+with the torsional oscillations generated by varying frequencies with an oscilloscope, fed through the Helmholtz coil.
+
+The laser sensor produces readings fed through a DAC that can be plotted and graphed to determine the modulus of rigidity and internal 
+friction of three metals: brass, stainless steel, and aluminium.
+
+The data collected is then plotted with Python code to generate graphs that visually represent the data and relationships.
+
+\subsection{National Instrument Setup}
+
+The National Instruments Programme (NIP) device must be set up for the multiple readings to be converted into computational data. This
+instrument is connected to the apparatus and a computer and provided voltages determined with simple coding, and interprets the laser sensor
+DAC values.
+
+The voltage provided by the NIP must be converted into frequencies for graphical readings. This can be achieved by calibrating the instrument.
+For varying voltage readings, the corresponding frequencies read from the oscilloscope were noted on a computer. A linear relationship is
+the plotted which determines the ratio of voltage to frequency.
+
+\subsection{Health and Safety}
+
+Due to the presence of a high-intensity laser, care must be taken to avoid direct eye contact. The heater coil is very hot to the touch as
+are the metal specimen rods, so care must be taken when removing the metal rods from the apparatus as to not burn and injure oneself.
+
+\section{Results}
+
+From the Python code, graphs of the amplitude obtained from the laser sensor plotted against the frequency (voltage) from the oscilloscope were
+used to find the resonant frequency of each metal at varying temperatures 60°C, 90°C, 120°C, 150°C, and 180°C. With these values, the modulus
+of rigidity was found and plotted alongside the internal friction for each metal type: brass, stainless steel, and aluminium.
+
+\subsection{Amplitude vs. Frequency}
+
+The amplitude-frequency plots for the brass, stainless steel, and aluminium rods were plotted with a Lorentzian curve fitted, using:
+
+\begin{equation}
+    L(x) = y_0 + \frac{2A}{\pi} \frac{\omega_0}{4 (x-x_c)^2 + \omega ^2}
+\end{equation}
+
+with \( A \) as the area under the curve, \( \omega_0 \) as the width of the curve at half maximum, \( y_0 \) the initial value, and \( x_c \) the 
+estimated value of the peak. From this, the resonant peak was found from the plotted data fit.
+
+\subsubsection{Brass}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=.96\textwidth]{allbrass.png}
+    \caption{Brass values for varying temperatures with fitted Lorentzian.}
+    \label{fig:b2}
+\end{figure*}
+
+\begin{figure*}[!b]
+    \centering
+    \includegraphics[width=.96\textwidth]{allstainlesssteel.png}
+    \caption{Stainless steel values for varying temperatures with fitted Lorentzian.}
+    \label{fig:ss2}
+\end{figure*}
+
+For the brass rod, the different obtained data points and respective Lorentzian curve fits are shown with Figure \ref{fig:b2}. In Figure \ref{fig:b1},
+a decreasing trend in frequency can be seen with increasing temperature, each peak remaining at approximately the same amplitude and therefore 
+intensity. The curves for this metal type were narrow and symmetric and showed a clear-temperature dependence for the resonant frequency peak.
+The full width at half maximum \( omega_0 \) remained relatively constant, which indicates that the damping on the material was largely uniform
+over the entire temperature range. The resonant frequency over the range of temperatures was approximately \textbf{194.53 Hz}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.775\linewidth]{brass_val.png}
+    \caption{Plotted lines for brass values.}
+    \label{fig:b1}
+\end{figure}
+
+\subsubsection{Stainless Steel}
+
+\begin{figure}[!b]
+    \centering
+    \includegraphics[width=.775\linewidth]{stainlesssteel_val.png}
+    \caption{Plotted lines for stainless steel values.}
+    \label{fig:ss1}
+\end{figure}
+
+\begin{figure*}[!t]
+    \centering
+    \includegraphics[width=.96\textwidth]{allalluminium.png}
+    \caption{Aluminium values for varying temperatures with fitted Lorentzian.}
+    \label{fig:a2}
+\end{figure*}
+
+For the stainless steel rod, the data points obtained from the equipment were plotted with a Lorentzian curve fit for each temperature,
+shown in Figure \ref{fig:ss2}. In Figure \ref{fig:ss1} showed a similar trend in decreasing resonant frequency with increasing temperature.
+The resonance peaks were very sharply defined and tall, which indicates high oscillation quality and low energy dissipation in the material.
+The variations in amplitude were very similar, with only minimal variations, making the stainless steel rod the most stable in terms of the 
+resonant frequency and amplitude response. According to papers and lab coordinator however, the resonant frequency for this metal should be much
+higher than what was obtained, and should be approximately between what was obtained for brass and aluminium.
+The average resonant frequency for this metal was approximately \textbf{92.21 Hz}.
+
+\subsubsection{Aluminium}
+
+For aluminium, the data obtained was plotted on a graph and a Lorentzian curve was fitted to what was obtained, shown in Figure \ref{fig:a2}. The
+points as plotted in Figure \ref{fig:a1} show a wider curve and considerably smaller resonance peaks. The graph shows a similar trend in decreasing
+resonant frequency with increasing temperature, but the amplitude is seen to be affected alongside it with an exponential decrease with linearly
+increasing temperatures. At higher temperatures, the aluminium rod appears to begin to flatten. The broader peaks suggest a greater damping effect
+and a decreased ability of the material to maintain torsional oscillations at resonance. The resonant frequency for aluminium averaged over
+the temperature range is approximately \textbf{178.59 Hz}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.775\linewidth]{aluminium_val.png}
+    \caption{Plotted lines for aluminium values.}
+    \label{fig:a1}
+\end{figure}
+
+\subsection{Modulus of Rigidity}
+
+The experimentally obtained values for the modulus of rigidity are shown in Table \ref{tab:modrig} and shown graphically in Figure \ref{fig:modr}
+for brass, stainless steel, and aluminium with respect to temperature. Across all three metals, a clear trend of decreasing modulus with increasing
+temperature is observed. Values were calculated with Equation \ref{eq:6}.
+
+For brass, the gradual decrease from 24.3 GPa at 60°C to 23.8 GPa at 180°C shows a slope with a relatively small decline, indicating that the
+material maintained much of its torsional rigidity throughout the tested temperature range.
+
+For stainless steel, the highest modulus of rigidity values were observed overall, ranging from 32.0 GPa at 60°C to 31.0 GPa at 180°C. The gradual
+decline of values is similar in behaviour to brass.
+
+For aluminium, the modulus was lowest overall and showed the most pronounced decrease, ranging from 12.1 GPa at 60°C to 11.6 GPa at 180°C. The
+gradual decreasing behaviour was similar as previously.
+
+\subsection{Internal Friction}
+
+The values for the internal friction were measured and plotted against temperature with Equation \ref{eq:7}. The obtained values are shown in
+Table \ref{tab:intfrict} and graphically in Figure \ref{fig:intf}.
+
+Small variations in brass between 0.00608 and 0.00632 remained relatively steady and indicated consistent damping characteristics.
+
+Stainless steel showcased the lowest internal friction within the observed group, with values ranging from 0.00213 to 0.00258. The data showed little temperature dependence, 
+indicating stable internal energy dissipation.
+
+Aluminium internal friction values ranged from 0.00190 to 0.00444. The broader spread in the values correspond to the iregular resonance profiles
+observed previously.
+
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[width=.9\textwidth]{mod rigid graph.png}
+    \caption{Graph of the modulus of rigidity for varying temperature for: brass (top), stainless steel (middle), aluminium (bottom).}
+    \label{fig:modr}
+\end{figure*}
+
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[width=.9\textwidth]{intfrict.png}
+    \caption{Graph of the internal friction for varying temperature for: brass (top), stainless steel (middle), aluminium (bottom)}
+    \label{fig:intf}
+\end{figure*}
+
+\section{Analysis and Discussion}
+
+The amplitude-frequency plots obtained for the brass, stainless steel, and aluminium metal rods demonstrated a clear resonant peak. This resonant
+frequency value decreased with increasing temperatures across all metals, which is behaviour predicted by theory as elasticity increases with
+increase in temperature, leading to a decrease in rigidity and therefore difference in resonant frequency. The approximate values for the
+resonant frequency averaged for the varying temperatures were found to be \textbf{194.53 Hz} for brass, \textbf{92.21 Hz} for stainless steel, and
+\textbf{178.59 Hz} for aluminium. The expected ordering places stainless steel between brass and aluminium, however no resonance was observed at
+those frequencies. This may suggest systematic error or changes to the composition from environmental factors, or incorrect wiring of the experimental
+setup.
+
+\textbf{Brass} produced a narrow and symmetric Lorentzian curve shape, which indicated relatively low damping and consistent internal energy losses across
+the experimentally observed temperature range. The full width at half maximum remained almost constant, which therefore implied that the Internal
+friction did not vary with temperature. The small decrease of the modulus of rigidity for the relative values obtained showcase a torsional stability
+for the metal.
+
+\textbf{Stainless steel} showcased the tallest and most narrow resonance peaks when fitted with the Lorentzian, which indicated low damping and high torsional
+oscillation quality. The internal friction values measured were the lowest, which support this interpretation of results, with its modulus of rigidity
+decreasing between only 32.0 GPa and 31.0 GPa with temperature variations, implying strong thermal resilience. However, the resonant frequency achieved
+for this metal was much lower than expected, suggesting that the effective torsional constant of the specimen rod was reduced. This discrepancy may
+be attributed to clamping inconsistencies, magnet misalignment, or imperfections in the rod material and shape.
+
+\textbf{Aluminium} exhibited the broadest resonant frequency curves, with observationally decreasing amplitude with increasing temperature. This may
+suggest the material's poor ability to sustain oscillations, increased damping, and higher sensitivity of the modulus or rigidity for varying temperatures.
+The reduction in the modulus of rigidity, when accompanied by the values obtained for the internal friction, are consistent with the broader, loss
+sharply defined resonance peaks observed in the graphs.
+
+The trend observed across all metals for the gradual decline in the modulus of rigidity with increasing temperature align with theory, in which atomic
+vibrations in the material due to temperature produce poorly coordinated packings which reduce the shear modulus. Internal friction showed weaker
+dependence on the temperature, with brass remaining relatively constant, stainless steel remained low with minor fluctuation, and stainless steel displayed
+irregularity consistent with the behaviour observed with a broader bandwidth and increased internal friction at higher temperature.
+
+Sources of error in experimentation include misalignment of the mirror-laser path, too-high gain given to the voltage that produces amplitude
+greater than the sensor is able to detect resulting in cut-off values (dips shown in Fig. \ref{fig:a2} for lower temperatures), non-uniform heating
+by the heating coil, calibration errors in the voltage-frequency conversion, environmental temperatures interacting with circuitry, or variability in 
+torque in the specimen rods by the initial taps. Furthermore, the experimental values obtained for the modulus of rigidity were significantly lower
+than published values (Table \ref{tab:modrig}), indicating losses due to experimental constraints, imperfect rod geometry, residual damping from the
+support stand and clamp, or errors in calculations and coding. Higher temperature readings for the metals could have been taken with proper 
+equipment, which would offer a better look at the behaviour of the composition, specifically with the internal friction calculations.
+
+Overall, despite deviations in absolute values, the trends observed from the data obtained for resonance behaviour, modulus of rigidity, and internal
+friction meaningfully reflect the material properties.
+
+\section{Conclusion}
+
+The experiment successfully demonstrated how temperature influences the rigidity and energy dissipation of brass, stainless steel, and aluminium
+through a torsional oscillator setup. Across all samples, the resonant frequency and shear modulus gradually decreased with increasing temperatures,
+showcasing the behaviour of atomic packing weakening with thermal influence. Stainless steel exhibited the highest modulus of rigidity and lowest 
+internal friction across the three specimen, indicating superior torsional stability. Aluminium showcased the most pronounced damping behaviour and
+lowest modulus of rigidity. Brass showcased intermediate behaviour with consistent resonance profiles and minimal variations in internal friction values.
+
+Although the achieved absolute values for the modulus of rigidity were significantly lower than those expected from published literature, the observed
+trends were physically consistent. Discrepancies likely arose from experimental limitations such as imperfections on the specimen rod, uneven heating,
+mirror-laser minor misalignments, incorrect gain provided, and damping from the clamping. Despite these factors, the experiment clearly graphically
+showcased the temperature dependence on torsional oscillations, confirming theoretical expectations and demonstrating how material microstructures
+and composition influence internal friction. Further improvements in apparatus calibration and temperature control would refine measurement accuracy and
+extend investigation on the factors discussed.
+
+%%%%%%%%%%%%%%%%%%%%
+
+% References - switch to single column
+\onecolumn
+
+\bibliographystyle{IEEEtran}
+\bibliography{PHYC30170References} \label{sec:ref}
+
+\newpage
+
+% Appendix - single column
+\section*{Appendix} \label{sec:A}
+\addcontentsline{toc}{section}{Appendix}
+
+\begin{table}[H]
+\centering
+\caption{Table for the obtained and expected values of the modulus of rigidity for brass, stainless steel, aluminium in GPa.}
+\label{tab:modrig}
+\begin{tabular}{c|ccccc|c}
+    \cline{2-6}
+                                                                & \multicolumn{5}{c|}{\cellcolor[HTML]{C0C0C0}Modulus of Rigidity (GPa)}                                                                                                                                                  &                                                             \\ \hline
+    \rowcolor[HTML]{EFEFEF} 
+    \multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}Metal}           & \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}60°C} & \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}90°C} & \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}120°C} & \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}150°C} & 180°C & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}Expected (GPa)} \\ \hline
+    \multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}Brass}           & \multicolumn{1}{c|}{24.3}                         & \multicolumn{1}{c|}{24.2}                         & \multicolumn{1}{c|}{24.1}                          & \multicolumn{1}{c|}{24.0}                          & 23.8  & \multicolumn{1}{c|}{40.0}                                   \\ \hline
+    \multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}Stainless Steel} & \multicolumn{1}{c|}{32.0}                         & \multicolumn{1}{c|}{31.9}                         & \multicolumn{1}{c|}{31.6}                          & \multicolumn{1}{c|}{31.4}                          & 31.0  & \multicolumn{1}{c|}{78.0}                                   \\ \hline
+    \multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}Aluminium}       & \multicolumn{1}{c|}{12.1}                         & \multicolumn{1}{c|}{12.0}                         & \multicolumn{1}{c|}{11.9}                          & \multicolumn{1}{c|}{11.8}                          & 11.6  & \multicolumn{1}{c|}{26.6}                                   \\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Table for the obtained values of the internal friction for brass, stainless steel, aluminium.} \vspace{0.5cm}
+\label{tab:intfrict}
+\begin{tabular}{c|ccccc|}
+\cline{2-6}
+                                                              & \multicolumn{5}{c|}{\cellcolor[HTML]{C0C0C0}Internal Friction}                                                                                                                                                            \\ \hline
+\rowcolor[HTML]{EFEFEF} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}Metal}           & \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}60°C} & \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}90°C} & \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}120°C} & \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}150°C} & 180°C   \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}Brass}           & \multicolumn{1}{c|}{0.00632}                      & \multicolumn{1}{c|}{0.00615}                      & \multicolumn{1}{c|}{0.00608}                       & \multicolumn{1}{c|}{0.00619}                       & 0.00630 \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}Stainless Steel} & \multicolumn{1}{c|}{0.00258}                      & \multicolumn{1}{c|}{0.00213}                      & \multicolumn{1}{c|}{0.00237}                       & \multicolumn{1}{c|}{0.00237}                       & 0.00243 \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}Aluminium}       & \multicolumn{1}{c|}{0.00328}                      & \multicolumn{1}{c|}{0.00321}                      & \multicolumn{1}{c|}{0.00190}                       & \multicolumn{1}{c|}{0.00278}                       & 0.00444 \\ \hline
+\end{tabular}
+\end{table}
+
+\includepdf[pages=1-42]{/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/modex_graphcode.pdf}
+
+
+\end{document}

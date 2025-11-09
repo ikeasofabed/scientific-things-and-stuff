@@ -30,4 +30,18 @@ P.~Horowitz, W.~Hill, and I.~Robinson, \emph{The art of electronics}.\hskip 1em
 UCD, ``{3Y Electronics 2023-},'' \emph{3rd Year Astro and Space Physics
   Laboratory Manual}, n.d.
 
+\bibitem{Mouser_2N4400_DS}
+\BIBentryALTinterwordspacing
+M.~Electronics, ``2n4400 npn general purpose transistor datasheet,'' Mouser
+  Electronics, Datasheet, 2015, [Accessed 26-October-2025]. [Online].
+  Available: \url{https://www.mouser.com/datasheet/2/149/2N4400-193292.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{floyd2012electronic}
+\BIBentryALTinterwordspacing
+T.~Floyd, \emph{Electronic Devices: Conventional Current Version}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Prentice Hall, 2012. [Online]. Available:
+  \url{https://books.google.ie/books?id=2D7lwAEACAAJ}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

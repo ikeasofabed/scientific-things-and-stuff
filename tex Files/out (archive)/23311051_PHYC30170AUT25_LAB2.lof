@@ -1,0 +1,33 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Experimental setup constructed on the TINA software.}}{3}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Oscilloscope output from the TINA simulation driven by a square wave voltage source.}}{4}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Oscilloscope output for the physical RC circuit driven by a square wave voltage source.}}{4}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Zoomed-in section of the charging curve from the oscilloscope output for the physical RC circuit between 0ms and 10ms.}}{4}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Experimental setup constructed on the TINA software.}}{6}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Bode plot from the calculations of an RC-network voltage divider circuit driven by a sine wave voltage source with \( V_0 \) = 1, C = 1 \( \mu \)F, and R = 1 k\( \Omega \).}}{7}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Bode plot from the TINA simulation of the RC-network voltage divider circuit driven by a sine wave voltage source.}}{7}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Bode plot from the physical RC-network voltage divider circuit driven by a sine wave voltage source.}}{7}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Comparison of the gain (top) and phase (bottom) Bode plot curves.}}{8}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Experimental setup constructed on the TINA software.}}{10}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Experimental setup constructed on the TINA software, driven by a sinusoidal waveform.}}{10}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Experimental setup constructed on the TINA software, with a capacitor in parallel with the resistor and driven by a sinusoidal waveform.}}{10}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Forward-bias diode characteristic I-V curve simulated on the TINA software.}}{11}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Forward-bias diode characteristic I-V curve obtained from the physical experimental circuit with the TINA curve overlaid for comparison.}}{11}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Reverse-bias diode characteristic I-V curve simulated on the TINA software, showing the breakdown voltage drop.}}{11}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Forward-bias diode characteristic I-V curve simulated on the TINA software, showing the voltage curve close to 0 V.}}{11}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Resitor-diode circuit simulated on TINA driven by a sinusoidal waveform and visualised on an oscilloscope.}}{12}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Resitor-diode physical experimental circuit driven by a sinusoidal waveform and visualised on an oscilloscope.}}{12}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Resitor-capacitor-diode circuit simulated on TINA driven by a sinusoidal waveform and visualised on an oscilloscope.}}{12}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Resitor-capacitor-diode physical experimental circuit driven by a sinusoidal waveform and visualised on an oscilloscope.}}{12}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Experimental setup constructed on the TINA software of a common emitter transistor circuit.}}{14}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Graph of the base resistance and collector resistance of the common emitter transistor circuit.}}{14}{figure.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Experimental setup constructed and simulated on the TINA software for a transistor as a switch.}}{16}{figure.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Transistor as a switch curve for a 10 \( \Omega \) base resistor.}}{16}{figure.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Transistor as a switch curve for a 100 \( \Omega \) base resistor.}}{16}{figure.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Transistor as a switch curve for a 1 k\( \Omega \) base resistor.}}{16}{figure.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Transistor as a switch curve for a 10 k\( \Omega \) base resistor.}}{17}{figure.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Experimental setup constructed on the TINA software.}}{18}{figure.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Pin connections for LF411 op-amp in 8-pin DIP. \cite {horowitz1989art}}}{20}{figure.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Circuit diagram of the experimental setup. \cite {reportguide3Y}}}{21}{figure.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Oscilloscope gain and phase curves obtained from the op-amp circuit with no capacitor.}}{22}{figure.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Oscilloscope gain and phase curves obtained from the op-amp circuit with a capacitor.}}{22}{figure.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces 4-bit inverting amplifier circuit constructed on the TINA software.}}{24}{figure.33}%
