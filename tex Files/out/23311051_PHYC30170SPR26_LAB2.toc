@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Eddy Currents}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Magnetic Field \& Skin Depth}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Induced Voltage}{1}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Phase Shift}{2}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Methodology}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Calculating Permeability of Steel}{2}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Results}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Skin Depth with Voltage}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Conductivity Calculations}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Skin Depth with Phase Shift}{4}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Permeability Calculation}{4}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Analysis and Discussion}{4}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Conductivity of the Non-Magnetic Materials}{4}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Conductivity and Permeability of Steel}{5}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusion}{5}{section.6}%
+\contentsline {section}{Appendix}{7}{section.6}%
+\contentsline {subsection}{Figures}{7}{section.6}%
+\contentsline {subsection}{Code}{7}{figure.caption.8}%
