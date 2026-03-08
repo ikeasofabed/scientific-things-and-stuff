@@ -17,4 +17,5 @@
 \contentsline {section}{\numberline {6}Conclusion}{5}{section.6}%
 \contentsline {section}{Appendix}{7}{section.6}%
 \contentsline {subsection}{Figures}{7}{section.6}%
-\contentsline {subsection}{Code}{7}{figure.caption.8}%
+\contentsline {subsection}{Tables}{8}{figure.caption.8}%
+\contentsline {subsection}{Code}{10}{table.caption.12}%
