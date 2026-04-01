@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Quantum Potential Well Model}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}1D Model}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}3D Model}{1}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}The Ramsauer-Townsend Effect}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Methodology}{1}{section.2}%
+\contentsline {section}{\numberline {3}Results}{2}{section.3}%
+\contentsline {section}{\numberline {4}Analysis and Discussion}{3}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{4}{section.5}%
+\contentsline {section}{Appendix}{6}{section.5}%
+\contentsline {subsection}{Figures}{6}{section.5}%
+\contentsline {subsection}{Tables}{7}{figure.caption.8}%
+\contentsline {subsection}{Code}{11}{table.3}%
