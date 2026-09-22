@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex out/23311051_PHYC30170SPR26_LAB4"] 1775067253.30026 "out/23311051_PHYC30170SPR26_LAB4.aux" "out/23311051_PHYC30170SPR26_LAB4.bbl" "out/23311051_PHYC30170SPR26_LAB4" 1775067268.98608 0
+["bibtex out/23311051_PHYC30170SPR26_LAB4"] 1789925535.43366 "out/23311051_PHYC30170SPR26_LAB4.aux" "out/23311051_PHYC30170SPR26_LAB4.bbl" "out/23311051_PHYC30170SPR26_LAB4" 1789925539.19258 0
   "./PHYC30170References.bib" 1774984334.34255 21647 8e17f45d30accfe7243670cbbb1d7bd9 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/bibtex/bst/ieeetran/IEEEtran.bst" 1738095043.56692 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "out/23311051_PHYC30170SPR26_LAB4.aux" 1775067266.67443 9006 6a2bd07070a8d9b4aac97f3a67b27321 "pdflatex"
+  "out/23311051_PHYC30170SPR26_LAB4.aux" 1789925538.15974 9006 6a2bd07070a8d9b4aac97f3a67b27321 "pdflatex"
   (generated)
   "out/23311051_PHYC30170SPR26_LAB4.bbl"
   "out/23311051_PHYC30170SPR26_LAB4.blg"
   (rewritten before read)
-["pdflatex"] 1775067262.44069 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/23311051_PHYC30170SPR26_LAB4.tex" "out/23311051_PHYC30170SPR26_LAB4.pdf" "23311051_PHYC30170SPR26_LAB4" 1775067268.9888 0
-  "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1774976565.97606 363600 bc14a421db1ee9b66b84e863002b3480 ""
+["pdflatex"] 1789925535.90859 "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/23311051_PHYC30170SPR26_LAB4.tex" "out/23311051_PHYC30170SPR26_LAB4.pdf" "23311051_PHYC30170SPR26_LAB4" 1789925539.19358 0
+  "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1789037299.83402 363600 bc14a421db1ee9b66b84e863002b3480 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1739629621.88023 12027821 0030363d176a2985718cb04ec3f57fd2 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1760201437.53057 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcbx1095.tfm" 1737396721.67874 1476 2703c7670cbf6ffef3763103a3aa859f ""
@@ -161,17 +161,17 @@
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/was/upgreek.sty" 1771262520.63713 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1737396739.69545 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1737396739.91271 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/23311051_PHYC30170SPR26_LAB4.tex" 1775067260.68722 19619 ce6454addb147bfd6403b585d200bec9 ""
-  "23311051_PHYC30170SPR26_LAB4.tex" 1775067260.68722 19619 ce6454addb147bfd6403b585d200bec9 ""
+  "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/23311051_PHYC30170SPR26_LAB4.tex" 1775067466.18033 19619 ce6454addb147bfd6403b585d200bec9 ""
+  "23311051_PHYC30170SPR26_LAB4.tex" 1775067466.18033 19619 ce6454addb147bfd6403b585d200bec9 ""
   "compton.pdf" 1775065697.53352 115594 05f18f86ba74e28de0d57e438c2de49a ""
   "images/compton.png" 1774973093.72667 170755 1bfb62eb90eff0bf8e4780050c7102f1 ""
   "images/comptonCSplot.png" 1774984449.94779 39085 5adcfbbc7f1bd7916087e73bc1e4d1a1 ""
   "images/comptonEplot.png" 1774984434.52947 46013 01922b2b6652e6baa1d5a4c6009defea ""
   "images/comptonexp.PNG" 1774982384 694905 7ce506b610bcf1f91880404ce8fcd16f ""
   "images/ucd_brandmark_black.jpg" 1760204018.02141 95198 2c503682fbbb98ad59dde70ee63dad8d ""
-  "out/23311051_PHYC30170SPR26_LAB4.aux" 1775067266.67443 9006 6a2bd07070a8d9b4aac97f3a67b27321 "pdflatex"
-  "out/23311051_PHYC30170SPR26_LAB4.bbl" 1775067253.72418 2486 0a14ae125ad9049be68c552507d7aaa5 "bibtex out/23311051_PHYC30170SPR26_LAB4"
-  "out/23311051_PHYC30170SPR26_LAB4.toc" 1775067266.68253 1014 236b3cb7e41270f180275ef83c2047e5 "pdflatex"
+  "out/23311051_PHYC30170SPR26_LAB4.aux" 1789925538.15974 9006 6a2bd07070a8d9b4aac97f3a67b27321 "pdflatex"
+  "out/23311051_PHYC30170SPR26_LAB4.bbl" 1789925535.83603 2486 0a14ae125ad9049be68c552507d7aaa5 "bibtex out/23311051_PHYC30170SPR26_LAB4"
+  "out/23311051_PHYC30170SPR26_LAB4.toc" 1789925538.18343 1014 236b3cb7e41270f180275ef83c2047e5 "pdflatex"
   (generated)
   "out/23311051_PHYC30170SPR26_LAB4.aux"
   "out/23311051_PHYC30170SPR26_LAB4.log"

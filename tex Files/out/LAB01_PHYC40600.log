@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  19 MAR 2026 20:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.15)  22 SEP 2026 16:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/23311051_PHYC30170SPR26_LAB3.tex"
-(/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/23311051_PHYC30170SPR26_LAB3.tex
+**"/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/LAB01_PHYC40600.tex"
+(/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/LAB01_PHYC40600.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
@@ -528,7 +528,17 @@ Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 )
 \@dblbotnum=\count344
 \c@dblbotnumber=\count345
-) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/abstract/abstract.sty
+) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2/datetime2.sty
+Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2026/05/24 v1.6.8 (NLCT) Track Languages
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/generic/tracklang/tracklang.tex))
+Package tracklang Info: Tracking dialect `british' (language `english') on input line 217.
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-english/datetime2-en-GB.ldf
+File: datetime2-en-GB.ldf 2019/10/21 v1.05 (NLCT)
+ (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datetime2-english/datetime2-english-base.ldf
+File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
+))) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/abstract/abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
 \abstitleskip=\skip67
 \absleftindent=\skip68
@@ -587,36 +597,36 @@ Package tocloft Info: The document has section divisions on input line 51.
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing out. on input line 1156.
 
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+Package hyperref Info: Option `colorlinks' set `true' on input line 56.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 97.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 99.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count348
 \l__pdf_internal_box=\box80
-) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170SPR26_LAB3.aux)
-\openout1 = `23311051_PHYC30170SPR26_LAB3.aux'.
+) (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/LAB01_PHYC40600.aux)
+\openout1 = `LAB01_PHYC40600.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count349
@@ -638,7 +648,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 97.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 99.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -682,7 +692,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 97.
+Package hyperref Info: Link coloring ON on input line 99.
 \c@lstlisting=\count355
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -696,13 +706,13 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 <./images/ucd_brandmark_black.jpg, id=3, 426.59375pt x 626.34pt>
 File: ./images/ucd_brandmark_black.jpg Graphic file (type jpg)
 <use ./images/ucd_brandmark_black.jpg>
-Package pdftex.def Info: ./images/ucd_brandmark_black.jpg  used on input line 102.
+Package pdftex.def Info: ./images/ucd_brandmark_black.jpg  used on input line 104.
 (pdftex.def)             Requested size: 96.73788pt x 142.02904pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 102.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 102.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104.
  (/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -710,261 +720,349 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 
-{/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./images/ucd_brandmark_black.jpg>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170SPR26_LAB3.toc)
+{/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./images/ucd_brandmark_black.jpg>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/LAB01_PHYC40600.toc)
 \tf@toc=\write3
-\openout3 = `23311051_PHYC30170SPR26_LAB3.toc'.
+\openout3 = `LAB01_PHYC40600.toc'.
 
 
 
 [2]
 
-<./images/ramsauer_exp.png, id=65, 564.1075pt x 560.0925pt>
-File: ./images/ramsauer_exp.png Graphic file (type png)
-<use ./images/ramsauer_exp.png>
-Package pdftex.def Info: ./images/ramsauer_exp.png  used on input line 172.
-(pdftex.def)             Requested size: 225.00528pt x 223.4006pt.
 
 
 [1
 
 ]
-
-<./images/ramsauer_up5.png, id=86, 621.522pt x 393.1488pt>
-File: ./images/ramsauer_up5.png Graphic file (type png)
-<use ./images/ramsauer_up5.png>
-Package pdftex.def Info: ./images/ramsauer_up5.png  used on input line 197.
-(pdftex.def)             Requested size: 222.63809pt x 140.83157pt.
-<./images/RT_revpollin.png, id=87, 628.749pt x 382.3083pt>
-File: ./images/RT_revpollin.png Graphic file (type png)
-<use ./images/RT_revpollin.png>
-Package pdftex.def Info: ./images/RT_revpollin.png  used on input line 204.
-(pdftex.def)             Requested size: 222.63809pt x 135.37329pt.
-
-
-[2 <./images/ramsauer_exp.png> <./images/ramsauer_up5.png> <./images/RT_revpollin.png>]
-<./images/RT_Vc.png, id=102, 628.749pt x 382.3083pt>
-File: ./images/RT_Vc.png Graphic file (type png)
-<use ./images/RT_Vc.png>
-Package pdftex.def Info: ./images/RT_Vc.png  used on input line 213.
-(pdftex.def)             Requested size: 222.63809pt x 135.37329pt.
-<./images/RTprob_correct.png, id=105, 621.522pt x 384.4764pt>
-File: ./images/RTprob_correct.png Graphic file (type png)
-<use ./images/RTprob_correct.png>
-Package pdftex.def Info: ./images/RTprob_correct.png  used on input line 227.
-(pdftex.def)             Requested size: 222.63809pt x 137.72499pt.
-
-
-
-
-[3 <./images/RT_Vc.png> <./images/RTprob_correct.png>]
-
-
-
-[4] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170SPR26_LAB3.bbl)
-
-[5
-
-]
-<./images/ramsauer_all.png, id=138, 605.6226pt x 393.1488pt>
-File: ./images/ramsauer_all.png Graphic file (type png)
-<use ./images/ramsauer_all.png>
-Package pdftex.def Info: ./images/ramsauer_all.png  used on input line 275.
-(pdftex.def)             Requested size: 411.14528pt x 266.91171pt.
-<./images/RTprob_uncorrect.png, id=139, 614.295pt x 384.4764pt>
-File: ./images/RTprob_uncorrect.png Graphic file (type png)
-<use ./images/RTprob_uncorrect.png>
-Package pdftex.def Info: ./images/RTprob_uncorrect.png  used on input line 282.
-(pdftex.def)             Requested size: 411.14528pt x 257.32797pt.
-<./images/RT_agreeVc.png, id=140, 628.749pt x 382.3083pt>
-File: ./images/RT_agreeVc.png Graphic file (type png)
-<use ./images/RT_agreeVc.png>
-Package pdftex.def Info: ./images/RT_agreeVc.png  used on input line 289.
-(pdftex.def)             Requested size: 411.14528pt x 250.0025pt.
+<./images/CoolNewton_setup.JPG, id=108, 841.9455pt x 457.2282pt>
+File: ./images/CoolNewton_setup.JPG Graphic file (type jpg)
+<use ./images/CoolNewton_setup.JPG>
+Package pdftex.def Info: ./images/CoolNewton_setup.JPG  used on input line 207.
+(pdftex.def)             Requested size: 225.00528pt x 122.19048pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[6 <./images/ramsauer_all.png> <./images/RTprob_uncorrect.png>] [7 <./images/RT_agreeVc.png>] [8] [9]
 
-[10]
-<ramsaeur.pdf, id=166, 614.295pt x 794.97pt>
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf>
-Package pdftex.def Info: ramsaeur.pdf  used on input line 482.
+
+[2 <./images/CoolNewton_setup.JPG>]
+
+
+
+[3]
+<./images/NCool_calibplot.png, id=158, 714.7503pt x 425.6703pt>
+File: ./images/NCool_calibplot.png Graphic file (type png)
+<use ./images/NCool_calibplot.png>
+Package pdftex.def Info: ./images/NCool_calibplot.png  used on input line 319.
+(pdftex.def)             Requested size: 225.00528pt x 134.00241pt.
+<./images/NCool_oventemp.png, id=162, 714.7503pt x 425.6703pt>
+File: ./images/NCool_oventemp.png Graphic file (type png)
+<use ./images/NCool_oventemp.png>
+Package pdftex.def Info: ./images/NCool_oventemp.png  used on input line 337.
+(pdftex.def)             Requested size: 225.00528pt x 134.00241pt.
+
+
+<./images/NCool_steadystate1.png, id=166, 637.4214pt x 1230.7581pt>
+File: ./images/NCool_steadystate1.png Graphic file (type png)
+<use ./images/NCool_steadystate1.png>
+Package pdftex.def Info: ./images/NCool_steadystate1.png  used on input line 369.
+(pdftex.def)             Requested size: 236.84843pt x 457.3077pt.
+<./images/NCool_entropy.png, id=170, 715.473pt x 354.123pt>
+File: ./images/NCool_entropy.png Graphic file (type png)
+<use ./images/NCool_entropy.png>
+Package pdftex.def Info: ./images/NCool_entropy.png  used on input line 387.
+(pdftex.def)             Requested size: 236.84843pt x 117.22838pt.
+
+
+[4 <./images/NCool_calibplot.png> <./images/NCool_oventemp.png>]
+
+
+
+[5 <./images/NCool_steadystate1.png> <./images/NCool_entropy.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+
+[6]
+
+
+
+[7
+
+] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/LAB01_PHYC40600.bbl)
+
+[8
+
+]
+<CoolNewton_Analysis.pdf, id=217, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf>
+Package pdftex.def Info: CoolNewton_Analysis.pdf  used on input line 499.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<ramsaeur.pdf, id=168, page=1, 614.295pt x 794.97pt>
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 1>
-Package pdftex.def Info: ramsaeur.pdf , page1 used on input line 482.
+<CoolNewton_Analysis.pdf, id=219, page=1, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 1>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page1 used on input line 499.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 1>
-Package pdftex.def Info: ramsaeur.pdf , page1 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 1>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page1 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-[11]
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 1>
-Package pdftex.def Info: ramsaeur.pdf , page1 used on input line 482.
+[9]
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 1>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page1 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 1>
-Package pdftex.def Info: ramsaeur.pdf , page1 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 1>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page1 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 1>
-Package pdftex.def Info: ramsaeur.pdf , page1 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 1>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page1 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[10
+
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=286, page=2, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 2>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page2 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 2>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page2 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 2>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page2 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[11
+
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=292, page=3, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 3>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page3 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 3>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page3 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 3>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page3 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [12
 
- <./ramsaeur.pdf>]
-<ramsaeur.pdf, id=228, page=2, 614.295pt x 794.97pt>
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 2>
-Package pdftex.def Info: ramsaeur.pdf , page2 used on input line 482.
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=297, page=6, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 6>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page6 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 2>
-Package pdftex.def Info: ramsaeur.pdf , page2 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 6>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page6 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 2>
-Package pdftex.def Info: ramsaeur.pdf , page2 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 6>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page6 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [13
 
- <./ramsaeur.pdf>]
-<ramsaeur.pdf, id=242, page=3, 614.295pt x 794.97pt>
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 3>
-Package pdftex.def Info: ramsaeur.pdf , page3 used on input line 482.
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=309, page=7, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 7>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page7 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 3>
-Package pdftex.def Info: ramsaeur.pdf , page3 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 7>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page7 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 3>
-Package pdftex.def Info: ramsaeur.pdf , page3 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 7>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page7 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [14
 
- <./ramsaeur.pdf>]
-<ramsaeur.pdf, id=249, page=4, 614.295pt x 794.97pt>
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 4>
-Package pdftex.def Info: ramsaeur.pdf , page4 used on input line 482.
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=314, page=10, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 10>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page10 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 4>
-Package pdftex.def Info: ramsaeur.pdf , page4 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 10>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page10 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 4>
-Package pdftex.def Info: ramsaeur.pdf , page4 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 10>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page10 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [15
 
- <./ramsaeur.pdf>]
-<ramsaeur.pdf, id=256, page=5, 614.295pt x 794.97pt>
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 5>
-Package pdftex.def Info: ramsaeur.pdf , page5 used on input line 482.
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=319, page=11, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 11>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page11 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 5>
-Package pdftex.def Info: ramsaeur.pdf , page5 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 11>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page11 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 5>
-Package pdftex.def Info: ramsaeur.pdf , page5 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 11>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page11 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [16
 
- <./ramsaeur.pdf>]
-<ramsaeur.pdf, id=261, page=6, 614.295pt x 794.97pt>
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 6>
-Package pdftex.def Info: ramsaeur.pdf , page6 used on input line 482.
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=326, page=12, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 12>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page12 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 6>
-Package pdftex.def Info: ramsaeur.pdf , page6 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 12>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page12 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 6>
-Package pdftex.def Info: ramsaeur.pdf , page6 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 12>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page12 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [17
 
- <./ramsaeur.pdf>]
-<ramsaeur.pdf, id=269, page=7, 614.295pt x 794.97pt>
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 7>
-Package pdftex.def Info: ramsaeur.pdf , page7 used on input line 482.
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=332, page=13, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 13>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page13 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 7>
-Package pdftex.def Info: ramsaeur.pdf , page7 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 13>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page13 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 7>
-Package pdftex.def Info: ramsaeur.pdf , page7 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 13>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page13 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [18
 
- <./ramsaeur.pdf>]
-<ramsaeur.pdf, id=276, page=8, 614.295pt x 794.97pt>
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 8>
-Package pdftex.def Info: ramsaeur.pdf , page8 used on input line 482.
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=337, page=16, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 16>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page16 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 8>
-Package pdftex.def Info: ramsaeur.pdf , page8 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 16>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page16 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-File: ramsaeur.pdf Graphic file (type pdf)
-<use ramsaeur.pdf, page 8>
-Package pdftex.def Info: ramsaeur.pdf , page8 used on input line 482.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 16>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page16 used on input line 499.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [19
 
- <./ramsaeur.pdf>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170SPR26_LAB3.aux)
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=342, page=17, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 17>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page17 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 17>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page17 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 17>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page17 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[20
+
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=347, page=18, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 18>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page18 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 18>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page18 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 18>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page18 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[21
+
+ <./CoolNewton_Analysis.pdf>]
+<CoolNewton_Analysis.pdf, id=354, page=19, 614.295pt x 794.97pt>
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 19>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page19 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 19>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page19 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: CoolNewton_Analysis.pdf Graphic file (type pdf)
+<use CoolNewton_Analysis.pdf, page 19>
+Package pdftex.def Info: CoolNewton_Analysis.pdf , page19 used on input line 499.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[22
+
+ <./CoolNewton_Analysis.pdf>] (/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/LAB01_PHYC40600.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 23383 strings out of 473530
- 455056 string characters out of 5704664
- 1031317 words of memory out of 5000000
- 46260 multiletter control sequences out of 15000+600000
- 568334 words of font info for 71 fonts, out of 8000000 for 9000
+ 26479 strings out of 473530
+ 523588 string characters out of 5704664
+ 1120283 words of memory out of 5000000
+ 49292 multiletter control sequences out of 15000+600000
+ 569632 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,17n,80p,1741b,1197s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/euler/eurm10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/23311051_PHYC30170SPR26_LAB3.pdf" (21 pages, 873224 bytes).
+ 73i,17n,80p,1402b,1269s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt8.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb></Users/JoanaUCD/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on "/Users/JoanaUCD/Library/CloudStorage/OneDrive-UniversityCollegeDublin/Labs/labs-files/tex Files/out/LAB01_PHYC40600.pdf" (24 pages, 2768336 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
